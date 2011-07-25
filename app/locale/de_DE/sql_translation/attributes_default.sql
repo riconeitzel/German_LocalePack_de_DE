@@ -1,5 +1,5 @@
 /* 
-Übersetzungen für das Magento 1.4.x Backend
+Übersetzungen für das Magento 1.4.x / 1.5.x Backend
 Snippet für eigene Attributübersetzungen: 
 UPDATE `eav_attribute` SET `frontend_label` = 'MeinAttributLabel' WHERE `eav_attribute`.`attribute_code` ='attribut_code_aus_datenbank' && `entity_type_id`=1;
 

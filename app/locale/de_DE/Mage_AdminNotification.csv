@@ -23,7 +23,7 @@
 "Total of %d record(s) have been removed.","Insgesamt wurden %d Einträge gelöscht."
 "Unable to proceed. Please, try again.","Vorgang konnte nicht ausgeführt werden. Bitte versuchen Sie es später noch einmal."
 "Update Frequency","Aktualisierungshäufigkeit"
-"Use HTTPS to get Feed","Benutze HTTPS um Feeds abzurufen"
+"Use HTTPS to Get Feed","Verwende HTTPS für Feed"
 "critical","Kritisches Update"
 "major","Versionssprung"
 "minor","Bugfix"

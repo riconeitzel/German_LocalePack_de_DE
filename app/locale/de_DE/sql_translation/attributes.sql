@@ -1,5 +1,6 @@
 /* 
-Übersetzungen für das Magento 1.4.x Backend
+Übersetzungen für das Magento 1.4.x / 1.5.x Backend
+
 Snippet für eigene Attributübersetzungen: 
 UPDATE `eav_attribute` SET `frontend_label` = 'MeinAttributLabel' WHERE `eav_attribute`.`attribute_code` ='attribut_code_aus_datenbank' && `entity_type_id`=1;
 
@@ -27,6 +28,7 @@ UPDATE `mage_eav_attribute` SET `frontend_label` = 'Zugeordnet zu Website' WHERE
 10 = Bonus (Extra Artikelattribute der Beispieldateien)
 
 Daniel Sasse - http://www.golox-web.de/ - info@golox-web.de
+
 */
 
 -- Kunden und Kundenadress-Attribute + Bestellverarbeitung (1, 2, 6 und 12)

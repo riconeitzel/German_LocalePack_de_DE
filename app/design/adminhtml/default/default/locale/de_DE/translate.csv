@@ -103,9 +103,15 @@
 "Add Subpackage dependency","Unterpaket-Abhängigkeit hinzufügen"
 "Add Maintainer","Autor hinzufügen"
 
+"1.5.0.0 & later","1.5.0.0 & neuer"
+"Pre-1.5.0.0","älter wie 1.5.0.0"
+"Supported releases","Unterstützte Versionen"
+
+"Load Local Package","Lokales Paket laden"
+"Save Data and Create Package","Daten speichern und Paket erzeugen"
+
 "Update Qty's","Mengen aktualisieren"
 "Items to Invoice","Artikel zur Rechnung"
-
 
 "Summary","Kurzbeschreibung"
 "License","Lizenz"
@@ -128,7 +134,7 @@
 "Cron Frequency","Cron Frequency"
 "Cron Hour","Cron Hour"
 "Delete","Löschen"
-"Eav code","Eav code"
+"Eav code","Eav Code"
 "FTP Password","FTP Passwort"
 "FTP Path","FTP Pfad"
 "FTP Server","FTP Server"
@@ -162,8 +168,8 @@
 "Unable to process an import. ","Import nicht möglich. "
 "Update TheFind Item when Product is Updated","TheFind Artikel aktualisieren wenn der Artikel aktualisiert wird"
 
-"magentovariable.insert_variable","Variable einfügen"
-"magentowidget.insert_widget","Widget einfügen"
-
 "Insert Variable","Variable einfügen"
 "Insert Widget","Widget einfügen"
+
+"After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.",
+"Nachdem die Synchronisierung abgeschlossen ist, werden alle Medien automatisch dem neuen Speicher hinzugefügt."							

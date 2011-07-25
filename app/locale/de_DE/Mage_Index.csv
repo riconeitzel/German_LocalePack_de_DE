@@ -2,7 +2,7 @@
 "%s index was rebuilt.","%s x erfolgreich Index neu aufgebaut."
 "'%s' Index Process Information","'%s' Index Prozess Information"
 "Action","Aktion"
-"Can\'t initialize indexer process.","Indexer Prozess konnte nicht initialisiert werden."
+"Cannot initialize the indexer process.","Indexer Prozess kann nicht eingeleitet werden."
 "Change Index Mode","Index-Modus wechseln"
 "Click here to go to <a href=""%s"">Cache Management</a> and refresh cache types.","Klicken Sie hier für <a href=""%s"">Cache-Verwaltung</a> um die verschiedenen Caches zu aktualisieren."
 "Click here to go to <a href=""%s"">Index Management</a> and rebuild required indexes.","Klicken Sie hier für <a href=""%s"">Index-Verwaltung</a> und bauen Sie benötigte Indexe neu auf."
