@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category German
+ * @package German_LocalePack
+ * @authors Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
+ * @developer Daniel Sasse <info@golox-web.de, http://www.golox-web.de/>  
+ * @version 1.6.x
+ * @copyright TMEDIA cross communications, Doris Teitge-Seifert
+ * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)  
+ */
+ -->
+<config>
+    <tabs>
+        <german>
+            <label>German - LocalePack</label>
+            <sort_order>500</sort_order>
+        </german>
+    </tabs>
+    <sections>
+		<general>
+			<groups>
+				<localepack translate="label">
+                    <label>Deutsches Sprachpaket de_DE - Community Edition (CE)</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <localepack translate="label">
+						  <!--hide input field, default is text-->
+						  <frontend_type>hidden</frontend_type>
+						  <comment><![CDATA[<p style="font-weight: bold;">Das Sprachpaket de_DE in der Version 1.6.x<br />ist erfolgreich installiert.</p><p>Auf der <a href="http://www.magentocommerce.com/magento-connect/Rico+Neitzel/extension/413/magento-community-modules--german-germany-language-pack" target="_blank">Extension Homepage vom Sprachpaket DE</a> finden Sie weitere Infos zu aktuellen Versionen. </p><p>Für Interessierte stellen wir ein <a href="https://github.com/dsdata/German_LocalePack_de_DE" target="_blank">GitHub Repository</a>.<br />Fehler melden, Patches einstellen, Repository für eigene Zwecke klonen, alle Versionen einsehen (inkl. Vorschauversionen), downloaden uvm.</p><p>&nbsp;</p><p>powered by <a href="http://www.magentocommerce.com/magento-connect/developer/Rico+Neitzel" target="_blank">Rico Neitzel</a> & <a href="http://www.magentocommerce.com/boards/member/81115/" target="_blank">Daniel Sasse</a></p>]]></comment>
+						  <sort_order>20</sort_order>
+                          <show_in_default>1</show_in_default>
+                          <show_in_website>1</show_in_website>
+                          <show_in_store>1</show_in_store>
+						</localepack>
+						<!--coming soon!-->
+						<!--<enabled translate="label">
+                            <label>Enabled</label>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>-->
+                    </fields>					
+                </localepack>		
+			</groups>
+		</general>
+    </sections>
+</config>
