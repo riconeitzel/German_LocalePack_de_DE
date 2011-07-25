@@ -25,6 +25,7 @@
 "Database Name","Datenbankname"
 "Database connection error","Fehler bei der Datenbankverbindung"
 "Database host","Datenbankserver"
+"Database server does not support InnoDB storage engine","Datenbankserver unterstützt InnoDB-Storage-Engine nicht"
 "Database server version does not match system requirements (required: %s, actual: %s)","Version des Datenbankservers entspricht nicht den Systemvoraussetzungen (notwendig: %s, aktuell: %s)"
 "Database user name","Datenbank-Benutzername"
 "Database user password","Datenbank-Benutzerpasswort"

@@ -1,5 +1,6 @@
 "Attempt to add an invalid object","Versuch ein ungültiges Objekt anzulegen"
 "Attribute '%s' used in configurable products.","Attribut '%s' wird in konfigurierbaren Produkten verwendet."
+"Attribute set with the ""%s"" name already exists","Attribut mit dem Namen ""%s"" existiert bereits"
 "Attribute used in configurable products.","Attribut wird in konfigurierbaren Produkten verwendet."
 "Attribute with the same code","Attribut mit dem gleichen Code"
 "Data integrity: No header row found for attribute","Datenintegrität: Keine Kopfzeile für Attribut gefunden"

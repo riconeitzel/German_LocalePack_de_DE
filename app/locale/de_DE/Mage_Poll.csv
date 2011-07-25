@@ -15,6 +15,7 @@
 "Delete","Löschen"
 "Delete Answer","Antwort löschen"
 "Delete Poll","Umfrage löschen"
+"Disallow voting in a poll multiple times from same IP-address","Mehrfachabstimmung bei gleicher IP unterbinden"
 "Edit Answer '%s'","Bearbeite Antwort '%s'"
 "Edit Poll '%s'","Bearbeite Umfrage '%s'"
 "Edit Poll Answer","Bearbeite Umfrageantwort"
