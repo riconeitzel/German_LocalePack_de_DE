@@ -19,6 +19,8 @@
 "Expiration Date: %s/%s","Gültig bis: %s/%s"
 "Make Check payable to","Scheck ausstellen auf"
 "Make Check payable to: %s","Scheck ausstellen auf: %s"
+"Maximum Order Total","Höchstwert für Gesamtbestellung"
+"Minimum Order Total","Mindestwert für Gesamtbestellung"
 "Month","Monat"
 "Name on Card","Name auf der Karte"
 "Name on the Card: %s","Name auf der Karte: %s"
