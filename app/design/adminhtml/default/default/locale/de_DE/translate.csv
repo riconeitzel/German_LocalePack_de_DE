@@ -17,10 +17,10 @@
 "Total incl. tax","Gesamt inkl. Steuern"
 
 "Allow Gift Message","Geschenkbenachrichtigung erlauben"
-"Set Product as New from Date","Produkt als Neu kennzeichnen von"
+"Set Product as New from Date","Produkt als Neu kennzeichnen vom"
 "Set Product as New to Date","Produkt als Neu kennzeichnen bis"
 
-"Active From","Aktiv von"
+"Active From","Aktiv vom"
 "Active To","Aktiv bis"
 "Custom Layout Update","Eigenes Layout Update"
 
@@ -51,3 +51,80 @@
 "Update Items and Qty's","Artikel und Mengen aktualisieren"
 
 "Delivery time","Lieferzeit"
+
+"Click here to go to <a href=""%s"">Index Management</a> and rebuild required indexes.","Klicken Sie hier für <a href=""%s"">Index Verwaltung</a> und bauen Sie benötigte Indexe neu auf."
+"One or more of the Indexes are not up to date:","Ein Index bzw. mehrere Indexe sind nicht aktuell:"
+"Index Management","Index-Verwaltung"
+"Mode","Modus"
+"index mode","Index-Modus"
+"Last Run","Letzte Aktualisierung"
+"Update on Save","Update beim speichern"
+"Ready","Fertig / Aktuell"
+"Reindex Required","Neuaufbau nötig"
+"Reindex Data","Neuaufbau"
+"Refresh Recent","Aktualisieren"
+"Change Index Mode","Index-Modus wechseln"
+"Manual Update","Manuelles Update"
+
+"Layout building instructions. ","Layout Dateien, Updates und CMS Seiten + Blöcke. "
+
+"Postal Code is Optional for the following countries","Postleitzahl ist optional für die folgenden Länder"
+
+"System(config.xml, local.xml) and modules configuration files(config.xml).","System (config.xml, local.xml) und Modul Konfigurationsdateien (config.xml). " 
+"Layout building instructions.","Layout Aufbau-Anweisungen / Kommandos."
+"Layout building instructions. ","Layout Dateien, Updates und CMS Seiten + Blöcke. "
+"Blocks HTML output","Block HTML Ausgabe"
+"Page blocks HTML.","Seiten Block HTML."
+"Translation files.","Übersetzungsdateien (.csv)"
+"Collections Data","Sammlungsdaten"
+"Collection data files.","Dateien für Sammlungsdaten."
+"EAV types and attributes","EAV Typen und Attribute"
+"Entity types declaration cache.","Deklarations-Cache für Entitäts Typen."
+"Web Services Configuration","Konfiguration der Web Dienste"
+"Web Services definition files (api.xml).","Definitionsdateien für Web Dienste (api.xml)."
+
+"Show / Hide Editor","Editor anzeigen / ausblenden"
+
+"Show notice if JavaScript is disabled","Hinweis anzeigen wenn JavaScript im Browser<br />deaktiviert ist"
+
+"Example format 200x300","Beispiel Format 200x300"
+"Allowed file types (jpeg, gif, png).","Erlaubte Formate (jpeg, gif, png)."
+
+"Display out of stock products","Produkte die <u>nicht</u> auf Lager<br />sind auch mit anzeigen"
+"<b>Please note</b>, that these Settings are applicable to cart line Items, not the whole Cart.","<b>Please note</b>, that these Settings are applicable to cart line Items, not the whole Cart."
+
+"Logging from Mage::logException(). File is located in {{base_dir}}/var/log","Log Aufzeichnung via ""Mage::logException()"". Datei wird unter {{base_dir}}/var/log abgespeichert"
+"Logging from Mage::log(). File is located in {{base_dir}}/var/log","Log Aufzeichnung via ""Mage::log()"". Datei wird unter {{base_dir}}/var/log abgespeichert"
+
+"Merge JavaScript Files (beta)","JavaScript Dateien verbinden (beta)"
+"Merge CSS Files (beta)","CSS Dateien verbinden (beta)"
+"Experimental. Turn this feature off if there are troubles with relative urls inside css-files.","Experimentell. Bitte schalten Sie diese Funktionalität ab wenn es zu Problemen mit relativen URLs in den CSS-Dateien kommt."
+
+"Total of %d index(es) have successfully reindexed data","%d x erfolgreich Index neu aufgebaut"
+
+"For Windows Server Only","Nur für Windows Server"
+
+"close","schließen"
+
+"Create Extension Package","Erweiterung erstellen"
+"New Extension","Neue Erweiterung"
+"Save data and Create Package","Daten speichern und Paket erzeugen"
+"Save As...","Speichern unter..."
+"Package Info","Paketinfo"
+"Release Info","Versionsinformation"
+"Maintainers","Verantwortliche Autoren"
+"Dependencies","Abhängigkeiten"
+"Load local Package","Lokales Paket laden"
+"Folder","Verzeichnis / Pfad"
+"Role","Aufgabe"
+"Recommended","Empfohlen"
+"Exclude","Ausgenommen"
+"Exclude (comma separated)","Ausschließen (Komma getrennt)"
+"Subpackages","Unterpakete"
+"Subpackage","Unterpaket"
+"Release Version","Version"
+"Realease Stability","Stabilität"
+"API Stability","API Stabilität"
+"Notes","Hinweise"
+
+"Update Qty's","Mengen aktualisieren"

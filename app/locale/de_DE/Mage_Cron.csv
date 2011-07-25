@@ -1,5 +1,5 @@
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (Geplante Ausführung) - Alle Angaben in Minuten"
-"Daily","Täglich"
+"Daily","täglich"
 "Failure history lifetime","Fehlerprotokoll Zeitraum"
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","Für das Erzeugen korrekter URLs während der zeitgesteuerten Ausführung stellen Sie bitte sicher, dass Web > Sichere und Unsichere Base URLs einen expliziten Wert enthalten."
 "Generate schedules every","Erzeuge Terminplan jede(n)"
@@ -14,4 +14,4 @@
 "Too late for the schedule","Zu spät für Terminplan"
 "Unable to save Cron expression","Cron-Werte konnten nicht gespeichert werden"
 "Unknown error","Unbekannter Fehler"
-"Weekly","Wöchentlich"
+"Weekly","wöchentlich"

@@ -12,5 +12,11 @@ Available vars in this template:
 
 Use vars: {{var var_name}}
 *}<!--@subject Willkommen, {{var name}} @-->
+<!--@vars
+{"htmlescape var=$name":"Recipient Name",
+"var product_url":"Url for Product",
+"var product_name":"Product Name",
+"var message":"Sender Message"}
+@-->
 
 Hallo, {{htmlescape var=$name}}<br /><br />Bitte schauen Sie sich <a href="{{var product_url}}">{{var product_name}}</a> an.<br /><br />Nachricht: <br />{{var message}}<br /><br />

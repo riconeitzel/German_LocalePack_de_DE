@@ -1,8 +1,23 @@
-<!--@subject {{var order.getStoreGroupName()}}: Lieferschein Nr. {{var shipment.increment_id}} für Bestellung Nr. {{var order.increment_id}} @-->
-
-<style type="text/css">
-    body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
-</style>
+<!--@subject {{var store.getFrontendName()}}: Lieferschein Nr. {{var shipment.increment_id}} für Bestellung Nr. {{var order.increment_id}} @-->
+<!--@vars
+{"store url=\"\"":"Store Url",
+"skin url=\"images/logo_email.gif\" _area='frontend'":"Email Logo Image",
+"htmlescape var=$order.getCustomerName()":"Customer Name",
+"var store.getFrontendName()":"Store Name",
+"store url=\"customer/account/\"":"Customer Account Url",
+"var shipment.increment_id":"Shipment Id",
+"var order.increment_id":"Order Id",
+"var order.billing_address.format('html')":"Billing Address",
+"var payment_html":"Payment Details",
+"var order.shipping_address.format('html')":"Shipping Address",
+"var order.shipping_description":"Shipping Description",
+"layout handle=\"sales_email_order_shipment_items\" shipment=$shipment order=$order":"Shipment Items Grid",
+"block type='core/template' area='frontend' template='email/order/shipment/track.phtml' shipment=$shipment order=$order":"Shipment Track Details",
+"var comment":"Shipment Comment"}
+@-->
+<!--@styles
+body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
+@-->
 
 <div style="font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;">
 <table cellspacing="0" cellpadding="0" border="0" width="98%" style="margin-top:10px; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;">
@@ -11,7 +26,7 @@
         <!-- [ header starts here] -->
         <table cellspacing="0" cellpadding="0" border="0" width="650">
             <tr>
-                <td valign="top"><a href="{{store url=""}}"><img src="{{skin url="images/logo_email.gif" _area='frontend'}}" alt="Magento"  style="margin-bottom:10px;" border="0"/></a></td>
+                <td valign="top"><a href="{{store url=""}}"><img src="{{skin url="images/logo_email.gif" _area='frontend'}}" alt="{{var store.getFrontendName()}}"  style="margin-bottom:10px;" border="0"/></a></td>
             </tr>
         </table>
         <!-- [ middle starts here] -->
@@ -20,9 +35,11 @@
                 <td valign="top">
                     <p>
                         <strong>Hallo {{htmlescape var=$order.getCustomerName()}}</strong>,<br/>
-                        Vielen Dank für Ihre Bestellung bei {{var order.getStoreGroupName()}}.
+                        Vielen Dank für Ihre Bestellung bei {{var store.getFrontendName()}}.
                         Sie können den aktuellen Status Ihrer Bestellung jederzeit <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;"> in Ihrem Kundenbereich</a> einsehen.
-                        Sollten Sie Fragen zu Ihrem Kundenkonto oder Ihrer Bestellung haben, senden Sie uns eine E-Mail an <a href="mailto:dummyemail@magentocommerce.com" style="color:#1E7EC8;">dummyemail@magentocommerce.com</a> oder rufen Sie uns von Montag bis Freitag von 8.00 bis 17.00 Uhr unter <span class="nobr">(0800) DEMO-STORE</span> an.
+                        Sollten Sie Fragen zu Ihrem Kundenkonto oder andere Anfragen haben,
+                        senden Sie uns eine E-Mail an <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a>
+                        oder rufen Sie uns von Montag bis Freitag von 8.00 bis 17.00 Uhr unter {{config path='general/store_information/phone'}} an.
                     </p>
                     <p>
                         Nachfolgend finden Sie Ihren Lieferschein, vielen Dank!
@@ -82,7 +99,7 @@
                     {{block type='core/template' area='frontend' template='email/order/shipment/track.phtml' shipment=$shipment order=$order}}
                     <p>{{var comment}}</p>
                     <p>
-                        Vielen Dank!<br/><strong>{{var order.getStoreGroupName()}}</strong>
+                        Vielen Dank!<br/><strong>{{var store.getFrontendName()}}</strong>
                     </p>
                 </td>
             </tr>
