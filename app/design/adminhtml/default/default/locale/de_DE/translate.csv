@@ -17,7 +17,7 @@
 "Total","Gesamt"
 "Total incl. tax","Gesamt inkl. Steuern"
 
-"Qty for Item's Status to become Out of Stock","Anzahl um Produkt mit <b>Nicht auf Lager</b> zu kennzeichnen"
+"Qty for Item's Status to become Out of Stock","Anzahl um Artikel mit <b>Nicht auf Lager</b> zu kennzeichnen"
 
 "Descriptions","Artikelbeschreibung"
 
@@ -172,4 +172,12 @@
 "Insert Widget","Widget einfügen"
 
 "After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.",
-"Nachdem die Synchronisierung abgeschlossen ist, werden alle Medien automatisch dem neuen Speicher hinzugefügt."							
+"Nachdem die Synchronisierung abgeschlossen ist, werden alle Medien automatisch dem neuen Speicher hinzugefügt."
+
+"Prices","Preise"
+"Allow Gift Message","Geschenknachricht erlauben"		
+"Recurring Profile","Wiederkehrendes Profil"	
+
+"Template Settings","Vorlagen Einstellungen"
+"Allow Symlinks","Symlinks (Verknüpfungen) erlauben"		
+"Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Warnung! Die Aktivierung dieser Funktion wird für Produktive Systeme nicht empfohlen, da Sie ein potentielles Sicherheitsrisiko darstellen kann."	
