@@ -1,4 +1,5 @@
 {* This is a comment block
+
 Use vars: {{var var_name}}
 *}<!--@subject Zahlungs-Transaktion fehlgeschlagen Erinnerung @-->
 <!--@vars
@@ -14,6 +15,7 @@ Use vars: {{var var_name}}
 "var paymentMethod":"Payment Method",
 "var dateAndTime":"Date and Time of Transaction"}
 @-->
+
 <table>
     <thead>
         <tr>
@@ -28,6 +30,10 @@ Use vars: {{var var_name}}
                     {{var reason}}
                 </p>
                 <p>
+                    <b>Checkout Art</b><br />
+                    {{var checkoutType}}
+                </p>
+                <p>
                     <b>Kunde:</b><br />
                     <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
                 </p>
@@ -36,7 +42,7 @@ Use vars: {{var var_name}}
                     {{var items}}
                 </p>
                 <p>
-                    <b>Summe:</b><br />
+                    <b>Gesamtsumme:</b><br />
                     {{var total}}
                 </p>
                 <p>
@@ -44,7 +50,7 @@ Use vars: {{var var_name}}
                     {{var billingAddress.format('html')}}
                 </p>
                 <p>
-                    <b>Versandadresse:</b><br />
+                    <b>Versandadresse</b><br />
                     {{var shippingAddress.format('html')}}
                 </p>
                 <p>
@@ -56,7 +62,7 @@ Use vars: {{var var_name}}
                     {{var paymentMethod}}
                 </p>
                 <p>
-                    <b>Datum &amp; Zeit:</b><br />
+                    <b>Datum & Zeit</b><br />
                     {{var dateAndTime}}
                 </p>
             </td>

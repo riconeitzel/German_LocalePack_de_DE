@@ -15,46 +15,52 @@
 @-->
 <!--@styles
 body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
-
 @-->
 
-<div style="font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;">
-<table cellspacing="0" cellpadding="0" border="0" width="98%" style="margin-top:10px; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;">
+<body style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<div style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
 <tr>
-    <td align="center" valign="top">
+    <td align="center" valign="top" style="padding:20px 0 20px 0">
         <!-- [ header starts here] -->
-        <table cellspacing="0" cellpadding="0" border="0" width="650">
+        <table bgcolor="#FFFFFF" cellspacing="0" cellpadding="10" border="0" width="650" style="border:1px solid #E0E0E0;">
             <tr>
                 <td valign="top"><a href="{{store url=""}}"><img src="{{skin url="images/logo_email.gif" _area='frontend'}}" alt="{{var store.getFrontendName()}}"  style="margin-bottom:10px;" border="0"/></a></td>
             </tr>
-        </table>
         <!-- [ middle starts here] -->
-        <table cellspacing="0" cellpadding="0" border="0" width="650">
             <tr>
                 <td valign="top">
+                    <h1 style="font-size:14px; font-weight:normal; line-height:22px; margin:0 0 11px 0;"">Guten Tag, {{htmlescape var=$billing.getName()}}</h1>
                     <p>
-                        <strong>Hallo {{htmlescape var=$billing.getName()}}</strong>,<br/>
                         Vielen Dank für Ihre Bestellung bei {{var store.getFrontendName()}}.
-                        Sollten Sie Fragen haben, senden Sie uns eine E-Mail an <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> oder rufen Sie uns von Montag bis Freitag von 8.00 bis 17.00 Uhr unter {{config path='general/store_information/phone'}} an.
+                        Falls Sie Fragen oder Anregungen haben, kontaktieren Sie uns bitte wahlweise per E-Mail
+                        <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a>
+                        oder auch gerne per Telefon unter der Rufnummer {{config path='general/store_information/phone'}}.
                     </p>
-                    <h3 style="border-bottom:2px solid #eee; font-size:1.05em; padding-bottom:1px; ">
-                        Ihre Gutschrift Nr. {{var creditmemo.increment_id}} für Ihre Bestellung Nr. {{var order.increment_id}}
-                    </h3>
-                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 style="font-size:18px; font-weight:normal; margin:0;">Ihre Gutschrift Nr. {{var creditmemo.increment_id}} für Ihre Bestellung Nr. {{var order.increment_id}}</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table cellspacing="0" cellpadding="0" border="0" width="650">
                         <thead>
                         <tr>
-                            <th align="left" width="48.5%" bgcolor="#d9e5ee" style="padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;">Rechnungsinformationen:</th>
-                            <th width="3%"></th>
-                            <th align="left" width="48.5%" bgcolor="#d9e5ee" style="padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;">Zahlungsmethode:</th>
+                            <th align="left" width="325" bgcolor="#EAEAEA" style="font-size:13px; padding:5px 9px 6px 9px; line-height:1em;">Rechnungsinformation:</th>
+                            <th width="10"></th>
+                            <th align="left" width="325" bgcolor="#EAEAEA" style="font-size:13px; padding:5px 9px 6px 9px; line-height:1em;">Zahlungsart:</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td valign="top" style="padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;">
+                            <td valign="top" style="font-size:12px; padding:7px 9px 9px 9px; border-left:1px solid #EAEAEA; border-bottom:1px solid #EAEAEA; border-right:1px solid #EAEAEA;">
                                 {{var order.billing_address.format('html')}}
                             </td>
                             <td>&nbsp;</td>
-                            <td valign="top" style="padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;">
+                            <td valign="top" style="font-size:12px; padding:7px 9px 9px 9px; border-left:1px solid #EAEAEA; border-bottom:1px solid #EAEAEA; border-right:1px solid #EAEAEA;">
                                 {{var payment_html}}
                             </td>
                         </tr>
@@ -62,22 +68,22 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
                     </table>
                     <br/>
                     {{depend order.getIsNotVirtual()}}
-                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                    <table cellspacing="0" cellpadding="0" border="0" width="650">
                         <thead>
                         <tr>
-                            <th align="left" width="48.5%" bgcolor="#d9e5ee" style="padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;">Versandinformationen:</th>
-                            <th width="3%"></th>
-                            <th align="left" width="48.5%" bgcolor="#d9e5ee" style="padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;">Versandart:</th>
+                            <th align="left" width="325" bgcolor="#EAEAEA" style="font-size:13px; padding:5px 9px 6px 9px; line-height:1em;">Versandinformation:</th>
+                            <th width="10"></th>
+                            <th align="left" width="325" bgcolor="#EAEAEA" style="font-size:13px; padding:5px 9px 6px 9px; line-height:1em;">Versandart:</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td valign="top" style="padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;">
+                            <td valign="top" style="font-size:12px; padding:7px 9px 9px 9px; border-left:1px solid #EAEAEA; border-bottom:1px solid #EAEAEA; border-right:1px solid #EAEAEA;">
                                 {{var order.shipping_address.format('html')}}
                                 &nbsp;
                             </td>
                             <td>&nbsp;</td>
-                            <td valign="top" style="padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;">
+                            <td valign="top" style="font-size:12px; padding:7px 9px 9px 9px; border-left:1px solid #EAEAEA; border-bottom:1px solid #EAEAEA; border-right:1px solid #EAEAEA;">
                                 {{var order.shipping_description}}
                                 &nbsp;
                             </td>
@@ -86,17 +92,16 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
                     </table>
                     <br/>
                     {{/depend}}
-
                     {{layout handle="sales_email_order_creditmemo_items" creditmemo=$creditmemo order=$order}}
-
-                    <p>{{var comment}}</p>
-                    <p>
-                        Vielen Dank!<br/><strong>{{var store.getFrontendName()}}</strong>
-                    </p>
+                    <p style="font-size:12px; margin:0 10px 10px 0">{{var comment}}</p>
                 </td>
+            </tr>
+            <tr>
+                <td bgcolor="#EAEAEA" align="center" style="background:#EAEAEA; text-align:center;"><center><p style="font-size:12px; margin:0;">Vielen Dank für Ihr Vertrauen! <strong>{{var store.getFrontendName()}}</strong></p></center></td>
             </tr>
         </table>
     </td>
 </tr>
 </table>
 </div>
+</body>

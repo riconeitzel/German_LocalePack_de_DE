@@ -1,4 +1,3 @@
-"3D Secure Card Validation","3D Sichere Karten-Überprüfung"
 "API Login ID","API Login ID"
 "Accepted Currency","Akzeptierte Währung"
 "Authorize Only","Nur autorisieren"
@@ -14,7 +13,7 @@
 "Error in refunding the payment.","Fehler beim Erstatten der Zahlung."
 "Gateway request error: %s","Gateway Anfragefehler: %s"
 "Invalid amount for authorization.","Ungültiger Betrag für die Autorisation."
-"Invalid transaction id","Ungültige Transaktionskennung"
+"Invalid transaction ID.","Ungültige Transaktionskennung"
 "Maximum Order Total","Höchstbestellwert"
 "Merchant's Email","Verkäufer E-Mail"
 "Minimum Order Total","Mindestbestellwert"

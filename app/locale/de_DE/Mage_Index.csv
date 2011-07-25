@@ -1,5 +1,5 @@
-"%s Index process is working now. Please try run this process later.","%s Index Prozess dauert an. Bitte versuchen Sie diesen Prozess später zu starten."
-"%s index was rebuilt successfully.","%s Index wurde erfolgreich neu aufgebaut."
+"%s Index process is working now. Please try run this process later.","%s Index Prozess dauert an. Bitte versuchen Sie diesen Prozess später noch einmal zu starten."
+"%s index was rebuilt.","%s x erfolgreich Index neu aufgebaut."
 "'%s' Index Process Information","'%s' Index Prozess Information"
 "Action","Aktion"
 "Can\'t initialize indexer process.","Indexer Prozess konnte nicht initialisiert werden."

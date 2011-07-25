@@ -1,6 +1,7 @@
 "Express Checkout and Order have been cancelled.","Express Checkout und Bestellung wurde storniert."
 "Express Checkout has been cancelled.","Express Checkout wurde storniert."
 "Fetch","Fetch"
+"PayPal Express Checkout (Payflow Edition) Shortcut Wrapper","PayPal Express Checkout (Payflow Edition) Shortcut Wrapper"
 "PayPal Express Checkout Token does not exist.","PayPal Express Checkout Token does not exist."
 "PayPal Express Order Review Form","PayPal Express Bestellübersicht"
 "PayPal Settlement Reports","PayPal Settlement Reports"
@@ -18,3 +19,4 @@
 "View","Ansicht"
 "View Transaction","Transaktion ansehen"
 "Wrong PayPal Express Checkout Token specified.","Wrong PayPal Express Checkout Token specified."
+"You will be redirected to the PayPal website in a few seconds.","You will be redirected to the PayPal website in a few seconds."

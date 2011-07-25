@@ -67,7 +67,7 @@
 "Text Field","Einzeiliges Textfeld"
 "The attribute code \'%s\' is reserved by system. Please, try another attribute code.","Der Attributcode \'%s\' ist für das system reserviert. Bitte benutzten Sie einen anderen Attributcode."
 "The value of attribute ""%s"" must be unique.","Der Wert des Attributs ""%s"" muss einmalig sein."
-"This attribute is used in configurable products.","This attribute is used in configurable products."
+"This attribute is used in configurable products.","Dieses Attribut wird von konfigurierbaren Artikeln benutzt."
 "URL","URL"
 "Unique Value","Einmaliger Wert"
 "Unique Value (not shared with other products)","Einmaliger Wert (nicht geteilt mit anderen Produkten)"

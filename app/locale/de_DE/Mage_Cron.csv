@@ -3,7 +3,7 @@
 "Failure History Lifetime","Fehlerprotokoll Zeitraum"
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","Für das Erzeugen korrekter URLs während der zeitgesteuerten Ausführung stellen Sie bitte sicher, dass Web > Sichere und Unsichere Base URLs einen expliziten Wert enthalten."
 "Generate Schedules Every","Erzeuge Terminplan jede(n)"
-"History Cleanup Every","Bereinigen des Protokoll-Verlaufs jede(n)"
+"History Cleanup Every","Bereinigen des Log-Verlaufs jede(n)"
 "Invalid callback: %s::%s does not exist","Ungültiges Callback: %s::%s existiert nicht"
 "Invalid model/method definition, expecting ""model/class::method"".","Ungültige Modell-/Methoden-Definition, erwarte ""model/class::method""."
 "Missed if Not Run Within","Verfällt, wenn nicht ausgeführt binnen"

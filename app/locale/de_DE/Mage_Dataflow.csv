@@ -4,7 +4,7 @@
 "Could not load file: ""%s""","Konnte Datei ""%s"" nicht laden"
 "Could not save file: %s","Konnte Datei nicht speichern: %s"
 "Declared adapter %s not found","Angegebener Adapter %s nicht gefunden"
-"Destination folder ""%s"" does not exist or not access to create","Zielordner """"%s"""" existiert nicht oder es besteht keine Berechtigung zum Anlegen"
+"Destination folder ""%s"" does not exist or there is no access to create it.","Zielordner """"%s"""" existiert nicht oder es besteht keine Berechtigung ihn anzulegen."
 "Destination folder ""%s"" is not a directory","Zielordner ""%s"" ist kein Ordner"
 "Destination folder ""%s"" is not a writeable","In Zielordner ""%s"" kann nicht geschrieben werden"
 "Done","Fertig"
