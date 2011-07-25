@@ -5,6 +5,7 @@
 "Cannot retrieve rate from %s to %s","Kurs von %s bis %s kann nciht abgefragt werden"
 "Check all email servers","Alle E-Mail-Server prüfen"
 "Complete","Komplett"
+"Country/Region/Postal code combination","Bundesland/PLZ Kombination"
 "Customer Tax Class","Kundensteuerklasse"
 "Email Verification","E-Mail-Prüfung"
 "Email address cannot be verified. Please check again and make sure your email address entered correctly.","E-Mail-Adresse konnte nicht bestätigt werden. "

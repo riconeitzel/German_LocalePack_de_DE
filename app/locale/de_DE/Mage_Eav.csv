@@ -38,7 +38,7 @@
 "Problem saving the collection, aborting. Error: %s","Problem beim Speichern der Zusammenstellung, breche ab. Fehler: %s"
 "Saved ","Gespeichert "
 "Scope must not be changed, because the attribute is used in configurable products.","Geltungsbereich kann nicht geändert werden, da das Attribut in konfigurierbaren Produkten benutzt wird."
-"The attribute code '%s' is reserved by system. Please, try another attribute code.","Der Attributcode '%s' ist für das System reserviert und kann nicht verwendet werden. Bitte verwenden Sie einen anderen Attributcode."
+"The attribute code \'%s\' is reserved by system. Please, try another attribute code.","Der Attributcode \'%s\' ist für das system reserviert. Bitte benutzten Sie einen anderen Attributcode."
 "Unknown parameter","Unbekannter Parameter"
 "Valid store_id is expected!","Gültige store_id wird erwartet!"
 "Value of attribute ""%s"" must be unique","Wert des Attributs ""%s"" muß eindeutig sein"
