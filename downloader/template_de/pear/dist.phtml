@@ -67,12 +67,12 @@
 
 <a name="pear_iframe_result"></a>
 <div id="pear_iframe_success" style="display:none">
-    <?php $this->set('messages', array('success'=>array('Vorgang abgeschlossen. Bitte pr&uuml;fen Sie die Ausgabe im Frame um n&uuml;tzliche Informationen zu erhalten und aktualisieren Sie die Seite um die Ver&auml;nderungen zu sehen.'))) ?>
+    <?php $this->set('messages', array('success'=>array('Vorgang abgeschlossen. Bitte pr&uuml;fen Sie die Ausgabe im Fenster um n&uuml;tzliche Informationen zu erhalten und aktualisieren Sie die Seite um die Ver&auml;nderungen zu sehen.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
     <button onclick="location.reload()">Aktualisieren</button>
 </div>
 <div id="pear_iframe_failure" style="display:none">
-    <?php $this->set('messages', array('error'=>array('Bitte pr&uuml;fen Sie bei Fehlern die Ausgabe im Frame aktualisieren Sie die Seite um die Ver&auml;nderungen zu wiederholen.'))) ?>
+    <?php $this->set('messages', array('error'=>array('Bitte pr&uuml;fen Sie bei Fehlern die Ausgabe im Fenster, aktualisieren Sie die Seite um die Ver&auml;nderungen zu wiederholen.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
     <button onclick="location.reload()">Aktualisieren</button>
 </div>

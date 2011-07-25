@@ -1,5 +1,6 @@
 "Apply Percent Discounts To FPT","Prozentuale Rabatte auf FPT"
 "Apply Tax To FPT","Steuern auf FPT anwenden"
+"Apply Discounts To FTP","Rabatte auf FPT anwenden"
 "Display Prices In Emails","Preise in E-Mails anzeigen"
 "Display Prices In Product Lists","Preise in Produktlisten anzeigen"
 "Display Prices In Sales Modules","Preise in Verkaufsmodulen anzeigen"
@@ -7,7 +8,7 @@
 "Enable FPT","FPT aktivieren"
 "Excluding FPT","zzgl. FPT"
 "Excluding FPT, FPT description, final price","zzgl. FPT, FPT Beschreibung, Endpreis"
-"Fixed Product Tax","Feste Produktsteuer"
+"Fixed Product Tax","Feste Produktsteuer (FPT)"
 "Fixed Product Taxes","Feste Produktsteuern"
 "Include FPT In Subtotal","FPT in Zwischensumme hineinrechnen"
 "Including FPT and FPT description [excl. FPT VAT]","inkl. FPT und FPT Beschreibung [zzgl. FPT Umsatzsteuer]"
@@ -16,35 +17,12 @@
 "Total","Gesamt"
 "Total incl. tax","Gesamt inkl. Steuern"
 
-"Allow Gift Message","Geschenkbenachrichtigung erlauben"
-"Set Product as New from Date","Produkt als Neu kennzeichnen vom"
-"Set Product as New to Date","Produkt als Neu kennzeichnen bis"
-
-"Active From","Aktiv vom"
-"Active To","Aktiv bis"
-"Custom Layout Update","Eigenes Layout Update"
-
-"Display product options in","Anzeige Produktoptionen"
-"Page Layout","Seiten Layout"
-
 "Qty for Item's Status to become Out of Stock","Anzahl um Produkt mit <b>Nicht auf Lager</b> zu kennzeichnen"
 
-"Tier Price","Preisstaffel / Staffelpreise"
-"Cost","Kosten (EK)"
-"Special Price","Sonderpreis"
-"Special Price From Date","Sonderpreis von"
-"Special Price To Date","Sonderpreis bis"
-"Is product available for purchase with Google Checkout","Produkt für Abwicklung per Google Checkout zur Verfügung stellen"
-"Prices","Preise"
-
-"Descriptions","Produkt Beschreibung"
-"Short Description","Kurzbeschreibung"
-"In Depth","Datailbeschreibung"
+"Descriptions","Artikelbeschreibung"
 
 "Display Settings","Anzeige Einstellungen"
-"Display Mode","Anzeige Modus"
-"Available Product Listing Sort by","Verfügbare Produktauflistung sortiert nach"
-"Default Product Listing Sort by","Standard Produktauflistung sortiert nach"
+
 "Position","Reihenfolge"
 
 "Customer's Current Activities","Aktuelle Benutzer-Aktivitäten"
@@ -83,12 +61,14 @@
 "Web Services Configuration","Konfiguration der Web Dienste"
 "Web Services definition files (api.xml).","Definitionsdateien für Web Dienste (api.xml)."
 
+"Total of %d index(es) have reindexed data.","%d x Index neu aufgebaut."
+
 "Show / Hide Editor","Editor anzeigen / ausblenden"
 
 "Show notice if JavaScript is disabled","Hinweis anzeigen wenn JavaScript im Browser<br />deaktiviert ist"
 
-"Example format 200x300","Beispiel Format 200x300"
-"Allowed file types (jpeg, gif, png).","Erlaubte Formate (jpeg, gif, png)."
+"Example format: 200x300.","Beispiel Format 200x300."
+"Allowed file types: jpeg, gif, png.","Erlaubte Formate: jpeg, gif, png."
 
 "Display out of stock products","Produkte die <u>nicht</u> auf Lager<br />sind auch mit anzeigen"
 "<b>Please note</b>, that these Settings are applicable to cart line Items, not the whole Cart.","<b>Please note</b>, that these Settings are applicable to cart line Items, not the whole Cart."
@@ -99,8 +79,6 @@
 "Merge JavaScript Files (beta)","JavaScript Dateien verbinden (beta)"
 "Merge CSS Files (beta)","CSS Dateien verbinden (beta)"
 "Experimental. Turn this feature off if there are troubles with relative urls inside css-files.","Experimentell. Bitte schalten Sie diese Funktionalität ab wenn es zu Problemen mit relativen URLs in den CSS-Dateien kommt."
-
-"Total of %d index(es) have successfully reindexed data","%d x erfolgreich Index neu aufgebaut"
 
 "For Windows Server Only","Nur für Windows Server"
 
@@ -122,9 +100,21 @@
 "Exclude (comma separated)","Ausschließen (Komma getrennt)"
 "Subpackages","Unterpakete"
 "Subpackage","Unterpaket"
-"Release Version","Version"
-"Realease Stability","Stabilität"
 "API Stability","API Stabilität"
 "Notes","Hinweise"
+"Add Subpackage dependency","Unterpaket-Abhängigkeit hinzufügen"
+"Add Maintainer","Autor hinzufügen"
 
 "Update Qty's","Mengen aktualisieren"
+
+"Summary","Kurzbeschreibung"
+"License","Lizenz"
+"Licence URI","Lizenz URL"
+
+"%s","Rechnung"
+
+"and above","und darüber"
+
+"Display Out of Stock Products","Produkte die nicht auf Lager sind anzeigen"
+
+"Allow HTML Tags on Frontend","HTML Tags im Frontend erlauben"

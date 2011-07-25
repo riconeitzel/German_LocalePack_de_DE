@@ -41,6 +41,6 @@
 "Unable to find a sitemap to delete","Es wurde keine Sitemap zum Löschen gefunden"
 "Unable to find a sitemap to generate","Keine Sitemap zum Anlegen vorhanden"
 "Unable to generate a sitemap","Fehler beim Anlegen der Sitemap"
-"Valid values range from 0.0 to 1.0","Gültige Werte von 0.0 bis 1.0"
+"Valid values range: from 0.0 to 1.0.","Gültige Werte: von 0.0 bis 1.0"
 "Weekly","Wöchentlich"
 "Yearly","Jährlich"
