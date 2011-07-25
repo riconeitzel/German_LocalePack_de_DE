@@ -1,4 +1,5 @@
 " Copy","Kopieren"
+"<!-- This tag is for unsubscribe link  --> Follow this link to unsubscribe <a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","<!-- Dieses Tag ist für den Abmelde-Link  --> Klicken Sie auf diesen Link um sich vom Newsletter abzumelden <a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>"
 "Action","Aktion"
 "Add New Template","Neue Vorlage"
 "Add to Queue","Zur Warteschlange hinzufügen"
@@ -8,7 +9,6 @@
 "Cancel","Abbrechen"
 "Cancelled","Abgebrochen"
 "Cannot delete subscriber","Abonnent konnte nicht gelöscht werden"
-"Cannot delete template","Vorlage konnte nicht gelöscht werden"
 "Cannot mark as received subscriber","Abonnent konnte nicht als erhalten markiert werden"
 "Cannot save your subscription: %s","Konnte Ihre Anmeldung nicht speichern: %s"
 "Confirmation Email Sender","E-Mail Absender für Bestätigung"

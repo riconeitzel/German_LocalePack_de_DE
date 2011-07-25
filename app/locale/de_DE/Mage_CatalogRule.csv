@@ -55,7 +55,6 @@
 "Start at: %s","Starte bei: %s"
 "Status","Status"
 "Stop further rules processing","Weitere Regeln nicht mehr anwenden"
-"The page you are trying to save no longer exists","Die Seite, die Sie zu speichern versuchen, existiert nicht mehr"
 "There are rules that have been changed but not applied. Please, click Apply Rules in order to see immediate effect in catalog.","Achtung: Regeln wurden geändert aber noch nicht gespeichert. Bitte speichern Sie die Regeln, damit diese umgehend im Katalog wirksam werden können."
 "This rule no longer exists","Diese Regel existiert nicht mehr"
 "To Date","Datum bis"
@@ -63,4 +62,5 @@
 "Unable to find a page to delete","Die zu löschende Seite wurde nicht gefunden"
 "Update product's %s %s: %s","Aktualisiere %s %s des Produktes: %s"
 "Websites","Websites"
+"Wrong rule specified.","Falsche Regel festgelegt."
 "Yes","Ja"

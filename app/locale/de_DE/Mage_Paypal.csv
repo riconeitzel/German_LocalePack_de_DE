@@ -1,10 +1,3 @@
-"
-                                Example: <b>https://www.paypal.com/au/cgi-bin/webscr?cmd=_express-checkout&useraction=<user_action>&amp;token=</b>
-                                Where &lt;user_action&gt; is 'commit' or 'continue', depending on your preference of commit button text.
-                            ","
-                                Beispiel: <b>https://www.paypal.com/au/cgi-bin/webscr?cmd=_express-checkout&useraction=<user_action>&amp;token=</b>
-                                Wobei &lt;user_action&gt; auf 'commit' oder 'continue' gestellt ist, basierend auf Ihren Einstellungen des commit Buttontexts.
-                            "
 "API Password","API Passwort"
 "API Signature","API Signatur"
 "API User Name","API Benutzername"
@@ -28,7 +21,8 @@
 "Edit Shopping Cart","Warenkorb bearbeiten"
 "Enabled","Aktiviert"
 "Error in creating an invoice","Fehler beim Anlegen der Rechnung"
-"Error in refunding the payment","Fehler beim Erstatten der Zahlung"
+"Error in refunding the payment","Fehler beim Erstatten der Zahlung
+"Example: <b>https://www.paypal.com/au/cgi-bin/webscr?cmd=_express-checkout&useraction=<user_action>&amp;token=</b> Where &lt;user_action&gt; is 'commit' or 'continue', depending on your preference of commit button text.","Beispiel: <b>https://www.paypal.com/au/cgi-bin/webscr?cmd=_express-checkout&useraction=<user_action>&amp;token=</b> Wo &lt;user_action&gt; ist 'commit' oder 'continue', gestellt ist, basierend auf Ihren Einstellungen des commit Buttontextes."
 "Expiration Date","Gültig bis"
 "Expiration Date: %s/%s","Gültig bis: %s/%s"
 "Incl. Tax","Inkl. Steuern"
@@ -95,7 +89,7 @@
 "Update Shipping Method","Versandart ändern"
 "Use Proxy","Proxy verwenden"
 "Visa","Visa"
-"Website Payments Pro and Express Checkout (API Signature)","Website Payments Pro und Express Checkout (API Signature)"
+"Website Payments Pro and Express Checkout (API Signature)","Website Payments Pro und Express Checkout (API Signatur)"
 "Website Payments Standard","Website Payments Standard"
 "What is this?","Was ist das?"
 "You will be redirected to Paypal in a few seconds.","Sie werden in wenigen Sekunden zu PayPal weitergeleitet."

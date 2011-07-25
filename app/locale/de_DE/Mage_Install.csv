@@ -58,6 +58,7 @@
 "Installation","Installation"
 "Installation Guide","Installationsanleitung"
 "Last Name","Nachname"
+"License Agreement","Lizenzvertrag"
 "Locale","Lokalisierung"
 "Locale settings","Spracheinstellungen"
 "Localization","Lokalisierung"
@@ -110,3 +111,4 @@
 "You can specify server port, ex.: localhost:3307<br />If you are not using default UNIX socket, you can specify it here instead of host, ex.: /var/run/mysqld/mysqld.sock","Sie können einen Serverport angeben, bspw.: localhost:3307<br />Wenn Sie nicht den Standard UNIX socket verwenden, können Sie dies hier angeben, bspw.: /var/run/mysqld/mysqld.sock"
 "You could enable this option to use web server rewrites functionality for improved search engines optimization.","Sie können für eine verbesserte Suchmaschinenunterstützung die folgende Option für serverseitige URL-Rewrites aktivieren."
 "You're All Set","Alle Arbeiten abgeschlossen"
+"You're All Set!","Das wars es schon, alles eingerichtet!"

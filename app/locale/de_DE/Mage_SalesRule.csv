@@ -71,7 +71,6 @@
 "Status","Status"
 "Stop further rules processing","Weitere Regeln nicht mehr anwenden"
 "Subtotal","Zwischensumme"
-"The page you are trying to save no longer exists","Die Seite, die Sie zu speichern versuchen, existiert nicht mehr"
 "This rule no longer exists","Diese Regel existiert nicht mehr"
 "To Date","Datum bis"
 "To Fixed Amount","Auf festen Betrag"
@@ -86,4 +85,5 @@
 "Update the Product","Produkt aktualisieren"
 "Uses per coupon","Verwendungen pro Gutschein"
 "Uses per customer","Verwendungen pro Kunde"
+"Wrong rule specified.","Falsche Regel festgelegt."
 "Yes","Ja"
