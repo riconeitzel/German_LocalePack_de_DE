@@ -1,6 +1,7 @@
 "--Please Select--","--Bitte wählen--"
 "<label>Make Check payable to:</label> %s","<label>Scheck ausstellen auf:</label> %s"
 "<label>Make Check payable to</label>: %s","<label>Scheck ausstellen auf</label>: %s"
+"Automatically invoice all items","Automatisch alle Artikel in Rechnung stellen"
 "Can not configuration for payment method with code: %s","Kann Zahlungsmodul mit folgendem Code nicht einrichten: %s"
 "Can not retrieve payment info model object.","Modellobjekt der Zahlungsinfo konnte nicht aufgerufen werden."
 "Can not retrieve payment method instance","Instanz der Zahlweise konnte nicht aufgerufen werden"

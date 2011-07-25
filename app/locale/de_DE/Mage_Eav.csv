@@ -4,6 +4,7 @@
 "Attribute used in configurable products.","Attribut wird in konfigurierbaren Produkten verwendet."
 "Attribute with the same code","Attribut mit dem gleichen Code"
 "Data integrity: No header row found for attribute","Datenintegrität: Keine Kopfzeile für Attribut gefunden"
+"Default Product Listing Sort by not exists on Available Product Listing Sort by","Standard Produkt-Listing Sortierung wenn keine verfügbaren Sortierungen für Produkte definiert sind"
 "Default option value is not defined","Standard Optionswert ist nicht definiert"
 "EAV types and attributes","EAV Typen und Attribute"
 "Entity collection expected","Datensatz Zusammenstellung erwartet"

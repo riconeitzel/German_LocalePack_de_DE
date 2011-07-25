@@ -20,14 +20,19 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
                 <table cellspacing="0" cellpadding="0" border="0" width="650">
                     <tr>
                         <td valign="top">
-                            <p><strong>Hallo {{var customer.name}}</strong>, <br/> herzlich willkommen in unserem Shop.</p>
+                            <p><strong>Hallo {{htmlescape var=$customer.name}}</strong>, <br/> willkommen in unserem Shop.</p>
 
                             <p>Ihre E-Mail-Adresse {{var customer.email}} muß bestätigt werden, bevor Sie sich damit in unserem Shop einloggen können.</p>
 
                             <p>Um die E-Mail-Adresse zu bestätigen und sich sofort einzuloggen, benutzen Sie bitte <a href="{{store url="customer/account/confirm/" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url}}" style="color:#1E7EC8;">diesen Bestätigunslink</a>. Dieser Link ist nur einmal gülitig.</p>
 
+                            <p style="border:1px solid #BEBCB7; padding:13px 18px; background:#F8F7F5; ">
+                                Mit folgenden Zugangsdaten können Sie sich anmelden:<br/>
+                                E-mail: {{var customer.email}}<br/>
+                                Passwort: {{htmlescape var=$customer.password}}<p>
+
                             <p>Sollten Sie Fragen zu Ihrem Kundenkonto oder andere Anfragen haben, senden Sie uns eine E-Mail an <a href="mailto:dummyemail@magentocommerce.com" style="color:#1E7EC8;">dummyemail@magentocommerce.com</a> oder rufen Sie uns von Montag bis Freitag von 8.00 bis 17.00 Uhr unter (0800) DEMO-STORE an.</p>
-                        </td>
+						</td>
                     </tr>
                 </table>
 

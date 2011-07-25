@@ -28,9 +28,9 @@
 
                         <br/>
 
-{{depend salable}}<p><strong><a href="{{var addAllLink}}" style="color:#DC6809;">Alle Artikel in Warenkorb legen</a></strong> |{{/depend}}  <strong><a href="{{var viewOnSiteLink}}" style="color:#1E7EC8;">Alle Artikel im Shop ansehen!</a></strong></p>
+{{depend salable}}<p><strong><a href="{{var addAllLink}}" style="color:#DC6809;">Alle Artikel in Warenkorb legen</a></strong> |{{/depend}} <strong><a href="{{var viewOnSiteLink}}" style="color:#1E7EC8;">Alle Artikel im Shop ansehen!</a></strong></p>
 
-                        <p>Danke,<br/><strong>{{var customer.name}}</strong></p>
+                        <p>Danke,<br/><strong>{{htmlescape var=$customer.name}}</strong></p>
 
 
                         </td>

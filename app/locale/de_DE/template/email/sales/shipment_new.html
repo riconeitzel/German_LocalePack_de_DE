@@ -19,10 +19,9 @@
             <tr>
                 <td valign="top">
                     <p>
-                        <strong>Hallo {{var order.getCustomerName()}}</strong>,<br/>
+                        <strong>Hallo {{htmlescape var=$order.getCustomerName()}}</strong>,<br/>
                         Vielen Dank für Ihre Bestellung bei {{var order.getStoreGroupName()}}.
-                        Sobald Ihre Sendung verschickt wurde, erhalten Sie per E-Mail weitere Informationen zur Sendungsverfolgung.
-                        Sie können den aktuellen Status Ihrer Bestellung jederzeit <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">in Ihrem Kundenbereich</a> einsehen.
+                        Sie können den aktuellen Status Ihrer Bestellung jederzeit <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;"> in Ihrem Kundenbereich</a> einsehen.
                         Sollten Sie Fragen zu Ihrem Kundenkonto oder Ihrer Bestellung haben, senden Sie uns eine E-Mail an <a href="mailto:dummyemail@magentocommerce.com" style="color:#1E7EC8;">dummyemail@magentocommerce.com</a> oder rufen Sie uns von Montag bis Freitag von 8.00 bis 17.00 Uhr unter <span class="nobr">(0800) DEMO-STORE</span> an.
                     </p>
                     <p>
@@ -65,10 +64,12 @@
                         <tr>
                             <td valign="top" style="padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;">
                                 {{var order.shipping_address.format('html')}}
+                                &nbsp;
                             </td>
                             <td>&nbsp;</td>
                             <td valign="top" style="padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;">
                                 {{var order.shipping_description}}
+                                &nbsp;
                             </td>
                         </tr>
                         </tbody>

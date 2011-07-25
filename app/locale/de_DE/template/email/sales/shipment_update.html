@@ -16,7 +16,7 @@
         <tr>
             <td valign="top">
                 <p>
-                    <strong>Hallo {{var order.getCustomerName()}}</strong>,<br/>
+                    <strong>Hallo {{htmlescape var=$order.getCustomerName()}}</strong>,<br/>
                     Ihre Bestellng Nr. {{var order.increment_id}} wurde <br/>
                     <strong>{{var order.getStatusLabel()}}</strong>.
                 </p>

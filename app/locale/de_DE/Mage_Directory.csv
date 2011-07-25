@@ -2,6 +2,7 @@
 "Allowed currencies","Erlaubte Währungen"
 "Base currency","Basiswährung"
 "Cannot retrieve rate from %s","Umrechnungskurs konnte nicht von %s abgerufen werden"
+"Connection timeout in seconds","Verbindungs-Timeout in Sekunden"
 "Continue &raquo;","Weiter &raquo;"
 "Country","Land"
 "Country Api","Land API"
@@ -38,4 +39,5 @@
 "Unable to initialize import model","Konnte Importmodell nicht initialisieren"
 "Undefined rate from ""%s-%s""","Unbestimmter Kurs von ""%s-%s"""
 "WARNING:","WARNUNG:"
+"Webservicex","Webservicex"
 "Your current currency is: %s","Ihre aktuelle Währung ist: %s"

@@ -19,7 +19,7 @@
             <tr>
                 <td valign="top">
                     <p>
-                        <strong>Hallo {{var order.getCustomerName()}}</strong>,<br/>
+                        <strong>Hallo {{htmlescape var=$order.getCustomerName()}}</strong>,<br/>
                         Vielen Dank für Ihre Bestellung bei {{var order.getStoreGroupName()}}.
                         Sobald Ihre Sendung verschickt wurde, erhalten Sie per E-Mail weitere Informationen zur Sendungsverfolgung.
                         Sie können den aktuellen Status Ihrer Bestellung jederzeit <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">in Ihrem Kundenbereich</a> einsehen.
@@ -27,7 +27,7 @@
                     </p>
                     <p>Nachfolgend finden Sie Ihre Bestellbestätigung, vielen Dank!</p>
 
-                    <h3 style="border-bottom:2px solid #eee; font-size:1.05em; padding-bottom:1px; ">Ihre Bestellung Nr. {{var order.increment_id}} <small>({{var order.getCreatedAtFormated('long')}})</small></h3>
+                    <h3 style="border-bottom:2px solid #eee; font-size:1.05em; padding-bottom:1px; ">Ihre Bestellung Nr.{{var order.increment_id}} <small>(placed on {{var order.getCreatedAtFormated('long')}})</small></h3>
                     <table cellspacing="0" cellpadding="0" border="0" width="100%">
                         <thead>
                         <tr>
@@ -62,10 +62,12 @@
                         <tr>
                             <td valign="top" style="padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;">
                                 {{var order.getShippingAddress().format('html')}}
+                                &nbsp;
                             </td>
                             <td>&nbsp;</td>
                             <td valign="top" style="padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;">
                                 {{var order.getShippingDescription()}}
+                                &nbsp;
                             </td>
                         </tr>
                         </tbody>
@@ -73,8 +75,6 @@
                     <br/>
                     {{/depend}}
                     {{layout handle="sales_email_order_items" order=$order}}
-
-                    {{var items_html}}
                     <br/>
                     {{var order.getEmailCustomerNote()}}
                     <p>Vielen Dank!<br/><strong>{{var order.getStoreGroupName()}}</strong></p>

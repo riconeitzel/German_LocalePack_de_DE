@@ -16,14 +16,14 @@
         <tr>
             <td valign="top">
                 <p>
-                    <strong>Hallo {{var billing.getName()}}</strong>,<br/>
+                    <strong>Hallo {{htmlescape var=$billing.getName()}}</strong>,<br/>
                     Ihre Bestellung Nr. {{var order.increment_id}} wurde <br/>
                     <strong>{{var order.getStatusLabel()}}</strong>.
                 </p>
                 <p>{{var comment}}</p>
                 <p>
                     Sollten Sie Fragen haben,
-                    senden Sie uns eine E-Mail an <a href="mailto:magento@varien.com" style="color:#1E7EC8;">dummyemail@magentocommerce.com</a>
+					senden Sie uns eine E-Mail an <a href="mailto:magento@varien.com" style="color:#1E7EC8;">dummyemail@magentocommerce.com</a>
                     oder rufen Sie uns von Montag bis Freitag von 8.00 bis 17.00 Uhr unter (0800) DEMO-STORE an.
                 </p>
                 <p>Vielen Dank!<br/><strong>{{var order.getStoreGroupName()}}</strong></p>

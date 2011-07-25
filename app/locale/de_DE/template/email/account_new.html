@@ -1,4 +1,4 @@
-<!--@subject Willkommen, {{var customer.name}}! @-->
+<!--@subject Wilkommen, {{var customer.name}}! @-->
 
 <style type="text/css">
 body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
@@ -20,13 +20,13 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
                 <table cellspacing="0" cellpadding="0" border="0" width="650">
                     <tr>
                         <td valign="top">
-                            <p><strong>Hallo {{var customer.name}}</strong>,<br/>
-                            herzlich willkommen in unserem Shop. Um sich bei Ihrem nächsten Besuch in unserem Shop einzuloggen, klicken Sie einfach auf <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">Login</a> oder <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">Mein Kundenkonto</a> im oberen Bereich jeder Seite, und geben Sie Ihre E-Mail-Adresse und Passwort ein.</p>
+                            <p><strong>Hallo {{htmlescape var=$customer.name}}</strong>,<br/>
+                            herzlich willkommen in unserem Shop. Um sich bei Ihrem nächsten Besuch in unserem Shop einzuloggen, klicken Sie einfach auf <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">Login</a> or <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">Mein Benutzerkonto</a> im oberen Bereich jeder Seite, und geben Sie Ihre E-Mail-Adresse und Passwort ein.</p>
 
                             <p style="border:1px solid #BEBCB7; padding:13px 18px; background:#F8F7F5; ">
                                 Mit folgenden Zugangsdaten können Sie sich anmelden:<br/>
-                                E-Mail: {{var customer.email}}<br/>
-                                Passwort: {{var customer.password}}<p>
+                                E-mail: {{var customer.email}}<br/>
+                                Passwort: {{htmlescape var=$customer.password}}<p>
 
                             <p>Nach erfolgreichem Login auf unsere Seite haben Sie die folgenden Möglichkeiten:</p>
 
