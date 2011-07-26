@@ -25,9 +25,9 @@ it prevented a 500 / access denied error after new installation of extensions
 						<children>
 							<config>
 								<children>
-									<localepack translate="title" module="localepack">
-										<title>Deutsches Sprachpaket - CE</title>
-									</localepack>
+									<localepacks translate="title">
+										<title>Manage LocalePack Settings</title>
+									</localepacks>
 								</children>
 							</config>
 						</children>

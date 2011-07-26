@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
    <modules>
-      <German_LocalePack>
+      <German_LocalePackDe>
          <active>true</active>
          <codePool>community</codePool>
-      </German_LocalePack>
+      </German_LocalePackDe>
    </modules>
 </config>
