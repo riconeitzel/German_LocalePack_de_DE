@@ -23,10 +23,10 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 
-tinyMCE.addI18n({de:{
+tinyMCE.addI18n({en:{
     magentovariable:
     {
-        insert_variable : "Variable einfügen"
+        insert_variable : "Insert Variable"
     }
 }});
 
@@ -45,7 +45,7 @@ tinyMCE.addI18n({de:{
 
             // Register Widget plugin button
             ed.addButton('magentovariable', {
-                title : 'magentovariable.insert_variable',
+                title : 'Variable hinzuf\u00fcgen',
                 cmd : 'mceMagentovariable',
                 image : url + '/img/icon.gif'
             });

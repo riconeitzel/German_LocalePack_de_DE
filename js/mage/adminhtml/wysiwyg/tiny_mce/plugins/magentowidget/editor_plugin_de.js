@@ -22,10 +22,10 @@
  * @copyright   Copyright (c) 2010 Magento Inc. (http://www.magentocommerce.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
-tinyMCE.addI18n({de:{
+tinyMCE.addI18n({en:{
     magentowidget:
     {
-        insert_widget : "Widget einfügen"
+        insert_widget : "Insert Widget"
     }
 }});
 
@@ -46,8 +46,7 @@ tinyMCE.addI18n({de:{
 
             // Register Widget plugin button
             ed.addButton('magentowidget', {
-			//German Button Widget
-                title : 'magentowidget.insert_widget',
+                title : 'Widget hinzuf\u00fcgen',
                 cmd : 'mceMagentowidget',
                 image : url + '/img/icon.gif'
             });
