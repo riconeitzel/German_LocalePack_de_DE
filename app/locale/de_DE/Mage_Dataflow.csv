@@ -1,6 +1,6 @@
 "<a href="%s" target="_blank">Link</a>","<a href=""%s"" target=""_blank"">Link</a>"
 "Access denied to destination folder "%s".","Zugriff verweigert auf den Zielordner "%s"."
-"An error occurred while opening file: "%s".","Fehler aufgetreten beim öffnen der Datei: "%s"."
+"An error occurred while opening file: "%s".","Fehler aufgetreten beim Öffnen der Datei: "%s"."
 "Could not load file: "%s".","Datei konnte nicht geladen werden: "%s"."
 "Could not save file: %s.","Datei konnte nicht gespeichert werden: "%s"."
 "Declared adapter %s was not found.","Declared adapter %s was not found."
