@@ -45,7 +45,7 @@
 "All countries","Alle Länder"
 "Always optional.","Immer optional."
 "Amount","Betrag"
-"An error occurred while deleting the address.","Ein Fehler ist beim löschen der Adresse aufgetreten."
+"An error occurred while deleting the address.","Ein Fehler ist beim Löschen der Adresse aufgetreten."
 "An error occurred while retrieving the option value: %s.","An error occurred while retrieving the option value: %s."
 "An error occurred while saving the collection, aborting. Error: %s","An error occurred while saving the collection, aborting. Error: %s"
 "An invalid option ID is specified for %s (%s), skipping the record.","An invalid option ID is specified for %s (%s), skipping the record."
