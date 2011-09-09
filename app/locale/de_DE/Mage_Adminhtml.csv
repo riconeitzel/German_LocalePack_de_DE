@@ -1177,7 +1177,7 @@
 "Wrong quote item.","### Wrong quote item."
 "Wrong tab configuration.","Falsche Tab Konfiguration"
 "Wrong tag was specified.","Falsches Schlagwort spezifiziert."
-"Wrong transaction ID specified.","Falsche Transaktions-ID spezifiziert."
+"Wrong transaction ID specified.","Falsche Transaktionsnummer spezifiziert."
 "XML","### XML"
 "XML data is invalid.","XML Daten sind ungültig"
 "XML object is not instance of ""Varien_Simplexml_Element"".","###"
