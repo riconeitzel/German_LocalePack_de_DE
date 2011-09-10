@@ -110,6 +110,12 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Display product options in' WHERE
 UPDATE `eav_attribute` SET `frontend_label` = 'Is product available for purchase with Google Checkout' WHERE `eav_attribute`.`attribute_code` ='enable_googlecheckout';
 UPDATE `eav_attribute` SET `frontend_label` = 'Price View' WHERE `eav_attribute`.`attribute_code` ='price_view';
 
+-- since Magento 1.6.x
+UPDATE `eav_attribute` SET `frontend_label` = 'Country of Manufacture' WHERE `eav_attribute`.`attribute_code` ='country_of_manufacture';
+UPDATE `eav_attribute` SET `frontend_label` = 'Manufacturer''s Suggested Retail Price' WHERE `eav_attribute`.`attribute_code` ='msrp';
+UPDATE `eav_attribute` SET `frontend_label` = 'Display Actual Price' WHERE `eav_attribute`.`attribute_code` ='msrp_display_actual_price_type';
+UPDATE `eav_attribute` SET `frontend_label` = 'Apply MAP' WHERE `eav_attribute`.`attribute_code` ='msrp_enabled';
+
 /*
 UPDATE `eav_attribute` SET `frontend_label` = 'Base Image Label' WHERE `eav_attribute`.`attribute_code` ='image_label';
 UPDATE `eav_attribute` SET `frontend_label` = 'Short Image Label' WHERE `eav_attribute`.`attribute_code` ='small_image_label';

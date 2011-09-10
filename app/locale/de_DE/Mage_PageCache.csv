@@ -1,4 +1,4 @@
-"An error occurred while clearing the external full page cache.","An error occurred while clearing the external full page cache."
+"An error occurred while clearing the external full page cache.","### An error occurred while clearing the external full page cache."
 "Cookie Lifetime (seconds)","Cookie Lebenszeit in Sekunden"
 "Enable External Cache","Externen Cache aktivieren"
 "External Cache Control","Externe Cache Kontrolle"
@@ -8,4 +8,4 @@
 "Flush External Page Cache","Externen Seiten Cache leeren"
 "If empty, default value will be used.","Falls leer, wird Standardwert genutzt."
 "The external full page cache has been cleaned.","Der externe 'Full Page Cache' wurde geleert."
-"Zend Full Page Cache","Zend Full Page Cache"
+"Zend Full Page Cache","### Zend Full Page Cache"
