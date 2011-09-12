@@ -4,17 +4,17 @@ Dieses Git Repository kann genutzt werden für:
 - Reine Informationszwecke
 - Entwicklung aktueller Versionen
 - Behebung von Fehlern in bereits veröffentlichten Versionen
-- Alternative Downloads (unabhängig der offiziellen Quellen)
+- Alternative Downloads (unabhängig von den offiziellen Quellen)
 - Kopieren / Forken für eigene Zwecke*
 - Melden von Fehlern**
-- Aktives mitwirken am Sprachpaket***
+- Aktives Mitwirken am Sprachpaket***
 
 Infos dazu weiter unten.
 
 Orientierung:
 - Switch Branches = Wechsel des Bearbeitungsstandes.
 
-"master" ist die aktuell auch auf Magento-Connect veröffentlichte Stable Version vom Sprachpaket de_DE.
+"master" ist die aktuell auch auf Magento-Connect veröffentlichte Stable Version des Sprachpakets de_DE.
 "preview" hingegen entspricht der aktuellen Vorschau- und / Entwicklungsversion 
  - aktuell für Magento 1.6.x 
 
@@ -24,46 +24,47 @@ Orientierung:
 
 - Kopieren / Forken für eigene Zwecke*
 
-Das Forken für eigene Releases, etwa zum Kreieren eigener Pakete wie z.B. Du Form, de_CH, de_AT, de_Plattdeutsch... ist sowhl erlaubt wie auch ausdrücklich erwünscht!!! 
+Das Forken für eigene Releases, etwa zum Kreieren eigener Pakete wie z.B. Du-Form, de_CH, de_AT, de_Plattdeutsch... ist sowohl erlaubt wie auch ausdrücklich erwünscht!!! 
 
-Man brauch dann nicht bei Null anfangen sondern hat als Basis das Repository vom aktiv gepflegten 
-de_DE Paket.
+Der große Vorteil: Man muss nicht bei Null anfangen sondern hat als Basis das Repository des aktiv gepflegten 
+de_DE Pakets.
  
-Bei dem de_CH Paket was aktuell der Schweizer Community Manager Nick Weiser bereit stellt, wird es auf diese Weise bereits genutzt. https://github.com/openstream/German_LocalePack_de_CH
+Das de_CH Paket, welches aktuell der Schweizer Community Manager Nick Weiser bereit stellt, 
+wird bereits auf diese Weise gepflect. https://github.com/openstream/German_LocalePack_de_CH
 
-Somit kann mit minimalem Aufwand ein Sprachpaket bereit gestellt werden was Landes- oder Zielgruppen 
+Somit kann mit minimalem Aufwand ein Sprachpaket bereit gestellt werden, das Landes- oder Zielgruppen 
 spezifische Übersetzungen beeinhaltet. 
 
 Releases für die Professional, Enterprise oder Go Version von Magento sind daher auch denkbar.
 
-Zum forken als eigenes GitHub Repository reicht oben einfach den entsprechenden Butten zu klicken. 
+Zum Forken als eigenes GitHub Repository reicht es, oben den entsprechenden Butten zu klicken. 
 (GitHub Account vorausgesetzt)
 
-Weitere Infos zum Versionskontrollsystem Git & anderen Techniken dieses oder andere public Repos 
-zu kopieren / klonen erfahren Sie unter: http://git-scm.com/
+Weitere Infos zum Versionskontrollsystem Git & anderen Techniken erfahren Sie unter: http://git-scm.com/
 
 -------------------------------------------------------------------------------------------------------
 
 - Melden von Fehlern**
 
-Wir freuen uns wenn dieses Repository dazu aktiv genutzt wird um Fehler zu melden & zu beheben. 
+Wir freuen uns wenn dieses Repository aktiv dazu genutzt wird, Fehler zu melden und zu beheben. 
 (GitHub Account vorausgesetzt)
 
 Oben dann einfach auf "Issues" klicken -> "New Issue" um ein Anliegen zu übermitteln. 
-Bestehende Anliegen hingegen können auch ohne GitHub Account eingesehen werden inklusive 
+Bestehende Anliegen hingegen können auch ohne GitHub Account eingesehen werden, inklusive 
 deren Bearbeitungsstand.
 
 Beachten Sie dazu bitte: 
 Wenn hier in den Versionen Veränderungen eingepflegt werden, dann entsprechen diese nicht mehr 
-den Stand auf Magento-Connect! Es ist nicht möglich dort veröffentlichte Releases nachträglich 
-zu bearbeiten - hier aber eben schon :-)
+dem Stand des Sprachpakets, welches Sie über Magento Connect installieren können.
+Es ist nicht möglich dort veröffentlichte Releases nachträglich zu bearbeiten - 
+hier aber eben schon :-)
 
 -------------------------------------------------------------------------------------------------------
 
-- Aktives mitwirken am Sprachpaket***
+- Aktives Mitwirken am Sprachpaket***
 
-Lust am Sprachpaket mitzuwirken & einen Github Account ? (kostenfreie Stufe reicht hierfür aus)
-Dann einfach kontaktieren und wir stimmen eine eventuelle Zusammenarbeit ab.
+Lust am Sprachpaket mitzuwirken & einen Github Account? (kostenfreie Stufe reicht hierfür aus)
+Dann einfach Daniel Sasse oder Rico Neitzel kontaktieren und wir stimmen eine eventuelle Zusammenarbeit ab.
 
 -------------------------------------------------------------------------------------------------------
 
