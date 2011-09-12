@@ -1,4 +1,4 @@
-" in rows: ","###  in rows: "
+" in rows: "," in Zeilen: "
 "-- Please Select --","-- Bitte wählen --"
 "Adapter must be an instance of Mage_ImportExport_Model_Import_Adapter_Abstract","### Adapter must be an instance of Mage_ImportExport_Model_Import_Adapter_Abstract"
 "Adapter type must be a non empty string","### Adapter type must be a non empty string"
