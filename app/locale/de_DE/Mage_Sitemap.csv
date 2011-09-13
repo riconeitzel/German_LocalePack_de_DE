@@ -39,7 +39,7 @@
 "The sitemap has been saved.","Die Sitemap wurde gespeichert."
 "This sitemap no longer exists.","Die Sitemap existiert nicht mehr."
 "Unable to find a sitemap to delete.","Es wurde keine Sitemap zum Löschen gefunden."
-"Unable to find a sitemap to generate.","### Unable to find a sitemap to generate."
+"Unable to find a sitemap to generate.","Es wurde keine Sitemap zum Erstellen gefunden."
 "Unable to generate the sitemap.","Fehler beim Anlegen der Sitemap."
 "Valid values range: from 0.0 to 1.0.","Gültige Werte: von 0.0 bis 1.0."
 "Weekly","Wöchentlich"
