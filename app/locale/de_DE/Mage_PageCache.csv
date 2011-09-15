@@ -1,5 +1,5 @@
 "An error occurred while clearing the external full page cache.","Ein Fehler ist beim leeren des externen Full Page Caches aufgetreten."
-"Cookie Lifetime (seconds)","Cookie Lebenszeit in Sekunden"
+"Cookie Lifetime (seconds)","Cookie Gültigkeit in Sekunden"
 "Enable External Cache","Externen Cache aktivieren"
 "External Cache Control","Externe Cache Kontrolle"
 "External Full Page Cache Settings","Einstellungen - Externer Full Page Cache"
