@@ -1,5 +1,5 @@
 "<a href=""%s"" target=""_blank"">Link</a>","<a href=""%s"" target=""_blank"">Link</a>"
-"An error occurred while opening file: ""%s"".","Fehler aufgetreten beim Öffnen der Datei: ""%s""."
+"An error occurred while opening file: ""%s"".","Fehler beim Öffnen der Datei aufgetreten: ""%s""."
 "Could not load file: ""%s"".","Datei konnte nicht geladen werden: ""%s""."
 "Could not save file: %s.","Datei konnte nicht gespeichert werden: ""%s""."
 "Declared adapter %s was not found.","Adapter %s nicht gefunden."
