@@ -33,7 +33,7 @@
 "Enable Digital Delivery","Digitale Zustellung aktivieren"
 "Enable Flat Rate","Festpreis aktivieren"
 "Enable Merchant Calculated","Kalkulation durch Shopbetreiber aktivieren"
-"Enable this if your checkout request is too big and being cut off.","Aktivieren Sie diese Option, wenn Ihre Anfrage zu lang und abgeschnitten wird."
+"Enable this if your checkout request is too big and being cut off.","Aktivieren Sie diese Option, wenn Ihre Anfrage zu lang ist und abgeschnitten wird."
 "Expiration: %s","Verfallsdatum: %s"
 "Financial: %s -> %s","Finanzen: %s -> %s"
 "Free Shipping","Versandkostenfrei"

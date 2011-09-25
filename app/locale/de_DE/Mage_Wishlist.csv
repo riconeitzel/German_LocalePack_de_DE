@@ -64,7 +64,7 @@
 "Please input a valid email address.","Bitte geben Sie eine gültige E-Mail-Adresse ein."
 "Please, enter your comments...","Bitte geben Sie Ihre Kommentare ein..."
 "Product","Artikel"
-"Product(s) %s have required options. Each of them can be added to cart separately only.","Artikel %s hat erforderliche Optionen. Jede davon kann nur einzeln dem Warenkorb hinzugefügt werden."
+"Product(s) %s have required options. Each of them can be added to cart separately only.","Artikel %s hat Pflicht-Optionen. Jede Option kann nur einzeln zum Warenkorb hinzugefügt werden."
 "RSS Feed","RSS-Feed"
 "RSS link to %s's wishlist","RSS-Link zu Wunschzettel von %s"
 "Remove Item","Artikel entfernen"
