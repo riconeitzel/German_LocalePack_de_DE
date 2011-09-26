@@ -11,7 +11,7 @@
 "DB","DB"
 "Database was successfuly backed up.","Datenbank wurde erfolgreich gesichert."
 "Download","Herunterladen"
-"Size, Bytes","Größe in Bytes"
+"Size, Bytes","Grösse in Bytes"
 "The file was compressed with Zlib, but this extension is not installed on server.","Die Datei ist in Zlib komprimiert. Diese Erweiterung ist jedoch auf dem Server nicht installiert."
 "Time","Zeit"
 "Type","Typ"

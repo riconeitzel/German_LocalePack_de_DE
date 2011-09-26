@@ -4,7 +4,7 @@ Snippet für eigene Attributübersetzungen:
 UPDATE `eav_attribute` SET `frontend_label` = 'MeinAttributLabel' WHERE `eav_attribute`.`attribute_code` ='attribut_code_aus_datenbank' && `entity_type_id`=1;
 
 Vorne das deutsche Label, hinten den original Attribut-Code - dann noch bei Bedarf die Attributart (Nummer hinten).
-Nur nötig wenn es einen Wert öfter gibt und er unterschiedlich heißen soll.
+Nur nötig wenn es einen Wert öfter gibt und er unterschiedlich heissen soll.
 
 
 

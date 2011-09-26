@@ -5,7 +5,7 @@ Snippet für eigene Attributübersetzungen:
 UPDATE `eav_attribute` SET `frontend_label` = 'MeinAttributLabel' WHERE `eav_attribute`.`attribute_code` ='attribut_code_aus_datenbank' && `entity_type_id`=1;
 
 Vorne das deutsche Label, hinten den original Attribut-Code - dann noch bei Bedarf die Attributart (Nummer hinten).
-Nur nötig wenn es einen Wert öfter gibt und er unterschiedlich heißen soll.
+Nur nötig wenn es einen Wert öfter gibt und er unterschiedlich heissen soll.
 
 Achtung! Wenn Sie eine Datenbank mit Prefixen nutzen, dann müssen Sie zwingend diese Datei anpassen.
 Ändern Sie (mit Suchen / Ersetzen Funktion Ihres Editors) wie folgt ab wenn das genutze Tabellenprefix z.B.
@@ -44,7 +44,7 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Geburtstag' WHERE `eav_attribute`
 UPDATE `eav_attribute` SET `frontend_label` = 'Standard Rechnungsanschrift' WHERE `eav_attribute`.`attribute_code` ='default_billing';
 UPDATE `eav_attribute` SET `frontend_label` = 'Standard Lieferanschrift' WHERE `eav_attribute`.`attribute_code` ='default_shipping';
 UPDATE `eav_attribute` SET `frontend_label` = 'Firma' WHERE `eav_attribute`.`attribute_code` ='company';
-UPDATE `eav_attribute` SET `frontend_label` = 'Straße' WHERE `eav_attribute`.`attribute_code` ='street';
+UPDATE `eav_attribute` SET `frontend_label` = 'Strasse' WHERE `eav_attribute`.`attribute_code` ='street';
 UPDATE `eav_attribute` SET `frontend_label` = 'Ort' WHERE `eav_attribute`.`attribute_code` ='city';
 -- bis Magento 1.4.0.1 "country"
 UPDATE `eav_attribute` SET `frontend_label` = 'Land' WHERE `eav_attribute`.`attribute_code` ='country';
@@ -137,9 +137,9 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Wiederkehrendes Zahlungsprofil' W
 -- Bonus (Artikel-Attribute aus Beispieldaten - entity_type_id 10)
 UPDATE `eav_attribute` SET `frontend_label` = 'Aktivierungs-Information' WHERE `eav_attribute`.`attribute_code` ='activation_information';
 UPDATE `eav_attribute` SET `frontend_label` = 'Anzahl Megapixel' WHERE `eav_attribute`.`attribute_code` ='megapixels';
-UPDATE `eav_attribute` SET `frontend_label` = 'Shirt Größe' WHERE `eav_attribute`.`attribute_code` ='shirt_size';
+UPDATE `eav_attribute` SET `frontend_label` = 'Shirt Grösse' WHERE `eav_attribute`.`attribute_code` ='shirt_size';
 UPDATE `eav_attribute` SET `frontend_label` = 'Maximale Auflösung' WHERE `eav_attribute`.`attribute_code` ='max_resolution';
-UPDATE `eav_attribute` SET `frontend_label` = 'Größe des Arbeitsspeichers' WHERE `eav_attribute`.`attribute_code` ='ram_size';
+UPDATE `eav_attribute` SET `frontend_label` = 'Grösse des Arbeitsspeichers' WHERE `eav_attribute`.`attribute_code` ='ram_size';
 UPDATE `eav_attribute` SET `frontend_label` = 'Schuh Art' WHERE `eav_attribute`.`attribute_code` ='shoe_type';
 UPDATE `eav_attribute` SET `frontend_label` = 'Dynamisches Kontrastverhältnis' WHERE `eav_attribute`.`attribute_code` ='contrast_ratio';
 UPDATE `eav_attribute` SET `frontend_label` = 'Antwortzeit' WHERE `eav_attribute`.`attribute_code` ='response_time';
@@ -152,9 +152,9 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Model / Ausführung' WHERE `eav_a
 UPDATE `eav_attribute` SET `frontend_label` = 'Prozessor' WHERE `eav_attribute`.`attribute_code` ='processor';
 UPDATE `eav_attribute` SET `frontend_label` = 'Speicher' WHERE `eav_attribute`.`attribute_code` ='memory';
 UPDATE `eav_attribute` SET `frontend_label` = 'Festplatte' WHERE `eav_attribute`.`attribute_code` ='hardrive';
-UPDATE `eav_attribute` SET `frontend_label` = 'Bildschirmgröße' WHERE `eav_attribute`.`attribute_code` ='screensize';
+UPDATE `eav_attribute` SET `frontend_label` = 'Bildschirmgrösse' WHERE `eav_attribute`.`attribute_code` ='screensize';
 UPDATE `eav_attribute` SET `frontend_label` = 'Geschlecht' WHERE `eav_attribute`.`attribute_code` ='gender';
-UPDATE `eav_attribute` SET `frontend_label` = 'Schuhgröße' WHERE `eav_attribute`.`attribute_code` ='shoe_size';
+UPDATE `eav_attribute` SET `frontend_label` = 'Schuhgrösse' WHERE `eav_attribute`.`attribute_code` ='shoe_size';
 UPDATE `eav_attribute` SET `frontend_label` = 'Hergestellungsland' WHERE `eav_attribute`.`attribute_code` ='country_orgin';
 UPDATE `eav_attribute` SET `frontend_label` = 'Raum' WHERE `eav_attribute`.`attribute_code` ='room';
 UPDATE `eav_attribute` SET `frontend_label` = 'fertigstellen' WHERE `eav_attribute`.`attribute_code` ='finish';
