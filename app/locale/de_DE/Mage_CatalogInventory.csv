@@ -28,7 +28,7 @@
 "Out of Stock","Nicht auf Lager"
 "Product Stock Options","Artikel Lagerbestand Optionen"
 "Qty Increments","Verpackungseinheiten"
-"Qty for Items' Status to Become Out of Stock","Menge, ab der ein Artikel den Status 'Nicht auf Lager' besitzt"
+"Qty for Item's Status to Become Out of Stock","Stückzahl für ""Nicht auf Lager""-Status"
 "Retrieve stock data","Lagerbestand abfragen"
 "Retrieve stock data by product ids","Lagerbestand nach Artikelnummer abfragen"
 "Rule price","Regelpreis"

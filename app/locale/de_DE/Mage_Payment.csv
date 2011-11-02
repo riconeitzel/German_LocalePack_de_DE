@@ -18,7 +18,8 @@
 "Cannot retrieve payment method instance.","Konnte Zahlart Instanz nicht abfragen."
 "Cannot retrieve the payment info model object.","Konnte Zahlungsinfo-Modelobjekt nicht abfragen."
 "Cannot retrieve the payment method model object.","Konnte Zahlart-Modelobjekt nicht abfragen.
-"Card Verification Number","Kartenprüfnummer"
+Card Verification Number"""
+"Card Verification Number","Kartenprüfennummer"
 "Centinel API URL","Centinel API URL"
 "Check / Money Order","Scheck / Zahlungsanweisung"
 "Credit Card Number","Kreditkartennummer"
@@ -88,8 +89,7 @@
 "Severe 3D Secure Card Validation","3D Secure Karten-Überprüfung"
 "Severe validation removes chargeback liability on merchant.","Scharfe Prüfung enthebt den Verkäufer vom Zahlungsausfall-Risiko."
 "Shipping Amount","Versand-Betrag"
-"Short description of the recurring payment. By default equals to the product name.",
-"Kurzbeschreibung der wiederkehrenden Zahlung. Entspricht standardmäßig dem Artikelnamen."
+"Short description of the recurring payment. By default equals to the product name.",""
 "Sort Order","Reihenfolge"
 "Start Date","Start Datum"
 "Start date has invalid format.","Start Datum hat ein ungültiges Format."
@@ -119,8 +119,7 @@
 "Unsupported currency code: %s.","Nicht unterstütztes Währungskürzel: %s."
 "Week","Woche"
 "What is this?","Was ist das?"
-"Whether to suspend the payment profile if the initial fee fails or add it to the outstanding balance.",
-"Soll die Zahlungsvereinbarung ausgesetzt werden, wenn die Einrichtungsgebühr nicht bezahlt wurde, oder sollen die ausstehenden Beträge aufsummiert werden."
+"Whether to suspend the payment profile if the initial fee fails or add it to the outstanding balance.",""
 "Wrong %s specified.","%s falsch."
 "Wrong or empty billing amount specified.","Falscher oder leerer Rechnungsbetrag angegeben."
 "Year","Jahr"

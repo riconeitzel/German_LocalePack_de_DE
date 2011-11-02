@@ -12,7 +12,7 @@
 "File ""%s"" does not exist.","Datei ""%s"" existiert nicht"
 "Found %d rows.","%d Zeilen gefunden."
 "Less than a minute","Weniger als eine Minute"
-"Loaded successfully: ""%s"".",Erfolgreich geladen: ""%s""."
+"Loaded successfully: ""%s"".","Erfolgreich geladen: """"%s""""."""
 "Memory Used: %s","Speicherverbrauch: %s"
 "Method ""%s"" not defined in adapter %s.","Methode ""%s"" Ist für Adapter %s nicht definiert."
 "Method ""%s"" was not defined in adapter %s.","Methode ""%s"" wurde im Adapter nicht definiert %s."
