@@ -806,8 +806,7 @@
 "Search Term","Suchbegriff"
 "Search Terms","Suchbegriffe"
 "Select","Wählen"
-"Select $0 Auth if your credit card processor supports $0 Auth capability and Reference Transactions, or if you are unsure what to select.  This setting provides the best experience for shoppers.",
-"Bitte wählen Sie $0 Auth, wenn Ihr Kreditkarten-Zahlungsanbieter $0 Auth Funktionen und Referenz-Transaktionen unterstützt oder falls Sie unsicher sind, welche Einstellung die richtige ist. Diese Option bietet Ihren Kunden den meisten Komfort."
+"Select $0 Auth if your credit card processor supports $0 Auth capability and Reference Transactions, or if you are unsure what to select.  This setting provides the best experience for shoppers.","Bitte wählen Sie $0 Auth, wenn Ihr Kreditkarten-Zahlungsanbieter $0 Auth Funktionen und Referenz-Transaktionen unterstützt oder falls Sie unsicher sind, welche Einstellung die richtige ist. Diese Option bietet Ihren Kunden den meisten Komfort."
 "Select $1 Auth if your credit card processor does not support $0 Auth, but does support Reference Transactions. This will provide a very good shopper experience, but might require you to pay a small additional authorization fee from your merchant account provider for any cart abandoned after payment details are entered.  If you select $0 Auth, but your credit card processor does not support $0 Auth, your transaction will run as a $1 Auth instead.","Bitte wählen Sie $1 Auth, wenn Ihr Kreditkarten-Zahlungsanbieter zwar Referenz-Transaktionen, nicht aber $0 Auth unterstützt. Diese Option bietet Ihren Kunden einen guten Komfort. Es ist jedoch möglich, dass Sie für jeden nach der Eingabe der Zahlungsinformationen nicht bestellten Warenkorb eine Gebühr an Ihren Anbieter bezahlen müssen. Wenn Sie $0 Auth wählen, Ihr Zahlungsanbieter dies aber nicht unterstützt, wird Ihre Transaktion stattdessen als $1 Auth durchgeführt."
 "Select All","Alle wählen"
 "Select Category","Kategorie auswählen"
