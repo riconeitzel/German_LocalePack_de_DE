@@ -10,6 +10,7 @@
 "By Percentage","Um einen Prozentsatz"
 "Cannot specify product identifier for the order item.","Produktbezeichner für den bestellten Artikel konnte nicht festgelegt werden."
 "Catalog Inventory","Lagerbestand"
+"Display Out of Stock Products","Nicht verfügbare Artikel im Frontend anzeigen"
 "Decrease Stock When Order is Placed","Lagerbestand nach erfolgreicher Bestellung verringern"
 "Enable Qty Increments","Verpackungseinheiten verwenden"
 "In Stock","Auf Lager"

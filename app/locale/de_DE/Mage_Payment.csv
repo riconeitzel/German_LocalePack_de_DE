@@ -17,8 +17,7 @@
 "Billing period unit is not defined or wrong.","Abrechnungs-Perioden Einheit ist nicht gesetzt oder falsch."
 "Cannot retrieve payment method instance.","Konnte Zahlart Instanz nicht abfragen."
 "Cannot retrieve the payment info model object.","Konnte Zahlungsinfo-Modelobjekt nicht abfragen."
-"Cannot retrieve the payment method model object.","Konnte Zahlart-Modelobjekt nicht abfragen.
-Card Verification Number"""
+"Cannot retrieve the payment method model object.","Konnte Zahlart-Modelobjekt nicht abfragen."
 "Card Verification Number","Kartenprüfennummer"
 "Centinel API URL","Centinel API URL"
 "Check / Money Order","Scheck / Zahlungsanweisung"
