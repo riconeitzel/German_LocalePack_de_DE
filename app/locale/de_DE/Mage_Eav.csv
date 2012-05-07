@@ -61,7 +61,8 @@
 "Entity is not initialized","Datensatz ist nicht initialisiert"
 "Entity object is undefined","Entitäten-Objekt ist nicht definiert"
 "Failed to load node %s from config","Knoten %s konnte nicht aus der Konfiguration geladen werden."
-"For internal use. Must be unique with no spaces. Maximum length of attribute code must be less then %s symbols","###"
+"For internal use. Must be unique with no spaces. Maximum length of attribute code must be less then %s symbols",
+"Zur internen Verwendung. Eindeutige Zeichenfolge ohne Leerzeicen. Maximal %s Zeichen Länge"
 "Form Element with the same attribute","Formular-Element mit dem selben Attribut"
 "Form Fieldset with the same code","Formular-Feldgruppe mit dem selben Code"
 "Form Type with the same code","Formular-Typ mit dem selben Code"
