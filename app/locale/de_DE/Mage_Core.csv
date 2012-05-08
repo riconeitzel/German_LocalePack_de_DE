@@ -102,7 +102,7 @@
 "Developer","Entwickleroptionen"
 "Developer Client Restrictions","Entwickler Clientbeschränkung"
 "Disable Email Communications","E-Mail-Funktionen abschalten"
-"Disable Modules Output","Modulausgaben deaktivieren"
+"Disable Modules Output","Modulausgaben verstecken (Achtung: Module werden immernoch ausgeführt!)"
 "Display Demo Store Notice","Demostore-Hinweis anzeigen"
 "Duplicate Of Template Name","Duplikat des Vorlagen-Namens"
 "Edit Design Change","Gestaltungsänderung bearbeiten"
