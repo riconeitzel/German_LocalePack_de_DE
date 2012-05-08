@@ -3,6 +3,7 @@
 "Client Session Timeout (sec.)","Client Session Zeitüberschreitung (Sek.)"
 "Default Response Charset","Standard-Schriftsatz für Antwort"
 "Email","eMail"
+"Enable WSDL Cache","WSDL Cache aktivieren"
 "General Settings","Allgemeine Einstellungen"
 "Invalid webservice adapter specified.","Ungültiger Webservice Adapter angegeben"
 "Invalid webservice handler specified.","Ungültiger Webservice Handler angegeben"

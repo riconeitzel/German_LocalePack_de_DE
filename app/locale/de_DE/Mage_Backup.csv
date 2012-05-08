@@ -1,6 +1,6 @@
 "Action","Aktion"
 "An error occurred while creating the backup.","Beim Anlegen der Sicherung ist ein Fehler aufgetreten."
-"An error occurred while writing to the backup file ""%s"".","Fehler beim Erstellen der Sicherungsdatei ""%s""."
+"An error occurred while writing to the backup file ""%s"".","Beim Erstellen der Sicherungsdatei ""%s"" ist ein Fehler aufgetreten."
 "Are you sure you want to delete the selected backup(s)?","Sind Sie sicher, dass Sie die ausgewählten Sicherungen löschen möchten?"
 "Backup Type","Art der Sicherung"
 "Backup file ""%s"" cannot be read from or written to.","Sicherungsdatei ""%s"" kann nicht gelesen oder geschrieben werden."
