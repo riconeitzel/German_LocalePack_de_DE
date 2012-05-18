@@ -10,17 +10,17 @@
  */
  -->
 <config>
-    <!--<tabs>
+	<tabs>
         <localepacks translate="label">
             <label>Locale Packs</label>
             <sort_order>150</sort_order>
         </localepacks>
-    </tabs>-->
+    </tabs>
     <sections>
 		<localepackde>
 			<label>Locale de_DE</label>
 			<class>localepackde</class>
-			<tab>general</tab>
+			<tab>localepacks</tab>
 			<sort_order>0</sort_order>
 			<show_in_default>1</show_in_default>
 			<show_in_website>0</show_in_website>
@@ -41,17 +41,17 @@
 						  <p>Für Interessierte steht ein <a href="https://github.com/dsdata/German_LocalePack_de_DE" target="_blank">GitHub Repository</a> zur Verfügung. Es ist für die folgenden Zwecke vorgesehen:</p>
 						  <ul>
 							<li>- Entwicklung aktueller Sprachpaket Versionen</li>
-							<li>- Fehler melden / Patches einsenden, auch gerne für bereits veröffentlichte Releases</li>
+							<li>- Fehler melden/Patches einsenden, auch gerne für bereits veröffentlichte Releases</li>
 							<li>- Alternative Downloads (unabhängig der offiziellen Quellen)</li>
-							<li>- Kopieren / Forken für eigene Zwecke</li>
-							<li>- Aktives mitwirken am Sprachpaket</li>
+							<li>- Kopieren/Forken für eigene Zwecke</li>
+							<li>- Aktives Mitwirken am Sprachpaket</li>
 							<li>- Vorschauversionen ansehen & testen</li>
 						  </ul>
 						  <br />
 						  <p>Beachten Sie für detailierte Inormationen die README Datei auf der GitHub Seite.</p>
 						  <p><b>Um Magento flächendeckend übersetzen zu können, beachten Sie bitte auch die Infos in den unteren Bereichen!</b></p>
 						  <p>&nbsp;</p>
-						  <p>powered by <a href="http://www.magentocommerce.com/magento-connect/developer/Rico+Neitzel" target="_blank">Rico Neitzel</a> & <a href="http://www.magentocommerce.com/boards/member/81115/" target="_blank">Daniel Sasse</a></p>
+						  <p>powered by <a href="http://buro71a.de/referenz/magento-deutsches-sprachpaket" target="_blank">Rico Neitzel</a> & <a href="http://www.magentocommerce.com/boards/member/81115/" target="_blank">Daniel Sasse</a></p>
 						  
 					]]></comment>
 				</maininfo>
@@ -65,20 +65,24 @@
 					<comment><![CDATA[
 						<p style="font-weight: bold;">Um die Übersetzung für den Magento Connect Manager zu installieren gehen Sie bitte wie folgt vor:</p>
 						
-						<ul>
-							<li>1. Begeben Sie sich in das Hauptverzeichnis Ihrer Magento Instanz</li>
-							<li>2. Im Unterverzeichnis /downloader den Ordner "template" umbenennen in "template_original"</li>
-							<li>3. Das Verzeichnis "template_de" bzw. ab Magento 1.5.x "template_de_1.5" bzw. ab Magento 1.7.x "template_de_1.7" wird umbenannt zu "template"</li>
-						</ul>
+						<ol>
+							<li>In Ihrem Magento-Hauptverzeichnis im Unterordner "/downloader" den Ordner "template" umbenennen in "template_original"</li>
+							<li>Das Verzeichnis 
+							<ul>
+								<li>"template_de" bzw. </li>
+								<li>ab Magento 1.5.x "template_de_1.5" bzw. </li>
+								<li>ab Magento 1.7.x "template_de_1.7"</li></ul>
+								umbenennen zu "template"</li>
+						</ol>
 						<p>Der Magento Connect Manager sollte jetzt auf deutsch umgestellt sein.</p>
 						<p>&nbsp;</p>
-						<p><span style="font-weight: bold; color:red;">Bitte beachten:</span> Wenn Magento aktualisiert wird, insbesondere "Mage_Downloader", dann werden die Einstellungen des Connect Managers überschrieben!<br />Gleiches gilt auch für den TinyMCE-Editor. Führen Sie in dem Fall ein Reinstall des Sprachpakets durch und machen die geschilderten Schritte noch einmal.</p>
+						<p><strong style="font-weight: bold; color:red;">Bitte beachten:</strong> Wenn Magento aktualisiert wird, insbesondere das Modul "Mage_Downloader", werden die Einstellungen des Connect Managers überschrieben!<br />Gleiches gilt auch für den TinyMCE-Editor. Führen Sie in dem Fall ein "Reinstall" des Sprachpakets durch und wiederholen die geschilderten Schritte.</p>
 					
 					]]></comment>
                 </mcm>	
                 
                 <attributes translate="label">
-                    <label>Magento Standard-Attribute übersetzen</label>
+                    <label>Magento Artikel-Attribute übersetzen</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>30</sort_order>
                     <show_in_default>1</show_in_default>
@@ -87,16 +91,17 @@
 					<comment><![CDATA[
 						<p style="font-weight: bold;">Viele Magento Attribute können mit den Sprachdateien alleine nicht übersetzt werden!<br />Um diese Attribute (vor allem im Backend) übersetzen zu können, gehen Sie bitte wie folgt vor:</p>
 
-						<p>Unter app/locale/de_DE befindet sich ein neuer Ordner "sql_translation", in diesem 2 Dateien "attributes.sql" & "attributes_default"</p>
+						<p>Unter app/locale/de_DE befindet sich ein neuer Ordner "sql_translation". In diesem finden Sie 2 Dateien: "attributes.sql" und "attributes_default.sql"</p>
 						
 						<p><b>Installation</b></p>
-						<p>Die Datei "attributes.sql" ist dafür da, direkt in die Magento-Datenbank importiert zu werden.<br />Alternativ dazu kann man aber auch den kompletten Inhalt der Datei kopieren und als SQL-Statement direkt in der Datenbank ausführen.</p>
+						<p>
+							Die Datei "attributes.sql" muss direkt in die bestehende Magento-Datenbank importiert werden.<br />
+							Sie können den Inhalt dieser Datei auch direkt in einem SQL-Programm ausführen lassen.</p>
 						
 						<p><b>Wichtig - bei Verwendung von Datenbank Prefixen</b></p>
-						<p>Wenn jemand eine Datenbank einsetzt die Prefixe benutzt, dann bitte wie in der Datei "app/locale/de_DE/sql_translation/attributes.sql" beschrieben verfahren!</p>
-						<p>Die SQL Datei und deren Inhalt können selbstverständlich nur die reinen Magento Tabellennamen in der Datenbank berücksichtigen.</p>
+						<p>Wenn Sie für Ihre Magento-Instanz Prefixe verwenden, bitte wie in der Datei "app/locale/de_DE/sql_translation/attributes.sql" beschrieben verfahren!</p>
 						<p>&nbsp</p>
-						<p><span style="color:red; font-weight: bold;">Hinweis:</span> Mit der Datei "attributes_default.sql" kann man die Veränderung bei Bedarf wieder auf den en_US Standard Wert zurücksetzen.</p>
+						<p><strong style="color:red; font-weight: bold;">Bitte beachten:</strong> Um die Übersetzung der Attributnamen bei Bedarf wieder auf den ursprünglichen en_US Standardwert zurücksetzen, verfahren Sie wie in den oben genannten Schritten. Verwenden Sie jedoch stattdessen bitte die Datei "attributes_default.sql".</p>
 
 					]]></comment>
 					<!--coming soon!-->
@@ -113,33 +118,6 @@
                 	</fields>-->
                 </attributes>	
 
-				<!--<tinymce_editor translate="label">
-                    <label>TinyMCE Backend-Editor übersetzen</label>
-                    <frontend_type>text</frontend_type>
-                    <sort_order>40</sort_order>
-                    <show_in_default>1</show_in_default>
-                    <show_in_website>0</show_in_website>
-                    <show_in_store>0</show_in_store>
-					<comment><![CDATA[
-						<p style="font-weight: bold;">Standardmäßig wird mit Magento nur eine englische Version des <a href="http://www.tinymce.com/" target="_blank">TinyMCE</a> Editors ausgeliefert.<br />Es ist aber nach Installation des de_DE Sprachpakets möglich diesen auf deutsch umzustellen.</p>  
-						<p>Um für Backend Administratoren, Redakteure & Anwender eine recht stabile Übersetzung für die Arbeit mit CMS-Seiten, Statischen Blöcken, Artikelbeschreibungen, Widgets & Variablen für den Editor realisieren zu können, werden die von der TynyMCE Community bereit gestellten Sprachdateien mit ausgeliefert.</p>
-						<p>Damit Sie nun nicht jede einzelne Sprachdatei in jedes PlugInn Verzeichnis vom TinyMCE Editor kopieren müssen, verfahren Sie am besten wie folgt:</br>
-						- /js/tinymce - umbenennen in "tinymce_original"<br />- /js/tinymce_german - umbenennen in "tynymce" (ab jetzt sollte Ihr Editor auf deutsch bereit stehen)</p>
-						<p>Wenn Sie nun noch die Buttons für das Einfügen von Variablen bzw. Widgets auf deutsch haben wollen, ist noch nötig 4 Datein umzubenennen:</p>
-						<ul>
-						<li><b>Button - Variable Einfügen</b></li>
-						<li>- /js/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentovariable/editor_plugin.js - umbenennen zu "editor_plugin_original.js"</li>
-						<li>Im gleichen Verzeichnis "editor_plugin_de.js" - umbenennen zu "editor_plugin.js"</li>
-						<li><b>Button - Widget Einfügen</b></li>
-						<li>- /js/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentowidget/editor_plugin.js - umbenennen zu "editor_plugin_original.js"</li>
-						<li>Im gleichen Verzeichnis "editor_plugin_de.js" - umbenennen zu "editor_plugin.js"</li>
-						</ul>
-						<p>Beide Buttons sollten nun auch beim drüber fahren mit der Maus auf deutsch angezeigt werden - wenn nicht dann Caches löschen / aktualsieren!</p>
-						<p>&nbsp</p>
-						<p><span style="font-weight: bold; color:red;">Bitte beachten:</span> Wenn Sie Magento aktualisieren, insbesondere "Lib_Js_TinyMCE", dann werden die Einstellungen des Editors überschrieben!<br />Gleiches gilt auch für den Connect-Manager. Führen Sie in dem Fall ein Reinstall des Sprachpakets durch und machen die geschilderten Schritte noch einmal.</p>
-					]]></comment>
-                </tinymce_editor>	-->
-				
 				<!--
 				<tinymce_language translate="label">
                     <label>TinyMCE Editor Sprache</label>
@@ -163,13 +141,13 @@
 				-->
 				
 				<tinymce_languageinfo translate="label">
-                    <label>Caution! TinyMCE Editor Language Config</label>
+                    <label>TinyMCE Editor Language Configuration</label>
                     <sort_order>40</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
                     <comment><![CDATA[
-						<p>Info, comment Layout Updates in file app/design/frontend/default/default/layout/localepackde.xml... or delete that file...</p>
+						<p>After installing the german locale package TinyMCE Editor in your has been translated too. If you only want to use the locale for your frontend you can deactivate the TinyMCE part by commenting everything in the corresponding file "app/design/frontend/default/default/layout/localepackde.xml". You can also simply delete that file.</p>
 					]]></comment>
                 </tinymce_languageinfo> 
 
@@ -181,36 +159,37 @@
                     <show_in_website>0</show_in_website>
                     <show_in_store>0</show_in_store>
 					<comment><![CDATA[
-						<p style="font-weight: bold;">Es ist möglich eigene vom Standard abweichende Übersetzungen einzusetzen. Beachten Sie die folgenden Punkte / Tipps zum Thema:</p>
+						<p style="font-weight: bold;">Es ist möglich eigene vom Standard abweichende Übersetzungen einzusetzen. Beachten Sie die folgenden Punkte/Tipps:</p>
 						<br />
 						<p><b>Nutzen der Inline-Übersetzung</b></p>
-						<ul>
-							<li>1. System->Cache-Verwaltung, sicherstellen das mindestens der Übersetzungscache deaktiviert ist - besser alle!</li>
-							<li>2. System->Konfiguration->ERWEITERT->Entwickleroptionen->Inline übersetzen</li>
-							<li>3. Je nach Auswahl werden nun im Front oder Backend an übersetzbaren Textbereichen kleine Bücher angezeigt,<br />nach einem Klick darauf öffnet sich dann ein Dialog indem man wahlweise global oder nur für die aktuelle StoreView<br >eigene Übersetzungen abspeichern kann.</li>
-						</ul><br />
-						<p>Die Übersetzungen werden dabei in der Datenbank Tabelle "core_translate" abgespeichert und nicht in einer Datei.</p>
-						<p>So lange sich der entsprechende String an sich nicht ändert, zum Beispiel "Price" würde zu "price" hat man mit diesem<br />Verfahren eine recht updatesichere Möglichkeit eigene Übersetzungen einzupflegen.</p>
-						<p>Selbst wenn sich ein solcher Sprachstring jetzt mal ändert und eine Übersetzung für einen String nicht mehr korrekt greift, <br />die eigenen Übersetzungen werden nicht von Magento gelöscht aus der Tabelle "core_translate". <br />Sie können also exportiert & weiter verarbeitet und verwendet werden.</p>
+						<ol>
+							<li>Unter "System" -> "Cache-Verwaltung" sicherstellen, dass der Übersetzungscache, besser noch alle Caches, deaktiviert sind</li>
+							<li>Unter "System" -> "Konfiguration" -> "Entwickleroptionen" -> "Inline übersetzen" aktivieren</li>
+							<li>Je nach Auswahl werden nun im Front oder Backend an übersetzbaren Textbereichen beim Überfahren mit der Maus kleine Buch-Icons angezeigt,<br />
+								nach einem Klick auf dieses Buch öffnet sich ein Dialog, in dem man wahlweise global oder nur für den aktuellen StoreView<br >eigene Übersetzungen hinterlegen kann.</li>
+						</ol><br />
+						<p>Die Übersetzungen werden dabei in der Datenbank Tabelle "core_translate" abgespeichert, nicht in einer Datei.</p>
+						<p>So lange sich der entsprechende Text im Original nicht ändert, hat man mit diesem<br />Verfahren eine Update-sichere Möglichkeit eigene Übersetzungen einzupflegen.</p>
+						<p>Sollte sich eine Zeichenfolge in einer neuen Magento Version ändern, können Sie die nicht mehr passende Übersetzung in der Tabelle "core_translate" suchen und entsprechend anpassen. Diese Tabelle kann ebenso exportiert, bearbeitet und wieder importiert werden.</p>
 					    <br />
-						</hr>
+						<hr />
 						<p><b>Übersetzungen auf Dateiebene</b></p>
-						<p>Wenn die CSV Dateien die mit dem Sprachpaket de_DE ausgeliefert werden händisch angepasst werden,<br />dann gehen die gemachten Veränderungen beim nächsten Update des Sprachpakets verloren!</p>
-					    <p>Wir raten daher vor dieser Methode ab!!!</p> 
+						<p>Wenn die CSV Dateien, die mit dem Sprachpaket de_DE ausgeliefert werden, händisch angepasst werden,<br />gehen die vorgenommenen Änderungen beim nächsten Update des Sprachpakets verloren!</p>
+					    <p>Wir raten daher vor dieser Methode ab!</p> 
 						<br />
 						<p><i>Welche CSV Dateien sollten nach Möglichkeit nicht angepasst werden?</i></p>
-						<ul>
-							<li>1. /app/locale/de_DE...</li>
-							<li>2. /app/design/frontend/default/default/locale/de_DE/translate.csv</li>
-							<li>3. /app/design/adminhtml/default/default/locale/de_DE/translate.csv</li>
-						</ul><br />
-						<p>Wenn Sie trotzdem eigene Übersetzungen per CSV Dateien nutzen möchten:</p>
-						<ul>
-							<li>1. Anlage eines eigenen Themes samt Übersetzungsdatei "/app/design/frontend/default/mein_theme/locale/de_DE/translate.csv"</li>
-							<li>2. Im Magento Backend bestimmen das diese Übersetzung verwendet werden soll: System->Konfiguration->ALLGEMEIN->Gestaltung->Themes->Übersetzungen "mein_theme" eintragen.</li>
-						</ul>
-						<br/>
-						<p><b>Wichtig:</b> Der eingesetzte Editor sollte die CSV Datei mit der Zeichenkodierung UTF-8 (ohne BOM) speichern können!</p>
+						<ol>
+							<li>/app/locale/de_DE</li>
+							<li>/app/design/frontend/default/default/locale/de_DE/translate.csv</li>
+							<li>/app/design/adminhtml/default/default/locale/de_DE/translate.csv</li>
+						</ol><br />
+						<p>Sollten Sie trotzdem eigene Übersetzungen per CSV Dateien nutzen wollen:</p>
+						<ol>
+							<li>Legen Sie ein eigenen Themes mit der Übersetzungsdatei "/app/design/frontend/default/mein_theme/locale/de_DE/translate.csv" an.</li>
+							<li>Konfigurieren Sie Magento, dass dieses Theme für Übersetzungen verwendet werden soll: "System" -> "Konfiguration" -> "Gestaltung" -> "Themes" -> "Übersetzungen" dort den Ordnernamen Ihres Themes (z. B. "mein_theme") eintragen.</li>
+						</ol>
+						<br />
+						<p><strong style="color:red">Bitte beachten:</strong> Der für die CSV-Datei verwendete Editor sollte die Datei als UTF-8 ohne BOM speichern können!</p>
 					]]></comment>
                 </tipps_translation>	
 				
@@ -222,20 +201,32 @@
                     <show_in_website>0</show_in_website>
                     <show_in_store>0</show_in_store>
 					<comment><![CDATA[
-						<p style="font-weight: bold;">Das installierte Sprachpaket deckt lediglich einen gewissen Teil ab f&uuml;r Deutsche Shopbetreiber. Wenn Sie Ihren Magento Shop auf marktbedingte Dinge von rechtlicher Seite oder um verbreitete Bezahlmethoden erweitern m&ouml;chten, dann empfehlen wir Ihnen zus&auml;tzlich noch folgende Extensions zu installieren.<hr />
-						<br /><b>Spezifische Marktanpassung f&uuml;r Deutsche Shops</b><br />
-						<br /><span style="color:red;"><b>Firegento German Setup</b></span> - Anpassungen f&uuml;r den Deutschen Markt<br />- Details auf der Extension Seite auf Magento Connect<br /><br />Erweiterung auf Magento Connect: <a href="http://www.magentocommerce.com/magento-connect/german-setup-6623.html" target="_blank">http://www.magentocommerce.com/magento-connect/german-setup-6623.html</a>
-						<br />Extension Key für den Connect Manager: <span style="color:blue;">http://connect20.magentocommerce.com/community/FireGento_GermanSetup</span></p>
-						<hr />
-						<p>
-						<br /><b>Verbreitete Zahlmethoden</b><br />
-						<br /><span style="color:red;"><b>Bankeinzug/Lastschrift</b></span><br />- Details auf der Extension Seite auf Magento Connect<br /><br />Erweiterung auf Magento Connect: <a href="http://www.magentocommerce.com/extension/676/" target="_blank">http://www.magentocommerce.com/extension/676/</a>
-						<br />Extension Key für den Connect Manager: <span style="color:blue;">http://connect20.magentocommerce.com/community/DebitPayment</span>
-						<br /><br /><span style="color:red;"><b>Nachnahme</b></span><br />- Details auf der Extension Seite auf Magento Connect<br /><br />Erweiterung auf Magento Connect: <a href="http://www.magentocommerce.com/extension/454/" target="_blank">http://www.magentocommerce.com/extension/454/</a>
-						<br />Extension Key für den Connect Manager: <span style="color:blue;">http://connect20.magentocommerce.com/community/CashOnDelivery</span>
-						<br /><br /><span style="color:red;"><b>Vorkasse</b></span><br />- Details auf der Extension Seite auf Magento Connect<br /><br />Erweiterung auf Magento Connect: <a href="http://www.magentocommerce.com/extension/304/" target="_blank">http://www.magentocommerce.com/extension/304/</a>
-						<br />Extension Key für den Connect Manager: <span style="color:blue;">http://connect20.magentocommerce.com/community/BankPayment</span>
-						</p>
+						<p style="font-weight: bold;">Das installierte Sprachpaket liefert lediglich Übersetzungen der in Magento vorhandenen Texte. Wenn Sie Ihren Magento Shop auf die rechtlichen Anforderungen in Deutschland vorbereiten oder um verbreitete Zahlarten erweitern m&ouml;chten, dann empfehlen wir Ihnen zus&auml;tzlich folgende Extensions zu installieren.<hr />
+						
+						<h4>Spezifische Marktanpassung f&uuml;r Deutsche Shops</h4>
+						<dl><dt><span style="color:red;"><b>Firegento German Setup</b></span></dt>
+						<dd>Anpassungen f&uuml;r den Deutschen Markt<br />- Details auf der Extension Seite auf Magento Connect<br /><br />Erweiterung auf Magento Connect: <a href="http://www.magentocommerce.com/magento-connect/german-setup-6623.html" target="_blank">http://www.magentocommerce.com/magento-connect/german-setup-6623.html</a>
+						<br />Extension Key für den Connect Manager: <span style="color:blue;">http://connect20.magentocommerce.com/community/FireGento_GermanSetup</span></dd></dl>
+
+						<h4>Verbreitete Zahlmethoden</h4>
+						<dl>
+							<dt><span style="color:red;"><b>Bankeinzug/Lastschrift</b></span></dt>
+							<dd>
+								Erweiterung auf Magento Connect: <a href="http://www.magentocommerce.com/extension/676/" target="_blank">http://www.magentocommerce.com/extension/676/</a><br />
+								Extension Key für den Connect Manager: <span style="color:#EA7601; font-style:italic">http://connect20.magentocommerce.com/community/DebitPayment</span>
+							</dd>
+							
+							<dt><span style="color:red;"><b>Nachnahme</b></span></dt>
+							<dd>
+								Erweiterung auf Magento Connect: <a href="http://www.magentocommerce.com/extension/454/" target="_blank">http://www.magentocommerce.com/extension/454/</a><br />
+								Extension Key für den Connect Manager: <span style="color:#EA7601; font-style:italic">http://connect20.magentocommerce.com/community/CashOnDelivery</span></dd>
+							
+							<dt><span style="color:red;"><b>Vorkasse</b></span></dt>
+							<dd>
+								Erweiterung auf Magento Connect: <a href="http://www.magentocommerce.com/extension/304/" target="_blank">http://www.magentocommerce.com/extension/304/</a><br />
+								Extension Key für den Connect Manager: <span style="color:#EA7601; font-style:italic">http://connect20.magentocommerce.com/community/BankPayment</span>
+							</dd>
+						</dl>
 					]]></comment>
                 </additional_extensions>
 			</groups>
