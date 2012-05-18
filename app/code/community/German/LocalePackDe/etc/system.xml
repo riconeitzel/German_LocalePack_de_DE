@@ -92,7 +92,7 @@
 
 						<p>Unter app/locale/de_DE befindet sich ein neuer Ordner "sql_translation". In diesem finden Sie 2 Dateien: "attributes.sql" und "attributes_default.sql"</p>
 						
-						<p><b>Installation</b></p>
+						<h3 style="margin-top:20px; margin-bottom:10xp;">Installation</h3>
 						<p>
 							Die Datei "attributes.sql" muss direkt in die bestehende Magento-Datenbank importiert werden.<br />
 							Sie können den Inhalt dieser Datei auch direkt in einem SQL-Programm ausführen lassen.</p>
@@ -159,8 +159,7 @@
                     <show_in_store>0</show_in_store>
 					<comment><![CDATA[
 						<p style="font-weight: bold;">Es ist möglich eigene vom Standard abweichende Übersetzungen einzusetzen. Beachten Sie die folgenden Punkte/Tipps:</p>
-						<br />
-						<p><b>Nutzen der Inline-Übersetzung</b></p>
+						<h3 style="margin-top:20px; margin-bottom:10xp;">Nutzen der Inline-Übersetzung</h3>
 						<ol style="list-style-position: outside; list-style-type: decimal; margin-left:18px;">
 							<li>Unter "System" -> "Cache-Verwaltung" sicherstellen, dass der Übersetzungscache, besser noch alle Caches, deaktiviert sind</li>
 							<li>Unter "System" -> "Konfiguration" -> "Entwickleroptionen" -> "Inline übersetzen" aktivieren</li>
@@ -170,9 +169,8 @@
 						<p>Die Übersetzungen werden dabei in der Datenbank Tabelle "core_translate" abgespeichert, nicht in einer Datei.</p>
 						<p>So lange sich der entsprechende Text im Original nicht ändert, hat man mit diesem<br />Verfahren eine Update-sichere Möglichkeit eigene Übersetzungen einzupflegen.</p>
 						<p>Sollte sich eine Zeichenfolge in einer neuen Magento Version ändern, können Sie die nicht mehr passende Übersetzung in der Tabelle "core_translate" suchen und entsprechend anpassen. Diese Tabelle kann ebenso exportiert, bearbeitet und wieder importiert werden.</p>
-					    <br />
-						<hr />
-						<p><b>Übersetzungen auf Dateiebene</b></p>
+						<hr style="margin-top:15px; margin-bottom:5px;" />
+						<h3 style="margin-top:20px; margin-bottom:10xp;">Übersetzungen auf Dateiebene</h3>
 						<p>Wenn die CSV Dateien, die mit dem Sprachpaket de_DE ausgeliefert werden, händisch angepasst werden,<br />gehen die vorgenommenen Änderungen beim nächsten Update des Sprachpakets verloren!</p>
 					    <p>Wir raten daher vor dieser Methode ab!</p> 
 						<br />
@@ -202,15 +200,15 @@
 					<comment><![CDATA[
 						<p>Das installierte Sprachpaket liefert lediglich Übersetzungen der in Magento vorhandenen Texte. Wenn Sie Ihren Magento Shop auf die rechtlichen Anforderungen in Deutschland vorbereiten oder um verbreitete Zahlarten erweitern m&ouml;chten, dann empfehlen wir Ihnen zus&auml;tzlich folgende Extensions zu installieren.</p>
 						
-						<hr />
+						<hr style="margin-top:15px; margin-bottom:5px;" />
 						
-						<h4>Spezifische Marktanpassung f&uuml;r Deutsche Shops</h4>
+						<h3 style="margin-top:20px; margin-bottom:10xp;">Spezifische Marktanpassung f&uuml;r Deutsche Shops</h3>
 						<dl>
 							<dt><b>Firegento: German Setup</b> - <a href="http://www.magentocommerce.com/magento-connect/german-setup-6623.html" target="_blank">German Setup auf Magento Connect</a></dt>
-							<dd>Extension Key für den Connect Manager: <span style="color:blue;">http://connect20.magentocommerce.com/community/FireGento_GermanSetup</span></dd>
+							<dd>Extension Key für den Connect Manager: <span style="color:#EA7601;">http://connect20.magentocommerce.com/community/FireGento_GermanSetup</span></dd>
 						</dl>
 
-						<h4>Verbreitete Zahlmethoden</h4>
+						<h3 style="margin-top:20px; margin-bottom:10xp;">Verbreitete Zahlmethoden</h3>
 						<dl>
 							<dt><b>Bankeinzug/Lastschrift</b> - <a href="http://www.magentocommerce.com/extension/676/" target="_blank">DebitPayment auf Magento Connect</a></dt>
 							<dd>Extension Key für den Connect Manager: <span style="color:#EA7601; font-style:italic">http://connect20.magentocommerce.com/community/DebitPayment</span></dd>
