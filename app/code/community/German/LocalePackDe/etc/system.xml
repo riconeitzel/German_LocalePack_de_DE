@@ -11,22 +11,21 @@
  -->
 <config>
 	<tabs>
-        <localepacks translate="label">
+        <localepacks translate="label" module="localepackde">
             <label>Locale Packs</label>
             <sort_order>150</sort_order>
         </localepacks>
     </tabs>
     <sections>
-		<localepackde>
+		<localepackde module="localepackde">
 			<label>Locale de_DE</label>
-			<class>localepackde</class>
 			<tab>localepacks</tab>
-			<sort_order>0</sort_order>
+			<sort_order>100</sort_order>
 			<show_in_default>1</show_in_default>
 			<show_in_website>0</show_in_website>
 			<show_in_store>0</show_in_store>
 			<groups>
-				<maininfo translate="label">
+				<maininfo translate="label" module="localepackde">
                     <label>Deutsches Sprachpaket de_DE - Community Edition (CE)</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>10</sort_order>
@@ -55,7 +54,7 @@
 						  
 					]]></comment>
 				</maininfo>
-				<mcm translate="label">
+				<mcm translate="label" module="localepackde">
                     <label>Magento Connect Manager übersetzen</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>20</sort_order>
@@ -65,10 +64,10 @@
 					<comment><![CDATA[
 						<p style="font-weight: bold;">Um die Übersetzung für den Magento Connect Manager zu installieren gehen Sie bitte wie folgt vor:</p>
 						
-						<ol>
+						<ol style="list-style-position: outside; list-style-type: decimal; margin-left:18px;">
 							<li>In Ihrem Magento-Hauptverzeichnis im Unterordner "/downloader" den Ordner "template" umbenennen in "template_original"</li>
 							<li>Das Verzeichnis 
-							<ul>
+							<ul style="list-style-position: outside; list-style-type: disc; margin-left:18px;">
 								<li>"template_de" bzw. </li>
 								<li>ab Magento 1.5.x "template_de_1.5" bzw. </li>
 								<li>ab Magento 1.7.x "template_de_1.7"</li></ul>
@@ -81,7 +80,7 @@
 					]]></comment>
                 </mcm>	
                 
-                <attributes translate="label">
+                <attributes translate="label" module="localepackde">
                     <label>Magento Artikel-Attribute übersetzen</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>30</sort_order>
@@ -119,7 +118,7 @@
                 </attributes>	
 
 				<!--
-				<tinymce_language translate="label">
+				<tinymce_language translate="label" module="localepackde">
                     <label>TinyMCE Editor Sprache</label>
                     <sort_order>70</sort_order>
                     <show_in_default>1</show_in_default>
@@ -140,18 +139,18 @@
                 </tinymce_language> 
 				-->
 				
-				<tinymce_languageinfo translate="label">
+				<tinymce_languageinfo translate="label" module="localepackde">
                     <label>TinyMCE Editor Language Configuration</label>
                     <sort_order>40</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
                     <comment><![CDATA[
-						<p>After installing the german locale package TinyMCE Editor in your has been translated too. If you only want to use the locale for your frontend you can deactivate the TinyMCE part by commenting everything in the corresponding file "app/design/frontend/default/default/layout/localepackde.xml". You can also simply delete that file.</p>
+						<p>After installing the german locale package TinyMCE Editor in your installation has been translated too. If you only want to use the locale for your frontend you can deactivate the TinyMCE part by commenting everything in the corresponding file "app/design/frontend/default/default/layout/localepackde.xml". You can also simply delete that file.</p>
 					]]></comment>
                 </tinymce_languageinfo> 
 
-				<tipps_translation translate="label">
+				<tipps_translation translate="label" module="localepackde">
                     <label>Eigene Übersetzungen nutzen</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>50</sort_order>
@@ -162,7 +161,7 @@
 						<p style="font-weight: bold;">Es ist möglich eigene vom Standard abweichende Übersetzungen einzusetzen. Beachten Sie die folgenden Punkte/Tipps:</p>
 						<br />
 						<p><b>Nutzen der Inline-Übersetzung</b></p>
-						<ol>
+						<ol style="list-style-position: outside; list-style-type: decimal; margin-left:18px;">
 							<li>Unter "System" -> "Cache-Verwaltung" sicherstellen, dass der Übersetzungscache, besser noch alle Caches, deaktiviert sind</li>
 							<li>Unter "System" -> "Konfiguration" -> "Entwickleroptionen" -> "Inline übersetzen" aktivieren</li>
 							<li>Je nach Auswahl werden nun im Front oder Backend an übersetzbaren Textbereichen beim Überfahren mit der Maus kleine Buch-Icons angezeigt,<br />
@@ -178,7 +177,7 @@
 					    <p>Wir raten daher vor dieser Methode ab!</p> 
 						<br />
 						<p><i>Welche CSV Dateien sollten nach Möglichkeit nicht angepasst werden?</i></p>
-						<ol>
+						<ol style="list-style-position: outside; list-style-type: decimal; margin-left:18px;">
 							<li>/app/locale/de_DE</li>
 							<li>/app/design/frontend/default/default/locale/de_DE/translate.csv</li>
 							<li>/app/design/adminhtml/default/default/locale/de_DE/translate.csv</li>
@@ -193,7 +192,7 @@
 					]]></comment>
                 </tipps_translation>	
 				
-				<additional_extensions translate="label">
+				<additional_extensions translate="label" module="localepackde">
                     <label>Empfohlene Extensions</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>60</sort_order>
@@ -201,31 +200,26 @@
                     <show_in_website>0</show_in_website>
                     <show_in_store>0</show_in_store>
 					<comment><![CDATA[
-						<p style="font-weight: bold;">Das installierte Sprachpaket liefert lediglich Übersetzungen der in Magento vorhandenen Texte. Wenn Sie Ihren Magento Shop auf die rechtlichen Anforderungen in Deutschland vorbereiten oder um verbreitete Zahlarten erweitern m&ouml;chten, dann empfehlen wir Ihnen zus&auml;tzlich folgende Extensions zu installieren.<hr />
+						<p>Das installierte Sprachpaket liefert lediglich Übersetzungen der in Magento vorhandenen Texte. Wenn Sie Ihren Magento Shop auf die rechtlichen Anforderungen in Deutschland vorbereiten oder um verbreitete Zahlarten erweitern m&ouml;chten, dann empfehlen wir Ihnen zus&auml;tzlich folgende Extensions zu installieren.</p>
+						
+						<hr />
 						
 						<h4>Spezifische Marktanpassung f&uuml;r Deutsche Shops</h4>
-						<dl><dt><span style="color:red;"><b>Firegento German Setup</b></span></dt>
-						<dd>Anpassungen f&uuml;r den Deutschen Markt<br />- Details auf der Extension Seite auf Magento Connect<br /><br />Erweiterung auf Magento Connect: <a href="http://www.magentocommerce.com/magento-connect/german-setup-6623.html" target="_blank">http://www.magentocommerce.com/magento-connect/german-setup-6623.html</a>
-						<br />Extension Key für den Connect Manager: <span style="color:blue;">http://connect20.magentocommerce.com/community/FireGento_GermanSetup</span></dd></dl>
+						<dl>
+							<dt><b>Firegento: German Setup</b> - <a href="http://www.magentocommerce.com/magento-connect/german-setup-6623.html" target="_blank">German Setup auf Magento Connect</a></dt>
+							<dd>Extension Key für den Connect Manager: <span style="color:blue;">http://connect20.magentocommerce.com/community/FireGento_GermanSetup</span></dd>
+						</dl>
 
 						<h4>Verbreitete Zahlmethoden</h4>
 						<dl>
-							<dt><span style="color:red;"><b>Bankeinzug/Lastschrift</b></span></dt>
-							<dd>
-								Erweiterung auf Magento Connect: <a href="http://www.magentocommerce.com/extension/676/" target="_blank">http://www.magentocommerce.com/extension/676/</a><br />
-								Extension Key für den Connect Manager: <span style="color:#EA7601; font-style:italic">http://connect20.magentocommerce.com/community/DebitPayment</span>
-							</dd>
+							<dt><b>Bankeinzug/Lastschrift</b> - <a href="http://www.magentocommerce.com/extension/676/" target="_blank">DebitPayment auf Magento Connect</a></dt>
+							<dd>Extension Key für den Connect Manager: <span style="color:#EA7601; font-style:italic">http://connect20.magentocommerce.com/community/DebitPayment</span></dd>
 							
-							<dt><span style="color:red;"><b>Nachnahme</b></span></dt>
-							<dd>
-								Erweiterung auf Magento Connect: <a href="http://www.magentocommerce.com/extension/454/" target="_blank">http://www.magentocommerce.com/extension/454/</a><br />
-								Extension Key für den Connect Manager: <span style="color:#EA7601; font-style:italic">http://connect20.magentocommerce.com/community/CashOnDelivery</span></dd>
+							<dt><b>Nachnahme</b> - <a href="http://www.magentocommerce.com/extension/454/" target="_blank">CashOnDelivery auf Magento Connect</a></dt>
+							<dd>Extension Key für den Connect Manager: <span style="color:#EA7601; font-style:italic">http://connect20.magentocommerce.com/community/CashOnDelivery</span></dd>
 							
-							<dt><span style="color:red;"><b>Vorkasse</b></span></dt>
-							<dd>
-								Erweiterung auf Magento Connect: <a href="http://www.magentocommerce.com/extension/304/" target="_blank">http://www.magentocommerce.com/extension/304/</a><br />
-								Extension Key für den Connect Manager: <span style="color:#EA7601; font-style:italic">http://connect20.magentocommerce.com/community/BankPayment</span>
-							</dd>
+							<dt><b>Vorkasse</b> - <a href="http://www.magentocommerce.com/extension/304/" target="_blank">BankPayment auf Magento Connect</a></dt>
+							<dd>Extension Key für den Connect Manager: <span style="color:#EA7601; font-style:italic">http://connect20.magentocommerce.com/community/BankPayment</span></dd>
 						</dl>
 					]]></comment>
                 </additional_extensions>
