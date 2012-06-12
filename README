@@ -16,7 +16,7 @@ Orientierung:
 
 "master" ist die aktuell auch auf Magento-Connect veröffentlichte Stable Version des Sprachpakets de_DE.
 "preview" hingegen entspricht der aktuellen Vorschau- und / Entwicklungsversion 
- - aktuell für Magento 1.6.x 
+ - aktuell für Magento 1.7.x 
 
 - Switch Tags = Direktauswahl bestimmter Sprachpaket Versionen.
 
@@ -30,7 +30,7 @@ Der große Vorteil: Man muss nicht bei Null anfangen sondern hat als Basis das R
 de_DE Pakets.
  
 Das de_CH Paket, welches aktuell der Schweizer Community Manager Nick Weiser bereit stellt, 
-wird bereits auf diese Weise gepflect. https://github.com/openstream/German_LocalePack_de_CH
+wird bereits auf diese Weise gepflegt. https://github.com/openstream/German_LocalePack_de_CH
 
 Somit kann mit minimalem Aufwand ein Sprachpaket bereit gestellt werden, das Landes- oder Zielgruppen 
 spezifische Übersetzungen beeinhaltet. 
