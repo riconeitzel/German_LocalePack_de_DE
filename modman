@@ -1,0 +1,8 @@
+app/code/community/German/LocalePackDe/ app/code/community/German/LocalePackDe/
+app/design/adminhtml/default/default/locale/de_DE/* app/design/adminhtml/default/default/locale/de_DE/
+app/design/frontend/default/default/locale/de_DE/* app/design/frontend/default/default/locale/de_DE/
+app/locale/de_DE/* app/locale/de_DE/
+downloader/template_de/ downloader/template_de/
+downloader/template_de_1.5/ downloader/template_de_1.5/
+js/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentovariable/* js/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentovariable/
+js/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentowidget/* js/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentowidget/
