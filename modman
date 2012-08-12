@@ -1,0 +1,38 @@
+app/code/community/German/LocalPackDe/      app/code/community/German/LocalPackDe/
+app/design/adminhtml/default/default/layout/localepackde.xml    app/design/adminhtml/base/default/layout/localepackde.xml
+app/design/adminhtml/default/default/locale/de_DE/translate.csv app/design/adminhtml/base/default/locale/de_DE/translate.csv
+app/design/frontend/default/default/locale/de/translate.csv app/design/frontend/base/default/locale/de/translate.csv
+app/etc/modules/German_LocalePackDe.xml app/etc/modules/German_LocalePackDe.xml
+
+app/locale/de_DE/       app/locale/de_DE/
+
+downloader/template_de  downloader/template_de
+
+downloader/template_de_1.5  downloader/template_de_1.5
+
+downloader/template_de_1.7  downloader/template_de_1.7
+
+js/german/localepackde/setup.js     js/german/localepackde/setup.js
+
+js/tiny_mce/langs/de.js     js/tiny_mce/langs/de.js
+
+js/tiny_mce/langs/de.js     js/tiny_mce/langs/de.js
+js/tiny_mce/plugins/advhr/langs/de_dlg.js               js/tiny_mce/plugins/advhr/langs/de_dlg.js
+js/tiny_mce/plugins/advimage/langs/de_dlg.js            js/tiny_mce/plugins/advimage/langs/de_dlg.js
+js/tiny_mce/plugins/advlink/langs/de_dlg.js             js/tiny_mce/plugins/advlink/langs/de_dlg.js
+js/tiny_mce/plugins/emotions/langs/de_dlg.js            js/tiny_mce/plugins/emotions/langs/de_dlg.js
+js/tiny_mce/plugins/fullpage/langs/de_dlg.js            js/tiny_mce/plugins/fullpage/langs/de_dlg.js
+js/tiny_mce/plugins/media/langs/de_dlg.js               js/tiny_mce/plugins/media/langs/de_dlg.js
+js/tiny_mce/plugins/paste/langs/de_dlg.js               js/tiny_mce/plugins/paste/langs/de_dlg.js
+js/tiny_mce/plugins/searchreplace/langs/de_dlg.js       js/tiny_mce/plugins/searchreplace/langs/de_dlg.js
+js/tiny_mce/plugins/style/langs/de_dlg.js               js/tiny_mce/plugins/style/langs/de_dlg.js
+js/tiny_mce/plugins/table/langs/de_dlg.js               js/tiny_mce/plugins/table/langs/de_dlg.js
+js/tiny_mce/plugins/template/langs/de_dlg.js            js/tiny_mce/plugins/template/langs/de_dlg.js
+js/tiny_mce/plugins/xhtmlxtras/langs/de_dlg.js          js/tiny_mce/plugins/xhtmlxtras/langs/de_dlg.js
+js/tiny_mce/themes/advanced/langs/de.js                 js/tiny_mce/themes/advanced/langs/de.js
+js/tiny_mce/themes/advanced/langs/de_dlg.js             js/tiny_mce/themes/advanced/langs/de_dlg.js
+js/tiny_mce/themes/simple/langs/de.js                   js/tiny_mce/themes/simple/langs/de.js
+
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"
