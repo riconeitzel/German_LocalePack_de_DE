@@ -70,9 +70,13 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Default Product Listing Sort By' 
 -- ab Magento 1.4.1.0
 UPDATE `eav_attribute` SET `frontend_label` = 'Include in Navigation Menu' WHERE `eav_attribute`.`attribute_code` ='include_in_menu';
 
--- Tab in Produktverwaltung "Prices"
+-- Tabs in Produktverwaltung
 UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Prices' WHERE `eav_attribute_group`.`attribute_group_name` ='Prices';
 UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Recurring Profile' WHERE `eav_attribute_group`.`attribute_group_name` ='Recurring Profile';
+UPDATE `eav_attribute_group` SET `attribute_group_name` = 'General' WHERE `eav_attribute_group`.`attribute_group_name` ='General';
+UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Meta Information' WHERE `eav_attribute_group`.`attribute_group_name` ='Meta Information';
+UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Images' WHERE `eav_attribute_group`.`attribute_group_name` ='Images';
+UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Gift Options' WHERE `eav_attribute_group`.`attribute_group_name` ='Gift Options';
 
 -- Hinweise an Feldern
 UPDATE `eav_attribute` SET `note` = 'Products with recurring profile participate in catalog as nominal items.' WHERE `eav_attribute`.`attribute_code` ='is_recurring';
