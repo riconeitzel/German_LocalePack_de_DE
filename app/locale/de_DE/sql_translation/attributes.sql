@@ -81,9 +81,13 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Standard Artikel-Listing sortiert
 -- ab Magento 1.4.1.0
 UPDATE `eav_attribute` SET `frontend_label` = 'In Shop Navigation anzeigen' WHERE `eav_attribute`.`attribute_code` ='include_in_menu';
 
--- Tab in Artikelverwaltung "Prices"
+-- Tabs in Produktverwaltung
 UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Preise' WHERE `eav_attribute_group`.`attribute_group_name` ='Prices';
 UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Wiederkehrendes Profil' WHERE `eav_attribute_group`.`attribute_group_name` ='Recurring Profile';
+UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Allgemein' WHERE `eav_attribute_group`.`attribute_group_name` ='General';
+UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Meta Daten' WHERE `eav_attribute_group`.`attribute_group_name` ='Meta Information';
+UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Bilder' WHERE `eav_attribute_group`.`attribute_group_name` ='Images';
+UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Geschenk-Optionen' WHERE `eav_attribute_group`.`attribute_group_name` ='Gift Options';
 
 -- Hinweise an Feldern
 UPDATE `eav_attribute` SET `note` = 'Artikel mit einem wiederkehrenden Profil werden im Katalog wie normale Artikel angezeigt.' WHERE `eav_attribute`.`attribute_code` ='is_recurring';
