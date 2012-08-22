@@ -27,9 +27,9 @@
  * @category German
  * @package German_LocalePack
  * @authors Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
- * @developer Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>   
+ * @developer Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
  * @version 1.7.0.2.0
- * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)  
+ * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
 var tinyMceWysiwygSetup = Class.create();
@@ -192,10 +192,10 @@ tinyMceWysiwygSetup.prototype =
         this.mediaBrowserTargetElementId = o.field;
 
         if (typeof(o.type) != 'undefined' && o.type != "") {
-            typeTitle = 'image' == o.type ? this.translate('Insert Image...') : this.translate('Insert Media...');
+            typeTitle = 'image' == o.type ? this.translate('Insert Image...') : this.translate('Insert Media…');
             wUrl = wUrl + "type/" + o.type + "/";
         } else {
-            typeTitle = this.translate('Insert File...');
+            typeTitle = this.translate('Insert File…');
         }
 
         MediabrowserUtility.openDialog(wUrl, false, false, typeTitle);

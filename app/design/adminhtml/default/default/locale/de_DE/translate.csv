@@ -16,20 +16,13 @@
 "Including FPT only","nur Inkl. FPT"
 "Total","Gesamt"
 "Total incl. tax","Gesamt inkl. Steuern"
-
 "Qty for Item's Status to become Out of Stock","Anzahl um Artikel mit <b>Nicht auf Lager</b> zu kennzeichnen"
-
 "Descriptions","Artikelbeschreibung"
-
 "Display Settings","Anzeige Einstellungen"
-
 "Position","Reihenfolge"
-
 "Customer's Current Activities","Aktuelle Benutzer-Aktivitäten"
 "Update Items and Qty's","Artikel und Mengen aktualisieren"
-
 "Delivery time","Lieferzeit"
-
 "Click here to go to <a href=""%s"">Index Management</a> and rebuild required indexes.","Klicken Sie hier für <a href=""%s"">Index Verwaltung</a> und bauen Sie benötigte Indexe neu auf."
 "One or more of the Indexes are not up to date:","Ein Index bzw. mehrere Indexe sind nicht aktuell:"
 "Index Management","Index-Verwaltung"
@@ -37,19 +30,16 @@
 "index mode","Index-Modus"
 "Last Run","Letzte Aktualisierung"
 "Update on Save","Update beim speichern"
-"Ready","Fertig / Aktuell"
+"Ready","Fertig/Aktuell"
 "Reindex Required","Neuaufbau nötig"
 "Reindex Data","Neuaufbau"
 "Refresh Recent","Aktualisieren"
 "Change Index Mode","Index-Modus wechseln"
 "Manual Update","Manuelles Update"
-
 "Layout building instructions. ","Layout Dateien, Updates und CMS Seiten + Blöcke. "
-
 "Postal Code is Optional for the following countries","Postleitzahl ist optional für die folgenden Länder"
-
-"System(config.xml, local.xml) and modules configuration files(config.xml).","System (config.xml, local.xml) und Modul Konfigurationsdateien (config.xml). " 
-"Layout building instructions.","Layout Aufbau-Anweisungen / Kommandos."
+"System(config.xml, local.xml) and modules configuration files(config.xml).","System (config.xml, local.xml) und Modul Konfigurationsdateien (config.xml). "
+"Layout building instructions.","Layout Aufbau-Anweisungen/Kommandos."
 "Layout building instructions. ","Layout Dateien, Updates und CMS Seiten + Blöcke. "
 "Blocks HTML output","Block HTML Ausgabe"
 "Page blocks HTML.","Seiten Block HTML."
@@ -60,39 +50,30 @@
 "Entity types declaration cache.","Deklarations-Cache für Entitäts Typen."
 "Web Services Configuration","Konfiguration der Web Dienste"
 "Web Services definition files (api.xml).","Definitionsdateien für Web Dienste (api.xml)."
-
 "Total of %d index(es) have reindexed data.","%d x Index neu aufgebaut."
-
-"Show / Hide Editor","Editor anzeigen / ausblenden"
-
+"Show / Hide Editor","Editor anzeigen/ausblenden"
 "Show notice if JavaScript is disabled","Hinweis anzeigen wenn JavaScript im Browser<br />deaktiviert ist"
-
 "Example format: 200x300.","Beispiel Format 200x300."
 "Allowed file types: jpeg, gif, png.","Erlaubte Formate: jpeg, gif, png."
-
 "Display out of stock products","Produkte die <u>nicht</u> auf Lager<br />sind auch mit anzeigen"
 "<b>Please note</b>, that these Settings are applicable to cart line Items, not the whole Cart.","<b>Please note</b>, that these Settings are applicable to cart line Items, not the whole Cart."
-
 "Logging from Mage::logException(). File is located in {{base_dir}}/var/log","Log Aufzeichnung via ""Mage::logException()"". Datei wird unter {{base_dir}}/var/log abgespeichert"
 "Logging from Mage::log(). File is located in {{base_dir}}/var/log","Log Aufzeichnung via ""Mage::log()"". Datei wird unter {{base_dir}}/var/log abgespeichert"
-
 "Merge JavaScript Files (beta)","JavaScript Dateien verbinden (beta)"
 "Merge CSS Files (beta)","CSS Dateien verbinden (beta)"
 "Experimental. Turn this feature off if there are troubles with relative urls inside css-files.","Experimentell. Bitte schalten Sie diese Funktionalität ab wenn es zu Problemen mit relativen URLs in den CSS-Dateien kommt."
-
 "For Windows Server Only","Nur für Windows Server"
-
 "Create Extension Package","Erweiterung erstellen"
 "New Extension","Neue Erweiterung"
 "Save data and Create Package","Daten speichern und Paket erzeugen"
-"Save As...","Speichern unter..."
+"Save As...","Speichern unter…"
 "Package Info","Paketinfo"
 "Release Info","Versionsinformation"
 "Maintainers","Verantwortliche Autoren"
 "Dependencies","Abhängigkeiten"
 "Load local Package","Lokales Paket laden"
-"Folder","Verzeichnis / Pfad"
-"Role","Aufgabe"
+"Folder","Verzeichnis/Pfad"
+"Role","Gruppenberechtigung"
 "Recommended","Empfohlen"
 "Exclude","Ausgenommen"
 "Exclude (comma separated)","Ausschließen (Komma getrennt)"
@@ -102,27 +83,19 @@
 "Notes","Hinweise"
 "Add Subpackage dependency","Unterpaket-Abhängigkeit hinzufügen"
 "Add Maintainer","Autor hinzufügen"
-
 "1.5.0.0 & later","1.5.0.0 & neuer"
 "Pre-1.5.0.0","älter wie 1.5.0.0"
 "Supported releases","Unterstützte Versionen"
-
 "Load Local Package","Lokales Paket laden"
 "Save Data and Create Package","Daten speichern und Paket erzeugen"
-
 "Update Qty's","Mengen aktualisieren"
 "Items to Invoice","Artikel zur Rechnung"
-
 "Summary","Kurzbeschreibung"
 "License","Lizenz"
 "Licence URI","Lizenz URL"
-
 "and above","und darüber"
-
 "Display Out of Stock Products","Produkte die nicht auf Lager sind anzeigen"
-
 "Allow HTML Tags on Frontend","HTML Tags im Frontend erlauben"
-
 "%s codes deleted","%s x Code gelöscht"
 "%s codes imported","%s x Codes importiert"
 "%s codes not imported","%s x Codes nicht importiert"
@@ -167,17 +140,43 @@
 "Type","Art"
 "Unable to process an import. ","Import nicht möglich. "
 "Update TheFind Item when Product is Updated","TheFind Artikel aktualisieren wenn der Artikel aktualisiert wird"
-
 "Insert Variable","Variable einfügen"
 "Insert Widget","Widget einfügen"
-
 "After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.",
 "Nachdem die Synchronisierung abgeschlossen ist, werden alle Medien automatisch dem neuen Speicher hinzugefügt."
-
 "Prices","Preise"
-"Allow Gift Message","Geschenknachricht erlauben"		
-"Recurring Profile","Wiederkehrendes Profil"	
-
+"Allow Gift Message","Geschenknachricht erlauben"
+"Recurring Profile","Wiederkehrendes Profil"
 "Template Settings","Vorlagen Einstellungen"
-"Allow Symlinks","Symlinks (Verknüpfungen) erlauben"		
-"Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Warnung! Die Aktivierung dieser Funktion wird für Produktive Systeme nicht empfohlen, da Sie ein potentielles Sicherheitsrisiko darstellen kann."	
+"Allow Symlinks","Symlinks (Verknüpfungen) erlauben"
+"Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Warnung! Die Aktivierung dieser Funktion wird für Produktive Systeme nicht empfohlen, da Sie ein potentielles Sicherheitsrisiko darstellen kann."
+"Include in Navigation Menu","In Navigation anzeigen"
+"Is Active","Aktiv?"
+"Thumbnail Image","Thumbnail"
+"Display Mode","Anzeigemodus"
+"Is Anchor","Ankerkategorie mit Filternavigation?"
+"Available Product Listing Sort By","Sortierkriterien"
+"Default Product Listing Sort By","Standard-Sortierkriterium"
+"Layered Navigation Price Step","Preisschritte für Filternavigation"
+"Use Parent Category Settings","Einstellungen der übergeordneten Kategorie verwenden"
+"Apply To Products","Einstellungen auf enthaltene Artikel übertragen"
+"Active From","Aktiv vom"
+"Active To","Aktiv bis"
+"Custom Layout Update","XML Layoutänderung"
+"Set Product as New from Date","Artikel als neu markieren vom"
+"Set Product as New to Date","Artikel als neu markieren bis"
+"Group Price","Preis je Kundengruppe"
+"Cost","Kosten"
+"Tier Price","Staffelpreise"
+"Special Price From Date","Sonderpreis vom"
+"Special Price To Date","Sonderpreis bis"
+"Is Product Available for Purchase with Google Checkout","Artikel kann per Google Checkout bezahlt werden"
+"Apply MAP","UVP verwenden"
+"Manufacturer's Suggested Retail Price","UVP"
+"Short Description","Kurzbeschreibung"
+"Small Image","Kategoriebild"
+"Base Image","Detailbild"
+"Thumbnail","Miniaturbild"
+"Display Product Options In","Artikeloptionen anzeigen in"
+"Enable Recurring Profile","Wiederkehrendes Profil verwenden"
+"Products with recurring profile participate in catalog as nominal items.","Artikel mit wiederkehrenden Profilen werden als nominale Artikel im Katalog angezeigt."

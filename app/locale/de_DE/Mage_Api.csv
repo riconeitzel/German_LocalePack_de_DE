@@ -9,7 +9,7 @@
 "Invalid webservice handler specified.","Ungültiger Webservice Handler angegeben"
 "Magento Core API","Magento Core API"
 "Magento Core API Section","Magento Core API"
-"SOAP/XML-RPC - Roles","SOAP/XML-RPC - Berechtigungen"
+"SOAP/XML-RPC - Roles","SOAP/XML-RPC - Gruppenberechtigungen"
 "SOAP/XML-RPC - Users","SOAP/XML-RPC - Benutzer"
 "Unable to login.","Login fehlgeschlagen."
 "User Name","Benutzername"

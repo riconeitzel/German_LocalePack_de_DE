@@ -1,5 +1,5 @@
 /* 
-Übersetzungen für das Magento 1.4.x / 1.5.x Backend
+Übersetzungen für das Magento 1.4.x/1.5.x Backend
 Snippet für eigene Attributübersetzungen: 
 UPDATE `eav_attribute` SET `frontend_label` = 'MeinAttributLabel' WHERE `eav_attribute`.`attribute_code` ='attribut_code_aus_datenbank' && `entity_type_id`=1;
 
@@ -74,7 +74,7 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Include in Navigation Menu' WHERE
 UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Prices' WHERE `eav_attribute_group`.`attribute_group_name` ='Preise';
 UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Recurring Profile' WHERE `eav_attribute_group`.`attribute_group_name` ='Wiederkehrendes Profil';
 UPDATE `eav_attribute_group` SET `attribute_group_name` = 'General' WHERE `eav_attribute_group`.`attribute_group_name` ='Allgemein';
-UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Meta Information' WHERE `eav_attribute_group`.`attribute_group_name` ='Meta Informationen';
+UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Meta Information' WHERE `eav_attribute_group`.`attribute_group_name` ='Metadaten';
 UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Images' WHERE `eav_attribute_group`.`attribute_group_name` ='Bilder';
 UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Gift Options' WHERE `eav_attribute_group`.`attribute_group_name` ='Geschenkoptionen';
 

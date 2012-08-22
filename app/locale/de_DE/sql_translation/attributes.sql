@@ -1,5 +1,5 @@
 /* 
-Übersetzungen für das Magento 1.4.x / 1.5.x Backend
+Übersetzungen für das Magento 1.4.x/1.5.x Backend
 
 Snippet für eigene Attributübersetzungen: 
 UPDATE `eav_attribute` SET `frontend_label` = 'MeinAttributLabel' WHERE `eav_attribute`.`attribute_code` ='attribut_code_aus_datenbank' && `entity_type_id`=1;
@@ -8,7 +8,7 @@ Vorne das deutsche Label, hinten den original Attribut-Code - dann noch bei Beda
 Nur nötig wenn es einen Wert öfter gibt und er unterschiedlich heißen soll.
 
 Achtung! Wenn Sie eine Datenbank mit Prefixen nutzen, dann müssen Sie zwingend diese Datei anpassen.
-Ändern Sie (mit Suchen / Ersetzen Funktion Ihres Editors) wie folgt ab wenn das genutze Tabellenprefix z.B.
+Ändern Sie (mit Suchen/Ersetzen Funktion Ihres Editors) wie folgt ab wenn das genutze Tabellenprefix z.B.
 "mage_" lautet:
 
 Standard:
@@ -54,7 +54,7 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Bundesland' WHERE `eav_attribute`
 UPDATE `eav_attribute` SET `frontend_label` = 'Bundesland' WHERE `eav_attribute`.`attribute_code` ='region_id';
 UPDATE `eav_attribute` SET `frontend_label` = 'Postleitzahl' WHERE `eav_attribute`.`attribute_code` ='postcode';
 UPDATE `eav_attribute` SET `frontend_label` = 'Telefon' WHERE `eav_attribute`.`attribute_code` ='telephone';
-UPDATE `eav_attribute` SET `frontend_label` = 'Steuernummer / USt. ID' WHERE `eav_attribute`.`attribute_code` ='taxvat';
+UPDATE `eav_attribute` SET `frontend_label` = 'Steuernummer/USt-IdNr.' WHERE `eav_attribute`.`attribute_code` ='taxvat';
 UPDATE `eav_attribute` SET `frontend_label` = 'Ist bestätigt' WHERE `eav_attribute`.`attribute_code` ='confirmation';
 UPDATE `eav_attribute` SET `frontend_label` = 'Angelegt am' WHERE `eav_attribute`.`attribute_code` ='created_at';
 UPDATE `eav_attribute` SET `frontend_label` = 'Geschlecht' WHERE `eav_attribute`.`attribute_code` ='gender';
@@ -85,7 +85,7 @@ UPDATE `eav_attribute` SET `frontend_label` = 'In Shop Navigation anzeigen' WHER
 UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Preise' WHERE `eav_attribute_group`.`attribute_group_name` ='Prices';
 UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Wiederkehrendes Profil' WHERE `eav_attribute_group`.`attribute_group_name` ='Recurring Profile';
 UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Allgemein' WHERE `eav_attribute_group`.`attribute_group_name` ='General';
-UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Meta Informationen' WHERE `eav_attribute_group`.`attribute_group_name` ='Meta Information';
+UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Metadaten' WHERE `eav_attribute_group`.`attribute_group_name` ='Meta Information';
 UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Bilder' WHERE `eav_attribute_group`.`attribute_group_name` ='Images';
 UPDATE `eav_attribute_group` SET `attribute_group_name` = 'Geschenkoptionen' WHERE `eav_attribute_group`.`attribute_group_name` ='Gift Options';
 
@@ -156,7 +156,7 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Festplatten Geschwindigkeit' WHER
 UPDATE `eav_attribute` SET `frontend_label` = 'Form' WHERE `eav_attribute`.`attribute_code` ='shape';
 UPDATE `eav_attribute` SET `frontend_label` = 'Detailbeschreibung' WHERE `eav_attribute`.`attribute_code` ='in_depth';
 UPDATE `eav_attribute` SET `frontend_label` = 'Abmessungen' WHERE `eav_attribute`.`attribute_code` ='dimension';
-UPDATE `eav_attribute` SET `frontend_label` = 'Model / Ausführung' WHERE `eav_attribute`.`attribute_code` ='model';
+UPDATE `eav_attribute` SET `frontend_label` = 'Ausführung' WHERE `eav_attribute`.`attribute_code` ='model';
 UPDATE `eav_attribute` SET `frontend_label` = 'Prozessor' WHERE `eav_attribute`.`attribute_code` ='processor';
 UPDATE `eav_attribute` SET `frontend_label` = 'Speicher' WHERE `eav_attribute`.`attribute_code` ='memory';
 UPDATE `eav_attribute` SET `frontend_label` = 'Festplatte' WHERE `eav_attribute`.`attribute_code` ='hardrive';
