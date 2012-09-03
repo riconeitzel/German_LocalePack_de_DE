@@ -146,7 +146,7 @@
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
                     <comment><![CDATA[
-						<p>After installing the german locale package TinyMCE Editor in your installation has been translated too. If you only want to use the locale for your frontend you can deactivate the TinyMCE part by commenting everything in the corresponding file "app/design/frontend/default/default/layout/localepackde.xml". You can also simply delete that file.</p>
+						<p>After installing the german locale package TinyMCE Editor in your installation has been translated too. If you only want to use the locale for your frontend you can deactivate the TinyMCE part by commenting everything in the corresponding file "app/design/adminhtml/default/default/layout/localepackde.xml". You can also simply delete that file.</p>
 					]]></comment>
                 </tinymce_languageinfo> 
 
