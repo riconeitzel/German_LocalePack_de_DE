@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category German
+ * @package German_LocalePack
+ * @authors Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
+ * @developer Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>   
+ * @version 1.7.0.2.0
+ * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)  
+ */
+ -->
+<layout>
+<!--
+Layout for editor element
+-->
+	<editor>
+		<!--remove standard editor config "english"-->
+		<reference name="head">
+			<action method="removeItem">
+                <type>js</type>
+                <name>mage/adminhtml/wysiwyg/tiny_mce/setup.js</name>
+            </action>
+			<!--add config file with "de" language file using-->
+			<action method="addItem"><type>js</type><name>german/localepackde/setup.js</name><params/><if/><condition>can_load_tiny_mce</condition></action>
+			<!--<action method="addJs" ifconfig="general/localepackde/tinymce_language/enabled" value="1">
+			<script>german/localepackde/setup.js</script>
+		</action>-->
+		</reference>
+	</editor>
+</layout>

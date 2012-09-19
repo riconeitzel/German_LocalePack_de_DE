@@ -56,7 +56,7 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Description' WHERE `eav_attribute
 -- UPDATE `eav_attribute` SET `frontend_label` = 'Kategorie Bild' WHERE `eav_attribute`.`attribute_code` ='image';
 UPDATE `eav_attribute` SET `frontend_label` = 'Display Mode' WHERE `eav_attribute`.`attribute_code` ='display_mode';
 UPDATE `eav_attribute` SET `frontend_label` = 'Is Anchor' WHERE `eav_attribute`.`attribute_code` ='is_anchor';
-UPDATE `eav_attribute` SET `frontend_label` = 'Pfad' WHERE `eav_attribute`.`attribute_code` ='path';
+UPDATE `eav_attribute` SET `frontend_label` = 'Path' WHERE `eav_attribute`.`attribute_code` ='path';
 UPDATE `eav_attribute` SET `frontend_label` = 'Position' WHERE `eav_attribute`.`attribute_code` ='position';
 UPDATE `eav_attribute` SET `frontend_label` = 'Custom Design' WHERE `eav_attribute`.`attribute_code` ='custom_design';
 UPDATE `eav_attribute` SET `frontend_label` = 'Apply To' WHERE `eav_attribute`.`attribute_code` ='custom_design_apply';
@@ -80,13 +80,13 @@ UPDATE `eav_attribute` SET `note` = 'Maximum 255 chars' WHERE `eav_attribute`.`a
 
 -- Produktattribute (entity_type_id 4 und wenn Sample Daten installiert 10)
 UPDATE `eav_attribute` SET `frontend_label` = 'Name' WHERE `eav_attribute`.`attribute_code` ='name';
-UPDATE `eav_attribute` SET `frontend_label` = 'Beschreibung' WHERE `eav_attribute`.`attribute_code` ='description';
-UPDATE `eav_attribute` SET `frontend_label` = 'Kurzbeschreibung' WHERE `eav_attribute`.`attribute_code` ='short_description';
+UPDATE `eav_attribute` SET `frontend_label` = 'Description' WHERE `eav_attribute`.`attribute_code` ='description';
+UPDATE `eav_attribute` SET `frontend_label` = 'Short Description' WHERE `eav_attribute`.`attribute_code` ='short_description';
 UPDATE `eav_attribute` SET `frontend_label` = 'SKU' WHERE `eav_attribute`.`attribute_code` ='sku';
 UPDATE `eav_attribute` SET `frontend_label` = 'Price' WHERE `eav_attribute`.`attribute_code` ='price';
 UPDATE `eav_attribute` SET `frontend_label` = 'Special Price' WHERE `eav_attribute`.`attribute_code` ='special_price';
 UPDATE `eav_attribute` SET `frontend_label` = 'Special Price From Date' WHERE `eav_attribute`.`attribute_code` ='special_from_date';
-UPDATE `eav_attribute` SET `frontend_label` = 'Special Prica To Date' WHERE `eav_attribute`.`attribute_code` ='special_to_date';
+UPDATE `eav_attribute` SET `frontend_label` = 'Special Price To Date' WHERE `eav_attribute`.`attribute_code` ='special_to_date';
 UPDATE `eav_attribute` SET `frontend_label` = 'Cost' WHERE `eav_attribute`.`attribute_code` ='cost';
 UPDATE `eav_attribute` SET `frontend_label` = 'Weight' WHERE `eav_attribute`.`attribute_code` ='weight';
 UPDATE `eav_attribute` SET `frontend_label` = 'Manufacturer' WHERE `eav_attribute`.`attribute_code` ='manufacturer';
@@ -98,8 +98,8 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Set Product as New to Date ' WHER
 UPDATE `eav_attribute` SET `frontend_label` = 'Image Gallery' WHERE `eav_attribute`.`attribute_code` ='gallery';
 UPDATE `eav_attribute` SET `frontend_label` = 'Tax Class' WHERE `eav_attribute`.`attribute_code` ='tax_class_id';
 UPDATE `eav_attribute` SET `frontend_label` = 'URL key' WHERE `eav_attribute`.`attribute_code` ='url_key';
-UPDATE `eav_attribute` SET `frontend_label` = 'Minimal Preis' WHERE `eav_attribute`.`attribute_code` ='minimal_price';
-UPDATE `eav_attribute` SET `frontend_label` = 'Sichtbarkeit' WHERE `eav_attribute`.`attribute_code` ='visibility';
+UPDATE `eav_attribute` SET `frontend_label` = 'Minimal Price' WHERE `eav_attribute`.`attribute_code` ='minimal_price';
+UPDATE `eav_attribute` SET `frontend_label` = 'Visibility' WHERE `eav_attribute`.`attribute_code` ='visibility';
 UPDATE `eav_attribute` SET `frontend_label` = 'Display product options in' WHERE `eav_attribute`.`attribute_code` ='gift_message_available';
 UPDATE `eav_attribute` SET `frontend_label` = 'Custom Design' WHERE `eav_attribute`.`attribute_code` ='custom_design';
 UPDATE `eav_attribute` SET `frontend_label` = 'Active From' WHERE `eav_attribute`.`attribute_code` ='custom_design_from';
@@ -109,6 +109,12 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Page Layout' WHERE `eav_attribute
 UPDATE `eav_attribute` SET `frontend_label` = 'Display product options in' WHERE `eav_attribute`.`attribute_code` ='options_container';
 UPDATE `eav_attribute` SET `frontend_label` = 'Is product available for purchase with Google Checkout' WHERE `eav_attribute`.`attribute_code` ='enable_googlecheckout';
 UPDATE `eav_attribute` SET `frontend_label` = 'Price View' WHERE `eav_attribute`.`attribute_code` ='price_view';
+
+-- since Magento 1.6.x
+UPDATE `eav_attribute` SET `frontend_label` = 'Country of Manufacture' WHERE `eav_attribute`.`attribute_code` ='country_of_manufacture';
+UPDATE `eav_attribute` SET `frontend_label` = 'Manufacturer''s Suggested Retail Price' WHERE `eav_attribute`.`attribute_code` ='msrp';
+UPDATE `eav_attribute` SET `frontend_label` = 'Display Actual Price' WHERE `eav_attribute`.`attribute_code` ='msrp_display_actual_price_type';
+UPDATE `eav_attribute` SET `frontend_label` = 'Apply MAP' WHERE `eav_attribute`.`attribute_code` ='msrp_enabled';
 
 /*
 UPDATE `eav_attribute` SET `frontend_label` = 'Base Image Label' WHERE `eav_attribute`.`attribute_code` ='image_label';

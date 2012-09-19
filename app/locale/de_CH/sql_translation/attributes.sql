@@ -120,7 +120,11 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Seiten Layout' WHERE `eav_attribu
 UPDATE `eav_attribute` SET `frontend_label` = 'Artikeloptionen anzeigen in' WHERE `eav_attribute`.`attribute_code` ='options_container';
 UPDATE `eav_attribute` SET `frontend_label` = 'Soll man das Artikel via Google Checkout bestellen können' WHERE `eav_attribute`.`attribute_code` ='enable_googlecheckout';
 UPDATE `eav_attribute` SET `frontend_label` = 'Preis Ansicht' WHERE `eav_attribute`.`attribute_code` ='price_view';
-
+-- since Magento 1.6.x
+UPDATE `eav_attribute` SET `frontend_label` = 'Herstellungsland' WHERE `eav_attribute`.`attribute_code` ='country_of_manufacture';
+UPDATE `eav_attribute` SET `frontend_label` = 'UVP' WHERE `eav_attribute`.`attribute_code` ='msrp';
+UPDATE `eav_attribute` SET `frontend_label` = 'Tatsächlicher Preis' WHERE `eav_attribute`.`attribute_code` ='msrp_display_actual_price_type';
+UPDATE `eav_attribute` SET `frontend_label` = 'UVP anwenden' WHERE `eav_attribute`.`attribute_code` ='msrp_enabled';
 /*
 UPDATE `eav_attribute` SET `frontend_label` = 'Bild ALT Text' WHERE `eav_attribute`.`attribute_code` ='image_label';
 UPDATE `eav_attribute` SET `frontend_label` = 'Kleines Bild ALT Text' WHERE `eav_attribute`.`attribute_code` ='small_image_label';
