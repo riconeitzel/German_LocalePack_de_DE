@@ -10,7 +10,7 @@
 "Close Window","Fenster schliessen"
 =======
 "City","Stadt"
-"Close Window","Fenster schließen"
+"Close Window","Fenster schliessen"
 >>>>>>> upstream/master:app/locale/de_DE/Mage_Shipping.csv
 "Condition","Berechnungsgrundlage"
 "Country","Land"
@@ -72,8 +72,8 @@
 "Sort Order","Reihenfolge"
 "Status:","Status:"
 "Store Pickup","Selbstabholung"
-"Street Address","Straße"
-"Street Address Line 2","Straße 2. Zeile"
+"Street Address","Strasse"
+"Street Address Line 2","Strasse 2. Zeile"
 "Table Rates","Tabellenbasierte Versandkosten"
 "The shipping module is not available for selected delivery country.","Diese Versandart ist für das ausgewählte Zustellland nicht verfügbar."
 "The shipping module is not available.","Diese Versandart ist nicht verfügbar."

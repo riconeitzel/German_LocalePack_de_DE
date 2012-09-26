@@ -132,7 +132,7 @@
 <<<<<<< HEAD:app/locale/de_CH/Mage_Sales.csv
 "Close","schliessen"
 =======
-"Close","Schließen"
+"Close","Schliessen"
 >>>>>>> upstream/master:app/locale/de_DE/Mage_Sales.csv
 "Closed","Geschlossen"
 "Comma-separated.","Komma-getrennt."
@@ -205,7 +205,7 @@
 "Date Shipped","Versanddatum"
 "Default Status","Standard Status"
 "Default Template","Standardvorlage"
-"Default logo, will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If you see image distortion in PDF, try to use larger image","Standardlogo, wird in PDF- und HTML-Dokumenten verwendet.<br />(jpeg, tiff, png) Sollten Verzerrungen im PDF auftreten, versuchen Sie bitte ein größeres Bild zu verwenden"
+"Default logo, will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If you see image distortion in PDF, try to use larger image","Standardlogo, wird in PDF- und HTML-Dokumenten verwendet.<br />(jpeg, tiff, png) Sollten Verzerrungen im PDF auftreten, versuchen Sie bitte ein grösseres Bild zu verwenden"
 "Delete","Löschen"
 "Delete Package","Paket löschen"
 "Denied the payment online.","Online Zahlung verweigert."
@@ -241,7 +241,7 @@
 "Explanation","Erklärung"
 "Failed to cancel the billing agreement.","Fehler beim Löschen der Zahlungsvereinbarung."
 "Failed to create billing agreement for this order.","Fehler beim Erstellen der Zahlungsvereinbarung für diese Bestellung."
-"Failed to finish billing agreement wizard.","Fehler beim Abschließen des Zahlungsvereinbarungs-Assistenten."
+"Failed to finish billing agreement wizard.","Fehler beim Abschliessen des Zahlungsvereinbarungs-Assistenten."
 >>>>>>> upstream/master:app/locale/de_DE/Mage_Sales.csv
 "Failed to send the order email.","Fehler beim Senden der Bestell E-Mail."
 "Failed to start billing agreement wizard.","Fehler beim Starten des Zahlungsvereinbarungs-Assistenten."
@@ -616,10 +616,10 @@
 "Retrieve list of orders by filters","Bestellliste gemäss Filter abfragen"
 "Retrieve list of shipments by filters","Versandliste gemäss Filter abfragen"
 =======
-"Retrieve list of credit memos by filters","Gutschriftenliste gemäß Filter abfragen"
-"Retrieve list of invoices by filters","Rechnungsliste gemäß Filter abfragen"
-"Retrieve list of orders by filters","Bestellliste gemäß Filter abfragen"
-"Retrieve list of shipments by filters","Versandliste gemäß Filter abfragen"
+"Retrieve list of credit memos by filters","Gutschriftenliste gemäss Filter abfragen"
+"Retrieve list of invoices by filters","Rechnungsliste gemäss Filter abfragen"
+"Retrieve list of orders by filters","Bestellliste gemäss Filter abfragen"
+"Retrieve list of shipments by filters","Versandliste gemäss Filter abfragen"
 >>>>>>> upstream/master:app/locale/de_DE/Mage_Sales.csv
 "Retrieve order information","Bestellinformationen abfragen"
 "Retrieve orders info","Bestellinformationen abfragen"
@@ -710,7 +710,7 @@
 "Show Packages","Pakete anzeigen"
 "Signature Confirmation","Zustellbestätigung"
 "Signed Up From","Anmeldung in"
-"Size","Größe"
+"Size","Grösse"
 "Sku","Artikelnummer"
 "Sold to:","Verkauft an:"
 "Some of the products below do not have all the required options. Please edit them and configure all the required options.","Einige der unten stehenden Artikel sind nicht mit den Pflichtoptionen konfiguriert. Bitte bearbeiten Sie sie und konfigurieren Sie die erforderlichen Optionen."
@@ -725,7 +725,7 @@
 "Status:","Status:"
 "Store Credit","Shop-Guthaben"
 "Store View Specific Labels","StoreView spezifische Bezeichnungen"
-"Street Address","Straße"
+"Street Address","Strasse"
 "Submit Comment","Kommentar übermitteln"
 "Submit Credit Memo","Gutschrift übermitteln"
 "Submit Invoice","Rechnung übermitteln"

@@ -78,7 +78,7 @@
 "Invoice Auto-Created: %s","automatisch erzeugte Rechnung: %s"
 "Is Buyer Willing to Receive Marketing Emails: %s","Möchte der Käufer Werbenachrichten: %s"
 "Key/URL delivery","Key/URL Auslieferung"
-"Large - %s","Groß - %s"
+"Large - %s","Gross - %s"
 >>>>>>> upstream/master:app/locale/de_DE/Mage_GoogleCheckout.csv
 "Latest Charge: %s","Letzter Ausgleich: %s"
 "Latest Chargeback: %s","Letzte Ausgleichsbuchung: %s"
@@ -136,7 +136,7 @@
 "Yes","Yes"
 =======
 "Unknown Reason","Unbekannter Grund."
-"White Background","Weißer Hintergrund"
+"White Background","Weisser Hintergrund"
 "Yes","Ja"
 >>>>>>> upstream/master:app/locale/de_DE/Mage_GoogleCheckout.csv
 "You will be redirected to GoogleCheckout in a few seconds.","Sie werden in wenigen Sekunden zu GoogleCheckout weitergeleitet."

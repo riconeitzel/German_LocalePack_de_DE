@@ -31,7 +31,7 @@
 "Business Service Center","Geschäftskundenservicezentrum"
 "Calculate Handling Fee","Bearbeitungsgebühr berechnen"
 "Canada Standard","Kanada Standard"
-"Cannot identify measure unit for %s","Maßeinheit für %s konnte nicht erkannt werden"
+"Cannot identify measure unit for %s","Masseinheit für %s konnte nicht erkannt werden"
 "Cannot identify weight unit for %s","Gewichtseinheit für %s konnte nicht erkannt werden"
 "Cannot retrieve shipping rates","Versandkosten konnten nicht abgefragt werden"
 "Centimeters","Zentimeter"
@@ -114,7 +114,7 @@
 "Handling Applied","Bearbeitungsgebühr hinzugefügt"
 "Handling Fee","Bearbeitungsgebühr"
 "Height","Höhe"
-"Height, width and length should be equal or greater than %s","Höhe, Breite und Länge sollten größergleich %s sein"
+"Height, width and length should be equal or greater than %s","Höhe, Breite und Länge sollten grössergleich %s sein"
 "Home Delivery","Lieferung frei Haus"
 "Hub ID","HUB ID"
 "Inches","Zoll"
@@ -134,8 +134,8 @@
 <<<<<<< HEAD:app/locale/de_CH/Mage_Usa.csv
 "Large","Gross"
 =======
-"Large","Groß"
-"Large Express Box","Große Express Box"
+"Large","Gross"
+"Large Express Box","Grosse Express Box"
 "Length","Länge"
 >>>>>>> upstream/master:app/locale/de_DE/Mage_Usa.csv
 "Letter","Brief"
@@ -234,7 +234,7 @@
 "Size","Grösse"
 =======
 "Signature Required","Unterschrift erforderlich"
-"Size","Größe"
+"Size","Grösse"
 "Small Express Box","Kleine Express Box"
 "Smart Post","Smart Post"
 >>>>>>> upstream/master:app/locale/de_DE/Mage_Usa.csv

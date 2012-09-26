@@ -109,7 +109,7 @@
 "The block has been saved.","der Block wurde gespeichert."
 "The directory %s is not writable by server.","Das Verzeichnis %s ist nicht Schreibbar vom Server."
 "The page URL key cannot consist only of numbers.","Der Seiten URL-Bezeichner darf nicht nur aus Nummern bestehen."
-"The page URL key contains capital letters or disallowed symbols.","Der Seiten-URL-Bezeichner enthält Großbuchstaben oder andere ungültige Zeichen."
+"The page URL key contains capital letters or disallowed symbols.","Der Seiten-URL-Bezeichner enthält Grossbuchstaben oder andere ungültige Zeichen."
 "The page has been deleted.","Die Seite wurde gelöscht."
 "The page has been saved.","Die Seite wurde gespeichert."
 "The static block content cannot contain  directive with its self.","Der Inhalt des statischen Blocks kann keine Anweisung mit sich selbst enhalten (Rekursion!)."

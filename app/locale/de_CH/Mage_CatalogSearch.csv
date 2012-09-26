@@ -2,7 +2,7 @@
 "%s and greater","%s und grösser"
 "<strong>%d item(s)</strong> were found using the following search criteria","<strong>%d Artikel(s)</strong> wurde mit der folgenden Suchkriterien gefunden"
 =======
-"%s and greater","%s und größer"
+"%s and greater","%s und grösser"
 "<strong>%d item(s)</strong> were found using the following search criteria","<strong>%d Artikel</strong> wurde mit den folgenden Suchkriterien gefunden"
 >>>>>>> upstream/master:app/locale/de_DE/Mage_CatalogSearch.csv
 "Advanced Search","Erweiterte Suche"

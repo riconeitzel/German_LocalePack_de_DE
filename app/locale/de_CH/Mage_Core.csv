@@ -3,7 +3,7 @@
 "%s already exists.","%s existiert bereits"
 "-- Please Select --","-- Bitte wählen --"
 "<strong style=""color:red"">Warning!</strong> When using CDN, in some cases JavaScript may not run properly if CDN is not in your subdomain","<strong style=""color:red"">Achtung!</strong> Sollten sie ein CDN verwenden, kann es passieren, dass JavaScript nicht korrekt arbeitet, wenn das CDN nicht innerhalb Ihrer Subdomain liegt."
-"<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).","<strong style=""color:red"">Achtung!</strong> Wenn Sie den StoreCode in URLs verwenden, kann es passieren, dass das System nicht ordnungsgemäß arbeitet, wenn URLs ohne StoreCode im Dritthersteller-Anwendungen (PayPal o.ä.) verwendet werden."
+"<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).","<strong style=""color:red"">Achtung!</strong> Wenn Sie den StoreCode in URLs verwenden, kann es passieren, dass das System nicht ordnungsgemäss arbeitet, wenn URLs ohne StoreCode im Dritthersteller-Anwendungen (PayPal o.ä.) verwendet werden."
 "A category object is required for determining the product request path.","Kategorieobjekt wird zur Bestimmung des Artikelpfades benötigt"
 "Add Block Names to Hints","Blocknamen zu Hinweisen hinzufügen"
 "Add Secret Key to URLs","Secret-Key zu URLs hinzufügen:<br />z.B. http://www.shop.de/index.php/admin/dashboard/<span style=""color:red;"">eeacf3e75</span>"""
@@ -173,7 +173,7 @@
 "Logo Image Alt","Logo Bild Alt-Attribut"
 "Logo Image Src","Logo Bild Src-Attribut"
 =======
-"Login is Case Sensitive","Login ist Case Sensitive:<br />Unterscheidung von Groß- und Kleinschreibung"
+"Login is Case Sensitive","Login ist Case Sensitive:<br />Unterscheidung von Gross- und Kleinschreibung"
 "Logo Image","Logo"
 "Logo Image Alt","Logo Alt-Attribut"
 "Logo Image Src","Logo Src-Attribut"
@@ -216,10 +216,10 @@
 "Please enter a number greater than 0 in this field.","Bitte geben Sie eine Zahl grösser 0 in dieses Feld ein."
 "Please enter a number lower than 100.","Bitte tragen Sie eine Zahl ein die niedriger wie 100 ist."
 =======
-"Please enter a number 0 or greater in this field.","Bitte tragen Sie eine Zahl größer/gleich 0 in dieses Feld ein."
-"Please enter a number 1 or greater in this field.","Bitte tragen Sie eine Zahl größer/gleich 1 in dieses Feld ein."
-"Please enter a number greater than 0 in this field.","Bitte geben Sie eine Zahl größer 0 in dieses Feld ein."
-"Please enter a number lower than 100.","Bitte tragen Sie keine Zahl größer/gleich 100 in dieses Feld ein."
+"Please enter a number 0 or greater in this field.","Bitte tragen Sie eine Zahl grösser/gleich 0 in dieses Feld ein."
+"Please enter a number 1 or greater in this field.","Bitte tragen Sie eine Zahl grösser/gleich 1 in dieses Feld ein."
+"Please enter a number greater than 0 in this field.","Bitte geben Sie eine Zahl grösser 0 in dieses Feld ein."
+"Please enter a number lower than 100.","Bitte tragen Sie keine Zahl grösser/gleich 100 in dieses Feld ein."
 >>>>>>> upstream/master:app/locale/de_DE/Mage_Core.csv
 "Please enter a valid $ amount. For example $100.00.","Bitte geben Sie einen gültigen Betrag ein. Zum Beispiel 100,00 €."
 "Please enter a valid URL Key. For example ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"".","Bitte geben Sie einen gültigen URL-Bezeichner ein. Zum Beispiel ""beispiel-seite"", ""beispiel-seite.html"" or ""unterverzeichnis/beispiel-seite""."
@@ -398,7 +398,7 @@
                                 automatically placed to the selected media storage.","Wenn der Medienspeicher gewechselt wird oder eine weitere Medien Datenbank hinzugefügt wird,
                                 verwenden Sie bitte die Synchronisierungsfunktion um Medien zu den gewünschten Speicher zu transferieren. Nachdem die Synchronisierung abgeschlossen ist, werden alle Medien automatisch dem neuen Speicher hinzugefügt."
 =======
-"Welcome Text","Begrüßungstext"
+"Welcome Text","Begrüssungstext"
 >>>>>>> upstream/master:app/locale/de_DE/Mage_Core.csv
 "Wrong file info format","Falsches Datei Info Format"
 "Wrong number of arguments for %s","Falsche Anzahl an Parametern für %s"

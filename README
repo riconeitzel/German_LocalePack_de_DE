@@ -23,7 +23,7 @@ Dieses Git Repository kann genutzt werden für:
 
 Das Forken für eigene Releases, etwa für eigene Sprachpakete in der Du-Form, de_CH, de_AT, de_Plattdeutsch… ist erlaubt und ausdrücklich erwünscht! 
 
-Der große Vorteil: Man muss nicht bei Null anfangen sondern hat als Basis das Repository des aktiv gepflegten de_DE Pakets.
+Der grosse Vorteil: Man muss nicht bei Null anfangen sondern hat als Basis das Repository des aktiv gepflegten de_DE Pakets.
  
 [Das de_CH Paket](https://github.com/openstream/German_LocalePack_de_CH), welches aktuell der Schweizer Community Manager Nick Weiser bereit stellt, wird bereits auf diese Weise gepflegt. 
 

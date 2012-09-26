@@ -8,7 +8,7 @@
 "* Required Fields","* Pflichtfelder"
 "-- Please Select --","-- Bitte wählen --"
 "86400 by default, if not set. To refresh instantly, Clear the Blocks HTML Output Cache.","86400 als Standard, falls nicht gesetzt. Um die Instanz zu aktualisieren, deaktivieren Sie den Cache für die Ausgabe von HTML-Blöcken."
-"<strong style=""color:red"">Warning!</strong> Applying MAP by default will hide all product prices on the frontend.","<strong style=""color:red"">Warnung:</strong> Die standardmäßige Anwendung der UVP wird alle Artikelpreise im Shop verstecken!"
+"<strong style=""color:red"">Warning!</strong> Applying MAP by default will hide all product prices on the frontend.","<strong style=""color:red"">Warnung:</strong> Die standardmässige Anwendung der UVP wird alle Artikelpreise im Shop verstecken!"
 "A group with the same name already exists.","Eine Gruppe mit dem selben Namen existiert bereits."
 "A name is required","Ein Name wird benötigt"
 "A product type is not defined for the indexer.","Eine Artikelart ist noch nicht definiert für den Indexer."
@@ -190,7 +190,7 @@
 =======
 "Clear Price","Preis leeren"
 "Click for price","Klicken für Preis"
-"Close Window","Fenster schließen"
+"Close Window","Fenster schliessen"
 "Collapse All","Alles aufklappen"
 "Comma-separated.","Komma-getrennt."
 >>>>>>> upstream/master:app/locale/de_DE/Mage_Catalog.csv
@@ -270,7 +270,7 @@
 "Duplicate website, country and state tax found.","Doppelte Website, Bundesland und Land - Steuern gefunden."
 "E.g. {{media url="path/to/image.jpg"}} {{skin url="path/to/picture.gif"}}. Dynamic directives parsing impacts catalog performance.","Z.B. {{media url="pfad/zum/bild.jpg"}} {{skin url="pfad/zum/bild.gif"}}. Dynamische Pfade haben negative Auswirkungen auf die Katalog-Performance."
 =======
-"Double click on above image to view full picture","Klicken Sie doppelt auf das obere Bild, um es im voller Größe zu sehen"
+"Double click on above image to view full picture","Klicken Sie doppelt auf das obere Bild, um es im voller Grösse zu sehen"
 "Downloadable Information","Downloadinformation"
 "Duplicate","Kopieren"
 "Duplicate website group price customer group.","Kopiere Website, Gruppenpreis, Kundengruppe."
@@ -343,7 +343,7 @@
 "Image type and information need to be specified for each store view.","Bildtyp und -information muss für jede StoreView separat hinterlegt werden."
 =======
 "Image file was not found.","Bild wurde nicht gefunden."
-"Image type and information need to be specified for each store view.","Bildtyp und -information muß für jede StoreView separat hinterlegt werden."
+"Image type and information need to be specified for each store view.","Bildtyp und -information muss für jede StoreView separat hinterlegt werden."
 "In Cart","Im Warenkorb"
 >>>>>>> upstream/master:app/locale/de_DE/Mage_Catalog.csv
 "In Stock","Auf Lager"
@@ -413,13 +413,13 @@
 "Maximum allowed image size for '%s' is %sx%s px.","Maximal erlaubte Bildgrösse für '%s' ist %sx%s px."
 =======
 "Manage Stock","Lagerbestand verwalten"
-"Manage Titles (Size, Color, etc.)","Bezeichnungen verwalten (Größe, Farbe, etc.)"
+"Manage Titles (Size, Color, etc.)","Bezeichnungen verwalten (Grösse, Farbe, etc.)"
 "Max Characters","Maximale Anzahl Zeichen"
 "Maximal Depth","Maximale Tiefe"
-"Maximum Image Size","Maximale Bildgröße"
+"Maximum Image Size","Maximale Bildgrösse"
 "Maximum Number of Price Intervals","Höchstmenge an Preisschritten"
 "Maximum Qty Allowed in Shopping Cart","Höchstbestellmenge"
-"Maximum allowed image size for '%s' is %sx%s px.","Maximal zulässige Bildgröße für '%s' ist %sx%s px."
+"Maximum allowed image size for '%s' is %sx%s px.","Maximal zulässige Bildgrösse für '%s' ist %sx%s px."
 >>>>>>> upstream/master:app/locale/de_DE/Mage_Catalog.csv
 "Maximum image height","Maximale Bildhöhe"
 "Maximum image width","Maximale Bildbreite"
@@ -706,8 +706,8 @@
 "The file you uploaded is larger than %s Megabytes allowed by server","Die Datei die Sie hochladen wollen ist grösser wie %s Megabyte, die der Server zulässt"
 =======
 "The file '%s' for '%s' has an invalid extension","Die Datei '%s' für '%s' besitzt eine ungültige Dateiendung"
-"The file '%s' you uploaded is larger than %s Megabytes allowed by server","Die Datei '%s' die Sie hochladen wollen ist größer als die maximal zulässigen %s Megabyte"
-"The file you uploaded is larger than %s Megabytes allowed by server","Die Datei die Sie hochladen wollen ist größer als die maximal zulässigen %s Megabyte"
+"The file '%s' you uploaded is larger than %s Megabytes allowed by server","Die Datei '%s' die Sie hochladen wollen ist grösser als die maximal zulässigen %s Megabyte"
+"The file you uploaded is larger than %s Megabytes allowed by server","Die Datei die Sie hochladen wollen ist grösser als die maximal zulässigen %s Megabyte"
 >>>>>>> upstream/master:app/locale/de_DE/Mage_Catalog.csv
 "The filters must be an array.","Die Filter müssen ein Feld sein."
 "The image contents is not valid base64 data.","Der Bildinhalt ist keine gültige Base64 Datei."
@@ -822,7 +822,7 @@
 "Watermark Default Size","Wasserzeichen Standardgrösse"
 "Watermark Opacity, Percent","Wasserzeichen Transparenz in Prozent (%)"
 =======
-"Watermark Default Size","Wasserzeichen Standardgröße"
+"Watermark Default Size","Wasserzeichen Standardgrösse"
 "Watermark Opacity, Percent","Wasserzeichen Deckkraft in Prozent (%)"
 >>>>>>> upstream/master:app/locale/de_DE/Mage_Catalog.csv
 "Watermark Position","Wasserzeichen Position"
