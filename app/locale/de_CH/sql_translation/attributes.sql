@@ -50,8 +50,8 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Ort' WHERE `eav_attribute`.`attri
 UPDATE `eav_attribute` SET `frontend_label` = 'Land' WHERE `eav_attribute`.`attribute_code` ='country';
 -- ab Magento 1.4.1.0 "country_id"
 UPDATE `eav_attribute` SET `frontend_label` = 'Land' WHERE `eav_attribute`.`attribute_code` ='country_id';
-UPDATE `eav_attribute` SET `frontend_label` = 'Bundesland' WHERE `eav_attribute`.`attribute_code` ='region';
-UPDATE `eav_attribute` SET `frontend_label` = 'Bundesland' WHERE `eav_attribute`.`attribute_code` ='region_id';
+UPDATE `eav_attribute` SET `frontend_label` = 'Kanton' WHERE `eav_attribute`.`attribute_code` ='region';
+UPDATE `eav_attribute` SET `frontend_label` = 'Kanton' WHERE `eav_attribute`.`attribute_code` ='region_id';
 UPDATE `eav_attribute` SET `frontend_label` = 'Postleitzahl' WHERE `eav_attribute`.`attribute_code` ='postcode';
 UPDATE `eav_attribute` SET `frontend_label` = 'Telefon' WHERE `eav_attribute`.`attribute_code` ='telephone';
 UPDATE `eav_attribute` SET `frontend_label` = 'Steuernummer / USt. ID' WHERE `eav_attribute`.`attribute_code` ='taxvat';

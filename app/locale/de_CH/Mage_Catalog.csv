@@ -205,7 +205,7 @@
 "Configure Product","Konfigurierbarer Artikel"
 "Continue","Fortsetzen"
 "Copy From Configurable","Von konfigurierbarem Artikel kopieren"
-"Country/State","Bundesland"
+"Country/State","Kanton"
 "Create","Anlegen"
 "Create (Upload)","Erstelle (Hochladen)"
 "Create Empty","Leeres Artikel anlegen"
@@ -267,7 +267,7 @@
 "Downloadable Information","Herunterladbare Informationen"
 "Duplicate","Duplizieren"
 "Duplicate website tier price customer group and quantity.","Doppelte Website, Staffelpreis, Kundengruppe und Menge."
-"Duplicate website, country and state tax found.","Doppelte Website, Bundesland und Land - Steuern gefunden."
+"Duplicate website, country and state tax found.","Doppelte Website, Kanton und Land - Steuern gefunden."
 "E.g. {{media url="path/to/image.jpg"}} {{skin url="path/to/picture.gif"}}. Dynamic directives parsing impacts catalog performance.","Z.B. {{media url="pfad/zum/bild.jpg"}} {{skin url="pfad/zum/bild.gif"}}. Dynamische Pfade haben negative Auswirkungen auf die Katalog-Performance."
 =======
 "Double click on above image to view full picture","Klicken Sie doppelt auf das obere Bild, um es im voller Grösse zu sehen"
@@ -275,7 +275,7 @@
 "Duplicate","Kopieren"
 "Duplicate website group price customer group.","Kopiere Website, Gruppenpreis, Kundengruppe."
 "Duplicate website tier price customer group and quantity.","Kopiere Website, Staffelpreis, Kundengruppe und Menge."
-"Duplicate website, country and state tax found.","Kopiere Website, Bundesland und Land - Steuern gefunden."
+"Duplicate website, country and state tax found.","Kopiere Website, Kanton und Land - Steuern gefunden."
 "E.g. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Dynamic directives parsing impacts catalog performance.","Z.B. {{media url=""pfad/zum/bild.jpg""}} {{skin url=""pfad/zum/bild.gif""}}. Dynamische Pfade haben negative Auswirkungen auf die Katalog-Performance."
 >>>>>>> upstream/master:app/locale/de_DE/Mage_Catalog.csv
 "Edit","Bearbeiten"
