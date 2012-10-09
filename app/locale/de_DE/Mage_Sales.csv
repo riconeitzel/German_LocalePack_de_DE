@@ -765,7 +765,7 @@
 "There is no update for the payment.","Es liegt keine Aktualisierung der Zahlung vor."
 "This message will be shown in shopping cart when subtotal after discount less than minimum amount.","Diese Mitteilung wird im Warenkorb angezeigt, wenn die Zwischensumme nach Rabatten geringer als der Mindestbetrag ist"
 "This operation requires an existing transaction object.","Dieser Vorgang erfordert einen gültigen Transaktions-Objekt."
-"This order contains (%s) items and therefore cannot be edited through the admin interface at this time, if you wish to continue editing the (%s) items will be removed, the order will be canceled and a new order will be placed.","Die Bestellung enthält (%s) Artikel. Sie kann daher zur Zeit nicht über das AdminPanel bearbeitet werden. Wenn Sie Sie die Bestellung dennoch bearbeiten möchten, werden die (%s) Artikel entfernt, die Bestellung wird stoniert und eine neue Bestellung erstellt."
+"This order contains (%s) items and therefore cannot be edited through the admin interface at this time, if you wish to continue editing the (%s) items will be removed, the order will be canceled and a new order will be placed.","Die Bestellung enthält (%s) Artikel. Sie kann daher zur Zeit nicht über das AdminPanel bearbeitet werden. Wenn Sie die Bestellung dennoch bearbeiten möchten, werden die (%s) Artikel entfernt, die Bestellung wird storniert und eine neue Bestellung erstellt."
 "This order no longer exists.","Diese Bestellung existiert nicht mehr."
 "This product does not have any configurable options","Dieser Artikel besitzt keine konfigurierbaren Optionen"
 "This profile state cannot be changed to ""%s"".","Dieser Profilzustand konnte nicht zu ""%s"" abgeändert werden."
