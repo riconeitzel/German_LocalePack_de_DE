@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<!--
+<?php
 /**
  * @category German
  * @package German_LocalePack
@@ -8,12 +7,12 @@
  * @version 1.7.0.2.0
  * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)  
  */
- -->
-<config>
-    <modules>
-        <German_LocalePackDe>
-            <active>true</active>
-            <codePool>community</codePool>
-        </German_LocalePackDe>
-    </modules>
-</config>
+class German_LocalePackCh_Helper_Data extends Mage_Core_Helper_Abstract
+{
+	// const XML_PATH_ENABLED   = 'general/localepackde/tinymce_language/enabled';
+
+    // public function isEnabled()
+    // {
+        // return Mage::getStoreConfig( self::XML_PATH_ENABLED );
+    // }
+}

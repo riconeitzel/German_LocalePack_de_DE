@@ -1,8 +1,8 @@
-app/code/community/German/LocalePackDe/      app/code/community/German/LocalePackDe/
+app/code/community/German/LocalePackCh/      app/code/community/German/LocalePackCh/
 app/design/adminhtml/default/default/layout/localepackde.xml    app/design/adminhtml/base/default/layout/localepackde.xml
 app/design/adminhtml/default/default/locale/de_CH/translate.csv app/design/adminhtml/base/default/locale/de_CH/translate.csv
 app/design/frontend/default/default/locale/de_CH/translate.csv app/design/frontend/base/default/locale/de_CH/translate.csv
-app/etc/modules/German_LocalePackDe.xml app/etc/modules/German_LocalePackDe.xml
+app/etc/modules/German_LocalePackCh.xml app/etc/modules/German_LocalePackCh.xml
 
 app/locale/de_CH/       app/locale/de_CH/
 

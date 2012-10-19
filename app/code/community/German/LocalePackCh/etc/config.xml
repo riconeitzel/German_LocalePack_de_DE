@@ -11,37 +11,20 @@
  -->
 <config>
 	<modules>
-		<German_LocalePackDe>
+		<German_LocalePackCh>
 			<version>1.7.0.2.0</version>
-		</German_LocalePackDe>
+		</German_LocalePackCh>
 	</modules>
 	
 	<global>
 		<helpers>
 			<localepackde>
-				<class>German_LocalePackDe_Helper</class>
+				<class>German_LocalePackCh_Helper</class>
 			</localepackde>
 		</helpers>
 	</global>
 	
-	<default>
-		<!--<general>
-			<localepackde>
-					<enabled>0</enabled>
-			</localepackde>
-		</general>-->
-	</default>
-	
 	<adminhtml>
-        <!--<translate>
-            <modules>
-                <German_LocalePackDe>
-                    <files>
-                        <default>German_LocalePackDe.csv</default>
-                    </files>
-                </German_LocalePackDe>
-            </modules>
-        </translate>-->
         <layout>
             <updates>
                 <localepackde>
