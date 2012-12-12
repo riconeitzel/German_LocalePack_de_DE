@@ -35,4 +35,4 @@ js/tiny_mce/themes/simple/langs/de.js                   js/tiny_mce/themes/simpl
 
 
 # Clear the cache
-@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"
+#@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"
