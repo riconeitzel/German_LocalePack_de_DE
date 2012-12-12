@@ -4,7 +4,7 @@ app/design/adminhtml/default/default/locale/de_DE/translate.csv app/design/admin
 app/design/frontend/default/default/locale/de_DE/translate.csv app/design/frontend/base/default/locale/de_DE/translate.csv
 app/etc/modules/German_LocalePackDe.xml app/etc/modules/German_LocalePackDe.xml
 
-app/locale/de_DE/       app/locale/de_DE/
+app/locale/de_DE/*       app/locale/de_DE/
 
 downloader/template_de  downloader/template_de
 
