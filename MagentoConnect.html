@@ -1,0 +1,24 @@
+<h2>Deutsches Sprachpaket für Magento Commerce</h2>
+<h3>Fehler gefunden?</h3>
+
+<p><strong>Sollte das Sprachpaket nicht wie gewohnt funktionieren, bitte Caches löschen und neu einloggen. Geht es danach immernoch nicht, bitte das Sprachpaket nochmal deinstallieren und wieder neu installieren.</strong></p>
+
+<p><strong>Fehler in Version 1.7.0.x</strong> Seit 1.7.0.2.3 ist ein Fehler behoben, der beim Konvertieren des Connect 1.0 in einer 2.0 Paket entstanden ist. Dabei wurden einige Dateien nicht korrekt als Datei entpackt sondern als leere Ordner angelegt, die den Dateinamen als Ordnernamen tragen.</p>
+<p>Bei einem Update der Extension wird dies zwangsläufig zur Problemen kommen, da diese defekten Ordner nicht gelöscht werden, eine Datei mit dem gleichen Namen aber nicht daneben gelegt werden darf.</p>
+<p>Treten bei Ihnen diese Probleme auf, deinstallieren Sie das Sprachpaket im Magento Connect Manager, löschen Sie bitte anschließend folgende Ordner sofern sie vorhanden sind: /app/design/adminhtml/default/default/locale/de_DE/translate.csv, /app/design/adminhtml/default/default/layout/localepackede.xml, app/design/frontend/default/default/locale/de_DE/translate.csv, /app/design/adminhtml/base/default/locale/de_DE/translate.csv, /app/design/adminhtml/base/default/layout/localepackede.xml, app/design/frontend/base/default/locale/de_DE/translate.csv und installieren Sie das Sprachpaket erneut.</p>
+
+<p>Fehler können auf GitHub gemeldet werden
+<a href="https://github.com/riconeitzel/German_LocalePack_de_DE/issues">https://github.com/riconeitzel/German_LocalePack_de_DE/issues</a></p>
+
+<h3>Mitarbeit erwünscht</h3>
+<p>Informationen zum Sprachpaket finden sich im dazugehörigen GitHub Repository unter<br />
+<a href="https://github.com/riconeitzel/German_LocalePack_de_DE">https://github.com/riconeitzel/German_LocalePack_de_DE</a></p>
+<p>Bei Mitarbeit am Sprachpaket <strong>bitte PullRequests immer für den preview-Branch</strong> schicken. Danke :-)</p>
+
+
+<h3>unvollständiger ChangeLog</h3>
+<ul>
+<li><strong>1.7.0.2.2/3:</strong> Fehlerbehebungen und Verbesserungen. Symlinks zur Dateien wurden als teilweise Ordner entpackt. Beim Packen der Extension wird nun nicht mehr mit Symlinks gearbeitet, bis das Problem in Zusammenhang mit modman und Magentos Paketmanager gefunden und behoben ist. <strong>Danke an Matthias Walter und Andreas von Studnitz fürs Mitgrübeln und Testen.</strong></li>
+<li><strong>1.7.0.2.1:</strong> Fehlerbehebungen und Verbesserungen.</li>
+<li /><strong>seit Version 1.7.0.0.0</strong> Diese Version berücksichtigt die rechtliche Anforderung der sog. "Button-Lösung".</li>
+</ul>
