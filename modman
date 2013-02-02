@@ -1,25 +1,21 @@
-app/code/community/German/LocalePackDe      app/code/community/German/LocalePackDe
-
-app/design/adminhtml/default/default/layout/*    app/design/adminhtml/default/default/layout/
-app/design/adminhtml/default/default/locale/de_DE/* app/design/adminhtml/default/default/locale/de_DE/
-app/design/frontend/default/default/locale/de_DE/* app/design/frontend/base/default/locale/de_DE/
-app/etc/modules/German_LocalePackDe.xml app/etc/modules/German_LocalePackDe.xml
+#BackendModule
+app/code/community/German/LocalePackDe                        app/code/community/German/LocalePackDe
+app/etc/modules/German_LocalePackDe.xml                       app/etc/modules/German_LocalePackDe.xml
+app/design/adminhtml/default/default/layout/localepack.xml    app/design/adminhtml/default/default/layout/localepack.xml
 
 
-app/locale/de_DE/template/email/* app/locale/de_DE/template/email/
-app/locale/de_DE/*       app/locale/de_DE/
-
-downloader/template_de  downloader/template_de
-
+#Downloader
+downloader/template_de      downloader/template_de
 downloader/template_de_1.5  downloader/template_de_1.5
-
 downloader/template_de_1.7  downloader/template_de_1.7
 
+
+#Misc
 js/german/localepackde/setup.js     js/german/localepackde/setup.js
 
-js/tiny_mce/langs/de.js     js/tiny_mce/langs/de.js
-
-js/tiny_mce/langs/de.js     js/tiny_mce/langs/de.js
+#TinyMCE
+js/tiny_mce/langs/de.js                                 js/tiny_mce/langs/de.js
+js/tiny_mce/langs/de.js                                 js/tiny_mce/langs/de.js
 js/tiny_mce/plugins/advhr/langs/de_dlg.js               js/tiny_mce/plugins/advhr/langs/de_dlg.js
 js/tiny_mce/plugins/advimage/langs/de_dlg.js            js/tiny_mce/plugins/advimage/langs/de_dlg.js
 js/tiny_mce/plugins/advlink/langs/de_dlg.js             js/tiny_mce/plugins/advlink/langs/de_dlg.js
@@ -35,6 +31,124 @@ js/tiny_mce/plugins/xhtmlxtras/langs/de_dlg.js          js/tiny_mce/plugins/xhtm
 js/tiny_mce/themes/advanced/langs/de.js                 js/tiny_mce/themes/advanced/langs/de.js
 js/tiny_mce/themes/advanced/langs/de_dlg.js             js/tiny_mce/themes/advanced/langs/de_dlg.js
 js/tiny_mce/themes/simple/langs/de.js                   js/tiny_mce/themes/simple/langs/de.js
+
+
+#Adminhtml und Default Theme
+app/design/adminhtml/default/default/locale/de_DE/translate.csv     app/design/adminhtml/default/default/locale/de_DE/translate.csv
+app/design/frontend/default/default/locale/de_DE/translate.csv      app/design/frontend/base/default/locale/de_DE/translate.csv
+
+#CoreTranslation
+app/locale/de_DE/Mage_Adminhtml.csv app/locale/de_DE/Mage_Adminhtml.csv 
+app/locale/de_DE/Mage_AdminNotification.csv app/locale/de_DE/Mage_AdminNotification.csv 
+app/locale/de_DE/Mage_Api.csv app/locale/de_DE/Mage_Api.csv 
+app/locale/de_DE/Mage_Api2.csv app/locale/de_DE/Mage_Api2.csv 
+app/locale/de_DE/Mage_Authorizenet.csv app/locale/de_DE/Mage_Authorizenet.csv 
+app/locale/de_DE/Mage_Backup.csv app/locale/de_DE/Mage_Backup.csv 
+app/locale/de_DE/Mage_Bundle.csv app/locale/de_DE/Mage_Bundle.csv 
+app/locale/de_DE/Mage_Captcha.csv app/locale/de_DE/Mage_Captcha.csv 
+app/locale/de_DE/Mage_Catalog.csv app/locale/de_DE/Mage_Catalog.csv 
+app/locale/de_DE/Mage_CatalogInventory.csv app/locale/de_DE/Mage_CatalogInventory.csv 
+app/locale/de_DE/Mage_CatalogRule.csv app/locale/de_DE/Mage_CatalogRule.csv 
+app/locale/de_DE/Mage_CatalogSearch.csv app/locale/de_DE/Mage_CatalogSearch.csv 
+app/locale/de_DE/Mage_Centinel.csv app/locale/de_DE/Mage_Centinel.csv 
+app/locale/de_DE/Mage_Checkout.csv app/locale/de_DE/Mage_Checkout.csv 
+app/locale/de_DE/Mage_Cms.csv app/locale/de_DE/Mage_Cms.csv 
+app/locale/de_DE/Mage_Compiler.csv app/locale/de_DE/Mage_Compiler.csv 
+app/locale/de_DE/Mage_Connect.csv app/locale/de_DE/Mage_Connect.csv 
+app/locale/de_DE/Mage_Contacts.csv app/locale/de_DE/Mage_Contacts.csv 
+app/locale/de_DE/Mage_Core.csv app/locale/de_DE/Mage_Core.csv 
+app/locale/de_DE/Mage_Cron.csv app/locale/de_DE/Mage_Cron.csv 
+app/locale/de_DE/Mage_CurrencySymbol.csv app/locale/de_DE/Mage_CurrencySymbol.csv 
+app/locale/de_DE/Mage_Customer.csv app/locale/de_DE/Mage_Customer.csv 
+app/locale/de_DE/Mage_Dataflow.csv app/locale/de_DE/Mage_Dataflow.csv 
+app/locale/de_DE/Mage_Directory.csv app/locale/de_DE/Mage_Directory.csv 
+app/locale/de_DE/Mage_Downloadable.csv app/locale/de_DE/Mage_Downloadable.csv 
+app/locale/de_DE/Mage_Eav.csv app/locale/de_DE/Mage_Eav.csv 
+app/locale/de_DE/Mage_GiftMessage.csv app/locale/de_DE/Mage_GiftMessage.csv 
+app/locale/de_DE/Mage_GoogleAnalytics.csv app/locale/de_DE/Mage_GoogleAnalytics.csv 
+app/locale/de_DE/Mage_GoogleBase.csv app/locale/de_DE/Mage_GoogleBase.csv 
+app/locale/de_DE/Mage_GoogleCheckout.csv app/locale/de_DE/Mage_GoogleCheckout.csv 
+app/locale/de_DE/Mage_ImportExport.csv app/locale/de_DE/Mage_ImportExport.csv 
+app/locale/de_DE/Mage_Index.csv app/locale/de_DE/Mage_Index.csv 
+app/locale/de_DE/Mage_Install.csv app/locale/de_DE/Mage_Install.csv 
+app/locale/de_DE/Mage_Log.csv app/locale/de_DE/Mage_Log.csv 
+app/locale/de_DE/Mage_Media.csv app/locale/de_DE/Mage_Media.csv 
+app/locale/de_DE/Mage_Newsletter.csv app/locale/de_DE/Mage_Newsletter.csv 
+app/locale/de_DE/Mage_OAuth.csv app/locale/de_DE/Mage_OAuth.csv 
+app/locale/de_DE/Mage_Page.csv app/locale/de_DE/Mage_Page.csv 
+app/locale/de_DE/Mage_PageCache.csv app/locale/de_DE/Mage_PageCache.csv 
+app/locale/de_DE/Mage_Paygate.csv app/locale/de_DE/Mage_Paygate.csv 
+app/locale/de_DE/Mage_Payment.csv app/locale/de_DE/Mage_Payment.csv 
+app/locale/de_DE/Mage_Paypal.csv app/locale/de_DE/Mage_Paypal.csv 
+app/locale/de_DE/Mage_PaypalUk.csv app/locale/de_DE/Mage_PaypalUk.csv 
+app/locale/de_DE/Mage_Persistent.csv app/locale/de_DE/Mage_Persistent.csv 
+app/locale/de_DE/Mage_Poll.csv app/locale/de_DE/Mage_Poll.csv 
+app/locale/de_DE/Mage_ProductAlert.csv app/locale/de_DE/Mage_ProductAlert.csv 
+app/locale/de_DE/Mage_Rating.csv app/locale/de_DE/Mage_Rating.csv 
+app/locale/de_DE/Mage_Reports.csv app/locale/de_DE/Mage_Reports.csv 
+app/locale/de_DE/Mage_Review.csv app/locale/de_DE/Mage_Review.csv 
+app/locale/de_DE/Mage_Rss.csv app/locale/de_DE/Mage_Rss.csv 
+app/locale/de_DE/Mage_Rule.csv app/locale/de_DE/Mage_Rule.csv 
+app/locale/de_DE/Mage_Sales.csv app/locale/de_DE/Mage_Sales.csv 
+app/locale/de_DE/Mage_SalesRule.csv app/locale/de_DE/Mage_SalesRule.csv 
+app/locale/de_DE/Mage_Sendfriend.csv app/locale/de_DE/Mage_Sendfriend.csv 
+app/locale/de_DE/Mage_Shipping.csv app/locale/de_DE/Mage_Shipping.csv 
+app/locale/de_DE/Mage_Sitemap.csv app/locale/de_DE/Mage_Sitemap.csv 
+app/locale/de_DE/Mage_Tag.csv app/locale/de_DE/Mage_Tag.csv 
+app/locale/de_DE/Mage_Tax.csv app/locale/de_DE/Mage_Tax.csv 
+app/locale/de_DE/Mage_Usa.csv app/locale/de_DE/Mage_Usa.csv 
+app/locale/de_DE/Mage_Weee.csv app/locale/de_DE/Mage_Weee.csv 
+app/locale/de_DE/Mage_Widget.csv app/locale/de_DE/Mage_Widget.csv 
+app/locale/de_DE/Mage_Wishlist.csv app/locale/de_DE/Mage_Wishlist.csv 
+app/locale/de_DE/Mage_XmlConnect.csv app/locale/de_DE/Mage_XmlConnect.csv 
+app/locale/de_DE/Phoenix_Moneybookers.csv app/locale/de_DE/Phoenix_Moneybookers.csv 
+
+#SQL Attributes
+app/locale/de_DE/sql_translation/attributes_default.sql app/locale/de_DE/sql_translation/attributes_default.sql 
+app/locale/de_DE/sql_translation/attributes.sql app/locale/de_DE/sql_translation/attributes.sql 
+
+#Email templates
+app/locale/de_DE/template/email/account_new_confirmation.html app/locale/de_DE/template/email/account_new_confirmation.html 
+app/locale/de_DE/template/email/account_new_confirmed.html app/locale/de_DE/template/email/account_new_confirmed.html 
+app/locale/de_DE/template/email/account_new.html app/locale/de_DE/template/email/account_new.html 
+app/locale/de_DE/template/email/account_password_reset_confirmation.html app/locale/de_DE/template/email/account_password_reset_confirmation.html 
+app/locale/de_DE/template/email/admin_password_new.html app/locale/de_DE/template/email/admin_password_new.html 
+app/locale/de_DE/template/email/admin_password_reset_confirmation.html app/locale/de_DE/template/email/admin_password_reset_confirmation.html 
+app/locale/de_DE/template/email/contact_form.html app/locale/de_DE/template/email/contact_form.html 
+app/locale/de_DE/template/email/currency_update_warning.html app/locale/de_DE/template/email/currency_update_warning.html 
+app/locale/de_DE/template/email/log_clean_warning.html app/locale/de_DE/template/email/log_clean_warning.html 
+app/locale/de_DE/template/email/moneybookers_activateemail.html app/locale/de_DE/template/email/moneybookers_activateemail.html 
+app/locale/de_DE/template/email/newsletter_subscr_confirm.html app/locale/de_DE/template/email/newsletter_subscr_confirm.html 
+app/locale/de_DE/template/email/newsletter_subscr_success.html app/locale/de_DE/template/email/newsletter_subscr_success.html 
+app/locale/de_DE/template/email/newsletter_unsub_success.html app/locale/de_DE/template/email/newsletter_unsub_success.html 
+app/locale/de_DE/template/email/password_new.html app/locale/de_DE/template/email/password_new.html 
+app/locale/de_DE/template/email/payment_failed.html app/locale/de_DE/template/email/payment_failed.html 
+app/locale/de_DE/template/email/product_alert_cron_error.html app/locale/de_DE/template/email/product_alert_cron_error.html 
+app/locale/de_DE/template/email/product_price_alert.html app/locale/de_DE/template/email/product_price_alert.html 
+app/locale/de_DE/template/email/product_share.html app/locale/de_DE/template/email/product_share.html 
+app/locale/de_DE/template/email/product_stock_alert.html app/locale/de_DE/template/email/product_stock_alert.html 
+
+#Email Sales Templates
+app/locale/de_DE/template/email/sales/creditmemo_new_guest.html app/locale/de_DE/template/email/sales/creditmemo_new_guest.html 
+app/locale/de_DE/template/email/sales/creditmemo_new.html app/locale/de_DE/template/email/sales/creditmemo_new.html 
+app/locale/de_DE/template/email/sales/creditmemo_update_guest.html app/locale/de_DE/template/email/sales/creditmemo_update_guest.html 
+app/locale/de_DE/template/email/sales/creditmemo_update.html app/locale/de_DE/template/email/sales/creditmemo_update.html 
+app/locale/de_DE/template/email/sales/invoice_new_guest.html app/locale/de_DE/template/email/sales/invoice_new_guest.html 
+app/locale/de_DE/template/email/sales/invoice_new.html app/locale/de_DE/template/email/sales/invoice_new.html 
+app/locale/de_DE/template/email/sales/invoice_update_guest.html app/locale/de_DE/template/email/sales/invoice_update_guest.html 
+app/locale/de_DE/template/email/sales/invoice_update.html app/locale/de_DE/template/email/sales/invoice_update.html 
+app/locale/de_DE/template/email/sales/order_new_guest.html app/locale/de_DE/template/email/sales/order_new_guest.html 
+app/locale/de_DE/template/email/sales/order_new.html app/locale/de_DE/template/email/sales/order_new.html 
+app/locale/de_DE/template/email/sales/order_update_guest.html app/locale/de_DE/template/email/sales/order_update_guest.html 
+app/locale/de_DE/template/email/sales/order_update.html app/locale/de_DE/template/email/sales/order_update.html 
+app/locale/de_DE/template/email/sales/shipment_new_guest.html app/locale/de_DE/template/email/sales/shipment_new_guest.html 
+app/locale/de_DE/template/email/sales/shipment_new.html app/locale/de_DE/template/email/sales/shipment_new.html 
+app/locale/de_DE/template/email/sales/shipment_update_guest.html app/locale/de_DE/template/email/sales/shipment_update_guest.html 
+app/locale/de_DE/template/email/sales/shipment_update.html app/locale/de_DE/template/email/sales/shipment_update.html 
+app/locale/de_DE/template/email/sales/sitemap_generate_warning.html app/locale/de_DE/template/email/sales/sitemap_generate_warning.html 
+app/locale/de_DE/template/email/sales/token.html app/locale/de_DE/template/email/sales/token.html 
+app/locale/de_DE/template/email/sales/wishlist_share.html app/locale/de_DE/template/email/sales/wishlist_share.html
+
 
 
 # Clear the cache
