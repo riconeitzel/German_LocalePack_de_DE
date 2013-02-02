@@ -5,7 +5,7 @@
  * @package German_LocalePack
  * @authors Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
  * @developer Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>   
- * @version 1.7.0.2.2
+ * @version 1.7.0.2.4
  * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)  
  */
  -->
@@ -33,7 +33,7 @@
                     <show_in_website>0</show_in_website>
                     <show_in_store>0</show_in_store>
                     <comment><![CDATA[
-						  <p><strong>Das Sprachpaket de_DE in der Version <span style="color:red">1.7.0.2.1</span> wurde erfolgreich installiert.</strong></p>
+						  <p><strong>Das Sprachpaket de_DE in der Version <span style="color:red">1.7.0.2.4</span> wurde erfolgreich installiert.</strong></p>
 						  
 						  <p>Auf der <a href="http://www.magentocommerce.com/magento-connect/Rico+Neitzel/extension/413/magento-community-modules--german-germany-language-pack" target="_blank">Extension Homepage des deutschen Sprachpakets</a> finden Sie weitere Informationen zu aktuellen Versionen.</p>
 						  <br />
