@@ -96,6 +96,7 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Weight' WHERE `eav_attribute`.`at
 UPDATE `eav_attribute` SET `frontend_label` = 'Manufacturer' WHERE `eav_attribute`.`attribute_code` ='manufacturer';
 UPDATE `eav_attribute` SET `frontend_label` = 'Media Gallery' WHERE `eav_attribute`.`attribute_code` ='media_gallery';
 UPDATE `eav_attribute` SET `frontend_label` = 'Tier Price' WHERE `eav_attribute`.`attribute_code` ='tier_price';
+UPDATE `eav_attribute` SET `frontend_label` = 'Group Price' WHERE `eav_attribute`.`attribute_code` ='group_price';
 UPDATE `eav_attribute` SET `frontend_label` = 'Color' WHERE `eav_attribute`.`attribute_code` ='color';
 UPDATE `eav_attribute` SET `frontend_label` = 'Set Product as New from Date ' WHERE `eav_attribute`.`attribute_code` ='news_from_date';
 UPDATE `eav_attribute` SET `frontend_label` = 'Set Product as New to Date ' WHERE `eav_attribute`.`attribute_code` ='news_to_date';
