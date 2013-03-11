@@ -1,7 +1,7 @@
 #BackendModule
 app/code/community/German/LocalePackDe                        app/code/community/German/LocalePackDe
 app/etc/modules/German_LocalePackDe.xml                       app/etc/modules/German_LocalePackDe.xml
-app/design/adminhtml/default/default/layout/localepack.xml    app/design/adminhtml/default/default/layout/localepack.xml
+app/design/adminhtml/default/default/layout/localepackde.xml    app/design/adminhtml/default/default/layout/localepackde.xml
 
 
 #Downloader
@@ -127,6 +127,9 @@ app/locale/de_DE/template/email/product_alert_cron_error.html app/locale/de_DE/t
 app/locale/de_DE/template/email/product_price_alert.html app/locale/de_DE/template/email/product_price_alert.html 
 app/locale/de_DE/template/email/product_share.html app/locale/de_DE/template/email/product_share.html 
 app/locale/de_DE/template/email/product_stock_alert.html app/locale/de_DE/template/email/product_stock_alert.html 
+app/locale/de_DE/template/email/sitemap_generate_warning.html app/locale/de_DE/template/email/sitemap_generate_warning.html 
+app/locale/de_DE/template/email/token.html app/locale/de_DE/template/email/token.html 
+app/locale/de_DE/template/email/wishlist_share.html app/locale/de_DE/template/email/wishlist_share.html
 
 #Email Sales Templates
 app/locale/de_DE/template/email/sales/creditmemo_new_guest.html app/locale/de_DE/template/email/sales/creditmemo_new_guest.html 
@@ -144,10 +147,7 @@ app/locale/de_DE/template/email/sales/order_update.html app/locale/de_DE/templat
 app/locale/de_DE/template/email/sales/shipment_new_guest.html app/locale/de_DE/template/email/sales/shipment_new_guest.html 
 app/locale/de_DE/template/email/sales/shipment_new.html app/locale/de_DE/template/email/sales/shipment_new.html 
 app/locale/de_DE/template/email/sales/shipment_update_guest.html app/locale/de_DE/template/email/sales/shipment_update_guest.html 
-app/locale/de_DE/template/email/sales/shipment_update.html app/locale/de_DE/template/email/sales/shipment_update.html 
-app/locale/de_DE/template/email/sales/sitemap_generate_warning.html app/locale/de_DE/template/email/sales/sitemap_generate_warning.html 
-app/locale/de_DE/template/email/sales/token.html app/locale/de_DE/template/email/sales/token.html 
-app/locale/de_DE/template/email/sales/wishlist_share.html app/locale/de_DE/template/email/sales/wishlist_share.html
+app/locale/de_DE/template/email/sales/shipment_update.html app/locale/de_DE/template/email/sales/shipment_update.html
 
 
 
