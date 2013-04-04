@@ -2,7 +2,7 @@
 """%s"" does not fit the entered date format.","""%s"" erfüllt nicht das festgelegte Datumsformat."
 """%s"" exceeds the allowed file size.","""%s"" überschreitet die erlaubte Dateigröße."
 """%s"" exceeds the allowed length.","""%s"" überschreitet die erlaubte Länge."
-"""%s"" has not only alphabetic and digit characters.","""%s"" enthält nicht nur alphabetische oder nummerische Zeichen."
+"""%s"" has not only alphabetic and digit characters.","""%s"" enthält nicht nur alphabetische oder numerische Zeichen."
 """%s"" has not only alphabetic characters.","""%s"" enthält nicht nur alphabetische Zeichen."
 """%s"" height exceeds allowed value of %s px.","""%s"" Höhe überschreitet den erlaubten Wert von %s px."
 """%s"" invalid type entered.","""%s"" Ungültiger Typ eingegeben."

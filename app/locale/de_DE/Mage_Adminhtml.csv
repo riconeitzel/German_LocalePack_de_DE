@@ -643,7 +643,7 @@
 "Password Confirmation","Passwortbestätigung"
 "Password confirmation must be same as password.","Passwort Bestätigung muss identisch mit dem Passwort sein."
 "Password must be at least of %d characters.","Passwort muss aus wenigstens %d Zeichen bestehen."
-"Password must include both numeric and alphabetic characters.","Passwort muss nummerische und alphabetische Zeichen enthalten."
+"Password must include both numeric and alphabetic characters.","Passwort muss numerische und alphabetische Zeichen enthalten."
 "Password:","Passwort:"
 "Path:","Pfad:"
 "Payment method instance is not available.","Zahlmethoden Instanz ist nicht verfügbar."
