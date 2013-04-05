@@ -55,6 +55,7 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Bundesland' WHERE `eav_attribute`
 UPDATE `eav_attribute` SET `frontend_label` = 'Postleitzahl' WHERE `eav_attribute`.`attribute_code` ='postcode';
 UPDATE `eav_attribute` SET `frontend_label` = 'Telefon' WHERE `eav_attribute`.`attribute_code` ='telephone';
 UPDATE `eav_attribute` SET `frontend_label` = 'Steuernummer/USt-IdNr.' WHERE `eav_attribute`.`attribute_code` ='taxvat';
+UPDATE `eav_attribute` SET `frontend_label` = 'Steuernummer/USt-IdNr.' WHERE `eav_attribute`.`attribute_code` ='vat_id';
 UPDATE `eav_attribute` SET `frontend_label` = 'Ist bestätigt' WHERE `eav_attribute`.`attribute_code` ='confirmation';
 UPDATE `eav_attribute` SET `frontend_label` = 'Angelegt am' WHERE `eav_attribute`.`attribute_code` ='created_at';
 UPDATE `eav_attribute` SET `frontend_label` = 'Geschlecht' WHERE `eav_attribute`.`attribute_code` ='gender';
