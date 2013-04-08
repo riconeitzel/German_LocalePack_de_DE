@@ -474,7 +474,7 @@
 "Last Name","Nachname"
 "Last Name is required field.","Nachname ist ein Pflichtfeld."
 "Last Name:","Nachname:"
-"Last updated: %s. To refresh last day\'s <a href=""%s"">statistics</a>, click <a href=""%s"">here</a>.","Letztes Update: %s. Zum aktualisieren der <a href=""%s"">Statistik</a>, Klick <a href=""%s"">hier</a>."
+"Last updated: %s. To refresh last day's <a href=""%s"">statistics</a>, click <a href=""%s"">here</a>.","Letztes Update: %s. Zum aktualisieren der <a href=""%s"">Statistik</a>, Klick <a href=""%s"">hier</a>."
 "Latest Message:","Letzte Nachricht:"
 "Layered Navigation Indices","Filternavigation Indizes"
 "Layered Navigation Indices were refreshed.","Filternavigation Indizes wurden neu angelegt"
