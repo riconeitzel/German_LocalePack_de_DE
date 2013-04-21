@@ -123,7 +123,7 @@ UPDATE `eav_attribute` SET `frontend_label` = 'Aktiv bis' WHERE `eav_attribute`.
 UPDATE `eav_attribute` SET `frontend_label` = 'Eigenes Layout Update' WHERE `eav_attribute`.`attribute_code` ='custom_layout_update';
 UPDATE `eav_attribute` SET `frontend_label` = 'Seiten Layout' WHERE `eav_attribute`.`attribute_code` ='page_layout';
 UPDATE `eav_attribute` SET `frontend_label` = 'Artikeloptionen anzeigen in' WHERE `eav_attribute`.`attribute_code` ='options_container';
-UPDATE `eav_attribute` SET `frontend_label` = 'Soll man das Artikel via Google Checkout bestellen können' WHERE `eav_attribute`.`attribute_code` ='enable_googlecheckout';
+UPDATE `eav_attribute` SET `frontend_label` = 'Soll man den Artikel via Google Checkout bestellen können' WHERE `eav_attribute`.`attribute_code` ='enable_googlecheckout';
 UPDATE `eav_attribute` SET `frontend_label` = 'Preis Ansicht' WHERE `eav_attribute`.`attribute_code` ='price_view';
 -- since Magento 1.6.x
 UPDATE `eav_attribute` SET `frontend_label` = 'Herstellungsland' WHERE `eav_attribute`.`attribute_code` ='country_of_manufacture';
