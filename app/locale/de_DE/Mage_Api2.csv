@@ -1,4 +1,7 @@
 "%s","%s"
+"%s role is a special one and can\'t be changed.","###"
+"%s role is a special one and can\'t be deleted.","###"
+"%s role is protected.","###Pro"
 "ACL Attribute Rules","ACL Attribut Regeln"
 "ACL Attributes Information","ACL Attribut Information"
 "Add","Hinzufügen"
