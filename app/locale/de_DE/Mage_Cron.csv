@@ -7,7 +7,7 @@
 "Invalid callback: %s::%s does not exist","Ungültiges Callback: %s::%s existiert nicht"
 "Invalid model/method definition, expecting ""model/class::method"".","Ungültige Modell-/Methoden-Definition, erwarte ""model/class::method""."
 "Missed if Not Run Within","Verfällt, wenn nicht ausgeführt binnen"
-"Monthly","Monatlich"
+"Monthly","monatlich"
 "No callbacks found","Keine Callbacks gefunden"
 "Schedule Ahead for","Vormerken für"
 "Success History Lifetime","Erfolgsverlaufsprotokoll Zeitraum"
