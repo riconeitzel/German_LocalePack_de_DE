@@ -1,4 +1,4 @@
-"<a href=""%s"" target=""_blank"">Link</a>","<a href=""%s"" target=""_blank"">Link</a>"
+"<a href=""%s"" target=""_blank"">Link</a>","<a href=""%s"" target=""blank"">Link</a>"
 "Actions XML is not valid.","Aktionen XML ist ungültig."
 "An error occurred while opening file: ""%s"".","Fehler beim Öffnen der Datei aufgetreten: ""%s""."
 "Could not load file: ""%s"".","Datei konnte nicht geladen werden: ""%s""."

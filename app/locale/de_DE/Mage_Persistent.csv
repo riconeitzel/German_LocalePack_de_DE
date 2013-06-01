@@ -1,4 +1,4 @@
-"""Remember Me"" Default Value","""Angemeldet bleiben"" Standardwert"
+"""Remember Me"" Default Value","Standardwert ""Angemeldet bleiben"""
 "(Not %s?)","(Nicht %s?)"
 "* Required Fields","* Pflichtfelder"
 "Address","Adresse"
@@ -60,5 +60,5 @@
 "To proceed to Checkout, please log in using your email address.","Bitte melden Sie sich mit Ihrer E-Mail Adresse an, um den Bestellvorgang abzuschließen."
 "VAT Number","USt-IdNr."
 "Welcome, %s!","Herzlich Willkommen, %s!"
-"What\'s this?","###Was ist das?"
+"What\'s this?","Was ist das?"
 "Zip/Postal Code","PLZ"
