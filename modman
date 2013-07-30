@@ -103,10 +103,6 @@ app/locale/de_DE/Mage_Wishlist.csv app/locale/de_DE/Mage_Wishlist.csv
 app/locale/de_DE/Mage_XmlConnect.csv app/locale/de_DE/Mage_XmlConnect.csv 
 app/locale/de_DE/Phoenix_Moneybookers.csv app/locale/de_DE/Phoenix_Moneybookers.csv 
 
-#SQL Attributes
-app/locale/de_DE/sql_translation/attributes_default.sql app/locale/de_DE/sql_translation/attributes_default.sql 
-app/locale/de_DE/sql_translation/attributes.sql app/locale/de_DE/sql_translation/attributes.sql 
-
 #Email templates
 app/locale/de_DE/template/email/account_new_confirmation.html app/locale/de_DE/template/email/account_new_confirmation.html 
 app/locale/de_DE/template/email/account_new_confirmed.html app/locale/de_DE/template/email/account_new_confirmed.html 
