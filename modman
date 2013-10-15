@@ -5,7 +5,6 @@ app/design/adminhtml/default/default/layout/localepackde.xml    app/design/admin
 
 
 #Downloader
-downloader/template_de      downloader/template_de
 downloader/template_de_1.5  downloader/template_de_1.5
 downloader/template_de_1.7  downloader/template_de_1.7
 
