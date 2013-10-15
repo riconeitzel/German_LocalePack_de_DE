@@ -3,45 +3,49 @@
 /**
  * @category German
  * @package German_LocalePack
- * @authors Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
- * @developer Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>   
- * @version 1.7.0.2.4
+ * @authors Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
+ * @developer Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>   
+ * @version 1.8.0.0.0
  * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)  
  */
  -->
 <config>
 	<modules>
 		<German_LocalePackDe>
-			<version>1.7.0.2.4</version>
+			<version>1.8.0.0.0</version>
 		</German_LocalePackDe>
 	</modules>
 	
 	<global>
+		<models>
+			<localepackde>
+				<class>German_LocalePackDe_Model</class>
+			</localepackde>
+		</models>
 		<helpers>
 			<localepackde>
 				<class>German_LocalePackDe_Helper</class>
 			</localepackde>
 		</helpers>
-	</global>
+        <blocks>
+            <localepackde>
+                <class>German_LocalePackDe_Block</class>
+            </localepackde>
+        </blocks>
+<events>
+            <adminhtml_controller_action_predispatch_start>
+                <observers>
+                    <german_localepackde>
+                        <class>localepackde/observer</class>
+                        <method>adminhtmlControllerActionPredispatchStart</method>
+                    </german_localepackde>
+                </observers>
+            </adminhtml_controller_action_predispatch_start>
+        </events>
+
+    </global>
 	
-	<default>
-		<!--<general>
-			<localepackde>
-					<enabled>0</enabled>
-			</localepackde>
-		</general>-->
-	</default>
-	
-	<adminhtml>
-        <!--<translate>
-            <modules>
-                <German_LocalePackDe>
-                    <files>
-                        <default>German_LocalePackDe.csv</default>
-                    </files>
-                </German_LocalePackDe>
-            </modules>
-        </translate>-->
+    <adminhtml>
         <layout>
             <updates>
                 <localepackde>
@@ -51,9 +55,9 @@
         </layout>
         <acl>
             <resources>
-				<all>
-                	<title>Allow Everything</title>
-				</all>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
                 <admin>
                     <children>
                         <system>
@@ -72,5 +76,5 @@
             </resources>
         </acl>
     </adminhtml>
-	
+
 </config>
