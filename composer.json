@@ -1,0 +1,17 @@
+{
+    "name": "riconeitzel/german-localepack-de-de",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+    "description":"German Community Translation",
+    "authors":[
+        {
+            "name":"Rico Neitzel"
+        },
+        {
+            "name":"Daniel Sasse"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
