@@ -38,9 +38,6 @@ class German_LocalePackDe_Model_Observer {
 
         $magento = Mage::getVersion();
         $locale = $this->getVersionNumber();
-    	Mage::log("M: ".$magento, NULL, 'locale.log');
-    	Mage::log("L: ".$locale, NULL, 'locale.log');
-
 
         if(strpos($magento, $locale) !== false) {
             return true;
