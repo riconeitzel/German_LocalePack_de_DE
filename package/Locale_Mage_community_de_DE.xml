@@ -1,15 +1,16 @@
 <_>
-   <form_key>tJHjgUC28WcHtKpO</form_key>
+   <form_key>lYMf1dsE4YjQ1IHZ</form_key>
    <name>Locale_Mage_community_de_DE</name>
    <channel>community</channel>
    <version_ids>
       <version_ids>2</version_ids>
+      <version_ids>1</version_ids>
    </version_ids>
    <summary>Deutsches Sprachpaket - bitte Infos auf der Extension Homepage beachten.</summary>
    <description>Deutsches Sprachpaket für Magento Commerce</description>
    <license>OSL</license>
    <license_uri/>
-   <version>1.8.0.0.0</version>
+   <version>1.8.0.0.2</version>
    <stability>stable</stability>
    <notes>none/keine</notes>
    <authors>
@@ -40,20 +41,17 @@
             <max/>
          </max>
          <files>
-            <files>   </files>
+            <files>        </files>
          </files>
       </package>
       <extension>
          <name>
             <name>Core</name>
-            <name>Core</name>
          </name>
          <min>
             <min/>
-            <min>1.8.0.0</min>
          </min>
          <max>
-            <max/>
             <max/>
          </max>
       </extension>
