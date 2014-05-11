@@ -305,6 +305,8 @@
 "The product does not exist.","Der Artikel existiert nicht."
 "There are <a href=""%s"">%s items</a> in your cart.","Es sind <a href=""%s"">%s Artikel</a> im Warenkorb."
 "There is <a href=""%s"">1 item</a> in your cart.","Es ist <a href=""%s"">1 Artikel</a> im Warenkorb."
+"There are <a href=""%s""><strong>%s items</strong></a> in your cart.","Es sind <a href=""%s""><strong>%s Artikel</strong></a> im Warenkorb."
+"There is <a href=""%s""><strong>1 item</strong></a> in your cart.","Es ist <a href=""%s""><strong>1 Artikel</strong></a> im Warenkorb."
 "There is already a customer registered using this email address. Please login using this email address or enter a different email address to register your account.","Mit dieser E-Mail Adresse ist bereits ein Kundenkonto registriert worden. Bitte melden Sie sich mit dieser E-Mail Adresse an oder erstellen Sie mit einer anderen E-Mail Adresse ein neues Kundenkonto."
 "There was an error processing your order. Please contact us or try again later.","Bei der Verarbeitung Ihrer Bestellung ist ein Fehler aufgetreten. Kontaktieren Sie uns oder probieren Sie es bitte später erneut."
 "This condition no longer exists.","Diese Bedingung existiert nicht mehr."
