@@ -1,3 +1,4 @@
+" or "," oder "
 "'%value%' appears to be a DNS hostname but cannot extract TLD part","'%value%' scheint ein DNS-Hostname zu sein, aber TLD-Teil konnte nicht ausgelesen werden"
 "'%value%' appears to be a DNS hostname but cannot match TLD against known list","'%value%' scheint ein DNS-Hostname zu sein, aber der TLD-Teil scheint nicht gültig zu sein"
 "'%value%' appears to be a DNS hostname but cannot match against hostname schema for TLD '%tld%'","'%value%' scheint ein DNS-Hostname zu sein, aber der TLD-Teil '%tld%' konnte nicht gegen das Schema validiert werden"
@@ -407,6 +408,7 @@
 "To show VAT number on frontend, set Show VAT Number on Frontend option to Yes.","Um die USt-IdNr. im Frontend anzuzeigen, stellen Sie bitte die Einstellung ""USt-IdNr. im Frontend anzeigen"" auf ""Ja""."
 "Total","Gesamt"
 "Type","Art"
+"Unable to save the customer.","Kunde konnte nicht gespeichert werden."
 "Unknown","Unbekannt"
 "Unsubscribe from Newsletter","Vom Newsletter abmelden"
 "Update","Aktualisieren"
@@ -463,3 +465,4 @@
 "Zip/Postal Code","PLZ"
 "n/a","Keine Angabe"
 "or","oder"
+"register","Registrieren"

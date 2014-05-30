@@ -154,6 +154,7 @@
 "Invalid block type: %s","Ungültiger Blocktyp: %s"
 "Invalid block: %s","Ungültiger Block: %s"
 "Invalid connection","Ungültige Verbindung"
+"Invalid date","Ungültiges Datum"
 "Invalid layout update handle","Ungültiges Layout-Update Handle"
 "Invalid messages storage ""%s"" for layout messages initialization","Ungültiger Nachrichtenspeicher ""%s"" für die Initialisierung der Nachrichtenvorlage"
 "Invalid query","Ungültige Anfrage"

@@ -25,6 +25,7 @@
 "Invalid amount for partial authorization.","Ungültiger Betrag für die teilweise Autorisation."
 "Invalid amount for refund.","Ungültiger Erstattungsbetrag."
 "Invalid split tenderId ID.","Ungültige Split TenderId Kennung."
+"Invalid transaction ID.","Ungültige Transaktions-ID."
 "Maximum Order Total","Höchstwert für Gesamtbestellung"
 "Merchant's Email","Verkäufer E-Mail"
 "Minimum Order Total","Mindestwert für Gesamtbestellung"
