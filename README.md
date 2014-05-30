@@ -1,5 +1,5 @@
-# Deutsches Sprachpaket für Magento (CE)
-Dieses Sprachpaket wird von Rico Neitzel verwaltet.
+# Deutsches Magento (CE) Sprachpaket für die Schweiz
+Das ursprüngliche deutsche Sprachpaket wird von Rico Neitzel verwaltet und von Nick Weisser für die Schweiz adaptiert.
 
 Dieses Git Repository kann genutzt werden für:
 
@@ -7,7 +7,7 @@ Dieses Git Repository kann genutzt werden für:
 * Entwicklung aktueller Versionen
 * Behebung von Fehlern in bereits veröffentlichten Versionen
 * Alternative Downloads (unabhängig von den offiziellen Quellen)
-* Eigene Sprachversion basierend auf de_DE
+* Eigene Sprachversion basierend auf de_CH
 * Melden von Fehlern und PullRequests
 * Aktives Mitwirken am Sprachpaket
 
@@ -25,13 +25,11 @@ Die Version des Sprachpaketes sollte immer zur eigenen Magento-Version passen. A
 
 Ein Sprachpaket 1.7.0.2.1 passt demnach nicht zu einem Magento 1.8.0.0!
 
-# Eigene Sprachversion basierend auf de_DE
+# Eigene Sprachversion basierend auf de_CH
 
-Das Forken für eigene Releases, etwa für eigene Sprachpakete in der Du-Form, de_CH, de_AT, de_Plattdeutsch… ist ausdrücklich erlaubt. Wer jedoch ernsthaft ein eigenes Sprachpaket für die eigene Community pflegen möchte, sollte sich mit crowdin.net befassen.
+Das Forken für eigene Releases, etwa für eigene Sprachpakete in der Du-Form oder ähnliches ist ausdrücklich erlaubt.
 
-Auf dieser Plattform werden aktuell die Übersetzungen des de_DE Packages verwaltet. Der große Vorteil: Man muss nicht bei Null anfangen sondern hat als Basis das deutsche Sprachpaket, auf dessen Übersetzungen man die eigenen Änderungen speichern kann. Ändert sich im de_DE Paket etwas, wird es, sofern nicht als eigene Übersetzung vorhanden, auch in die eigene Übersetzung vererbt.
- 
-[Das de_CH Paket](https://github.com/openstream/German_LocalePack_de_CH), pflegt der Schweizer Community Manager Nick Weiser.
+Auf dieser Plattform werden aktuell die Übersetzungen des de_CH Packages verwaltet. Der große Vorteil: Man muss nicht bei Null anfangen sondern hat als Basis das deutsche Sprachpaket, auf dessen Übersetzungen man die eigenen Änderungen speichern kann. Ändert sich im de_DE Paket etwas, wird es, sofern nicht als eigene Übersetzung vorhanden, auch in die eigene Übersetzung vererbt.
 
 Releases für die Enterprise oder Go Version von Magento sind als Git-Forks dieses Repos ebenso denkbar. Zum Forken als eigenes GitHub Repository reicht es, oben den entsprechenden Butten zu klicken. (GitHub Account vorausgesetzt)
 
@@ -50,8 +48,8 @@ _Hinweis:_ PullRequests sind bitte immer im Preview Branch zu senden.
 
 # Aktives Mitwirken am Sprachpaket
 
-Lust am Sprachpaket mitzuwirken und einen (zumindest kostenlosen) Github und/oder Crowdin.net Account? Dann einfach Rico Neitzel kontaktieren und wir stimmen eine eventuelle Zusammenarbeit ab.
+Lust am Sprachpaket mitzuwirken und einen (zumindest kostenlosen) Github und/oder Crowdin.net Account? Dann einfach Nick Weisser kontaktieren und wir stimmen eine eventuelle Zusammenarbeit ab.
 
-Viel Spaß mit dem Deutschen Magento Sprachpaket!
+Viel Spaß mit dem Deutschen Magento Sprachpaket für die Schweiz!
 
-Rico Neitzel
+Nick Weisser
