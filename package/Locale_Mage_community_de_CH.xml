@@ -89,14 +89,14 @@
       <path>
          <path/>
          <path>de_DE</path>
-         <path>adminhtml/default/default/locale/de_DE/translate.csv</path>
-         <path>frontend/default/default/locale/de_DE/translate.csv</path>
-         <path>adminhtml/default/default/layout/localepackde.xml</path>
+         <path>adminhtml/default/default/locale/de_CH/translate.csv</path>
+         <path>frontend/default/default/locale/de_CH/translate.csv</path>
+         <path>adminhtml/default/default/layout/localepackch.xml</path>
          <path>downloader/template_de_1.5</path>
          <path>downloader/template_de_1.7</path>
          <path>German</path>
-         <path>modules/German_LocalePackDe.xml</path>
-         <path>js/german/localepackde/setup.js</path>
+         <path>modules/German_LocalePackCh.xml</path>
+         <path>js/german/localepackch/setup.js</path>
          <path>js/tiny_mce/langs/de.js</path>
          <path>js/tiny_mce/plugins/advhr/langs/de_dlg.js</path>
          <path>js/tiny_mce/plugins/advimage/langs/de_dlg.js</path>

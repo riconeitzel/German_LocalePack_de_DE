@@ -11,33 +11,33 @@
  -->
 <config>
 	<tabs>
-        <localepacks translate="label" module="localepackde">
+        <localepacks translate="label" module="localepackch">
             <label>Locale Packs</label>
             <sort_order>150</sort_order>
         </localepacks>
     </tabs>
     <sections>
-		<localepackde module="localepackde">
-			<label>Locale de_DE</label>
+		<localepackch module="localepackch">
+			<label>Locale de_CH</label>
 			<tab>localepacks</tab>
 			<sort_order>100</sort_order>
 			<show_in_default>1</show_in_default>
 			<show_in_website>0</show_in_website>
 			<show_in_store>0</show_in_store>
 			<groups>
-				<maininfo translate="label" module="localepackde">
-                    <label>Deutsches Sprachpaket de_DE - Community Edition (CE)</label>
+				<maininfo translate="label" module="localepackch">
+                    <label>Deutsches Sprachpaket de_CH - Community Edition (CE)</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>10</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>0</show_in_website>
                     <show_in_store>0</show_in_store>
                     <comment><![CDATA[
-						  <p><strong>Das Sprachpaket de_DE in der Version <span style="color:red">1.8.0.0.2</span> wurde erfolgreich installiert.</strong></p>
+						  <p><strong>Das Sprachpaket de_CH in der Version <span style="color:red">1.8.0.0.2</span> wurde erfolgreich installiert.</strong></p>
 						  
 						  <p>Auf der <a href="http://www.magentocommerce.com/magento-connect/Rico+Neitzel/extension/413/magento-community-modules--german-germany-language-pack" target="_blank">Extension Homepage des deutschen Sprachpakets</a> finden Sie weitere Informationen zu aktuellen Versionen.</p>
 						  <br />
-						  <p>Für Interessierte steht ein <a href="https://github.com/riconeitzel/German_LocalePack_de_DE" target="_blank">GitHub Repository</a> zur Verfügung. Es ist für die folgenden Zwecke vorgesehen:</p>
+						  <p>Für Interessierte steht ein <a href="https://github.com/openstream/German_LocalePack_de_CH/" target="_blank">GitHub Repository</a> zur Verfügung. Es ist für die folgenden Zwecke vorgesehen:</p>
 						  <ul>
 							<li>- Entwicklung aktueller Sprachpaket Versionen</li>
 							<li>- Fehler melden/Patches einsenden, auch gerne für bereits veröffentlichte Releases</li>
@@ -54,7 +54,7 @@
 						  
 					]]></comment>
 				</maininfo>
-				<mcm translate="label" module="localepackde">
+				<mcm translate="label" module="localepackch">
                     <label>Magento Connect Manager übersetzen</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>20</sort_order>
@@ -80,7 +80,7 @@
 					]]></comment>
                 </mcm>	
                 
-				<tinymce_language translate="label" module="localepackde">
+				<tinymce_language translate="label" module="localepackch">
                     <label>TinyMCE übersetzen/translate TinyMCE</label>
                     <sort_order>70</sort_order>
                     <show_in_default>1</show_in_default>
@@ -100,7 +100,7 @@
                     </fields> 
                 </tinymce_language> 
 				
-				<tipps_translation translate="label" module="localepackde">
+				<tipps_translation translate="label" module="localepackch">
                     <label>Eigene Übersetzungen nutzen</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>50</sort_order>
@@ -140,7 +140,7 @@
 					]]></comment>
                 </tipps_translation>	
 				
-				<additional_extensions translate="label" module="localepackde">
+				<additional_extensions translate="label" module="localepackch">
                     <label>Empfohlene Extensions</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>60</sort_order>
@@ -172,6 +172,6 @@
 					]]></comment>
                 </additional_extensions>
 			</groups>
-		</localepackde>
+		</localepackch>
     </sections>
 </config>

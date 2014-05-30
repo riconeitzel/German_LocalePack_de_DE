@@ -17,15 +17,15 @@ Layout for editor element
 
 		<reference name="head">
 			<!--remove standard editor config "english"-->
-			<action method="removeItem" ifconfig="localepackde/tinymce_language/enabled">
+			<action method="removeItem" ifconfig="localepackch/tinymce_language/enabled">
                 <type>js</type>
                 <name>mage/adminhtml/wysiwyg/tiny_mce/setup.js</name>
             </action>
 
 			<!--add config file with "de" language file using-->
-			<action method="addItem" ifconfig="localepackde/tinymce_language/enabled">
+			<action method="addItem" ifconfig="localepackch/tinymce_language/enabled">
 				<type>js</type>
-				<name>german/localepackde/setup.js</name>
+				<name>german/localepackch/setup.js</name>
 				<params/>
 				<if/>
 				<condition>can_load_tiny_mce</condition>

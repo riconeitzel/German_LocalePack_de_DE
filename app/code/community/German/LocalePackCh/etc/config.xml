@@ -18,27 +18,27 @@
 	
 	<global>
 		<models>
-			<localepackde>
-				<class>German_LocalePackDe_Model</class>
-			</localepackde>
+			<localepackch>
+				<class>German_LocalePackCh_Model</class>
+			</localepackch>
 		</models>
 		<helpers>
-			<localepackde>
-				<class>German_LocalePackDe_Helper</class>
-			</localepackde>
+			<localepackch>
+				<class>German_LocalePackCh_Helper</class>
+			</localepackch>
 		</helpers>
         <blocks>
-            <localepackde>
-                <class>German_LocalePackDe_Block</class>
-            </localepackde>
+            <localepackch>
+                <class>German_LocalePackCh_Block</class>
+            </localepackch>
         </blocks>
 <events>
             <adminhtml_controller_action_predispatch_start>
                 <observers>
-                    <german_localepackde>
-                        <class>localepackde/observer</class>
+                    <german_localepackch>
+                        <class>localepackch/observer</class>
                         <method>adminhtmlControllerActionPredispatchStart</method>
-                    </german_localepackde>
+                    </german_localepackch>
                 </observers>
             </adminhtml_controller_action_predispatch_start>
         </events>
@@ -48,9 +48,9 @@
     <adminhtml>
         <layout>
             <updates>
-                <localepackde>
-                    <file>localepackde.xml</file>
-                </localepackde>
+                <localepackch>
+                    <file>localepackch.xml</file>
+                </localepackch>
             </updates>
         </layout>
         <acl>
@@ -64,9 +64,9 @@
                             <children>
                                 <config>
                                     <children>
-                                        <localepackde translate="title" module="localepackde">
-                                            <title>Locale Pack DE</title>
-                                        </localepackde>
+                                        <localepackch translate="title" module="localepackch">
+                                            <title>Locale Pack DE (CH)</title>
+                                        </localepackch>
                                     </children>
                                 </config>
                             </children>
