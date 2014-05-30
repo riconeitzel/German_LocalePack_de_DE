@@ -30,7 +30,11 @@ Use vars: {{var var_name}}
                     {{var reason}}
                 </p>
                 <p>
-                    <b>Kunde:</b><br />
+                    <b>Bezahlvorgang</b><br />
+                    {{var checkoutType}}
+                </p>
+                <p>
+                    <b>Kunde</b><br />
                     <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
                 </p>
                 <p>
@@ -38,11 +42,11 @@ Use vars: {{var var_name}}
                     {{var items}}
                 </p>
                 <p>
-                    <b>Gesamtsumme:</b><br />
+                    <b>Gesamtsumme</b><br />
                     {{var total}}
                 </p>
                 <p>
-                    <b>Rechnungsadresse:</b><br />
+                    <b>Rechnungsadresse</b><br />
                     {{var billingAddress.format('html')}}
                 </p>
                 <p>
@@ -50,12 +54,12 @@ Use vars: {{var var_name}}
                     {{var shippingAddress.format('html')}}
                 </p>
                 <p>
-                    <b>Versandart:</b><br />
+                    <b>Versandart</b><br />
                     {{var shippingMethod}}
                 </p>
                 <p>
-                    <b>Zahlungsart:</b><br />
-                    {{var paymentMethod}} (via {{var checkoutType}})
+                    <b>Zahlart</b><br />
+                    {{var paymentMethod}}
                 </p>
                 <p>
                     <b>Datum &amp; Zeit</b><br />
