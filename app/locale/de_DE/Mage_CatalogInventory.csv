@@ -5,7 +5,7 @@
 "Add Minimum Qty","Neue Mindestmenge"
 "Allow Qty Below 0","Lagerbestand unter 0 erlauben"
 "Allow Qty Below 0 and Notify Customer","Lagerbestand unter 0 erlauben und Kunden darüber informieren"
-"Automatically Return Credit Memo Item to Stock","Automatische Gutschrift-Info: 'Artikel dem Lagerbestand hinzugefügt'"
+"Automatically Return Credit Memo Item to Stock","Artikel der Rechnungskorrektur automatisch zum Lagerbestand buchen"
 "Backorders","Nachlieferungen"
 "By Fixed value","Um einen Betrag"
 "By Percentage","Um einen Prozentsatz"
