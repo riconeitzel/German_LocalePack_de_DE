@@ -11,7 +11,7 @@ Available vars in this template:
   - sender_email    Sender email
 
 Use vars: {{var var_name}}
-*}<!--@subject Willkommen, {{var name}} @-->
+*}<!--@subject Produktempfehlung von {{var sender_name}} @-->
 <!--@vars
 {"htmlescape var=$name":"Recipient Name",
 "var product_url":"Url for Product",
@@ -19,4 +19,4 @@ Use vars: {{var var_name}}
 "var message":"Sender Message"}
 @-->
 
-Guten Tag, {{htmlescape var=$name}}<br /><br />Bitte schauen Sie sich <a href="{{var product_url}}">{{var product_name}}</a><br /><br />Nachricht: <br />{{var message}}<br /><br />
+Guten Tag, {{htmlescape var=$name}}<br /><br />{{htmlescape var=$sender_name}} möchte Ihnen folgendes Produkt zeigen: <a href="{{var product_url}}">{{var product_name}}</a>!<br /><br />Nachricht: <br />{{var message}}<br /><br />

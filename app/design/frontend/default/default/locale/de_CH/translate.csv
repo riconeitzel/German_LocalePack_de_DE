@@ -21,3 +21,4 @@
 "There are no recurring profiles yet.","Es liegen noch keine wiederkehrenden Profile vor."
 "You will receive an order confirmation email with details of your order and a link to track its progress.","Sie erhalten in kürze eine Bestellbestätigung per Email. Wenn Sie aktuell eingeloggt sind und einen Kunden Account in unserem Shop haben, dann klicken Sie unten auf den Link, um eine Kopie Ihrer Bestellbestätigung zu drucken."
 "Click <a href=""%s"" onclick=""this.target='_blank'"">here to print</a> a copy of your order confirmation.","<a href=""%s"" onclick=""this.target='_blank'"">Bestellbestätigung drucken</a>"
+"Please specify the product's required option(s).","Bitte benötigte Artikeloptionen auswählen."

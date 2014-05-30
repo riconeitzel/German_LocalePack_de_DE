@@ -27,9 +27,9 @@
  * @category German
  * @package German_LocalePack
  * @authors Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
- * @developer Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>   
- * @version 1.7.0.2.0
- * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)  
+ * @developer Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
+ * @version 1.7.0.2.2
+ * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
 var tinyMceWysiwygSetup = Class.create();
@@ -107,9 +107,9 @@ tinyMceWysiwygSetup.prototype =
             mode : (mode != undefined ? mode : 'none'),
             elements : this.id,
             theme : 'advanced',
-			//german language
+            /*german language*/
 			language:"de",
-			//german language end
+            /*german language end*/
             plugins : plugins,
             theme_advanced_buttons1 : magentoPlugins + 'magentowidget,bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,styleselect,formatselect,fontselect,fontsizeselect',
             theme_advanced_buttons2 : 'cut,copy,paste,pastetext,pasteword,|,search,replace,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink,anchor,image,cleanup,help,code,|,forecolor,backcolor',
@@ -158,7 +158,7 @@ tinyMceWysiwygSetup.prototype =
             }
         };
 
-        // Set the document base URL
+        /* Set the document base URL */
         if (this.config.document_base_url) {
             settings.document_base_url = this.config.document_base_url;
         }
@@ -192,10 +192,10 @@ tinyMceWysiwygSetup.prototype =
         this.mediaBrowserTargetElementId = o.field;
 
         if (typeof(o.type) != 'undefined' && o.type != "") {
-            typeTitle = 'image' == o.type ? this.translate('Insert Image...') : this.translate('Insert Media...');
+            typeTitle = 'image' == o.type ? this.translate('Insert Image...') : this.translate('Insert Media…');
             wUrl = wUrl + "type/" + o.type + "/";
         } else {
-            typeTitle = this.translate('Insert File...');
+            typeTitle = this.translate('Insert File…');
         }
 
         MediabrowserUtility.openDialog(wUrl, false, false, typeTitle);
@@ -237,7 +237,7 @@ tinyMceWysiwygSetup.prototype =
             e.show();
         });
         if (Prototype.Browser.IE) {
-            // workaround for ie textarea redraw bug
+            /* workaround for ie textarea redraw bug */
             window.setTimeout(function(){
                 $(this.id).value = $(this.id).value;
             }.bind(this), 0);
@@ -245,7 +245,7 @@ tinyMceWysiwygSetup.prototype =
     },
 
     closePopups: function() {
-        // close all popups to avoid problems with updating parent content area
+        /* close all popups to avoid problems with updating parent content area */
         closeEditorPopup('widget_window' + this.id);
         closeEditorPopup('browser_window' + this.id);
     },
@@ -267,7 +267,7 @@ tinyMceWysiwygSetup.prototype =
     },
 
     onChangeContent: function() {
-        // Add "changed" to tab class if it exists
+        /* Add "changed" to tab class if it exists */
         if(this.config.tab_id) {
             var tab = $$('a[id$=' + this.config.tab_id + ']')[0];
             if ($(tab) != undefined && $(tab).hasClassName('tab-item-link')) {
@@ -276,16 +276,16 @@ tinyMceWysiwygSetup.prototype =
         }
     },
 
-    // retrieve directives URL with substituted directive value
+    /* retrieve directives URL with substituted directive value */
     makeDirectiveUrl: function(directive) {
         return this.config.directives_url.replace('directive', 'directive/___directive/' + directive);
     },
 
     encodeDirectives: function(content) {
-        // collect all HTML tags with attributes that contain directives
+        /* collect all HTML tags with attributes that contain directives */
         return content.gsub(/<([a-z0-9\-\_]+.+?)([a-z0-9\-\_]+=".*?\{\{.+?\}\}.*?".+?)>/i, function(match) {
             var attributesString = match[2];
-            // process tag attributes string
+            /* process tag attributes string */
             attributesString = attributesString.gsub(/([a-z0-9\-\_]+)="(.*?)(\{\{.+?\}\})(.*?)"/i, function(m) {
                 return m[1] + '="' + m[2] + this.makeDirectiveUrl(Base64.mageEncode(m[3])) + m[4] + '"';
             }.bind(this));
@@ -316,7 +316,7 @@ tinyMceWysiwygSetup.prototype =
     },
 
     decodeDirectives: function(content) {
-        // escape special chars in directives url to use it in regular expression
+        /* escape special chars in directives url to use it in regular expression */
         var url = this.makeDirectiveUrl('%directive%').replace(/([$^.?*!+:=()\[\]{}|\\])/g, '\\$1');
         var reg = new RegExp(url.replace('%directive%', '([a-zA-Z0-9,_-]+)'));
         return content.gsub(reg, function(match) {
@@ -367,4 +367,4 @@ tinyMceWysiwygSetup.prototype =
     widgetPlaceholderExist: function(filename) {
         return this.config.widget_placeholders.indexOf(filename) != -1;
     }
-}
+};

@@ -41,14 +41,14 @@
 <script type="text/javascript">
 <!--
  function connectPrepare(form) {
-    new Ajax.Request(form.action, { 
+    new Ajax.Request(form.action, {
       method:'post',
       parameters: {install_package_id: form.install_package_id.value},
       onCreate: function() {
           $('prepare_package_result').update(
                 '<div class="loading-mask" id="loading_mask_loader">'+
                 ' <p class="loader">'+
-                ' <img src="<?php echo $this->baseUrl()?>/skin/images/ajax-loader-tr.gif" alt="Loading..."/><br/>Please wait...'+
+                ' <img src="<?php echo $this->baseUrl()?>/skin/images/ajax-loader-tr.gif" alt="Loading..."/><br/>Please wait…'+
                 ' </p>'+
                 '</div>'
           );
@@ -213,7 +213,7 @@ $$('#connect_packages_'+<?php echo $i?>+' select').each(function(el){el.value=''
     <button onclick="location.reload()">Aktualisieren</button>
 </div>
 <div id="connect_iframe_failure" style="display:none">
-    <?php $this->set('messages', array('error'=>array('Achten Sie auf Fehlermeldungen im schwarzen Fenster und aktualisieren Sie die Seite um Ver&auml;nderungen zu sehen / anzuwenden.'))) ?>
+    <?php $this->set('messages', array('error'=>array('Achten Sie auf Fehlermeldungen im schwarzen Fenster und aktualisieren Sie die Seite um Ver&auml;nderungen zu sehen/anzuwenden.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
     <button onclick="location.reload()">Aktualisieren</button>
 </div>

@@ -1,7 +1,8 @@
 <!--@subject {{var store.getFrontendName()}}: Bestellung Nr. {{var order.increment_id}} Aktualisierung @-->
 <!--@vars
 {"store url=\"\"":"Store Url",
-"skin url=\"images/logo_email.gif\" _area='frontend'":"Email Logo Image",
+"var logo_url":"Email Logo Image Url",
+"var logo_alt":"Email Logo Image Alt",
 "htmlescape var=$billing.getName()":"Guest Customer Name",
 "var order.increment_id":"Order Id",
 "var order.getStatusLabel()":"Order Status",
@@ -12,14 +13,15 @@
 body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
 @-->
 
-<div style="font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;">
-<table cellspacing="0" cellpadding="0" border="0" width="98%" style="margin-top:10px; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;">
+<body style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<div style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
 <tr>
     <td align="center" valign="top">
         <!-- [ header starts here] -->
         <table cellspacing="0" cellpadding="0" border="0" width="650">
         <tr>
-            <td valign="top"><a href="{{store url=""}}"><img src="{{skin url="images/logo_email.gif" _area='frontend'}}" alt="{{var store.getFrontendName()}}"  style="margin-bottom:10px;" border="0"/></a></td>
+            <td valign="top"><a href="{{store url=""}}"><img src="{{var logo_url}}" alt="{{var logo_alt}}" style="margin-bottom:10px;" border="0"/></a></td>
         </tr>
         </table>
 
@@ -46,3 +48,4 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
 </tr>
 </table>
 </div>
+</body>

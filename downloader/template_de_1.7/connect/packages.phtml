@@ -90,7 +90,7 @@ function connectPrepare(form) {
           $('prepare_package_result').update(
                 '<div class="loading-mask" id="loading_mask_loader">'+
                 ' <p class="loader">'+
-                ' <img src="<?php echo $this->baseUrl()?>/skin/images/ajax-loader-tr.gif" alt="Loading..."/><br/>Please wait...'+
+                ' <img src="<?php echo $this->baseUrl()?>/skin/images/ajax-loader-tr.gif" alt="Loading..."/><br/>Please wait…'+
                 ' </p>'+
                 '</div>'
           );
@@ -255,7 +255,7 @@ $$('#connect_packages_' + <?php echo $i?> + ' select').each(function(el){el.valu
     <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Aktualisieren</button>
 </div>
 <div id="connect_iframe_failure" style="display:none">
-    <?php $this->set('messages', array('error'=>array('Achten Sie auf Fehlermeldungen im schwarzen Fenster und aktualisieren Sie die Seite um Ver&auml;nderungen zu sehen / anzuwenden.'))) ?>
+    <?php $this->set('messages', array('error'=>array('Achten Sie auf Fehlermeldungen im schwarzen Fenster und aktualisieren Sie die Seite um Ver&auml;nderungen zu sehen/anzuwenden.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
     <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Aktualisieren</button>
 </div>
