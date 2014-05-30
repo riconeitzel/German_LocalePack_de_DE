@@ -6,9 +6,6 @@
     "authors":[
         {
             "name":"Rico Neitzel"
-        },
-        {
-            "name":"Daniel Sasse"
         }
     ],
     "require": {
