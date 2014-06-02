@@ -133,7 +133,7 @@
                         <p>Sollten Sie trotzdem eigene Übersetzungen per CSV Dateien nutzen wollen:</p>
                         <ol>
                             <li>Legen Sie ein eigenen Themes mit der Übersetzungsdatei "/app/design/frontend/default/mein_theme/locale/de_DE/translate.csv" an.</li>
-                            <li>Konfigurieren Sie Magento, dass dieses Theme für Übersetzungen verwendet werden soll: "System" -> "Konfiguration" -> "Gestaltung" -> "Themes" -> "Übersetzungen" dort den Ordnernamen Ihres Themes (z. B. "mein_theme") eintragen.</li>
+                            <li>Konfigurieren Sie Magento, dass dieses Theme für Übersetzungen verwendet werden soll: "System" -> "Konfiguration" -> "Design" -> "Themes" -> "Übersetzungen" dort den Ordnernamen Ihres Themes (z. B. "mein_theme") eintragen.</li>
                         </ol>
                         <br />
                         <p><strong style="color:red">Bitte beachten:</strong> Der für die CSV-Datei verwendete Editor sollte die Datei als UTF-8 ohne BOM speichern können!</p>

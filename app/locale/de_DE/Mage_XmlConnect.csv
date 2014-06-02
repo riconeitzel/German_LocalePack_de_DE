@@ -196,7 +196,7 @@
 "Can\'t load cart.","Warenkorb konnte nicht geladen werden."
 "Can\'t load customer form.","Kundenformular konnte nicht geladen werden."
 "Can\'t load default themes.","Standardvorlagen konnte nicht geladen werden."
-"Can\'t load selected theme. Please check your media folder permissions.","Ausgewählte Gestaltung konnte nicht geladen werden. Bitte prüfen Sie die Dateirechte Ihres media-Ordners."
+"Can\'t load selected theme. Please check your media folder permissions.","Ausgewähltes Theme konnte nicht geladen werden. Bitte prüfen Sie die Dateirechte Ihres media-Ordners."
 "Can\'t load template with id ""%s""","Template mit der ID ""%s"" konnte nicht geladen werden"
 "Can\'t open submission form.","Übermittlungsformular konnte nicht geöffnet werden."
 "Can\'t read file ""%s"".","Datei ""%s"" konnte nicht gelesen werden."
