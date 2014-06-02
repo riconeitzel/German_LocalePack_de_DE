@@ -68,7 +68,7 @@
 "Economy select","Economy Select"
 "Empty response","Leere Rückmeldung"
 "Enable Negotiated Rates","Vereinbarte Kosten aktivierten"
-"Enabled for Checkout","Für Checkout zugelassen"
+"Enabled for Checkout","Für den Gang zur Kasse zugelassen"
 "Enables/Disables SSL verification of Magento server by UPS.","Aktiviert/Deaktiviert SSL-Prüfung des Magento Servers via UPS."
 "Error #%s : %s","Fehler #%s: %s %s"
 "Error #%s : %s (%s)","Fehler #%s: %s (%s)"
