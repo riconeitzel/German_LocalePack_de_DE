@@ -26,7 +26,7 @@
 "Payment authorization error.","Fehler beim Autorisieren der Zahlung."
 "Payment authorization error. Transacion id is empty.","Fehler bei der Zahlungsbestätigung. Transaktionsnummer ist leer."
 "Payment error. Order was not found.","Zahlungsfehler. Bestellung konnte nicht gefunden werden."
-"Payment error. Paid amount doesn\'t match the order amount.","Zahlungsfehler. Gezahlter Betrag entspricht nicht dem Rechnungsbetrag."
+"Payment error. Paid amount doesn't match the order amount.","Zahlungsfehler. Gezahlter Betrag entspricht nicht dem Rechnungsbetrag."
 "Payment from Applicable Countries","Zahlung aus erlaubten Ländern"
 "Payment from Specific Countries","Zahlung von bestimmten Ländern"
 "Please, choose payment method","Bitte wählen Sie eine Zahlart"

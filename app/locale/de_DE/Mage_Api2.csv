@@ -1,6 +1,6 @@
 "%s","%s"
-"%s role is a special one and can\'t be changed.","%s ist eine Sonderberechtigung und kann nicht bearbeitet werden."
-"%s role is a special one and can\'t be deleted.","%s ist eine Sonderberechtigung und kann nicht gelöscht werden."
+"%s role is a special one and can't be changed.","%s ist eine Sonderberechtigung und kann nicht bearbeitet werden."
+"%s role is a special one and can't be deleted.","%s ist eine Sonderberechtigung und kann nicht gelöscht werden."
 "%s role is protected.","Berechtigung %s ist geschützt."
 "ACL Attribute Rules","ACL Attribut Regeln"
 "ACL Attributes Information","ACL Attribut Information"
