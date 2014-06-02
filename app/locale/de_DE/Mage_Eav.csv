@@ -42,7 +42,7 @@
 "Attribute object is undefined","Attribut Objekt ist nicht definiert"
 "Attribute set with the ""%s"" name already exists.","Attribut-Set mit dem Namen ""%s"" existiert bereits."
 "Attribute with the same code","Attribut mit dem gleichen Code"
-"Can\'t create table: %s","Tabelle %s kann nicht angelegt werden"
+"Can't create table: %s","Tabelle %s kann nicht angelegt werden"
 "Catalog Input Type for Store Owner","Katalog Eingabe-Typ für den Shopbetreiber"
 "Current module EAV entity is undefined","Aktuelle EAV-Entität des Moduls ist nicht definiert"
 "Current module pathname is undefined","Aktueller Pfadname des Moduls ist nicht definiert"

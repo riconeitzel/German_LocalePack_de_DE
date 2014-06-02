@@ -28,7 +28,7 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
                     <!-- [ middle starts here] -->
                     <tr>
                         <td valign="top">
-                            <h1 style="font-size:14px; font-weight:normal; line-height:22px; margin:0 0 11px 0;">Guten Tag {{htmlescape var=$customer.name}},</h1>
+                            <h1 style="font-size:22px; font-weight:normal; line-height:22px; margin:0 0 11px 0;">Guten Tag {{htmlescape var=$customer.name}},</h1>
                             <p style="font-size:12px; line-height:16px; margin:0 0 16px 0;">Ihre E-Mail Adresse {{var customer.email}} muss bestätigt werden, bevor Sie sich damit in unserem Shop anmelden können.</p>
                             <p style="font-size:12px; line-height:16px; margin:0 0 8px 0;">Um die E-Mail Adresse zu bestätigen, klicken Sie bitte auf diesen <a href="{{store url="customer/account/confirm/" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url}}" style="color:#1E7EC8;">Bestätigungslink</a>.<br />Dieser Link ist nur einmal gültig.</p>
                             <p style="font-size:12px; line-height:16px; margin:0;">

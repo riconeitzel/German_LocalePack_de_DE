@@ -5,34 +5,34 @@
  * @package German_LocalePack
  * @authors Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
  * @developer Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>   
- * @version 1.8.0.0.2
+ * @version 1.9.0.1.0
  * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)  
  */
  -->
 <config>
-	<modules>
-		<German_LocalePackDe>
-			<version>1.8.0.0.2</version>
-		</German_LocalePackDe>
-	</modules>
-	
-	<global>
-		<models>
-			<localepackde>
-				<class>German_LocalePackDe_Model</class>
-			</localepackde>
-		</models>
-		<helpers>
-			<localepackde>
-				<class>German_LocalePackDe_Helper</class>
-			</localepackde>
-		</helpers>
+    <modules>
+        <German_LocalePackDe>
+            <version>1.9.0.1.0</version>
+        </German_LocalePackDe>
+    </modules>
+
+    <global>
+        <models>
+            <localepackde>
+                <class>German_LocalePackDe_Model</class>
+            </localepackde>
+        </models>
+        <helpers>
+            <localepackde>
+                <class>German_LocalePackDe_Helper</class>
+            </localepackde>
+        </helpers>
         <blocks>
             <localepackde>
                 <class>German_LocalePackDe_Block</class>
             </localepackde>
         </blocks>
-<events>
+        <events>
             <adminhtml_controller_action_predispatch_start>
                 <observers>
                     <german_localepackde>
@@ -44,7 +44,7 @@
         </events>
 
     </global>
-	
+
     <adminhtml>
         <layout>
             <updates>
