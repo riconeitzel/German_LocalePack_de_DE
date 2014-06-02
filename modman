@@ -34,7 +34,7 @@ js/tiny_mce/themes/simple/langs/de.js                   js/tiny_mce/themes/simpl
 
 #Adminhtml und Default Theme
 app/design/adminhtml/default/default/locale/de_DE/translate.csv     app/design/adminhtml/default/default/locale/de_DE/translate.csv
-app/design/frontend/default/default/locale/de_DE/translate.csv      app/design/frontend/base/default/locale/de_DE/translate.csv
+app/design/frontend/default/default/locale/de_DE/translate.csv      app/design/frontend/default/default/locale/de_DE/translate.csv
 
 #CoreTranslation
 app/locale/de_DE/Mage_Adminhtml.csv app/locale/de_DE/Mage_Adminhtml.csv 
