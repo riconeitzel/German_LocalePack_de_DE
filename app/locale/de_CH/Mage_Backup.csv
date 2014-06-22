@@ -52,4 +52,4 @@
 "Unable to create backup. Please, try again later.","Fehler beim Erstellen der Sicherung. Bitte versuchen Sie es später nocheinmal."
 "Unable to save the cron expression.","Cron-Werte konnten nicht gespeichert werden."
 "Wrong order of creation for new backup.","Falsche Erstellungsreihenfolge für neues Backup."
-"You do not have sufficient permissions to enable Maintenance Mode during this operation.","Sie haben keine ausreichende Berechtigung um den Wartungsmodus zu aktivieren."
+"You do not have sufficient permissions to enable Maintenance Mode during this operation.","Sie haben keine ausreichende Berechtigung, um den Wartungsmodus zu aktivieren."

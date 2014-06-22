@@ -1,10 +1,5 @@
-<<<<<<< HEAD:app/locale/de_CH/Mage_CatalogSearch.csv
-"%s and greater","%s und grösser"
-"<strong>%d item(s)</strong> were found using the following search criteria","<strong>%d Artikel(s)</strong> wurde mit der folgenden Suchkriterien gefunden"
-=======
 "%s and greater","%s und grösser"
 "<strong>%d item(s)</strong> were found using the following search criteria","<strong>%d Artikel</strong> wurde mit den folgenden Suchkriterien gefunden"
->>>>>>> upstream/master:app/locale/de_DE/Mage_CatalogSearch.csv
 "Advanced Search","Erweiterte Suche"
 "Advanced Search Form","Erweitertes Suchformular"
 "Advanced Search Result","Suchergebnis für erweiterte Suche"
@@ -17,7 +12,7 @@
 "Catalog Search","Katalogsuche"
 "Catalog Search Index","Katalog Suchindex"
 "Don't see what you're looking for?","Nicht gefunden, wonach Sie gesucht haben?"
-"Enter ""0"" to enable layered navigation for any number of results.","Geben Sie ""0"" ein um die Filternavigation bei jeder Anzahl von Ergebnissen anzuzeigen."
+"Enter ""0"" to enable layered navigation for any number of results.","Geben Sie ""0"" ein, um die Filternavigation bei jeder Anzahl von Ergebnissen anzuzeigen."
 "Go","Los"
 "Go to Home Page","Zur Startseite"
 "Grid","Gitter"
