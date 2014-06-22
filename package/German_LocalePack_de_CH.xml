@@ -1,13 +1,14 @@
 <_>
-   <form_key>lYMf1dsE4YjQ1IHZ</form_key>
+   <form_key>dWAgR7P3iSsjHDAw</form_key>
    <name>German_LocalePack_de_CH</name>
    <channel>community</channel>
    <version_ids>
       <version_ids>2</version_ids>
       <version_ids>1</version_ids>
    </version_ids>
-   <summary>Deutsches Sprachpaket - bitte Infos auf der Extension Homepage beachten.</summary>
-   <description>Deutsches Sprachpaket für Magento Commerce</description>
+   <summary>German Community Modules - German (Switzerland) Language Pack</summary>
+   <description>Deutsches Sprachpaket für Magento Commerce.
+Sprachversion für die Schweiz.</description>
    <license>OSL</license>
    <license_uri/>
    <version>1.8.1.0.0</version>
@@ -16,12 +17,15 @@
    <authors>
       <name>
          <name>Rico Neitzel</name>
+         <name>Manfred Worm Schäfer</name>
       </name>
       <user>
          <user>rizi</user>
+         <user>mawoscha</user>
       </user>
       <email>
          <email>rico@buro71a.de</email>
+         <email>manfredwormschaefer@gmail.com</email>
       </email>
    </authors>
    <depends_php_min>5.2.0</depends_php_min>
@@ -45,8 +49,8 @@
             <max>1.9.9.9</max>
          </max>
          <files>
-            <files>                      </files>
-            <files>                      </files>
+            <files>                        </files>
+            <files>                        </files>
          </files>
       </package>
       <extension>
@@ -74,7 +78,7 @@
       </target>
       <path>
          <path/>
-         <path>de_DE</path>
+         <path>de_CH</path>
          <path>adminhtml/default/default/layout/localepackch.xml</path>
          <path>adminhtml/default/default/locale/de_CH/translate.csv</path>
          <path>frontend/default/default/locale/de_CH/translate.csv</path>
