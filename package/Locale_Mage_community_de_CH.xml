@@ -1,6 +1,6 @@
 <_>
    <form_key>lYMf1dsE4YjQ1IHZ</form_key>
-   <name>Locale_Mage_community_de_DE</name>
+   <name>German_LocalePack_de_CH</name>
    <channel>community</channel>
    <version_ids>
       <version_ids>2</version_ids>
@@ -10,7 +10,7 @@
    <description>Deutsches Sprachpaket für Magento Commerce</description>
    <license>OSL</license>
    <license_uri/>
-   <version>1.8.0.0.2</version>
+   <version>1.8.0.0.3</version>
    <stability>stable</stability>
    <notes>none/keine</notes>
    <authors>
@@ -30,18 +30,23 @@
       <package>
          <name>
             <name/>
+            <name>German_LocalePack_de_DE</name>
          </name>
          <channel>
             <channel/>
+            <channel>community</channel>
          </channel>
          <min>
             <min/>
+            <min>1.7.0.0</min>
          </min>
          <max>
             <max/>
+            <max>1.9.9.9</max>
          </max>
          <files>
-            <files>        </files>
+            <files>                      </files>
+            <files>                      </files>
          </files>
       </package>
       <extension>
@@ -63,57 +68,19 @@
          <target>magedesign</target>
          <target>magedesign</target>
          <target>magedesign</target>
-         <target>mage</target>
-         <target>mage</target>
          <target>magecommunity</target>
          <target>mageetc</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
-         <target>mage</target>
          <target>mage</target>
       </target>
       <path>
          <path/>
          <path>de_DE</path>
+         <path>adminhtml/default/default/layout/localepackch.xml</path>
          <path>adminhtml/default/default/locale/de_CH/translate.csv</path>
          <path>frontend/default/default/locale/de_CH/translate.csv</path>
-         <path>adminhtml/default/default/layout/localepackch.xml</path>
-         <path>downloader/template_de_1.5</path>
-         <path>downloader/template_de_1.7</path>
-         <path>German</path>
+         <path>German/LocalePackCh</path>
          <path>modules/German_LocalePackCh.xml</path>
          <path>js/german/localepackch/setup.js</path>
-         <path>js/tiny_mce/langs/de.js</path>
-         <path>js/tiny_mce/plugins/advhr/langs/de_dlg.js</path>
-         <path>js/tiny_mce/plugins/advimage/langs/de_dlg.js</path>
-         <path>js/tiny_mce/plugins/advlink/langs/de_dlg.js</path>
-         <path>js/tiny_mce/plugins/emotions/langs/de_dlg.js</path>
-         <path>js/tiny_mce/plugins/emotions/langs/de_dlg.js</path>
-         <path>js/tiny_mce/plugins/fullpage/langs/de_dlg.js</path>
-         <path>js/tiny_mce/plugins/media/langs/de_dlg.js</path>
-         <path>js/tiny_mce/plugins/paste/langs/de_dlg.js</path>
-         <path>js/tiny_mce/plugins/searchreplace/langs/de_dlg.js</path>
-         <path>js/tiny_mce/plugins/style/langs/de_dlg.js</path>
-         <path>js/tiny_mce/plugins/table/langs/de_dlg.js</path>
-         <path>js/tiny_mce/plugins/template/langs/de_dlg.js</path>
-         <path>js/tiny_mce/plugins/xhtmlxtras/langs/de_dlg.js</path>
-         <path>js/tiny_mce/themes/advanced/langs/de.js</path>
-         <path>js/tiny_mce/themes/advanced/langs/de_dlg.js</path>
-         <path>js/tiny_mce/themes/simple/langs/de.js</path>
       </path>
       <type>
          <type>file</type>
@@ -122,25 +89,6 @@
          <type>file</type>
          <type>file</type>
          <type>dir</type>
-         <type>dir</type>
-         <type>dir</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
-         <type>file</type>
          <type>file</type>
          <type>file</type>
       </type>
@@ -153,47 +101,9 @@
          <include/>
          <include/>
          <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
       </include>
       <ignore>
          <ignore/>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
