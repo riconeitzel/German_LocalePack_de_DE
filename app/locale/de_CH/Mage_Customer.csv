@@ -350,7 +350,7 @@
 "Sign Up for Newsletter","In den Newsletter eintragen"
 "Skipping import row, required field ""%s"" is not defined.","Importzeile übersprungen, Pflichtfeld ""%s"" nicht angegeben."
 "Skipping import row, website ""%s"" field does not exist.","Importzeile übersprungen, Webseite ""%s"" feld gibt es nicht."
-"State/Province","BundesKanton/Bundesland"
+"State/Province","Kanton/Bundesland"
 "Status","Status"
 "Store","Laden"
 "Store View","Ladenansicht"
