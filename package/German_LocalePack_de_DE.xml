@@ -1,12 +1,12 @@
 <_>
-   <form_key>lYMf1dsE4YjQ1IHZ</form_key>
-   <name>Locale_Mage_community_de_DE</name>
+   <form_key>VoH6v7IGnILlDD3N</form_key>
+   <name>German_LocalePack_de_DE</name>
    <channel>community</channel>
    <version_ids>
       <version_ids>2</version_ids>
       <version_ids>1</version_ids>
    </version_ids>
-   <summary>Deutsches Sprachpaket - bitte Infos auf der Extension Homepage beachten.</summary>
+   <summary>German Community Modules - German (Germany) Language Pack</summary>
    <description>Deutsches Sprachpaket für Magento Commerce</description>
    <license>OSL</license>
    <license_uri/>
@@ -24,7 +24,7 @@
          <email>rico@buro71a.de</email>
       </email>
    </authors>
-   <depends_php_min>5.2.0</depends_php_min>
+   <depends_php_min>5.0.0</depends_php_min>
    <depends_php_max>6.0.0</depends_php_max>
    <depends>
       <package>
@@ -41,7 +41,7 @@
             <max/>
          </max>
          <files>
-            <files>        </files>
+            <files>                    </files>
          </files>
       </package>
       <extension>
@@ -84,24 +84,22 @@
          <target>mage</target>
          <target>mage</target>
          <target>mage</target>
-         <target>mage</target>
       </target>
       <path>
          <path/>
          <path>de_DE</path>
+         <path>adminhtml/default/default/layout/localepackde.xml</path>
          <path>adminhtml/default/default/locale/de_DE/translate.csv</path>
          <path>frontend/default/default/locale/de_DE/translate.csv</path>
-         <path>adminhtml/default/default/layout/localepackde.xml</path>
          <path>downloader/template_de_1.5</path>
          <path>downloader/template_de_1.7</path>
-         <path>German</path>
+         <path>German/LocalePackDe</path>
          <path>modules/German_LocalePackDe.xml</path>
          <path>js/german/localepackde/setup.js</path>
          <path>js/tiny_mce/langs/de.js</path>
          <path>js/tiny_mce/plugins/advhr/langs/de_dlg.js</path>
          <path>js/tiny_mce/plugins/advimage/langs/de_dlg.js</path>
          <path>js/tiny_mce/plugins/advlink/langs/de_dlg.js</path>
-         <path>js/tiny_mce/plugins/emotions/langs/de_dlg.js</path>
          <path>js/tiny_mce/plugins/emotions/langs/de_dlg.js</path>
          <path>js/tiny_mce/plugins/fullpage/langs/de_dlg.js</path>
          <path>js/tiny_mce/plugins/media/langs/de_dlg.js</path>
@@ -124,7 +122,6 @@
          <type>dir</type>
          <type>dir</type>
          <type>dir</type>
-         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -171,11 +168,9 @@
          <include/>
          <include/>
          <include/>
-         <include/>
       </include>
       <ignore>
          <ignore/>
-         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
