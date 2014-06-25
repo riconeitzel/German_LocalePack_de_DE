@@ -8,24 +8,22 @@
    </version_ids>
    <summary>German Community Modules - German (Switzerland) Language Pack</summary>
    <description>Deutsches Sprachpaket für Magento Commerce.
+
 Sprachversion für die Schweiz.</description>
    <license>OSL</license>
    <license_uri/>
-   <version>1.8.1.0.0</version>
+   <version>1.9.0.1.0</version>
    <stability>stable</stability>
    <notes>none/keine</notes>
    <authors>
       <name>
          <name>Rico Neitzel</name>
-         <name>Manfred Worm Schäfer</name>
       </name>
       <user>
          <user>rizi</user>
-         <user>mawoscha</user>
       </user>
       <email>
          <email>rico@buro71a.de</email>
-         <email>manfredwormschaefer@gmail.com</email>
       </email>
    </authors>
    <depends_php_min>5.2.0</depends_php_min>

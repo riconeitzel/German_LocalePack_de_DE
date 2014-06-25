@@ -12,7 +12,7 @@
 <config>
 	<modules>
 		<German_LocalePackCh>
-			<version>1.8.1.0.0</version>
+            <version>1.9.0.1.0</version>
 		</German_LocalePackCh>
 	</modules>
 	
