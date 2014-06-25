@@ -30,7 +30,7 @@
 "Info:","Info:"
 "Invalid %s ""%s"" in the Row #%s.","%s ""%s"" in Zeile %s ist ungültig."
 "Invalid Country ""%s"" in the Row #%s.","Ungültiges Land ""%s"" in Zeile %s."
-"Invalid Region/State ""%s"" in the Row #%s.","Ungültiges Kanton/Bundesland ""%s"" in Zeile %s."
+"Invalid Region/State ""%s"" in the Row #%s.","Ungültiger Kanton ""%s"" in Zeile %s."
 "Invalid Shipping Price ""%s"" in the Row #%s.","Ungültige Versandkosten ""%s"" in Zeile %s."
 "Invalid Table Rate code for type %s: %s","Ungültiger Table Rate Code für Typ %s: %s"
 "Invalid Table Rate code type: %s","Ungültiger Table Rate Code: %s"
