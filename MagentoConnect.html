@@ -1,9 +1,9 @@
 <h2>Deutsches Magento Sprachpaket für die Schweiz</h2>
 <h3>Fehler gefunden?</h3>
 
-<p><strong>Sollte das Sprachpaket nicht wie gewohnt funktionieren, bitte Caches löschen und neu einloggen. Geht es danach immernoch nicht, bitte das Sprachpaket nochmal deinstallieren und wieder neu installieren.</strong></p>
+<p><strong>Sollte das Sprachpaket nicht wie gewohnt funktionieren, bitte Caches löschen und neu einloggen. Geht es danach immer noch nicht, bitte das Sprachpaket nochmal deinstallieren und wieder neu installieren.</strong></p>
 
-<p><strong>Fehler in Version 1.7.0.x</strong> Seit 1.7.0.2.3 ist ein Fehler behoben, der beim Konvertieren des Connect 1.0 in einer 2.0 Paket entstanden ist. Dabei wurden einige Dateien nicht korrekt als Datei entpackt sondern als leere Ordner angelegt, die den Dateinamen als Ordnernamen tragen.</p>
+<p><strong>Fehler in Version 1.7.0.x</strong> Seit 1.7.0.2.3 ist ein Fehler behoben, der beim Konvertieren des Connect 1.0 in einer 2.0 Paket entstanden ist. Dabei wurden einige Dateien nicht korrekt als Datei entpackt, sondern als leere Ordner angelegt, die den Dateinamen als Ordnernamen tragen.</p>
 <p>Bei einem Update der Extension wird dies zwangsläufig zur Problemen kommen, da diese defekten Ordner nicht gelöscht werden, eine Datei mit dem gleichen Namen aber nicht daneben gelegt werden darf.</p>
 <p>Treten bei Ihnen diese Probleme auf, deinstallieren Sie das Sprachpaket im Magento Connect Manager, löschen Sie bitte anschliessend folgende Ordner sofern sie vorhanden sind: /app/design/adminhtml/default/default/locale/de_DE/translate.csv, /app/design/adminhtml/default/default/layout/localepackede.xml, app/design/frontend/default/default/locale/de_DE/translate.csv, /app/design/adminhtml/base/default/locale/de_DE/translate.csv, /app/design/adminhtml/base/default/layout/localepackede.xml, app/design/frontend/base/default/locale/de_DE/translate.csv und installieren Sie das Sprachpaket erneut.</p>
 
@@ -11,18 +11,20 @@
 <a href="https://github.com/openstream/German_LocalePack_de_CH/issues">https://github.com/openstream/German_LocalePack_de_CH/issues</a></p>
 
 <h3>Mitarbeit erwünscht</h3>
-<p>Informationen zum Sprachpaket finden sich im dazugehörigen GitHub Repository unter<br />
+<p>Informationen zum Sprachpaket finden sich im dazugehörigen GitHub-Repository unter<br />
 <a href="https://github.com/riconeitzel/German_LocalePack_de_DE">https://github.com/riconeitzel/German_LocalePack_de_DE</a></p>
-<p>Bei Mitarbeit am Sprachpaket <strong>bitte PullRequests immer für den preview-Branch</strong> schicken. Danke :-)</p>
+<p>Bei Mitarbeit am Sprachpaket <strong>bitte PullRequests immer für den Preview-Branch</strong> schicken. Danke :-)</p>
 
 
 <h3>unvollständiger ChangeLog</h3>
 <ul>
+<li><strong>1.8.1.0.0:</strong> Auf Magento Version 1.8.1.x getestet, Helvetismen wie "Beschrieb" (für Beschreibung), "Leerschlag" (für Leerzeichen) und "Fuhrhalterei" (für Transportdienstleister) verwendet, englisch "Website" zu deutsch "Webseite" gemacht, "Bundesland zu Kanton/Bundesland, etc.</li>
+<li><strong>1.8.0.0.3:</strong> Dateien bezüglich des Magento Connect Managers und TinyMCE-Editors entfernt, weil einerseits Konflikte entstehen, wenn German_LocalePack_de_DE bereits installiert ist und andererseits die Notwendigkeit nicht besteht, weil sich Schweizerdeutsch und Standarddeutsch in Bezug auf Magento Connect Managers und TinyMCE-Editor nicht unterscheiden./li>
 <li><strong>1.8.0.0.2:</strong> Bugfix des fehlgeschlagenen Deploys (Texte ohne Leerzeichen)</li>
 <li><strong>1.8.0.0.1:</strong> Versionsbeschränkung für Core 1.8.0.0 entfernt, AdminPanel-Notification bei Versionsunstimmigkeiten</li>
-<li><strong>1.8.0.0.0:</strong> Fehlerbehebungen und Verbesserungen, Korrektur modman Datei, TinyMCE Übersetzung jetzt per Backend aktivierbar/deaktivierbar, neue und entfallene Strings der Magento 1.8.0.0</li>
-	<li><strong>1.7.0.2.4:</strong> Fehlerbehebungen und Verbesserungen. Korrektur modman Datei. Escaping für JavaScript behoben. Tippfehler in eMail-Templates behoben.</li>
+<li><strong>1.8.0.0.0:</strong> Fehlerbehebungen und Verbesserungen, Korrektur modman-Datei, TinyMCE-Übersetzung jetzt per Backend aktivierbar/deaktivierbar, neue und entfallene Strings der Magento 1.8.0.0</li>
+<li><strong>1.7.0.2.4:</strong> Fehlerbehebungen und Verbesserungen. Korrektur modman-Datei. Escaping für JavaScript behoben. Tippfehler in E-Mail-Templates behoben.</li>
 <li><strong>1.7.0.2.2/3:</strong> Fehlerbehebungen und Verbesserungen. Symlinks zur Dateien wurden als teilweise Ordner entpackt. Beim Packen der Extension wird nun nicht mehr mit Symlinks gearbeitet, bis das Problem in Zusammenhang mit modman und Magentos Paketmanager gefunden und behoben ist. <strong>Danke an Matthias Walter und Andreas von Studnitz fürs Mitgrübeln und Testen.</strong></li>
 <li><strong>1.7.0.2.1:</strong> Fehlerbehebungen und Verbesserungen.</li>
-<li /><strong>seit Version 1.7.0.0.0</strong> Diese Version berücksichtigt die rechtliche Anforderung der sog. "Button-Lösung".</li>
+<li><strong>seit Version 1.7.0.0.0</strong> Diese Version berücksichtigt die rechtliche Anforderung der sog. "Button-Lösung".</li>
 </ul>
