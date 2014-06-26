@@ -50,7 +50,7 @@ _Hinweis:_ PullRequests sind bitte immer im Preview-Branch zu senden.
 
 Lust am Sprachpaket mitzuwirken und einen (zumindest kostenlosen) Github- und/oder Crowdin.net-Account? Dann einfach Nick Weisser kontaktieren und wir stimmen eine eventuelle Zusammenarbeit ab.
 
-Vielen Dank an Louis Bataillard und Manfred Worm Schäfer für Ihre Beträge!
+Vielen Dank an Louis Bataillard und Manfred Worm Schäfer für Ihre Beiträge!
 
 Viel Spass mit dem Deutschen Magento Sprachpaket für die Schweiz!
 
