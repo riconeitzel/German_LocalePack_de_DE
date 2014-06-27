@@ -180,7 +180,7 @@ function connectPrepare(form) {
         <input type="hidden" name="form_id" value="connect_packages_<?php echo $i ?>"/>
     </div>
     <p class="nm"><button type="button" onclick="formSubmit('connect_packages_<?php echo $i ?>')" class="f-right">Änderungen übernehmen</button></p>
-    <h2 class="page-head">Channel: <?php echo $channelConfig->getChannelLabel($channel); ?></h2>
+    <h2 class="page-head">Kanal: <?php echo $channelConfig->getChannelLabel($channel); ?></h2>
     <p class="f-right"><label for="clean_sessions">Alle Sitzungen nach erfolgreicher Installation oder Aktualisierung leeren: <input type="checkbox" id="clean_sessions"/></label></p>
     <div class="clear"></div>
 
@@ -233,7 +233,7 @@ function connectPrepare(form) {
         <?php if (!empty($_GET['updates'])): ?>
         <p class="f-left a-left">
             <span style="background:#f6f6f6;padding:0 5px;">&nbsp;</span> &nbsp;Installiert<br/>
-            <span style="background:#fcfbbb;padding:0 5px;">&nbsp;</span> &nbsp;Upgrade verfügbar<br/>
+            <span style="background:#fcfbbb;padding:0 5px;">&nbsp;</span> &nbsp;Aktualisierung verfügbar<br/>
         </p>
         <?php endif; ?>
     </div>
