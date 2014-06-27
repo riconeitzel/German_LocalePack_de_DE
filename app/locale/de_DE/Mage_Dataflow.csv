@@ -24,7 +24,7 @@
 "Sheet 1","Arbeitsblatt 1"
 "Skip undefined row.","Nicht definierte Zeile übersprungen."
 "Starting %s :: %s","Starte %s :: %s"
-"The destination folder ""%s"" does not exist or there is no access to create it.","Das Zielverzeichnis ""%s"" existiert nicht oder es besteht kein Zugriff um es zu erstellen."
+"The destination folder ""%s"" does not exist or there is no access to create it.","Das Zielverzeichnis ""%s"" existiert nicht oder es besteht kein Zugriff, um es zu erstellen."
 "Total records: %s","Gesamtanzahl Einträge: %s"
 "hour","Stunde"
 "hours","Stunden"
