@@ -46,9 +46,9 @@
                 <td>
                     &nbsp;<select id="archive_type" style="width: 320px;">
                         <option value="1">Datenbank</option>
-                        <option value="4">Datenbank und Bilder (media Ordner)</option>
+                        <option value="4">Datenbank und Bilder (Media-Ordner)</option>
                         <option value="2">System (alles)</option>
-                        <option value="3">System (ohne media Ordner)</option>
+                        <option value="3">System (ohne Media-Ordner)</option>
                     </select>
                 </td>
             </tr>
@@ -109,7 +109,7 @@ function connectPrepare(form) {
               ' <ul class="msgs"> ' +
               '  <li>' +
               '   <ul class="error-msg">' +
-              '     <li>Connection Error try again later.</li>' +
+              '     <li>Verbindungsfehler. Versuchen Sie es später noch einmal.</li>' +
               '   </ul>' +
               '  </li>' +
               ' </ul>' +
@@ -140,13 +140,14 @@ function connectPrepare(form) {
 <br/>
 
 <div class="bar-head">
-    <h4>Modul Paket hochladen (.tgz Archiv)</h4>
+    <h4>Paket-Datei hochladen (.tgz Archiv)</h4>
 </div>
 <form action="<?php echo $this->url('connectInstallPackageUpload')?>" method="post" target="connect_iframe" onsubmit="onSubmit(this)" enctype="multipart/form-data">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <ul class="bare-list">
-        <li><span class="step-count">1</span> &nbsp; Herunterladen oder Paket erstellen.</li>
+        <li><span class="step-count">1</span> &nbsp; Herunterladen oder Paket-Datei erstellen.</li>
         <li>
-            <span class="step-count">2</span> &nbsp; Modul Paket hochladen:
+            <span class="step-count">2</span> &nbsp; Paket-Datei hochladen:
             <label for="file"></label>
             <input type="file" id="file" name="file"/>
             <button type="submit">Hochladen &amp; Installieren</button>
@@ -233,7 +234,7 @@ function connectPrepare(form) {
         <?php if (!empty($_GET['updates'])): ?>
         <p class="f-left a-left">
             <span style="background:#f6f6f6;padding:0 5px;">&nbsp;</span> &nbsp;Installiert<br/>
-            <span style="background:#fcfbbb;padding:0 5px;">&nbsp;</span> &nbsp;Aktualisierung verfügbar<br/>
+            <span style="background:#fcfbbb;padding:0 5px;">&nbsp;</span> &nbsp;Aktualisierungen verfügbar<br/>
         </p>
         <?php endif; ?>
     </div>
