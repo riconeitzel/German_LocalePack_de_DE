@@ -27,20 +27,20 @@
 <?php echo $this->template('install/header.phtml') ?>
 
 <div class="page-head">
-    <h3>Welcome to Magento's Installation Wizard!</h3>
+    <h3>Willkommen zu Magento's Installationsassistenten!</h3>
 </div>
 
 <?php if (!$this->controller()->isDownloaded()): ?>
-    <p>You are now ready to continue the installation process by downloading the most up-to-date copy of the Magento software.</p>
+    <p>Starten Sie nun die Installation der Magento-Software, indem Sie die neueste Version der Software herunterladen.</p>
   <?php echo($this->get('channel_notice')); ?>
     <form id="install_all" method="post" action="<?php echo $this->url('connectInstallAll') ?>" target="connect_iframe" onsubmit="return installAll()">
         <fieldset class="fieldset-download">
 <?php else: ?>
-    <p>There's an indication that Magento files already have been downloaded.</p>
-    <p>If you feel that you have arrived to this page by mistake, please continue installation:</p>
+    <p>Es gibt Hinweise darauf, dass Magento-Dateien bereits heruntergeladen wurden.</p>
+    <p>Wenn Sie der Meinung sind, dass diese irrtümlich angenommen wird, setzen Sie bitte die Installation fort:</p>
     <button class="form-button" type="button" onclick="location.href='<?php echo $this->mageUrl() ?>'"><span>Continue Magento installation</span></button>
     <br/><br/><br/>
-    <p>Alternatively, you could proceed with Re-Downloading all packages</p>
+    <p>Alternativ können Sie alle Dateien erneut herunterladen</p>
   <?php echo($this->get('channel_notice')); ?>
     <form id="reinstall_all" method="post" action="<?php echo $this->url('connectInstallAll') ?>&force=1" target="connect_iframe" onsubmit="return installAll(true)">
         <fieldset class="fieldset-download">
@@ -48,7 +48,7 @@
 
             <table cellspacing="0" class="form-list">
               <tr>
-                    <td class="label">Magento Connect Channel Protocol:</td>
+                    <td class="label">Protokoll des Kanals Magento Connect:</td>
                     <td class="value">
                         <select id="protocol" name="protocol">
                             <option value="http" <?php if ($this->get('protocol')=='http'):?>selected="selected"<?php endif ?>>Http</option>
@@ -58,7 +58,7 @@
               </tr>
               <?php echo($this->get('channel_protocol_fields')); ?>
                 <tr>
-                    <td class="label">Use Custom Permissions:</td>
+                    <td class="label">Verwende eigene Schreibrechte:</td>
                     <td class="value">
                         <select onchange="togglePanel(this)" id="use_custom_permissions_mode" name="use_custom_permissions_mode">
                             <option value="1" <?php if ($this->get('use_custom_permissions_mode')=='1'):?>selected="selected"<?php endif ?>>Yes</option>
@@ -69,13 +69,13 @@
             </table>
             <table cellspacing="0" cellpadding="0" class="form-list" id="use_custom_permissions_mode_panel" <?php if ($this->get('use_custom_permissions_mode')=='0'):?>style="display:none;"<?php endif ?> >
                 <tr>
-                    <td class="label">Folders:</td>
+                    <td class="label">Verzeichnisse:</td>
                     <td class="value">
                         <input id="mkdir_mode" name="mkdir_mode" value="<?php echo($this->get('mkdir_mode'));?>" type="text" class="input-text"></input>
                     </td>
                 </tr>
                 <tr>
-                    <td class="label">Files:</td>
+                    <td class="label">Dateien:</td>
                     <td class="value">
                         <input id="chmod_file_mode" name="chmod_file_mode" value="<?php echo($this->get('chmod_file_mode'));?>" type="text" class="input-text"></input>
                     </td>
@@ -83,39 +83,39 @@
             </table>
             <table cellspacing="0" cellpadding="0" class="form-list">
                 <tr>
-                    <td class="label">Deployment Type:</td>
+                    <td class="label">Art der Bereitstellung:</td>
                     <td class="value">
                         <select id="inst_protocol" onchange="togglePanel(this)" name="inst_protocol">
-                            <option value="0">Local Filesystem</option>
-                            <option value="1">FTP Connection</option>
+                            <option value="0">Bereitstellungstyp</option>
+                            <option value="1">TP-Verbindung</option>
                         </select>
                     </td>
                 </tr>
             </table>
             <table cellspacing="0" cellpadding="0" class="form-list" id="inst_protocol_panel">
                 <tr>
-                    <td class="label">Host:</td>
+                    <td class="label">Server/Host:</td>
                     <td class="value">
                         <input type="text" class="input-text" id="ftp_host" value="" name="ftp_host" />
                     </td>
                 </tr>
 
                 <tr>
-                    <td class="label">User:</td>
+                    <td class="label">Benutzername:</td>
                     <td class="value">
                         <input type="text" class="input-text" id="ftp_login" value="" name="ftp_login" />
                     </td>
                 </tr>
 
                 <tr>
-                    <td class="label">Password:</td>
+                    <td class="label">Passwort:</td>
                     <td class="value">
                         <input type="password" id="ftp_password" value="" name="ftp_password" class="input-text" />
                     </td>
                 </tr>
 
                 <tr>
-                    <td class="label">Installation Path:</td>
+                    <td class="label">Installationspfad:</td>
                     <td class="value">
                         <input id="ftp_path" name="ftp_path" value="" type="text" class="input-text" />
                     </td>
@@ -123,11 +123,11 @@
             </table>
 
 <?php if (!$this->controller()->isDownloaded()): ?>
-            <button class="form-button" type="submit">Start the download process</button>
+            <button class="form-button" type="submit">Starte den Download-Prozess</button>
         </fieldset>
     </form>
 <?php else: ?>
-            <button class="form-button" type="submit">Re-Download All Magento Core Packages</button>
+            <button class="form-button" type="submit">Alle Magento Core Packages erneut herunterladen</button>
         </fieldset>
     </form>
 <?php endif; ?>
@@ -138,17 +138,17 @@
 <a name="connect_iframe_result"></a>
 <div id="connect_iframe_success" style="display:none">
     <?php $this->set('messages', array('success'=>array(
-       'Download completed. You can proceed with installation',
+       'Der Download-Vorgang ist abgeschlossen. Sie können mit der Installation fortfahren.',
     ))) ?>
     <?php echo $this->template('messages.phtml') ?>
 
-    <button class="form-button" type="button" onclick="location.href='<?php echo $this->mageUrl() ?>'"><span>Continue Magento installation</span></button>
+    <button class="form-button" type="button" onclick="location.href='<?php echo $this->mageUrl() ?>'"><span>Continue Magento Installation</span></button>
 </div>
 
 <div id="connect_iframe_failure" style="display:none">
-    <?php $this->set('messages', array('error'=>array('There was a problem during downloading of Magento packages. Please check the output frame for errors information and refresh the page to retry again.'))) ?>
+    <?php $this->set('messages', array('error'=>array('Es gab ein Problem beim Herunterladen von Magento-Paketen. Bitte sehen Sie in das Ausgabe-Terminal für Fehlerinformation und aktualisieren Sie die Seite, um es erneut zu versuchen.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
-    <button class="form-button" type="button" onclick="location.reload()"><span>Refresh</span></button>
+    <button class="form-button" type="button" onclick="location.reload()"><span>Aktualisieren</span></button>
 </div>
 
 <script type="text/javascript">
@@ -169,7 +169,7 @@ togglePanel(document.getElementById('inst_protocol'));
 function installAll(force)
 {
     if (force) {
-        if (!confirm("This will delete all files from core packages.\n\nAre you sure you wish to force re-install all Magento files?")) {
+        if (!confirm("Dies wird alle Dateien von Kern-Paketen löschen.\n\nSind Sie sicher, dass Sie die Neu-Installation aller Magento-Dateien erzwingen möchten?")) {
             return false;
         }
     }

@@ -54,7 +54,7 @@
                 <?php if ($this->controller()->session()->getUserId()): ?>
                     <a href="<?php echo $this->url('logout') ?>" class="f-right" style="margin:0px 10px;">Abmelden</a>
                     <?php if ($returnUrl = $this->controller()->session()->getReturnUrl()): ?>
-                        <a href="<?php echo $returnUrl ?>" class="f-right" style="margin:0px 10px;">Zur&uuml;ck zur Administration</a>
+                        <a href="<?php echo $returnUrl ?>" class="f-right" style="margin:0px 10px;">Zurück zur Administration</a>
                     <?php endif; ?>
                 <?php endif; ?>
                 <ul>
@@ -63,7 +63,7 @@
                 </ul>
              <?php else: ?>
                 <ul>
-                    <li class="first last"><a class="active">Schreibrechte &uuml;berpr&uuml;fen</a></li>
+                    <li class="first last"><a class="active">Schreibrechte überprüfen</a></li>
                 </ul>
              <?php endif; ?>
             </div>
