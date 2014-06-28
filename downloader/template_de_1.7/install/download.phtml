@@ -31,14 +31,14 @@
 </div>
 
 <?php if (!$this->controller()->isDownloaded()): ?>
-    <p>Starten Sie nun die Installation der Magento-Software, indem Sie die neueste Version der Software herunterladen.</p>
+    <p>Starten Sie nun den Installationsprozess, mit dem Sie die neueste Version der Magento-Software herunterladen.</p>
   <?php echo($this->get('channel_notice')); ?>
     <form id="install_all" method="post" action="<?php echo $this->url('connectInstallAll') ?>" target="connect_iframe" onsubmit="return installAll()">
         <fieldset class="fieldset-download">
 <?php else: ?>
     <p>Es gibt Hinweise darauf, dass Magento-Dateien bereits heruntergeladen wurden.</p>
     <p>Wenn Sie der Meinung sind, dass diese irrtümlich angenommen wird, setzen Sie bitte die Installation fort:</p>
-    <button class="form-button" type="button" onclick="location.href='<?php echo $this->mageUrl() ?>'"><span>Continue Magento installation</span></button>
+    <button class="form-button" type="button" onclick="location.href='<?php echo $this->mageUrl() ?>'"><span>Magento-Installation fortsetzen</span></button>
     <br/><br/><br/>
     <p>Alternativ können Sie alle Dateien erneut herunterladen</p>
     <?php echo($this->get('channel_notice')); ?>
@@ -48,7 +48,7 @@
 
             <table cellspacing="0" class="form-list">
                 <tr>
-                    <td class="label">Protokoll des Kanals Magento Connect:</td>
+                    <td class="label">Protokoll des Kanals von Magento Connect:</td>
                     <td class="value">
                         <select id="protocol" name="protocol">
                             <option value="http" <?php if ($this->get('protocol')=='http'):?>selected="selected"<?php endif ?>>Http</option>
@@ -152,7 +152,7 @@
     ))) ?>
     <?php echo $this->template('messages.phtml') ?>
 
-    <button class="form-button" type="button" onclick="location.href='<?php echo $this->mageUrl() ?>'"><span>Continue Magento Installation</span></button>
+    <button class="form-button" type="button" onclick="location.href='<?php echo $this->mageUrl() ?>'"><span>Magento-Installation fortsetzen</span></button>
 </div>
 
 <div id="connect_iframe_failure" style="display:none">

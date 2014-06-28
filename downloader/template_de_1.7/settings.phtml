@@ -51,7 +51,7 @@ function changeDeploymentType (element)
     <h2 class="page-head">Einstellungen</h2>
     <form action="<?php echo $this->url('settingsPost') ?>" method="post">
         <fieldset>
-            <p>Magento Erweiterungen sind in 3 verschiedenen Varianten verfügbar.</p>
+            <p>Magento Erweiterungen sind in drei verschiedenen Varianten verfügbar.</p>
             <ul class="disc">
                 <li><strong>Stabil</strong> - bedeutet, dass die Erweiterung auf einer Produktiv-Umgebung eingesetzt werden kann.</li>
                 <li><strong>Beta</strong> - bedeutet, dass <u>nicht</u> empfohlen wird die Erweiterung auf einer Produktiv-Umgebung einzusetzen.</li>
@@ -63,7 +63,7 @@ function changeDeploymentType (element)
 			</p>
             <table cellspacing="0" class="form-list">
                 <tr>
-                    <td class="label">Magento Connect Channel Protokoll:</td>
+                    <td class="label">Protokoll es Kanals Magento Connect:</td>
                     <td class="value">
                         <select id="protocol" name="protocol">
                             <option value="http" <?php if ($this->get('protocol')=='http'):?>selected="selected"<?php endif ?>>HTTP</option>
@@ -135,7 +135,7 @@ function changeDeploymentType (element)
             </table>
             <table cellspacing="0" class="form-list" id="deployment_type_panel" <?php if ($this->get('deployment_type')!='ftp'):?>style="display:none;"<?php endif ?>>
                 <tr>
-                    <td class="label">FTP Server:</td>
+                    <td class="label">FTP Server/Host:</td>
                     <td class="value">
                         <input id="ftp_host" name="ftp_host" value="<?php echo($this->get('ftp_host'));?>" class="input-text" type="text"></input>
                     </td>
