@@ -1,5 +1,5 @@
 <_>
-   <form_key>VoH6v7IGnILlDD3N</form_key>
+   <form_key>2t05OJ2uFNARbr1w</form_key>
    <name>German_LocalePack_de_DE</name>
    <channel>community</channel>
    <version_ids>
@@ -12,7 +12,7 @@
    <license_uri/>
    <version>1.9.0.1.0</version>
    <stability>stable</stability>
-   <notes>none/keine</notes>
+   <notes>Übersetzungen noch in Arbeit</notes>
    <authors>
       <name>
          <name>Rico Neitzel</name>
@@ -41,7 +41,7 @@
             <max/>
          </max>
          <files>
-            <files>                    </files>
+            <files>                                 </files>
          </files>
       </package>
       <extension>
