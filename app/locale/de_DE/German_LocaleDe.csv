@@ -1,0 +1,143 @@
+"Activate fallback for locale","Ausweichsprache für Sprachumgebung aktivieren"
+"Locale Fallback","Ausweichsprache"
+"Locale Preferred","Sprachpaket"
+"Language Extensions","Verwalte Sprachpakete"
+"Manage Language Packs","Verwalte Sprachpakete"
+"Translations are differing, values from Locale Fallback will be used.","Die Übersetzungen sind unterschiedlich; die Ausweichsprache wird aktiviert."
+"Translations are identical, you can safely switch off the Locale Fallback.","Die Übersetzungen sind identisch, deswegen können Sie die Ausweichsprache ausschalten."
+"Attention: Your Locale Pack doesn\'t match your Magento Version. <a href=""%s"">Get more information here.</a>","Achtung: Ihr Locale Pack passt nicht zur installierten Magento Version. Für mehr Information klicken Sie <a href=""%s"">hier</a>."
+"Translate Magento Connect Manager","Magento Connect Manager übersetzen"
+"Using your own translations","Eigene Übersetzungen nutzen"
+"Recommended extensions","Empfohlene Extensions"
+"Translate TinyMCE","TinyMCE übersetzen"
+"German language package de_AT - Community Edition (CE)","Deutsches Sprachpaket de_AT - Community Edition (CE)"
+"German language package de_CH - Community Edition (CE)","Deutsches Sprachpaket de_CH - Community Edition (CE)"
+"German language package de_DE - Community Edition (CE)","Deutsches Sprachpaket de_DE - Community Edition (CE)"
+"German language package de_LU - Community Edition (CE)","Deutsches Sprachpaket de_LU - Community Edition (CE)"
+"Use German language for TinyMCE Editor?","Deutsche Version des TinyMCE-Editors verwenden?"
+"<p style=""font-weight: bold;"">To install the translation for the Magento Connect Manager, proceed as follows:</p>
+					<ol style=""list-style-position: outside; list-style-type: decimal; margin-left:18px;"">
+						<li>In your Magento root directory in the subfolder ""/downloader"" rename the folder ""template"" into ""template_original"".</li>
+						<li>The directory
+						<ul style=""list-style-position: outside; list-style-type: disc; margin-left:18px;"">
+							<li>""template_de"" or</li>
+							<li>from Magento 1.5.x ""template_de_1.5"" or</li>
+							<li>from Magento 1.7.x ""template_de_1.7""</li></ul>
+							rename into ""template""</li>
+					</ol>
+					<p>The Magento Connect Manager should be changed to German now.</p>
+					<br />
+					<p><strong style=""font-weight: bold; color:red;"">Please note:</strong> If Magento is updated, in particular the module ""Mage_Downloader"", the settings of the Connect Manager will be overwritten!
+					<br />The same applies to the TinyMCE editor. Run in the case a ""Reinstall"" the language pack and repeat the described steps.</p>","<p style=""font-weight: bold;"">Um die Übersetzung für den Magento Connect Manager zu installieren, gehen Sie bitte wie folgt vor:</p>
+					<ol style=""list-style-position: outside; list-style-type: decimal; margin-left:18px;"">
+						<li>In Ihrem Magento-Hauptverzeichnis im Unterordner ""/downloader"" den Ordner ""template"" umbenennen in ""template_original"".</li>
+						<li>Das Verzeichnis
+						<ul style=""list-style-position: outside; list-style-type: disc; margin-left:18px;"">
+							<li>""template_de"" bzw.</li>
+							<li>ab Magento 1.5.x ""template_de_1.5"" bzw.</li>
+							<li>ab Magento 1.7.x ""template_de_1.7""</li></ul>
+							umbenennen in ""template"".</li>
+					</ol>
+					<p>Der Magento Connect Manager sollte jetzt auf deutsch umgestellt sein.</p>
+					<br />
+					<p><strong style=""font-weight: bold; color:red;"">Bitte beachten:</strong> Wenn Magento aktualisiert wird, insbesondere das Modul ""Mage_Downloader"", werden die Einstellungen des Connect Managers überschrieben!
+					<br />Gleiches gilt auch für den TinyMCE-Editor. Führen Sie in dem Fall ein ""Reinstall"" des Sprachpakets durch und wiederholen die geschilderten Schritte.</p>"
+"<p><strong>The de_DE language pack in version <span style=""color:red"">1.9.0.1.0</span> has been successfully installed.</strong></p>
+					<p>On the <a href=""http://www.magentocommerce.com/magento-connect/catalog/product/view/id/2317"" target=""_blank"">Extension Homepage of the German language pack</a>, you can find more information on the latest versions.</p>
+					<br />
+					<p>For those interested there is a <a href=""http://github.com/riconeitzel/German_LocalePack_de_DE"" target=""_blank"">GitHub repository</a>. It is provided for the following purposes:</p>
+					<ul style=""list-style-position: outside; list-style-type: disc; margin-left:18px;"">
+						<li>Development of current language pack versions</li>
+						<li>Report an error / send in patches, also happy for both published releases</li>
+						<li>Alternative Downloads (regardless of official sources)</li>
+						<li>Copy / forks for their own purposes</li>
+						<li>Active participation in the language pack</li>
+						<li>View Preview versions & test</li>
+					</ul>
+					<br />
+					<p>Note for detailed information, the README file on the GitHub page.</p>
+					<p><b>In order to ensure the translation Magento coverage, please see the information in the lower paragraphs!</b></p>
+					<br />
+					<p>powered by <a href=""http://buro71a.de/referenz/magento-deutsches-sprachpaket"" target=""_blank"">Rico Neitzel</a></p>","<p><strong>Das Sprachpaket de_DE in der Version <span style=""color:red"">1.9.0.1.0</span> wurde erfolgreich installiert.</strong></p>
+					<p>Auf der <a href=""http://www.magentocommerce.com/magento-connect/catalog/product/view/id/2317"" target=""_blank"">Extension Homepage des deutschen Sprachpakets</a> finden Sie weitere Informationen zu aktuellen Versionen.</p>
+					<br />
+					<p>Für Interessierte steht ein <a href=""http://github.com/riconeitzel/German_LocalePack_de_DE"" target=""_blank"">GitHub-Repository</a> zur Verfügung. Es ist für die folgenden Zwecke vorgesehen:</p>
+					<ul style=""list-style-position: outside; list-style-type: disc; margin-left:18px;"">
+						<li>Entwicklung aktueller Sprachpaket-Versionen</li>
+						<li>Fehler melden/Patches einsenden, auch gerne für bereits veröffentlichte Releases</li>
+						<li>Alternative Downloads (unabhängig der offiziellen Quellen)</li>
+						<li>Kopieren/Forken für eigene Zwecke</li>
+						<li>Aktives Mitwirken am Sprachpaket</li>
+						<li>Vorschau-Versionen ansehen & testen</li>
+					</ul>
+					<br />
+					<p>Beachten Sie für detaillierte Informationen die README-Datei auf der GitHub-Seite.</p>
+					<p><b>Um Magento flächendeckend übersetzen zu können, beachten Sie bitte auch die Infos in den unteren Bereichen!</b></p>
+					<br />
+					<p>bereitgestellt von <a href=""http://buro71a.de/referenz/magento-deutsches-sprachpaket"" target=""_blank"">Rico Neitzel</a></p>"
+"<p><strong>The de_CH language pack in version <span style=""color:red"">1.9.0.1.0</span> has been successfully installed.</strong></p>
+					<p>On the <a href=""http://www.magentocommerce.com/magento-connect/catalog/product/view/id/2317"" target=""_blank"">Extension Homepage of the Swiss language pack</a>, you can find more information on the latest versions.</p>
+					<br />
+					<p>For those interested there is a <a href=""http://github.com/openstream/German_LocalePack_de_CH"" target=""_blank"">GitHub repository</a>. It is provided for the following purposes:</p>
+					<ul style=""list-style-position: outside; list-style-type: disc; margin-left:18px;"">
+						<li>Development of current language pack versions</li>
+						<li>Report an error / send in patches, also happy for both published releases</li>
+						<li>Alternative Downloads (regardless of official sources)</li>
+						<li>Copy / forks for their own purposes</li>
+						<li>Active participation in the language pack</li>
+						<li>View Preview versions & test</li>
+					</ul>
+					<br />
+					<p>Note for detailed information, the README file on the GitHub page.</p>
+					<p><b>In order to ensure the translation Magento coverage, please see the information in the lower paragraphs!</b></p>
+					<br />
+					<p>powered by <a href=""http://buro71a.de/referenz/magento-deutsches-sprachpaket"" target=""_blank"">Rico Neitzel</a> and <a href=""http://openstream.ch"" target=""_blank"">Nick Weisser</a></p>","<p><strong>Das Sprachpaket de_CH in der Version <span style=""color:red"">1.9.0.1.0</span> wurde erfolgreich installiert.</strong></p>
+					<p>Auf der <a href=""http://www.magentocommerce.com/magento-connect/catalog/product/view/id/2317"" target=""_blank"">Extension Homepage des schweizerischen Sprachpakets</a> finden Sie weitere Informationen zu aktuellen Versionen.</p>
+					<br />
+					<p>Für Interessierte steht ein <a href=""http://github.com/openstream/German_LocalePack_de_CH"" target=""_blank"">GitHub-Repository</a> zur Verfügung. Es ist für die folgenden Zwecke vorgesehen:</p>
+					<ul style=""list-style-position: outside; list-style-type: disc; margin-left:18px;"">
+						<li>Entwicklung aktueller Sprachpaket-Versionen</li>
+						<li>Fehler melden/Patches einsenden, auch gerne für bereits veröffentlichte Releases</li>
+						<li>Alternative Downloads (unabhängig der offiziellen Quellen)</li>
+						<li>Kopieren/Forken für eigene Zwecke</li>
+						<li>Aktives Mitwirken am Sprachpaket</li>
+						<li>Vorschau-Versionen ansehen & testen</li>
+					</ul>
+					<br />
+					<p>Beachten Sie für detaillierte Informationen die README-Datei auf der GitHub-Seite.</p>
+					<p><b>Um Magento flächendeckend übersetzen zu können, beachten Sie bitte auch die Infos in den unteren Bereichen!</b></p>
+					<br />
+					<p>bereitgestellt von <a href=""http://buro71a.de/referenz/magento-deutsches-sprachpaket"" target=""_blank"">Rico Neitzel</a> und <a href=""http://openstream.ch"" target=""_blank"">Nick Weisser</a></p>"
+"<p><strong>The de_AT language pack in version <span style=""color:red"">1.9.0.1.0</span> has been successfully installed.</strong></p>
+					<p>On the <a href=""http://www.magentocommerce.com/magento-connect/catalog/product/view/id/2317"" target=""_blank"">Extension Homepage of the German language pack</a>, you can find more information on the latest versions.</p>
+					<br />
+					<p>For those interested there is a <a href=""http://github.com/MaWoScha/German_LocalePack_de_AT"" target=""_blank"">GitHub repository</a>. It is provided for the following purposes:</p>
+					<ul style=""list-style-position: outside; list-style-type: disc; margin-left:18px;"">
+						<li>Development of current language pack versions</li>
+						<li>Report an error / send in patches, also happy for both published releases</li>
+						<li>Alternative Downloads (regardless of official sources)</li>
+						<li>Copy / forks for their own purposes</li>
+						<li>Active participation in the language pack</li>
+						<li>View Preview versions & test</li>
+					</ul>
+					<br />
+					<p>Note for detailed information, the README file on the GitHub page.</p>
+					<p><b>In order to ensure the translation Magento coverage, please see the information in the lower paragraphs!</b></p>
+					<br />
+					<p>powered by <a href=""http://buro71a.de/referenz/magento-deutsches-sprachpaket"" target=""_blank"">Rico Neitzel</a></p>","<p><strong>Das Sprachpaket de_AT in der Version <span style=""color:red"">1.9.0.1.0</span> wurde erfolgreich installiert.</strong></p>
+					<p>Auf der <a href=""http://www.magentocommerce.com/magento-connect/catalog/product/view/id/2317"" target=""_blank"">Extension Homepage des deutschen Sprachpakets</a> finden Sie weitere Informationen zu aktuellen Versionen.</p>
+					<br />
+					<p>Für Interessierte steht ein <a href=""http://github.com/MaWoScha/German_LocalePack_de_AT"" target=""_blank"">GitHub-Repository</a> zur Verfügung. Es ist für die folgenden Zwecke vorgesehen:</p>
+					<ul style=""list-style-position: outside; list-style-type: disc; margin-left:18px;"">
+						<li>Entwicklung aktueller Sprachpaket-Versionen</li>
+						<li>Fehler melden/Patches einsenden, auch gerne für bereits veröffentlichte Releases</li>
+						<li>Alternative Downloads (unabhängig der offiziellen Quellen)</li>
+						<li>Kopieren/Forken für eigene Zwecke</li>
+						<li>Aktives Mitwirken am Sprachpaket</li>
+						<li>Vorschau-Versionen ansehen & testen</li>
+					</ul>
+					<br />
+					<p>Beachten Sie für detaillierte Informationen die README-Datei auf der GitHub-Seite.</p>
+					<p><b>Um Magento flächendeckend übersetzen zu können, beachten Sie bitte auch die Infos in den unteren Bereichen!</b></p>
+					<br />
+					<p>bereitgestellt von <a href=""http://buro71a.de/referenz/magento-deutsches-sprachpaket"" target=""_blank"">Rico Neitzel</a></p>"
