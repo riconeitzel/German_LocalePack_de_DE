@@ -14,7 +14,6 @@ js/german/localepackde/setup.js     js/german/localepackde/setup.js
 
 #TinyMCE
 js/tiny_mce/langs/de.js                                 js/tiny_mce/langs/de.js
-js/tiny_mce/langs/de.js                                 js/tiny_mce/langs/de.js
 js/tiny_mce/plugins/advhr/langs/de_dlg.js               js/tiny_mce/plugins/advhr/langs/de_dlg.js
 js/tiny_mce/plugins/advimage/langs/de_dlg.js            js/tiny_mce/plugins/advimage/langs/de_dlg.js
 js/tiny_mce/plugins/advlink/langs/de_dlg.js             js/tiny_mce/plugins/advlink/langs/de_dlg.js
