@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 /**
- * @category German
- * @package German_LocalePack
- * @authors Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
+ * @category  German
+ * @package   German_LocalePack
+ * @authors   Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
  * @developer Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>   
- * @version 1.9.0.1.0
- * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)  
+ * @version   1.9.0.1.0
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
  -->
 <config>
@@ -20,88 +20,61 @@
         <localepackde module="localepackde">
             <label>Locale de_DE</label>
             <tab>localepacks</tab>
-            <sort_order>100</sort_order>
+            <sort_order>20</sort_order>
             <show_in_default>1</show_in_default>
             <show_in_website>0</show_in_website>
             <show_in_store>0</show_in_store>
             <groups>
                 <maininfo translate="label" module="localepackde">
-                    <label>Deutsches Sprachpaket de_DE - Community Edition (CE)</label>
+                    <label>German language package de_DE - Community Edition (CE)</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>10</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>0</show_in_website>
                     <show_in_store>0</show_in_store>
-                    <comment><![CDATA[
-                          <p><strong>Das Sprachpaket de_DE in der Version <span style="color:red">1.9.0.1.0</span> wurde erfolgreich installiert.</strong></p>
-                          
-                          <p>Auf der <a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/2317" target="_blank">Extension Homepage des deutschen Sprachpakets</a> finden Sie weitere Informationen zu aktuellen Versionen.</p>
-                          <br />
-                          <p>Für Interessierte steht ein <a href="https://github.com/riconeitzel/German_LocalePack_de_DE" target="_blank">GitHub Repository</a> zur Verfügung. Es ist für die folgenden Zwecke vorgesehen:</p>
-                          <ul>
-                            <li>- Entwicklung aktueller Sprachpaket Versionen</li>
-                            <li>- Fehler melden/Patches einsenden, auch gerne für bereits veröffentlichte Releases</li>
-                            <li>- Alternative Downloads (unabhängig der offiziellen Quellen)</li>
-                            <li>- Kopieren/Forken für eigene Zwecke</li>
-                            <li>- Aktives Mitwirken am Sprachpaket</li>
-                            <li>- Vorschauversionen ansehen & testen</li>
-                          </ul>
-                          <br />
-                          <p>Beachten Sie für detailierte Inormationen die README Datei auf der GitHub Seite.</p>
-                          <p><b>Um Magento flächendeckend übersetzen zu können, beachten Sie bitte auch die Infos in den unteren Bereichen!</b></p>
-                          <p>&nbsp;</p>
-                          <p>powered by <a href="http://buro71a.de/referenz/magento-deutsches-sprachpaket" target="_blank">Rico Neitzel</a></p>
-                          
-                    ]]></comment>
+                    <comment><![CDATA[<p><strong>The de_DE language pack in version <span style="color:red">1.9.0.1.0</span> has been successfully installed.</strong></p>
+					<p>On the <a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/2317" target="_blank">Extension Homepage of the German language pack</a>, you can find more information on the latest versions.</p>
+					<br />
+					<p>For those interested there is a <a href="http://github.com/riconeitzel/German_LocalePack_de_DE" target="_blank">GitHub repository</a>. It is provided for the following purposes:</p>
+					<ul style="list-style-position: outside; list-style-type: disc; margin-left:18px;">
+						<li>Development of current language pack versions</li>
+						<li>Report an error / send in patches, also happy for both published releases</li>
+						<li>Alternative Downloads (regardless of official sources)</li>
+						<li>Copy / forks for their own purposes</li>
+						<li>Active participation in the language pack</li>
+						<li>View Preview versions & test</li>
+					</ul>
+					<br />
+					<p>Note for detailed information, the README file on the GitHub page.</p>
+					<p><b>In order to ensure the translation Magento coverage, please see the information in the lower paragraphs!</b></p>
+					<br />
+					<p>powered by <a href="http://buro71a.de/referenz/magento-deutsches-sprachpaket" target="_blank">Rico Neitzel</a></p>]]></comment>
                 </maininfo>
                 <mcm translate="label" module="localepackde">
-                    <label>Magento Connect Manager übersetzen</label>
+                    <label>Translate Magento Connect Manager</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>20</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>0</show_in_website>
                     <show_in_store>0</show_in_store>
-                    <comment><![CDATA[
-                        <p style="font-weight: bold;">Um die Übersetzung für den Magento Connect Manager zu installieren gehen Sie bitte wie folgt vor:</p>
-                        
-                        <ol style="list-style-position: outside; list-style-type: decimal; margin-left:18px;">
-                            <li>In Ihrem Magento-Hauptverzeichnis im Unterordner "/downloader" den Ordner "template" umbenennen in "template_original"</li>
-                            <li>Das Verzeichnis 
-                            <ul style="list-style-position: outside; list-style-type: disc; margin-left:18px;">
-                                <li>"template_de" bzw. </li>
-                                <li>ab Magento 1.5.x "template_de_1.5" bzw. </li>
-                                <li>ab Magento 1.7.x "template_de_1.7"</li></ul>
-                                umbenennen zu "template"</li>
-                        </ol>
-                        <p>Der Magento Connect Manager sollte jetzt auf deutsch umgestellt sein.</p>
-                        <p>&nbsp;</p>
-                        <p><strong style="font-weight: bold; color:red;">Bitte beachten:</strong> Wenn Magento aktualisiert wird, insbesondere das Modul "Mage_Downloader", werden die Einstellungen des Connect Managers überschrieben!<br />Gleiches gilt auch für den TinyMCE-Editor. Führen Sie in dem Fall ein "Reinstall" des Sprachpakets durch und wiederholen die geschilderten Schritte.</p>
-                    
-                    ]]></comment>
+                    <comment><![CDATA[<p style="font-weight: bold;">To install the translation for the Magento Connect Manager, proceed as follows:</p>
+					<ol style="list-style-position: outside; list-style-type: decimal; margin-left:18px;">
+						<li>In your Magento root directory in the subfolder "/downloader" rename the folder "template" into "template_original".</li>
+						<li>The directory
+						<ul style="list-style-position: outside; list-style-type: disc; margin-left:18px;">
+							<li>"template_de" or</li>
+							<li>from Magento 1.5.x "template_de_1.5" or</li>
+							<li>from Magento 1.7.x "template_de_1.7"</li></ul>
+							rename into "template"</li>
+					</ol>
+					<p>The Magento Connect Manager should be changed to German now.</p>
+					<br />
+					<p><strong style="font-weight: bold; color:red;">Please note:</strong> If Magento is updated, in particular the module "Mage_Downloader", the settings of the Connect Manager will be overwritten!
+					<br />The same applies to the TinyMCE editor. Run in the case a "Reinstall" the language pack and repeat the described steps.</p>]]></comment>
                 </mcm>    
                 
-                <tinymce_language translate="label" module="localepackde">
-                    <label>TinyMCE übersetzen/translate TinyMCE</label>
-                    <sort_order>70</sort_order>
-                    <show_in_default>1</show_in_default>
-                    <show_in_website>1</show_in_website>
-                    <show_in_store>1</show_in_store>
-                    <fields>
-                        <enabled translate="label">
-                            <label>Enabled</label>
-                            <comment><![CDATA[- Deutsche Version des TinyMCE Editors verwenden?<br />- Use German language for TinyMCE Editor?]]></comment>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_enabledisable</source_model>
-                            <sort_order>20</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                        </enabled>
-                    </fields> 
-                </tinymce_language> 
-                
                 <tipps_translation translate="label" module="localepackde">
-                    <label>Eigene Übersetzungen nutzen</label>
+                    <label>Using your own translations</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>50</sort_order>
                     <show_in_default>1</show_in_default>
@@ -114,25 +87,25 @@
                             <li>Unter "System" -> "Cache-Verwaltung" sicherstellen, dass der Übersetzungscache, besser noch alle Caches, deaktiviert sind</li>
                             <li>Unter "System" -> "Konfiguration" -> "Entwickleroptionen" -> "Inline übersetzen" aktivieren</li>
                             <li>Je nach Auswahl werden nun im Front oder Backend an übersetzbaren Textbereichen beim Überfahren mit der Maus kleine Buch-Icons angezeigt,<br />
-                                nach einem Klick auf dieses Buch öffnet sich ein Dialog, in dem man wahlweise global oder nur für den aktuellen StoreView<br >eigene Übersetzungen hinterlegen kann.</li>
+                                nach einem Klick auf dieses Buch öffnet sich ein Dialog, in dem man wahlweise global oder nur für den aktuellen StoreView<br />eigene Übersetzungen hinterlegen kann.</li>
                         </ol><br />
-                        <p>Die Übersetzungen werden dabei in der Datenbank Tabelle "core_translate" abgespeichert, nicht in einer Datei.</p>
+                        <p>Die Übersetzungen werden dabei in der Datenbank-Tabelle "core_translate" abgespeichert, nicht in einer Datei.</p>
                         <p>So lange sich der entsprechende Text im Original nicht ändert, hat man mit diesem<br />Verfahren eine Update-sichere Möglichkeit eigene Übersetzungen einzupflegen.</p>
-                        <p>Sollte sich eine Zeichenfolge in einer neuen Magento Version ändern, können Sie die nicht mehr passende Übersetzung in der Tabelle "core_translate" suchen und entsprechend anpassen. Diese Tabelle kann ebenso exportiert, bearbeitet und wieder importiert werden.</p>
+                        <p>Sollte sich eine Zeichenfolge in einer neuen Magento-Version ändern, können Sie die nicht mehr passende Übersetzung in der Tabelle "core_translate" suchen und entsprechend anpassen. Diese Tabelle kann ebenso exportiert, bearbeitet und wieder importiert werden.</p>
                         <hr style="margin-top:15px; margin-bottom:5px;" />
                         <h3 style="margin-top:20px; margin-bottom:10xp;">Übersetzungen auf Dateiebene</h3>
-                        <p>Wenn die CSV Dateien, die mit dem Sprachpaket de_DE ausgeliefert werden, händisch angepasst werden,<br />gehen die vorgenommenen Änderungen beim nächsten Update des Sprachpakets verloren!</p>
-                        <p>Wir raten daher vor dieser Methode ab!</p> 
+                        <p>Wenn die CSV-Dateien, die mit dem Sprachpaket de_DE ausgeliefert werden, händisch angepasst werden,<br />gehen die vorgenommenen Änderungen beim nächsten Update des Sprachpakets verloren!</p>
+                        <p>Wir raten daher von dieser Methode ab!</p> 
                         <br />
-                        <p><i>Welche CSV Dateien sollten nach Möglichkeit nicht angepasst werden?</i></p>
+                        <p><i>Welche CSV-Dateien sollten nach Möglichkeit nicht angepasst werden?</i></p>
                         <ol style="list-style-position: outside; list-style-type: decimal; margin-left:18px;">
                             <li>/app/locale/de_DE</li>
                             <li>/app/design/frontend/default/default/locale/de_DE/translate.csv</li>
                             <li>/app/design/adminhtml/default/default/locale/de_DE/translate.csv</li>
                         </ol><br />
-                        <p>Sollten Sie trotzdem eigene Übersetzungen per CSV Dateien nutzen wollen:</p>
+                        <p>Sollten Sie trotzdem eigene Übersetzungen per CSV-Dateien nutzen wollen:</p>
                         <ol>
-                            <li>Legen Sie ein eigenen Themes mit der Übersetzungsdatei "/app/design/frontend/default/mein_theme/locale/de_DE/translate.csv" an.</li>
+                            <li>Legen Sie ein eigenes Theme mit der Übersetzungsdatei "/app/design/frontend/default/mein_theme/locale/de_DE/translate.csv" an.</li>
                             <li>Konfigurieren Sie Magento, dass dieses Theme für Übersetzungen verwendet werden soll: "System" -> "Konfiguration" -> "Design" -> "Themes" -> "Übersetzungen" dort den Ordnernamen Ihres Themes (z. B. "mein_theme") eintragen.</li>
                         </ol>
                         <br />
@@ -141,7 +114,7 @@
                 </tipps_translation>    
                 
                 <additional_extensions translate="label" module="localepackde">
-                    <label>Empfohlene Extensions</label>
+                    <label>Recommended extensions</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>60</sort_order>
                     <show_in_default>1</show_in_default>
@@ -152,7 +125,7 @@
                         
                         <hr style="margin-top:15px; margin-bottom:5px;" />
                         
-                        <h3 style="margin-top:20px; margin-bottom:10xp;">Spezifische Marktanpassung f&uuml;r Deutsche und Europäische Shops</h3>
+                        <h3 style="margin-top:20px; margin-bottom:10xp;">Spezifische Marktanpassung für Deutsche und Europäische Shops</h3>
                         <dl>
                             <dt><b>Firegento: Mage Setup</b> - <a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/20763/" target="_blank">Mage Setup auf Magento Connect</a></dt>
                             <dd>Extension Key für den Connect Manager: <span style="color:#EA7601;">http://connect20.magentocommerce.com/community/FireGento_MageSetup</span></dd>
@@ -171,6 +144,26 @@
                         </dl>
                     ]]></comment>
                 </additional_extensions>
+                
+                <tinymce_language translate="label" module="localepackde">
+                    <label>Translate TinyMCE</label>
+                    <sort_order>70</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Enabled</label>
+                            <comment>Use German language for TinyMCE Editor?</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                    </fields> 
+                </tinymce_language> 
             </groups>
         </localepackde>
     </sections>

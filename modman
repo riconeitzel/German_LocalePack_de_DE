@@ -1,7 +1,7 @@
 #BackendModule
 app/code/community/German/LocalePackDe                        app/code/community/German/LocalePackDe
 app/etc/modules/German_LocalePackDe.xml                       app/etc/modules/German_LocalePackDe.xml
-app/design/adminhtml/default/default/layout/localepackde.xml    app/design/adminhtml/default/default/layout/localepackde.xml
+app/design/adminhtml/default/default/layout/localepackde.xml  app/design/adminhtml/default/default/layout/localepackde.xml
 
 
 #Downloader
@@ -13,7 +13,6 @@ downloader/template_de_1.7  downloader/template_de_1.7
 js/german/localepackde/setup.js     js/german/localepackde/setup.js
 
 #TinyMCE
-js/tiny_mce/langs/de.js                                 js/tiny_mce/langs/de.js
 js/tiny_mce/langs/de.js                                 js/tiny_mce/langs/de.js
 js/tiny_mce/plugins/advhr/langs/de_dlg.js               js/tiny_mce/plugins/advhr/langs/de_dlg.js
 js/tiny_mce/plugins/advimage/langs/de_dlg.js            js/tiny_mce/plugins/advimage/langs/de_dlg.js
@@ -31,6 +30,10 @@ js/tiny_mce/themes/advanced/langs/de.js                 js/tiny_mce/themes/advan
 js/tiny_mce/themes/advanced/langs/de_dlg.js             js/tiny_mce/themes/advanced/langs/de_dlg.js
 js/tiny_mce/themes/simple/langs/de.js                   js/tiny_mce/themes/simple/langs/de.js
 
+
+#LocalePack Translation
+app/locale/de_DE/German_LocaleDe.csv app/locale/de_DE/German_LocaleDe.csv 
+app/locale/es_ES/German_LocaleDe.csv app/locale/es_ES/German_LocaleDe.csv 
 
 #Adminhtml und Default Theme
 app/design/adminhtml/default/default/locale/de_DE/translate.csv     app/design/adminhtml/default/default/locale/de_DE/translate.csv

@@ -26,15 +26,15 @@
 ?>
 <?php echo $this->template('install/header.phtml') ?>
 <div class="page-head">
-<h3 style="color:red">Error: Please check for sufficient write file permissions</h3>
+<h3 style="color:red">Fehler: Bitte auf ausreichende Schreibrechte der Dateien überprüfen</h3>
 </div>
 
-<p>Your Magento folder does not have sufficient write permissions, which this web based downloader requires.</p>
-<p>If you wish to proceed downloading Magento packages online, please set all Magento folders to have writable permission for the web server user (example: apache) and press the "Refresh" button to try again.</p>
+<p>Ihr Magento Verzeichnis verfügt nicht über die ausreichenden Schreibrechte, welche der web-basierte Installierer erfordert.</p>
+<p>Wenn Sie den Download von Magento-Paketen online fortsetzen möchten, dann setzen Sie bitte die Rechte für alle Magento Verzeichnisse so, dass diese ausreichende Schreibrechte für den Web-Server Nutzer haben, (z.B. Apache) und klicken Sie auf den "Aktualisieren"-Button, um es erneut zu probieren.</p>
 
-<button class="form-button" type="button" onclick="location.reload()"><span>Refresh</span></button>
+<button class="form-button" type="button" onclick="location.reload()"><span>Aktualisieren</span></button>
 <br/><br/><br/>
-<p>To learn more about setting write permissions, please visit <a href="http://www.magentocommerce.com/knowledge-base/entry/magento-installation-guide" target="Install_Help">the Magento community site</a> for further details.</p>
-<p>Alternatively, if you are a developer and familiar with SVN, you can follow <a href="http://www.magentocommerce.com/svn" target="Install_Help">these instructions</a> to check out the latest Magento branch.</p>
+<p>Um mehr über das Setzen der Schreibrechte zu erfahren, besuchen Sie bitte <a href="http://www.magentocommerce.com/knowledge-base/entry/magento-installation-guide" target="Install_Help">die Magento Community-Webseite</a> für weitere Details.</p>
+<p>Alternativ, wenn Sie ein Entwickler sind und mit SVN vertraut sind, können Sie <a href="http://www.magentocommerce.com/svn" target="Install_Help">diesen Anweisungen</a> folgen, um hier den aktuellen Magento-Zweig zu bekommen.</p>
 <?php echo $this->template('install/footer.phtml') ?>
 

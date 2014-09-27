@@ -1,18 +1,18 @@
 <_>
-   <form_key>lYMf1dsE4YjQ1IHZ</form_key>
-   <name>Locale_Mage_community_de_DE</name>
+   <form_key>G42DgTDCdIr79hNr</form_key>
+   <name>German_LocalePack_de_DE</name>
    <channel>community</channel>
    <version_ids>
       <version_ids>2</version_ids>
       <version_ids>1</version_ids>
    </version_ids>
-   <summary>Deutsches Sprachpaket - bitte Infos auf der Extension Homepage beachten.</summary>
+   <summary>German Community Modules - German (Germany) Language Pack</summary>
    <description>Deutsches Sprachpaket für Magento Commerce</description>
    <license>OSL</license>
    <license_uri/>
    <version>1.9.0.1.0</version>
    <stability>stable</stability>
-   <notes>none/keine</notes>
+   <notes>Übersetzungen noch in Arbeit</notes>
    <authors>
       <name>
          <name>Rico Neitzel</name>
@@ -41,7 +41,7 @@
             <max/>
          </max>
          <files>
-            <files>        </files>
+            <files>                                      </files>
          </files>
       </package>
       <extension>
@@ -59,6 +59,7 @@
    <contents>
       <target>
          <target>magelocal</target>
+         <target>magelocale</target>
          <target>magelocale</target>
          <target>magedesign</target>
          <target>magedesign</target>
@@ -84,24 +85,23 @@
          <target>mage</target>
          <target>mage</target>
          <target>mage</target>
-         <target>mage</target>
       </target>
       <path>
          <path/>
          <path>de_DE</path>
+         <path>es_ES/German_LocaleDe.csv</path>
+         <path>adminhtml/default/default/layout/localepackde.xml</path>
          <path>adminhtml/default/default/locale/de_DE/translate.csv</path>
          <path>frontend/default/default/locale/de_DE/translate.csv</path>
-         <path>adminhtml/default/default/layout/localepackde.xml</path>
          <path>downloader/template_de_1.5</path>
          <path>downloader/template_de_1.7</path>
-         <path>German</path>
+         <path>German/LocalePackDe</path>
          <path>modules/German_LocalePackDe.xml</path>
          <path>js/german/localepackde/setup.js</path>
          <path>js/tiny_mce/langs/de.js</path>
          <path>js/tiny_mce/plugins/advhr/langs/de_dlg.js</path>
          <path>js/tiny_mce/plugins/advimage/langs/de_dlg.js</path>
          <path>js/tiny_mce/plugins/advlink/langs/de_dlg.js</path>
-         <path>js/tiny_mce/plugins/emotions/langs/de_dlg.js</path>
          <path>js/tiny_mce/plugins/emotions/langs/de_dlg.js</path>
          <path>js/tiny_mce/plugins/fullpage/langs/de_dlg.js</path>
          <path>js/tiny_mce/plugins/media/langs/de_dlg.js</path>
@@ -121,10 +121,10 @@
          <type>file</type>
          <type>file</type>
          <type>file</type>
-         <type>dir</type>
-         <type>dir</type>
-         <type>dir</type>
          <type>file</type>
+         <type>dir</type>
+         <type>dir</type>
+         <type>dir</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -175,32 +175,32 @@
       </include>
       <ignore>
          <ignore/>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
-         <ignore>#^.DS_Store#</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
+         <ignore>.DS_Store</ignore>
       </ignore>
    </contents>
 </_>

@@ -7,13 +7,13 @@
  * @version 1.9.0.1.0
  * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
-
 class German_LocalePackDe_Model_Observer {
 
     public function adminhtmlControllerActionPredispatchStart() {
 
+        $helper = Mage::helper("localepackde");
         if($this->localeMatchesMagento() && Mage::getSingleton('admin/session')->isLoggedIn()){
-            Mage::getSingleton('core/session')->addNotice(Mage::helper('core')->__('Attention: Your Locale Pack doesn\'t match your Magento Version. <a href="'.$this->getManageUrl().'">Get more information here.</a>'));
+            Mage::getSingleton('core/session')->addNotice($helper->__('Attention: Your Locale Pack doesn\'t match your Magento Version. <a href="'.$this->getManageUrl().'">Get more information here.</a>'));
         }
     }
 
