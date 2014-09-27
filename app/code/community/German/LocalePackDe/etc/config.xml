@@ -35,15 +35,22 @@
         <events>
             <adminhtml_controller_action_predispatch_start>
                 <observers>
-                    <german_localepackde>
+                    <localepackde>
                         <class>localepackde/observer</class>
                         <method>adminhtmlControllerActionPredispatchStart</method>
-                    </german_localepackde>
+                    </localepackde>
                 </observers>
             </adminhtml_controller_action_predispatch_start>
         </events>
-
     </global>
+	
+    <default>
+        <localepackde>
+             <notification>
+                <url>https://github.com/riconeitzel/German_LocalePack_de_DE</url>
+            </notification>
+        </localepackde>
+    </default>
 
     <adminhtml>
         <layout>
@@ -53,6 +60,15 @@
                 </localepackde>
             </updates>
         </layout>
+        <translate>
+            <modules>
+                <German_LocalePackDe>
+                    <files>
+                        <localepackde>German_Locale.csv</localepackde>
+                    </files>
+                </German_LocalePackDe>
+            </modules>
+        </translate>
         <acl>
             <resources>
                 <all>
