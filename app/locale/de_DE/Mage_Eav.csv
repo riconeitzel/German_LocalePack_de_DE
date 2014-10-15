@@ -10,7 +10,7 @@
 """%s"" is an empty string.","""%s"" ist ein leerer String."
 """%s"" is not a valid URL.","""%s"" ist keine gültige URL."
 """%s"" is not a valid date.","""%s"" ist kein gültiges Datum."
-"""%s"" is not a valid email address.","""%s"" ist keine gültige E-Mail Adresse."
+"""%s"" is not a valid email address.","""%s"" ist keine gültige E-Mail-Adresse."
 """%s"" is not a valid file","""%s"" ist keine gültige Datei"
 """%s"" is not a valid file extension.","""%s"" ist kein gültiges Dateiformat."
 """%s"" is not a valid file.","""%s"" ist kein gültiges Datum."
