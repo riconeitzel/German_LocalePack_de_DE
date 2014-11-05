@@ -49,7 +49,7 @@ Auf dieser Plattform werden aktuell die Übersetzungen des de_DE Packages verwal
  
 [Das de_CH Paket](https://github.com/openstream/German_LocalePack_de_CH), pflegt der Schweizer Community Manager Nick Weiser.
 
-Releases für die Enterprise oder Go Version von Magento sind als Git-Forks dieses Repos ebenso denkbar. Zum Forken als eigenes GitHub Repository reicht es, oben den entsprechenden Butten zu klicken. (GitHub Account vorausgesetzt)
+Releases für die Enterprise oder Go Version von Magento sind als Git-Forks dieses Repos ebenso denkbar. Zum Forken als eigenes GitHub Repository reicht es, oben den entsprechenden Button zu klicken. (GitHub Account vorausgesetzt)
 
 [Sie können sich auch über das Versionskontrollsystem Git und andere Techniken informieren.](http://git-scm.com/)
 
