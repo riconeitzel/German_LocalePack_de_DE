@@ -14,7 +14,7 @@
 "Credit Card Verification","Kreditkartenüberprüfung"
 "Credit Card: xxxx-%s","Kreditkarte: xxxx-%s"
 "Debug","Debug"
-"Email Customer","Kunden E-Mail Adresse"
+"Email Customer","Kunden E-Mail-Adresse"
 "Enabled","Aktiviert"
 "Error in payment gateway.","Fehler im Payment Geteway."
 "Gateway actions are locked because the gateway cannot complete one or more of the transactions. Please log in to your Authorize.Net account to manually resolve the issue(s).","Gateway Aktionen sind momentan gesperrt, da das Gateway eine oder mehrere Transaktionen nicht ausführen konnte. Bitte melden Sie sich in Ihrem Authorize.Net Zugang an um diese Probleme manuell zu beheben."
