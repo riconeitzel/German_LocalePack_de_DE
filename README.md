@@ -2,11 +2,12 @@
 
 Seit Magento 1.9.x liefert der Hersteller bereits eine Übersetzung mit. Diese Übersetzung ist jedoch vollautomatisch erstellt worden und **hat mit diesem Projekt hier nichts zu tun.**
 
-Leider lässt sich dieses Sprachpaket nicht ohne Weiteres installieren. Es sind folgende Schritte auszuführen, bevor dieses Sprachpaket hier per Magento Connect installiert werden kann:
+Leider lässt sich dadurch unser Sprachpaket nicht ohne Weiteres installieren. Es sind daher folgende Schritte auszuführen, bevor dieses Sprachpaket per Magento Connect installiert werden kann:
 
 - Im Magento-Hauptverzeichnis in den Ordner **app/locale/* wechseln
 - Dort den Ordner **de_DE** umbenennen in **magento_de_DE**
-- Anschließend dieses Sprachpaket installieren
+
+Anschließend dieses Sprachpaket installieren
 
 Bitte auch beachten: Die Deinstallation der Herstellerübersetzung über den Magento Connect Manager funktioniert nicht, da das Magento Hauptpaket dieses Sprachpaket als Voraussetzung definiert hat. Das manuelle Löschen auf dem Server funktioniert jedoch problemlos.
 
@@ -48,7 +49,7 @@ Auf dieser Plattform werden aktuell die Übersetzungen des de_DE Packages verwal
  
 [Das de_CH Paket](https://github.com/openstream/German_LocalePack_de_CH), pflegt der Schweizer Community Manager Nick Weiser.
 
-Releases für die Enterprise oder Go Version von Magento sind als Git-Forks dieses Repos ebenso denkbar. Zum Forken als eigenes GitHub Repository reicht es, oben den entsprechenden Butten zu klicken. (GitHub Account vorausgesetzt)
+Releases für die Enterprise oder Go Version von Magento sind als Git-Forks dieses Repos ebenso denkbar. Zum Forken als eigenes GitHub Repository reicht es, oben den entsprechenden Button zu klicken. (GitHub Account vorausgesetzt)
 
 [Sie können sich auch über das Versionskontrollsystem Git und andere Techniken informieren.](http://git-scm.com/)
 

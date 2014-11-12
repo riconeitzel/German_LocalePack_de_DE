@@ -77,4 +77,16 @@
         </acl>
     </adminhtml>
 
+    <frontend>
+        <translate>
+            <modules>
+                <Mage_Customer>
+                    <files>
+                        <germanlocalepack>Mage_Customer.germanlocalepack.csv</germanlocalepack>
+                    </files>
+                </Mage_Customer>
+            </modules>
+        </translate>
+    </frontend>
+
 </config>
