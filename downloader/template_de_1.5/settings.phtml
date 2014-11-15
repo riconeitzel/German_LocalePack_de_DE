@@ -46,19 +46,20 @@ function changeDeploymentType (element)
     document.getElementById('deployment_type_panel').style.display = disabledMode;
 }
 </script>
+
 <div class="settings-page">
     <h2 class="page-head">Einstellungen</h2>
     <form action="<?php echo $this->url('settingsPost') ?>" method="post">
         <fieldset>
-            <p>Magento Erweiterungen sind in 3 verschiedenen Varianten verf&uuml;gbar.</p>
+            <p>Magento Erweiterungen sind in 3 verschiedenen Varianten verfügbar.</p>
             <ul class="disc">
-                <li><strong>Stable</strong> - bedeutet, dass die Erweiterung auf einer Produktiv-Umgebung eingesetzt werden kann.</li>
+                <li><strong>Stabil</strong> - bedeutet, dass die Erweiterung auf einer Produktiv-Umgebung eingesetzt werden kann.</li>
                 <li><strong>Beta</strong> - bedeutet, dass <u>nicht</u> empfohlen wird die Erweiterung auf einer Produktiv-Umgebung einzusetzen.</li>
                 <li><strong>Alpha</strong> - bedeutet, die Erweiterung befindet sich noch in der Entwicklung.</li>
             </ul>
             <p><b>Bitte beachten Sie:</b> Erweiterungen werden per Internet-Server bereitgestellt. <br />
 		       Stellen Sie sicher das Ihre Daten entsprechend gesichert wurden, bevor Sie neue Erweiterungen installieren, <br />
-		       da ansonsten Ihre Anpassungen und/oder Konfigurationen durch &Uuml;berschreibungen verloren gehen k&ouml;nnen.
+		       da ansonsten Ihre Anpassungen und/oder Konfigurationen durch Überschreibungen verloren gehen können.
 			</p>
             <table cellspacing="0" class="form-list">
                 <tr>
@@ -75,7 +76,7 @@ function changeDeploymentType (element)
                     <td class="label">Bevorzugter Status:</td>
                     <td class="value">
                         <select id="preferred_state" name="preferred_state">
-                            <option value="stable" <?php if ($this->get('preferred_state')=='stable'):?>selected="selected"<?php endif ?>>Stable</option>
+                            <option value="stable" <?php if ($this->get('preferred_state')=='stable'):?>selected="selected"<?php endif ?>>Stabil</option>
                             <option value="beta" <?php if ($this->get('preferred_state')=='beta'):?>selected="selected"<?php endif ?>>Beta</option>
                             <option value="alpha" <?php if ($this->get('preferred_state')=='alpha'):?>selected="selected"<?php endif ?>>Alpha</option>
                         </select>
@@ -128,7 +129,7 @@ function changeDeploymentType (element)
                     <td class="label">&nbsp;</td>
                     <td class="value">
                         <input value="ftp" type="radio" name="deployment_type" id="deployment_ftp" onclick="changeDeploymentType(this)" <?php if ($this->get('deployment_type')=='ftp'):?>checked="checked"<?php endif ?> />
-                        <label for="deployment_ftp"><span class="label">FTP Verbindung</span></label>
+                        <label for="deployment_ftp"><span class="label">FTP-Verbindung</span></label>
                     </td>
                 </tr>
             </table>
