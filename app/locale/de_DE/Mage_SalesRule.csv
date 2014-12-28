@@ -120,6 +120,7 @@
 "Update prices using the following information","Aktualisiere Preise mit folgende Information"
 "Update product's %s %s: %s","Aktualisiere %s %s des Artikels: %s"
 "Update the Product","Artikel aktualisieren"
+"Usage limit enforced for logged in customers only","Nutzungsbeschränkung wird nur bei angemeldeten Kunden erzwungen"
 "Use Auto Generation","Assistent zur Erstellung nutzen"
 "Used","Benutzt"
 "Uses per Coupon","Verwendungen pro Rabattcode"
