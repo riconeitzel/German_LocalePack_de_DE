@@ -1,6 +1,6 @@
-# Hinweis zu Magento 1.9.x
+# Hinweis zu Magento 1.9.0.x
 
-Seit Magento 1.9.x liefert der Hersteller bereits eine Übersetzung mit. Diese Übersetzung ist jedoch vollautomatisch erstellt worden und **hat mit diesem Projekt hier nichts zu tun.**
+In Magento 1.9.0.x liefert der Hersteller bereits eine Übersetzung mit. Diese Übersetzung ist jedoch vollautomatisch erstellt worden und **hat mit diesem Projekt hier nichts zu tun.** Ab Magento 1.9.1.0 ist dies nicht mehr der Fall.
 
 Leider lässt sich dadurch unser Sprachpaket nicht ohne Weiteres installieren. Es sind daher folgende Schritte auszuführen, bevor dieses Sprachpaket per Magento Connect installiert werden kann:
 
