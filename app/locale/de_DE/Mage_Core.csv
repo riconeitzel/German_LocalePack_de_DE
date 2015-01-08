@@ -353,7 +353,7 @@
 "Translate, blocks and other output caches should be disabled for both frontend and admin inline translations.","Bei Nutzung sollten Block- und Übersetzungscaches deaktiviert sein!"
 "Translations","Übersetzungen"
 "Two and more slashes together are not permitted in request path","Zwei oder mehr Schrägstriche sind im Anfragepfad nicht erlaubt."
-"Two and more slashes together are not permitted in url rewrite suffix","Zwei oder mehr Schrägstriche sind im URL-Rewrite nicht erlaubt."
+"Two and more slashes together are not permitted in url rewrite suffix","Zwei oder mehr Schrägstriche sind im Suffix des URL-Rewrite nicht erlaubt."
 "Unable to create directory: %s","Nicht möglich Verzeichnis: %s anzulegen"
 "Unable to delete store view. Please, try again later.","Diese StoreView kann nicht gelöscht werden. Versuchen Sie es später noch einmal."
 "Unable to delete store. Please, try again later.","Dieser Store kann nicht gelöscht werden. Versuchen Sie es später noch einmal."
