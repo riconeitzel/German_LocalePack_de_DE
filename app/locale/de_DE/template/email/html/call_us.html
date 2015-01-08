@@ -1,0 +1,14 @@
+<!--@subject Email - Call Us @-->
+                        <h4>Haben Sie Fragen zu Ihren Bestellungen?</h4>
+                        <p>
+                            {{depend store_phone}}
+                            <b>Rufen Sie uns an:</b>
+                            <a href="tel:{{var phone}}">{{var store_phone}}</a><br>
+                            {{/depend}}
+                            {{depend store_hours}}
+                            <span class="no-link">{{var store_hours}}</span><br>
+                            {{/depend}}
+                            {{depend store_email}}
+                            <b>E-Mail:</b> <a href="mailto:{{var store_email}}">{{var store_email}}</a>
+                            {{/depend}}
+                        </p>
