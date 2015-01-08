@@ -4,7 +4,7 @@
 "%s (Default Template from Locale)","%s (Standard-Vorlage aus der Lokalisierung)"
 "%s cache type(s) disabled.","%s Cachearten deaktiviert."
 "%s cache type(s) enabled.","%s Cachearten aktiviert."
-"%s cache type(s) refreshed.","%s x erfolgreich Cache aktualisiert."
+"%s cache type(s) refreshed.","%s × erfolgreich Cache aktualisiert."
 "(For Type ""Local Server"" need to use relative path to Magento install var/export or var/import, e.g. var/export, var/import, var/export/some/dir, var/import/some/dir)","(Für den Typ ""Lokalen Server"" wird die relative Pfadanganbe zur Magento Instanz var/export oder var/import benötigt, z.B. var/export, var/import, var/export/unter/verzeichnis, var/import/unter/verzeichnis)"
 "(For US 2-letter state names)","(Für USA Staatsnamen aus 2 Buchstaben)"
 "(If left empty will be auto-generated)","(Wird automatisch generiert, wenn leer gelassen)"
