@@ -20,18 +20,14 @@
             <p>herzlich willkommen in unserem Shop. Um sich bei Ihrem nächsten Besuch in unserem Shop anzumelden, klicken Sie einfach auf <a href="{{store url="customer/account/"}}">Anmelden</a> oder <a href="{{store url="customer/account/"}}">Mein Benutzerkonto</a> im oberen Bereich jeder Seite, und geben Sie Ihre E-Mail-Adresse und Passwort ein.</p>
             <p>Nach erfolgreichem Login auf unserer Seite haben Sie die folgenden Möglichkeiten:</p>
             <ul>
-                <li>Schnellerer Bezahlvorgang beim nächsten Einkauf</li>
-                <li>Den Status laufender Bestellungen einsehen</li>
-                <li>Bestellhistorie einsehen</li>
-                <li>Verwalten Ihrer Kundendaten</li>
-                <li>Ihr Passwort ändern</li>
-                <li>Verschiedene Adressen für den Versand an Familienmitglieder und Freunde sowie Rechnungsadressen speichern</li>
+                <li>Schnellerer Bezahlvorgang beim nächsten Einkauf,</li>
+                <li>Den Status laufender Bestellungen einsehen,</li>
+                <li>Bestellverlauf einsehen,</li>
+                <li>Ihre Kundendaten verwalten,</li>
+                <li>Ihr Passwort ändern,</li>
+                <li>Verschiedene Adressen für den Versand an Familienmitglieder und Freunde sowie Rechnungsadressen speichern.</li>
             </ul>
-            <p>
-                Sollten Sie Fragen oder Anregungen haben, kontaktieren Sie uns bitte wahlweise per E-Mail
-                <a href="mailto:{{var store_email}}">{{var store_email}}</a>
-                {{depend store_phone}} auch gerne per Telefon unter der Rufnummer <a href="tel:{{var phone}}">{{var store_phone}}</a>{{/depend}}.
-            </p>
+            {{template config_path="design/email/support"}}
         </td>
     </tr>
 </table>
