@@ -1,22 +1,30 @@
-{* This is a comment block
-
-Available vars in this template:
-  - name            Recipient name
-  - email           Recipient Email address
-  - product_name    Product name
-  - product_url     Url for product
-  - product_image   Url for product small image (75 px)
-  - message         Sender custom message
-  - sender_name     Sender name
-  - sender_email    Sender email
-
-Use vars: {{var var_name}}
-*}<!--@subject Produktempfehlung von {{var sender_name}} @-->
+<!--@subject Willkommen {{var name}} @-->
 <!--@vars
 {"htmlescape var=$name":"Recipient Name",
+"var email":"Recipient Email address",
 "var product_url":"Url for Product",
 "var product_name":"Product Name",
+"var product_image":"Url for product small image (75 px)",
+"var sender_name":"Sender name",
+"var sender_email":"Sender email",
 "var message":"Sender Message"}
 @-->
 
-Guten Tag, {{htmlescape var=$name}}<br /><br />{{htmlescape var=$sender_name}} möchte Ihnen folgendes Produkt zeigen: <a href="{{var product_url}}">{{var product_name}}</a>!<br /><br />Nachricht: <br />{{var message}}<br /><br />
+{{template config_path="design/email/header"}}
+{{inlinecss file="email-inline.css"}}
+
+<table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td class="action-content">
+            <h1>Hallo {{htmlescape var=$name}},</h1>
+            <p>{{htmlescape var=$sender_name}} möchte Ihnen folgendes Produkt zeigen: <a href="{{var product_url}}">{{var product_name}}</a></p>
+            <table cellspacing="0" cellpadding="0" class="message-container">
+                <tr>
+                    <td><strong>Nachricht:</strong> {{var message}}</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer"}}
