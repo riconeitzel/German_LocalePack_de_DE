@@ -17,6 +17,23 @@
         </localepacks>
     </tabs>
     <sections>
+        <design>
+            <groups>
+                <email>
+                    <fields>
+                        <support>
+                            <label>Email Support Template</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_email_template</source_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </support>
+                    </fields>
+                </email>
+            </groups>
+        </design>
         <localepackde module="localepackde">
             <label>Locale de_DE</label>
             <tab>localepacks</tab>
@@ -33,7 +50,7 @@
                     <show_in_website>0</show_in_website>
                     <show_in_store>0</show_in_store>
                     <comment><![CDATA[
-                          <p><strong>Das Sprachpaket de_DE in der Version <span style="color:red">1.9.0.1.0</span> wurde erfolgreich installiert.</strong></p>
+                          <p><strong>Das Sprachpaket de_DE in der Version <span style="color:red">1.9.1.0.0</span> wurde erfolgreich installiert.</strong></p>
                           
                           <p>Auf der <a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/2317" target="_blank">Extension Homepage des deutschen Sprachpakets</a> finden Sie weitere Informationen zu aktuellen Versionen.</p>
                           <br />
@@ -108,7 +125,7 @@
                     <show_in_website>0</show_in_website>
                     <show_in_store>0</show_in_store>
                     <comment><![CDATA[
-                        <p style="font-weight: bold;">Es ist möglich eigene vom Standard abweichende Übersetzungen einzusetzen. Beachten Sie die folgenden Punkte/Tipps:</p>
+                        <p style="font-weight: bold;">Es ist möglich eigene, vom Standard abweichende, Übersetzungen einzusetzen. Beachten Sie die folgenden Punkte/Tipps:</p>
                         <h3 style="margin-top:20px; margin-bottom:10xp;">Nutzen der Inline-Übersetzung</h3>
                         <ol style="list-style-position: outside; list-style-type: decimal; margin-left:18px;">
                             <li>Unter "System" -> "Cache-Verwaltung" sicherstellen, dass der Übersetzungscache, besser noch alle Caches, deaktiviert sind</li>
@@ -158,7 +175,7 @@
                             <dd>Extension Key für den Connect Manager: <span style="color:#EA7601;">http://connect20.magentocommerce.com/community/FireGento_MageSetup</span></dd>
                         </dl>
 
-                        <h3 style="margin-top:20px; margin-bottom:10xp;">Verbreitete Zahlmethoden</h3>
+                        <h3 style="margin-top:20px; margin-bottom:10xp;">Verbreitete Zahlungsarten</h3>
                         <dl>
                             <dt><b>Bankeinzug/Lastschrift</b> - <a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/2606/" target="_blank">DebitPayment auf Magento Connect</a></dt>
                             <dd>Extension Key für den Connect Manager: <span style="color:#EA7601; font-style:italic">http://connect20.magentocommerce.com/community/DebitPayment</span></dd>
