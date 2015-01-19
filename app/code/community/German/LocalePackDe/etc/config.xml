@@ -5,14 +5,14 @@
  * @package German_LocalePack
  * @authors Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
  * @developer Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>   
- * @version 1.9.0.1.0
+ * @version 1.9.1.0.0
  * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)  
  */
  -->
 <config>
     <modules>
         <German_LocalePackDe>
-            <version>1.9.0.1.0</version>
+            <version>1.9.1.0.0</version>
         </German_LocalePackDe>
     </modules>
 
@@ -75,6 +75,30 @@
                 </admin>
             </resources>
         </acl>
+        <translate>
+            <modules>
+                <German_LocalePackDe>
+                    <file>German_LocalePackDe.csv</file>
+                </German_LocalePackDe>
+            </modules>
+        </translate>
     </adminhtml>
+
+    <frontend>
+        <translate>
+            <modules>
+                <Mage_Customer>
+                    <files>
+                        <germanlocalepack>Mage_Customer.germanlocalepack.csv</germanlocalepack>
+                    </files>
+                </Mage_Customer>
+                <Mage_Wishlist>
+                    <files>
+                        <germanlocalepack>Mage_Wishlist.germanlocalepack.csv</germanlocalepack>
+                    </files>
+                </Mage_Wishlist>
+            </modules>
+        </translate>
+    </frontend>
 
 </config>

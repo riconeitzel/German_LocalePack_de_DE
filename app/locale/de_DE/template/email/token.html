@@ -1,17 +1,19 @@
-{* This is a comment block
-
-Available vars in this template:
-  - $userName           User name
-  - $applicationName    Application name
-  - $status             Token new status
-
-Use vars: {{var var_name}}
-*}<!--@subject Autorisation: Status zu {{htmlescape var=$status}} geändert @-->
+<!--@subject Hallo {{var name}} @-->
 <!--@vars
 {"htmlescape var=$userName":"User name",
 "var $applicationName":"Application name",
 "var $status":"Token new status"}
 @-->
+{{template config_path="design/email/header"}}
+{{inlinecss file="email-inline.css"}}
 
-Guten Tag {{htmlescape var=$userName}}<br /><br />
-die Autorisation für <b>{{htmlescape var=$applicationName}}</b> wurde vom Administrationsteam auf <b>{{htmlescape var=$status}}</b> geändert.<br /><br />
+<table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td class="action-content">
+            <h1>Hallo {{htmlescape var=$userName}}</h1>
+            <p>die Autorisation für <b>{{htmlescape var=$applicationName}}</b> wurde vom Administrationsteam auf <b>{{htmlescape var=$status}}</b> geändert.</p>
+        </td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer"}}
