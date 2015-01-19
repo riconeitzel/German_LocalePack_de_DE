@@ -75,6 +75,13 @@
                 </admin>
             </resources>
         </acl>
+        <translate>
+            <modules>
+                <German_LocalePackDe>
+                    <file>German_LocalePackDe.csv</file>
+                </German_LocalePackDe>
+            </modules>
+        </translate>
     </adminhtml>
 
     <frontend>
