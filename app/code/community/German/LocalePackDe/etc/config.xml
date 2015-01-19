@@ -85,6 +85,11 @@
                         <germanlocalepack>Mage_Customer.germanlocalepack.csv</germanlocalepack>
                     </files>
                 </Mage_Customer>
+                <Mage_Wishlist>
+                    <files>
+                        <germanlocalepack>Mage_Wishlist.germanlocalepack.csv</germanlocalepack>
+                    </files>
+                </Mage_Wishlist>
             </modules>
         </translate>
     </frontend>
