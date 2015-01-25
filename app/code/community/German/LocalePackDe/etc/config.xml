@@ -78,7 +78,9 @@
         <translate>
             <modules>
                 <German_LocalePackDe>
-                    <file>German_LocalePackDe.csv</file>
+                    <files>
+                        <default>German_LocalePackDe.csv</default>
+                    </files>
                 </German_LocalePackDe>
             </modules>
         </translate>
