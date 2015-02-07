@@ -37,7 +37,7 @@ Dieses Git Repository kann genutzt werden für:
 
 # Versionierung der Sprachpakete
 
-Die Version des Sprachpaketes sollte immer zur eigenen Magento-Version passen. Aktuell werden die Sprachpakete daher folgendermaßen versioniert: <magento-version>.<sprachpaket-version> = <1.8.0.0>.<0>
+Die Version des Sprachpaketes sollte immer zur eigenen Magento-Version passen. Aktuell werden die Sprachpakete daher folgendermaßen versioniert: \<magento-version\>.\<sprachpaket-version\> = \<1.8.0.0\>.\<0\>
 
 Ein Sprachpaket 1.7.0.2.1 passt demnach nicht zu einem Magento 1.8.0.0!
 

@@ -5,7 +5,7 @@
  * @package German_LocalePack
  * @authors Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
  * @developer Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>   
- * @version 1.9.1.0.0
+ * @version 1.9.1.0.1
  * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)  
  */
  -->
@@ -50,7 +50,7 @@
                     <show_in_website>0</show_in_website>
                     <show_in_store>0</show_in_store>
                     <comment><![CDATA[
-                          <p><strong>Das Sprachpaket de_DE in der Version <span style="color:red">1.9.1.0.0</span> wurde erfolgreich installiert.</strong></p>
+                          <p><strong>Das Sprachpaket de_DE in der Version <span style="color:red">1.9.1.0.1</span> wurde erfolgreich installiert.</strong></p>
                           
                           <p>Auf der <a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/2317" target="_blank">Extension Homepage des deutschen Sprachpakets</a> finden Sie weitere Informationen zu aktuellen Versionen.</p>
                           <br />
@@ -79,7 +79,7 @@
                     <show_in_website>0</show_in_website>
                     <show_in_store>0</show_in_store>
                     <comment><![CDATA[
-                        <p style="font-weight: bold;">Um die Übersetzung für den Magento Connect Manager zu installieren gehen Sie bitte wie folgt vor:</p>
+                        <p style="font-weight: bold;">Um die Übersetzung für den Magento Connect Manager zu installieren, gehen Sie bitte wie folgt vor:</p>
                         
                         <ol style="list-style-position: outside; list-style-type: decimal; margin-left:18px;">
                             <li>In Ihrem Magento-Hauptverzeichnis im Unterordner "/downloader" den Ordner "template" umbenennen in "template_original"</li>
@@ -128,8 +128,8 @@
                         <p style="font-weight: bold;">Es ist möglich eigene, vom Standard abweichende, Übersetzungen einzusetzen. Beachten Sie die folgenden Punkte/Tipps:</p>
                         <h3 style="margin-top:20px; margin-bottom:10xp;">Nutzen der Inline-Übersetzung</h3>
                         <ol style="list-style-position: outside; list-style-type: decimal; margin-left:18px;">
-                            <li>Unter "System" -> "Cache-Verwaltung" sicherstellen, dass der Übersetzungscache, besser noch alle Caches, deaktiviert sind</li>
-                            <li>Unter "System" -> "Konfiguration" -> "Entwickleroptionen" -> "Inline übersetzen" aktivieren</li>
+                            <li>Unter "System" &rarr; "Cache-Verwaltung" sicherstellen, dass der Übersetzungscache, besser noch alle Caches, deaktiviert sind</li>
+                            <li>Unter "System" &rarr; "Konfiguration" &rarr; "Entwickleroptionen" &rarr; "Inline übersetzen" aktivieren</li>
                             <li>Je nach Auswahl werden nun im Front oder Backend an übersetzbaren Textbereichen beim Überfahren mit der Maus kleine Buch-Icons angezeigt,<br />
                                 nach einem Klick auf dieses Buch öffnet sich ein Dialog, in dem man wahlweise global oder nur für den aktuellen StoreView<br >eigene Übersetzungen hinterlegen kann.</li>
                         </ol><br />
@@ -149,8 +149,8 @@
                         </ol><br />
                         <p>Sollten Sie trotzdem eigene Übersetzungen per CSV Dateien nutzen wollen:</p>
                         <ol>
-                            <li>Legen Sie ein eigenen Themes mit der Übersetzungsdatei "/app/design/frontend/default/mein_theme/locale/de_DE/translate.csv" an.</li>
-                            <li>Konfigurieren Sie Magento, dass dieses Theme für Übersetzungen verwendet werden soll: "System" -> "Konfiguration" -> "Design" -> "Themes" -> "Übersetzungen" dort den Ordnernamen Ihres Themes (z. B. "mein_theme") eintragen.</li>
+                            <li>Legen Sie ein eigenes Themes mit der Übersetzungsdatei "/app/design/frontend/default/mein_theme/locale/de_DE/translate.csv" an.</li>
+                            <li>Konfigurieren Sie Magento, dass dieses Theme für Übersetzungen verwendet werden soll: "System" &rarr; "Konfiguration" &rarr; "Design" &rarr; "Themes" &rarr; "Übersetzungen" dort den Ordnernamen Ihres Themes (z. B. "mein_theme") eintragen.</li>
                         </ol>
                         <br />
                         <p><strong style="color:red">Bitte beachten:</strong> Der für die CSV-Datei verwendete Editor sollte die Datei als UTF-8 ohne BOM speichern können!</p>
@@ -165,13 +165,13 @@
                     <show_in_website>0</show_in_website>
                     <show_in_store>0</show_in_store>
                     <comment><![CDATA[
-                        <p>Das installierte Sprachpaket liefert lediglich Übersetzungen der in Magento vorhandenen Texte. Wenn Sie Ihren Magento Shop auf die rechtlichen Anforderungen in Deutschland vorbereiten oder um verbreitete Zahlungsarten erweitern m&ouml;chten, dann empfehlen wir Ihnen zus&auml;tzlich folgende Extensions zu installieren.</p>
+                        <p>Das installierte Sprachpaket liefert lediglich Übersetzungen der in Magento vorhandenen Texte. Wenn Sie Ihren Magento Shop auf die rechtlichen Anforderungen in Deutschland vorbereiten oder um verbreitete Zahlungsarten erweitern möchten, dann empfehlen wir Ihnen zusätzlich folgende Extensions zu installieren.</p>
                         
                         <hr style="margin-top:15px; margin-bottom:5px;" />
                         
                         <h3 style="margin-top:20px; margin-bottom:10xp;">Spezifische Marktanpassung f&uuml;r Deutsche und Europäische Shops</h3>
                         <dl>
-                            <dt><b>Firegento: Mage Setup</b> - <a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/20763/" target="_blank">Mage Setup auf Magento Connect</a></dt>
+                            <dt><b>FireGento: MageSetup</b> - <a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/20763/" target="_blank">MageSetup auf Magento Connect</a></dt>
                             <dd>Extension Key für den Connect Manager: <span style="color:#EA7601;">http://connect20.magentocommerce.com/community/FireGento_MageSetup</span></dd>
                         </dl>
 
