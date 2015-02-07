@@ -397,3 +397,4 @@
 "You will have to log in after you save your custom admin path.","Nachdem Sie den neuen Admin-Pfad gespeichert haben, müssen Sie sich neu anmelden."
 "Your design change for the specified store intersects with another one, please specify another date range.","Ihre Designänderung für den angegebenen Store überschneidet sich mit einer anderen Änderung, bitte ändern Sie den Datenbereich."
 "database ""%s""","Datenbank ""%s"""
+"Item in your order","Artikel Ihrer Bestellung"
