@@ -168,7 +168,7 @@
 "Created billing agreement #%s.","Zahlungsvereinbarung #%s erstellt."
 "Created:","Erstellt:"
 "Credit Memo","Rechnungskorrektur"
-"Credit Memo # ","Rechnungskorrektur Nr. "
+"Credit Memo #","Rechnungskorrektur Nr."
 "Credit Memo # ","Rechnungskorrektur Nr. "
 "Credit Memo #%1$s | %3$s | %2$s (%4$s)","Rechnungskorrektur #%1$s | %3$s | %2$s (%4$s)"
 "Credit Memo Comment Email Sender","Absender Kommentar-Rechnungskorrektur-E-Mail"
