@@ -25,9 +25,9 @@
                         <p>Ihre E-Mail-Adresse {{var customer.email}} muss bestätigt werden, bevor Sie sich damit in unserem Shop anmelden können.</p>
                         <h1>Hallo {{htmlescape var=$customer.name}},</h1>
                         <p class="highlighted-text">
+                            Mit folgenden Zugangsdaten können Sie sich anschließend anmelden:<br/>
                             <strong>E-Mail-Adresse:</strong> {{var customer.email}}<br/>
                             <strong>Passwort:</strong> {{htmlescape var=$customer.password}}
-                            Mit folgenden Zugangsdaten können Sie sich anschließend anmelden:<br/>
                         </p>
                         <p>Um die E-Mail-Adresse zu bestätigen, klicken Sie bitte auf diesen Link (Der Link ist nur einmal gültig):</p>
                         <table cellspacing="0" cellpadding="0" class="action-button" >
