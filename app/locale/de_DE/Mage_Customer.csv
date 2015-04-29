@@ -13,6 +13,7 @@
 "Account Information","Benutzerkonto Information"
 "Account Sharing Options","Benutzerkonto Verteilungsoptionen"
 "Account confirmation is required. Please, check your email for the confirmation link. To resend the confirmation email please <a href=""%s"">click here</a>.","Kontobestätigung ist erforderlich. Bitte beachten Sie dazu den Bestätigungslink in der E-Mail. Um Ihre Bestätigung noch einmal versenden zu lassen, <a href=""%s"">klicken Sie hier</a>."
+"This account is not confirmed. <a href=""%s"">Click here</a> to resend confirmation email.", "Dieses Konto ist nicht bestätigt. <a href=""%s"">Klicken Sie hier</a>, um Ihren Bestätigungslink erneut per E-Mail versenden zu lassen."
 "Action","Aktion"
 "Add New Address","Neue Adresse"
 "Add New Customer","Neue Kunde"
