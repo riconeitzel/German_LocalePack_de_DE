@@ -78,7 +78,7 @@ Das Sprachpaket enthält nach dem automatischen Abgleich für eine neue Version 
 
 @mklooss hat angeregt, dass wir diese Übersetzungen in Dateien sammeln, die via Config-XML eingebunden werden:
 
-Für das Modul **Mage_Customer** lautet die Core-CSV-Datei **Mage_Customer.csv**. Wir erzeugen nun eine neue CSV-Datei dem Schema **\<Namespace_Module\>.germanlocalepack.csv und binden diese in der config.xml Datei ein:
+Für das Modul **Mage_Customer** lautet die Core-CSV-Datei **Mage_Customer.csv**. Wir erzeugen nun eine neue CSV-Datei dem Schema **\<Namespace_Module\>.germanlocalepack.csv** und binden diese in der config.xml Datei ein:
 
 ```
     <frontend>
