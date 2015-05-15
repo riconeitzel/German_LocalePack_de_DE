@@ -14,7 +14,7 @@
 "Advanced","Erweitert"
 "After selecting a new media storage location, press the Synchronize button
                                 to transfer all media to that location. Media will not be available in the new
-                                location until the synchronization process is complete.","Nachdem Sie einen neuen Speicherort für die Medienspeicherung festgelegt haben, klicken Sie bitte auf den ""Synchronisieren""-Button um alle Medien zum neuen Speicherort zu kopieren. Ihre Medien sind solange am neuen Speicherort verfügbar, bis der Synchronisationsvorgang abgeschlossen ist."
+                                location until the synchronization process is complete.","Nachdem Sie einen neuen Speicherort für die Medienspeicherung festgelegt haben, klicken Sie bitte auf den ""Synchronisieren""-Button, um alle Medien zum neuen Speicherort zu kopieren. Ihre Medien sind solange am neuen Speicherort verfügbar, bis der Synchronisationsvorgang abgeschlossen ist."
 "Allow Countries","Erlaubte Länder"
 "Allow Magento Backend to run in frame","Dem Magento-Backend Allow Magento Backend erlauben, in einem Frame zu laufen"
 "Allow Magento Frontend to run in frame","Dem Magento-Frontend erlauben, in einem Frame zu laufen"
@@ -156,7 +156,7 @@
 "Input type ""%value%"" not found in the input types list.","Eingabetyp ""%s"" wurde in der Eingabetyp-Liste nicht gefunden."
 "Invalid URL '%value%'.","Ungültige URL '%value%'."
 "Invalid base url type","Ungültiger Basis-URL Typ"
-"Invalid block name to set child %s: %s","Ungültiger Blockname um Kindelement %s zu setzen: %s"
+"Invalid block name to set child %s: %s","Ungültiger Blockname, um Kindelement %s zu setzen: %s"
 "Invalid block type: %s","Ungültiger Blocktyp: %s"
 "Invalid block: %s","Ungültiger Block: %s"
 "Invalid connection","Ungültige Verbindung"
