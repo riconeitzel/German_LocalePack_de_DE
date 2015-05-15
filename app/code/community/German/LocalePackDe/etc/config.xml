@@ -117,5 +117,12 @@
             </modules>
         </translate>
     </frontend>
+    <default>
+        <design>
+            <email>
+                <support>design_email_support</support>
+            </email>
+        </design>
+    </default>
 
 </config>
