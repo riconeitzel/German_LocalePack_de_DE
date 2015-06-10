@@ -20,9 +20,9 @@
             <h1>Herzlich willkommen bei {{var store.getFrontendName()}}.</h1>
             <p>Um sich bei Ihrem nächsten Besuch in unserem Shop anzumelden, klicken Sie einfach auf <a href="{{store url="customer/account/"}}">Anmelden</a> oder <a href="{{store url="customer/account/"}}">Mein Benutzerkonto</a> im oberen Bereich jeder Seite und geben Sie Ihre E-Mail-Adresse sowie Ihr Passwort ein.</p>
             <p class="highlighted-text">
+                Mit folgenden Zugangsdaten können Sie sich anmelden:<br/>
                 <strong>E-Mail-Adresse:</strong> {{var customer.email}}<br/>
                 <strong>Passwort:</strong> {{htmlescape var=$customer.password}}
-                Mit folgenden Zugangsdaten können Sie sich anmelden:<br/>
             </p>
             <p>Nach erfolgreichem Login auf unserer Seite haben Sie die folgenden Möglichkeiten:</p>
             <ul>
