@@ -99,6 +99,11 @@
     <frontend>
         <translate>
             <modules>
+                <Mage_Core>
+                    <files>
+                        <germanlocalepack>Mage_Core.germanlocalepack.csv</germanlocalepack>
+                    </files>
+                </Mage_Core>
                 <Mage_Customer>
                     <files>
                         <germanlocalepack>Mage_Customer.germanlocalepack.csv</germanlocalepack>
@@ -112,5 +117,12 @@
             </modules>
         </translate>
     </frontend>
+    <default>
+        <design>
+            <email>
+                <support>design_email_support</support>
+            </email>
+        </design>
+    </default>
 
 </config>
