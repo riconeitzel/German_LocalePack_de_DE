@@ -30,7 +30,7 @@
     $cnt = count($packages);
     if($cnt):
 ?>
-Extension Abhängigkeiten
+Abhängigkeiten der Erweiterungen
 <form action="<?php
     echo $this->url('connectInstallPackagePost')?>" method="post" target="connect_iframe" onsubmit="onSubmit(this)">
     <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
@@ -42,7 +42,7 @@ Extension Abhängigkeiten
         <col width="100" />
         <thead>
             <tr>
-                <th class="first">Channel</th>
+                <th class="first">Kanal</th>
                 <th class="first">Paketname</th>
                 <th>Version</th>
                 <th class="last">Status</th>
@@ -67,7 +67,7 @@ Extension Abhängigkeiten
 <?php
 endif;
 if (!$cnt || !empty($errors['error'])):
-    $_errors = array('error'=>array('Extension key is not valid.'));
+    $_errors = array('error'=>array('Erweiterungsschlüssel ist ungültig.'));
     if(!empty($errors) && is_array($errors)) $_errors = $errors;
     $this->set('messages', $_errors)
 ?>

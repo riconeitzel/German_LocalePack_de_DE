@@ -54,7 +54,7 @@ function changeDeploymentType (element)
         <fieldset>
             <p>Magento Erweiterungen sind in drei verschiedenen Varianten verfügbar.</p>
             <ul class="disc">
-                <li><strong>Stable</strong> - bedeutet, dass die Erweiterung auf einer Produktiv-Umgebung eingesetzt werden kann.</li>
+                <li><strong>Stabil</strong> - bedeutet, dass die Erweiterung auf einer Produktiv-Umgebung eingesetzt werden kann.</li>
                 <li><strong>Beta</strong> - bedeutet, dass <u>nicht</u> empfohlen wird die Erweiterung auf einer Produktiv-Umgebung einzusetzen.</li>
                 <li><strong>Alpha</strong> - bedeutet, die Erweiterung befindet sich noch in der Entwicklung.</li>
             </ul>
@@ -64,7 +64,7 @@ function changeDeploymentType (element)
 			</p>
             <table cellspacing="0" class="form-list">
                 <tr>
-                    <td class="label">Magento Connect Channel Protokoll:</td>
+                    <td class="label">Protokoll des Kanals Magento Connect:</td>
                     <td class="value">
                         <select id="protocol" name="protocol">
                             <option value="https" <?php if ($this->get('protocol')=='https'):?>selected="selected"<?php endif ?>>Https</option>
@@ -78,7 +78,7 @@ function changeDeploymentType (element)
                     <td class="label">Bevorzugter Status:</td>
                     <td class="value">
                         <select id="preferred_state" name="preferred_state">
-                            <option value="stable" <?php if ($this->get('preferred_state')=='stable'):?>selected="selected"<?php endif ?>>Stable</option>
+                            <option value="stable" <?php if ($this->get('preferred_state')=='stable'):?>selected="selected"<?php endif ?>>Stabil</option>
                             <option value="beta" <?php if ($this->get('preferred_state')=='beta'):?>selected="selected"<?php endif ?>>Beta</option>
                             <option value="alpha" <?php if ($this->get('preferred_state')=='alpha'):?>selected="selected"<?php endif ?>>Alpha</option>
                         </select>
@@ -86,7 +86,7 @@ function changeDeploymentType (element)
                 </tr>
                 <!--
                 <tr>
-                    <td class="label">Magento Installation Directory:</td>
+                    <td class="label">Verzeichnis für die Magento-Installation:</td>
                     <td class="value"><input name="mage_dir" value="<?php echo htmlentities($this->get('mage_dir'))?>" style="width:250px;"/></td>
                 </tr>
                 -->
@@ -137,7 +137,7 @@ function changeDeploymentType (element)
             </table>
             <table cellspacing="0" class="form-list" id="deployment_type_panel" <?php if ($this->get('deployment_type')!='ftp'):?>style="display:none;"<?php endif ?>>
                 <tr>
-                    <td class="label">FTP Server:</td>
+                    <td class="label">FTP Server/Host:</td>
                     <td class="value">
                         <input id="ftp_host" name="ftp_host" value="<?php echo($this->get('ftp_host'));?>" class="input-text" type="text"></input>
                     </td>

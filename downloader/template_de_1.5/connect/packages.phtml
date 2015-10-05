@@ -27,11 +27,11 @@
 <?php echo $this->template('header.phtml') ?>
 <?php if ($this->get('writable_warning')) echo $this->template('writable.phtml');?>
 <div class="bar-head">
-    <h4>Updatespezifische Einstellung</h4>
+    <h4>Einstellungen</h4>
 </div>
 <ul class="bare-list">
 <li><input type="checkbox" id="maintenance" value="1" checked="checked" /> &nbsp;
-<label for="maintenance">Während der Installation bzw. dem Upgrade Wartungsmodus für den Shop aktivieren? (Keine Bestellungen möglich)</label>
+<label for="maintenance">Wartungsmodus während der Installation bzw. dem Upgrade aktivieren? (Keine Bestellungen möglich)</label>
 </li>
 </ul>
 
@@ -48,7 +48,7 @@
           $('prepare_package_result').update(
                 '<div class="loading-mask" id="loading_mask_loader">'+
                 ' <p class="loader">'+
-                ' <img src="<?php echo $this->baseUrl()?>/skin/images/ajax-loader-tr.gif" alt="Loading..."/><br/>Please wait…'+
+                ' <img src="<?php echo $this->baseUrl()?>/skin/images/ajax-loader-tr.gif" alt="Lade …"/><br/>Bitte warten …'+
                 ' </p>'+
                 '</div>'
           );
@@ -67,7 +67,7 @@
               ' <ul class="msgs"> ' +
               '  <li>' +
               '   <ul class="error-msg">' +
-              '     <li>Connection Error try again later.</li>' +
+              '     <li>Verbindungsfehler. Versuchen Sie es später noch einmal.</li>' +
               '   </ul>' +
               '  </li>' +
               ' </ul>' +
@@ -87,7 +87,7 @@
         </li>
         <li>
             <span class="step-count">2</span> &nbsp;
-            <label for="install_package_id">Extension Key zur Installation einfügen:</label> <input type="text" id="install_package_id" name="install_package_id" style="width:300px"/>
+            <label for="install_package_id">Erweiterungsschlüssel zur Installation einfügen:</label> <input type="text" id="install_package_id" name="install_package_id" style="width:300px"/>
             <button type="submit">Installieren</button>
         </li>
     </ul>
@@ -99,12 +99,12 @@
 <br/>
 
 <div class="bar-head">
-    <h4>Modul-Paket hochladen (.tgz Archiv)</h4>
+    <h4>Paket-Datei hochladen (.tgz Archiv)</h4>
 </div>
 <form action="<?php echo $this->url('connectInstallPackageUpload')?>" method="post" target="connect_iframe" onsubmit="onSubmit(this)" enctype="multipart/form-data">
     <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <ul class="bare-list">
-        <li><span class="step-count">1</span> &nbsp; Herunterladen oder Paket erstellen.</li>
+        <li><span class="step-count">1</span> &nbsp; Herunterladen oder Modul-Paket erstellen.</li>
         <li>
             <span class="step-count">2</span> &nbsp; Modul-Paket hochladen:
             <label for="file"></label>
@@ -118,7 +118,7 @@
 <div class="bar-head">
     <h4>Bestehende Erweiterungen verwalten</h4>
     <?php if (empty($_GET['updates'])): ?>
-        <span class="bar-head-btn f-right"><button type="button" class="f-right" onclick="checkForUpdateClick()">Auf Upgrades überprüfen</button></span>
+        <span class="bar-head-btn f-right"><button type="button" class="f-right" onclick="checkForUpdateClick()">Auf Aktualisierungen überprüfen</button></span>
     <?php endif; ?>
 </div>
 <?php $packages = $this->get('connect')->getAllInstalledPackages(); $i = 0; $cnt = count($packages); ?>
@@ -141,8 +141,8 @@
         <input type="hidden" name="form_id" value="connect_packages_<?php echo $i ?>"/>
     </div>
     <p class="nm"><button type="button" onclick="formSubmit('connect_packages_<?php echo $i ?>')" class="f-right">Änderungen übernehmen</button></p>
-    <h2 class="page-head">Channel: <?php echo $channelConfig->getChannelLabel($channel); ?></h2>
-    <p class="f-right"><label for="clean_sessions">Alle Sitzungen nach erfolgreicher Installation oder Upgrade leeren: <input type="checkbox" id="clean_sessions"/></label></p>
+    <h2 class="page-head">Kanal: <?php echo $channelConfig->getChannelLabel($channel); ?></h2>
+    <p class="f-right"><label for="clean_sessions">Alle Sitzungen nach erfolgreicher Installation oder Aktualisierung leeren: <input type="checkbox" id="clean_sessions"/></label></p>
     <div class="clear"></div>
 
     <table cellspacing="0" cellpadding="0" width="100%">
@@ -194,7 +194,7 @@
         <?php if (!empty($_GET['updates'])): ?>
         <p class="f-left a-left">
             <span style="background:#f6f6f6;padding:0 5px;">&nbsp;</span> &nbsp;Installiert<br/>
-            <span style="background:#fcfbbb;padding:0 5px;">&nbsp;</span> &nbsp;Upgrade verfügbar<br/>
+            <span style="background:#fcfbbb;padding:0 5px;">&nbsp;</span> &nbsp;Aktualisierungen verfügbar<br/>
         </p>
         <?php endif; ?>
     </div>
