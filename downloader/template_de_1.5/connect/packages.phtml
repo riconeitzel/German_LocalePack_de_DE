@@ -43,7 +43,7 @@
  function connectPrepare(form) {
     new Ajax.Request(form.action, {
       method:'post',
-      parameters: {install_package_id: form.install_package_id.value},
+      parameters: {install_package_id: form.install_package_id.value, form_key: form.form_key.value},
       onCreate: function() {
           $('prepare_package_result').update(
                 '<div class="loading-mask" id="loading_mask_loader">'+
@@ -80,6 +80,7 @@
 //-->
 </script>
 <form action="<?php echo $this->url('connectPreparePackagePost')?>" method="post" onsubmit="return connectPrepare(this)">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <ul class="bare-list">
         <li>
             <span class="step-count">1</span> &nbsp; Nach Modulen suchen auf <a href="http://connect.magentocommerce.com/" target="Magento_Connect">Magento Connect</a>.
@@ -134,6 +135,7 @@
 <?php foreach ($packages as $channel=>$pkgs): ?>
 
 <form id="connect_packages_<?php echo $i ?>" class="connect-packages" action="<?php echo $this->url('connectPackagesPost')?>" method="post" target="connect_iframe">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <div class="no-display">
         <input type="hidden" id="ignore_local_modification" name="ignore_local_modification" value=""/>
         <input type="hidden" name="form_id" value="connect_packages_<?php echo $i ?>"/>
@@ -198,7 +200,7 @@
     </div>
 </form>
 <script type="text/javascript">
-$$('#connect_packages_'+<?php echo $i?>+' select').each(function(el){el.value=''});
+$$('#connect_packages_' + <?php echo $i?> + ' select').each(function(el){el.value=''});
 </script>
 <?php if (++$i != $cnt): ?><div class="divider"></div><?php endif ?>
 <br/>
@@ -211,12 +213,12 @@ $$('#connect_packages_'+<?php echo $i?>+' select').each(function(el){el.value=''
 <div id="connect_iframe_success" style="display:none">
     <?php $this->set('messages', array('success'=>array('Vorgang abgeschlossen. Achten Sie auf die Ausgabe im schwarzen Fenster um wichtige Informationen zum Vorgang zu erhalten.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
-    <button onclick="location.reload()">Aktualisieren</button>
+    <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Aktualisieren</button>
 </div>
 <div id="connect_iframe_failure" style="display:none">
     <?php $this->set('messages', array('error'=>array('Achten Sie auf Fehlermeldungen im schwarzen Fenster und aktualisieren Sie die Seite um Ver&auml;nderungen zu sehen/anzuwenden.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
-    <button onclick="location.reload()">Aktualisieren</button>
+    <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Aktualisieren</button>
 </div>
 
 <?php echo $this->template('footer.phtml') ?>
