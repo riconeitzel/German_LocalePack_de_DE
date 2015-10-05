@@ -52,7 +52,7 @@ function changeDeploymentType (element)
     <form action="<?php echo $this->url('settingsPost') ?>" method="post">
         <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
         <fieldset>
-            <p>Magento Erweiterungen sind in 3 verschiedenen Varianten verf&uuml;gbar.</p>
+            <p>Magento Erweiterungen sind in drei verschiedenen Varianten verfügbar.</p>
             <ul class="disc">
                 <li><strong>Stable</strong> - bedeutet, dass die Erweiterung auf einer Produktiv-Umgebung eingesetzt werden kann.</li>
                 <li><strong>Beta</strong> - bedeutet, dass <u>nicht</u> empfohlen wird die Erweiterung auf einer Produktiv-Umgebung einzusetzen.</li>
@@ -60,7 +60,7 @@ function changeDeploymentType (element)
             </ul>
             <p><b>Bitte beachten Sie:</b> Erweiterungen werden per Internet-Server bereitgestellt. <br />
 		       Stellen Sie sicher das Ihre Daten entsprechend gesichert wurden, bevor Sie neue Erweiterungen installieren, <br />
-		       da ansonsten Ihre Anpassungen und/oder Konfigurationen durch &Uuml;berschreibungen verloren gehen k&ouml;nnen.
+		       da ansonsten Ihre Anpassungen und/oder Konfigurationen durch Überschreibungen verloren gehen können.
 			</p>
             <table cellspacing="0" class="form-list">
                 <tr>
@@ -131,7 +131,7 @@ function changeDeploymentType (element)
                     <td class="label">&nbsp;</td>
                     <td class="value">
                         <input value="ftp" type="radio" name="deployment_type" id="deployment_ftp" onclick="changeDeploymentType(this)" <?php if ($this->get('deployment_type')=='ftp'):?>checked="checked"<?php endif ?> />
-                        <label for="deployment_ftp"><span class="label">FTP Verbindung</span></label>
+                        <label for="deployment_ftp"><span class="label">FTP-Verbindung</span></label>
                     </td>
                 </tr>
             </table>
