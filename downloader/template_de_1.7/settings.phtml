@@ -86,7 +86,7 @@ function changeDeploymentType (element)
                 </tr>
                 <!--
                 <tr>
-                    <td class="label">Magento Installation Directory:</td>
+                    <td class="label">Verzeichnis für die Magento-Installation:</td>
                     <td class="value"><input name="mage_dir" value="<?php echo htmlentities($this->get('mage_dir'))?>" style="width:250px;"/></td>
                 </tr>
                 -->
@@ -137,7 +137,7 @@ function changeDeploymentType (element)
             </table>
             <table cellspacing="0" class="form-list" id="deployment_type_panel" <?php if ($this->get('deployment_type')!='ftp'):?>style="display:none;"<?php endif ?>>
                 <tr>
-                    <td class="label">FTP Server:</td>
+                    <td class="label">FTP Server/Host:</td>
                     <td class="value">
                         <input id="ftp_host" name="ftp_host" value="<?php echo($this->get('ftp_host'));?>" class="input-text" type="text"></input>
                     </td>
