@@ -380,7 +380,7 @@
 "Validate REMOTE_ADDR","Überprüfe REMOTE_ADDR"
 "Validation has failed.","Überprüfung fehlgeschlagen."
 "Values less than 60 are ignored. Note that changes will apply after logout.","Werte die kleiner als 60 sind, werden ignoriert. Veränderungen werden erst nach dem Ausloggen übernommen."
-"Variable Code must be unique.","Variablen-Code muss einmalig sein."
+"Variable Code must be unique.","Variablen-Code muss eindeutig sein."
 "Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Warnung! Das Aktivieren dieser Funktion wird in Produktivsystemen nicht empfohlen, da es ein Sicherheitsrisiko darstellen könnte."
 "Web","Web"
 "Website","Website"
