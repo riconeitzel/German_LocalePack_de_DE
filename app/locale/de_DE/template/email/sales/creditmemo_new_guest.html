@@ -12,7 +12,7 @@
 "var order.shipping_address.format('html')":"Shipping Address",
 "var order.shipping_description":"Shipping Description",
 "layout handle=\"sales_email_order_creditmemo_items\" creditmemo=$creditmemo order=$order":"Credit Memo Items Grid",
-"var comment":"Credit Memo Comment"}
+"var order.getEmailCustomerNote()":"Credit Memo Comment"}
 @-->
 <!--@styles
 @-->
@@ -56,10 +56,10 @@
     </tr>
     <tr class="order-information">
         <td>
-            {{if comment}}
+            {{if order.getEmailCustomerNote()}}
             <table cellspacing="0" cellpadding="0" class="message-container">
                 <tr>
-                    <td>{{var comment}}</td>
+                    <td>{{var order.getEmailCustomerNote()}}</td>
                 </tr>
             </table>
             {{/if}}
