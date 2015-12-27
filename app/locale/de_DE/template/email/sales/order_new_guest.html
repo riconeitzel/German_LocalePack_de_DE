@@ -80,6 +80,15 @@
                         {{var payment_html}}
                     </td>
                 </tr>
+                <tr>
+                    <td cass="method-info">
+                        <h6>Bankverbindung:</h6>
+                        <p>Konto: {{block area='frontend' type="magesetup/imprint_field" value="bank_account_owner"}}</p>
+                        <p>Bank: {{block area='frontend' type="magesetup/imprint_field" value="bank_name"}}</p>
+                        <p>IBAN: {{block area='frontend' type="magesetup/imprint_field" value="iban"}}</p>
+                        <p>SWIFT-Code: {{block area='frontend' type="magesetup/imprint_field" value="swift"}}</p>
+                    </td>
+                </tr>
             </table>
         </td>
     </tr>

@@ -13,7 +13,7 @@
 "var order.shipping_address.format('html')":"Shipping Address",
 "var order.shipping_description":"Shipping Description",
 "layout area=\"frontend\" handle=\"sales_email_order_invoice_items\" invoice=$invoice order=$order":"Invoice Items Grid",
-"var comment":"Invoice Comment"}
+"var order.getEmailCustomerNote()":"Invoice Comment"}
 @-->
 <!--@styles
 @-->
@@ -58,10 +58,10 @@
     </tr>
     <tr class="order-information">
         <td>
-            {{if comment}}
+            {{if order.getEmailCustomerNote()}}
             <table cellspacing="0" cellpadding="0" class="message-container">
                 <tr>
-                    <td>{{var comment}}</td>
+                    <td>{{var order.getEmailCustomerNote()}}</td>
                 </tr>
             </table>
             {{/if}}
