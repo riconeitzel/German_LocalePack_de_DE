@@ -7,7 +7,7 @@
 "A category object is required for determining the product request path.","Kategorieobjekt wird zur Bestimmung des Artikelpfades benötigt"
 "Add Block Names to Hints","Blocknamen zu Hinweisen hinzufügen"
 "Add Secret Key to URLs","Secret-Key zu URLs hinzufügen:<br />z.B. http://www.shop.de/index.php/admin/dashboard/<span style=""color:red;"">eeacf3e75</span>"""
-"Add Store Code to Urls","StoreCode zu URLs hinzufügen<br />z.B. http://www.shop.de/<span style=""color:red"">de/</span>/customer/account/login"
+"Add Store Code to Urls","StoreCode zu URLs hinzufügen:<br />z.B. http://www.shop.de/<span style=""color:red"">de/</span>/customer/account/login"
 "Admin","Admin"
 "Admin Base URL","Admin Basis-URL"
 "Admin User Emails","Admin Benutzer E-Mails"
