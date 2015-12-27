@@ -52,7 +52,7 @@ function changeDeploymentType (element)
     <form action="<?php echo $this->url('settingsPost') ?>" method="post">
         <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
         <fieldset>
-            <p>Magento Erweiterungen sind in 3 verschiedenen Varianten verf&uuml;gbar.</p>
+            <p>Magento Erweiterungen sind in drei verschiedenen Varianten verfügbar.</p>
             <ul class="disc">
                 <li><strong>Stable</strong> - bedeutet, dass die Erweiterung auf einer Produktiv-Umgebung eingesetzt werden kann.</li>
                 <li><strong>Beta</strong> - bedeutet, dass <u>nicht</u> empfohlen wird die Erweiterung auf einer Produktiv-Umgebung einzusetzen.</li>
@@ -60,16 +60,16 @@ function changeDeploymentType (element)
             </ul>
             <p><b>Bitte beachten Sie:</b> Erweiterungen werden per Internet-Server bereitgestellt. <br />
 		       Stellen Sie sicher das Ihre Daten entsprechend gesichert wurden, bevor Sie neue Erweiterungen installieren, <br />
-		       da ansonsten Ihre Anpassungen und/oder Konfigurationen durch &Uuml;berschreibungen verloren gehen k&ouml;nnen.
+		       da ansonsten Ihre Anpassungen und/oder Konfigurationen durch Überschreibungen verloren gehen können.
 			</p>
             <table cellspacing="0" class="form-list">
                 <tr>
                     <td class="label">Magento Connect Channel Protokoll:</td>
                     <td class="value">
                         <select id="protocol" name="protocol">
-                            <option value="https" <?php if ($this->get('protocol')=='https'):?>selected="selected"<?php endif ?>>HTTPS</option>
-                            <option value="http" <?php if ($this->get('protocol')=='http'):?>selected="selected"<?php endif ?>>HTTP</option>
-                            <option value="ftp" <?php if ($this->get('protocol')=='ftp'):?>selected="selected"<?php endif ?>>FTP</option>
+                            <option value="https" <?php if ($this->get('protocol')=='https'):?>selected="selected"<?php endif ?>>Https</option>
+                            <option value="http" <?php if ($this->get('protocol')=='http'):?>selected="selected"<?php endif ?>>Http</option>
+                            <option value="ftp" <?php if ($this->get('protocol')=='ftp'):?>selected="selected"<?php endif ?>>Ftp</option>
                         </select>
                     </td>
                 </tr>
@@ -91,7 +91,7 @@ function changeDeploymentType (element)
                 </tr>
                 -->
             </table>
-            <p><strong>Schreibrechte zum erstellen neuer Dateien und Verzeichnisse.</strong></p>
+            <p><strong>Schreibrechte zum Erstellen neuer Dateien und Verzeichnisse.</strong></p>
             <table cellspacing="0" class="form-list">
                 <tr>
                     <td class="label">Verwende eigene Schreibrechte:</td>
@@ -131,13 +131,13 @@ function changeDeploymentType (element)
                     <td class="label">&nbsp;</td>
                     <td class="value">
                         <input value="ftp" type="radio" name="deployment_type" id="deployment_ftp" onclick="changeDeploymentType(this)" <?php if ($this->get('deployment_type')=='ftp'):?>checked="checked"<?php endif ?> />
-                        <label for="deployment_ftp"><span class="label">FTP Verbindung</span></label>
+                        <label for="deployment_ftp"><span class="label">FTP-Verbindung</span></label>
                     </td>
                 </tr>
             </table>
             <table cellspacing="0" class="form-list" id="deployment_type_panel" <?php if ($this->get('deployment_type')!='ftp'):?>style="display:none;"<?php endif ?>>
                 <tr>
-                    <td class="label">FTP Server:</td>
+                    <td class="label">FTP Server/Host:</td>
                     <td class="value">
                         <input id="ftp_host" name="ftp_host" value="<?php echo($this->get('ftp_host'));?>" class="input-text" type="text"></input>
                     </td>
