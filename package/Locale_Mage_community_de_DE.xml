@@ -10,7 +10,7 @@
    <description>Deutsches Sprachpaket für Magento Commerce</description>
    <license>OSL</license>
    <license_uri/>
-   <version>1.9.1.0.1</version>
+   <version>1.9.2.0.0</version>
    <stability>stable</stability>
    <notes>none/keine</notes>
    <authors>
@@ -88,6 +88,7 @@
          <target>magedesign</target>
          <target>magedesign</target>
          <target>magedesign</target>
+         <target>magedesign</target>
       </target>
       <path>
          <path/>
@@ -120,6 +121,7 @@
          <path>frontend/default/blank/locale/de_DE/translate.csv</path>
          <path>frontend/default/iphone/locale/de_DE/translate.csv</path>
          <path>frontend/default/modern/locale/de_DE/translate.csv</path>
+         <path>frontend/rwd/default/locale/de_DE/translate.csv</path>
       </path>
       <type>
          <type>file</type>
@@ -130,6 +132,7 @@
          <type>dir</type>
          <type>dir</type>
          <type>dir</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -184,9 +187,11 @@
          <include/>
          <include/>
          <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
