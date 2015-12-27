@@ -13,7 +13,7 @@
 "(Shift-)Click or drag to change value","Drücken Sie Shift (Großschreibung) und klicken oder ziehen Sie, um den Wert zu verändern"
 "(Starting with)","(Starte mit)"
 "(When 'No', only mapped fields will be imported. When mapping, use 'column1', 'column2', etc.)","(Bei 'Nein' werden nur zugeordnete Felder importiert. Bei Zuordnung 'column1', 'column2', usw. verwenden.)"
-"(You have to increase php memory_limit before changing this value)","(Sie müssen das PHP memory_limit erhöhen bevor Sie diesen Wert ändern)"
+"(You have to increase php memory_limit before changing this value)","(Sie müssen das PHP memory_limit erhöhen, bevor Sie diesen Wert ändern)"
 "(\t for tab)","(\t für Tab)"
 "* - If indexing is in progress, it will be killed and new indexing process will start.","* - Wenn der Indizierungsprozess gerade läuft, wird dieser abgebrochen und einer neuer gestartet."
 "* Required Fields","* Pflichtfelder"
