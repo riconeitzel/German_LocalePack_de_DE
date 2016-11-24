@@ -398,3 +398,4 @@
 "Your design change for the specified store intersects with another one, please specify another date range.","Ihre Designänderung für den angegebenen Store überschneidet sich mit einer anderen Änderung, bitte ändern Sie den Datenbereich."
 "database ""%s""","Datenbank ""%s"""
 "Item in your order","Artikel Ihrer Bestellung"
+"Items in your order","Artikel Ihrer Bestellung"
