@@ -6,7 +6,7 @@
 "<label>Make Check payable to:</label> %s","<label>Scheck ausstellen auf:</label> %s"
 "A value is required for live mode. Refer to your CardinalCommerce agreement.","Für den Live-Modus ist ein Wert erforderlich. Sehen Sie dazu bitte in Ihrem CardinalCommerce Vertrag nach."
 "Allow Initial Fee Failure","Erlaube einmalig Gebühren Fehler"
-"An internal reference ID is required to save the payment profile.","Eine interne Referenznummer ist nötig um die Zahlung zu speichern."
+"An internal reference ID is required to save the payment profile.","Eine interne Referenznummer ist nötig, um die Zahlung zu speichern."
 "Authorize action is not available.","Autorisation ist nicht verfügbar."
 "Auto Bill on Next Cycle","Automatische Bezahlung zum nächsten Zeitraum"
 "Automatically Invoice All Items","Automatisch alle Artikel in Rechnung stellen"
