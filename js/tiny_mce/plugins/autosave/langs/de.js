@@ -1,0 +1,1 @@
+tinyMCE.addI18n('de.autosave',{restore_content: "Wiederherstellung automatisch gespeicherter Inhalte",warning_message: "Wenn Sie die gespeicherten Inhalte wiederherstellen, werden Sie alle Inhalte, die sich derzeit im Editor befinden, verlieren.\n\nSind Sie sicher, dass Sie die gespeicherte Inhalte wiederherstellen wollen?"});
