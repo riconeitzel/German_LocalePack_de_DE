@@ -1,13 +1,12 @@
-<!--@subject Benutzerkonto für {{var customer.name}} bestätigen @-->
+<!--@subject Bitte das Benutzerkonto für {{var customer.name}} bestätigen! @-->
 <!--@vars
 {"store url=\"\"":"Store Url",
 "var logo_url":"Email Logo Image Url",
 "var logo_alt":"Email Logo Image Alt",
-"store url=\"customer/account/\"":"Customer Account Url",
 "htmlescape var=$customer.name":"Customer Name",
+"store url=\"customer/account/\"":"Customer Account Url",
 "var customer.email":"Customer Email",
-"store url=\"customer/account/confirm/\" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url":"Confirmation Url",
-"htmlescape var=$customer.password":"Customer password"}
+"store url=\"customer/account/confirm/\" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url":"Confirmation Url"}
 @-->
 
 <!--@styles
@@ -18,30 +17,19 @@
 
 <table cellpadding="0" cellspacing="0" border="0">
     <tr>
-        <td>
-            <table cellpadding="0" cellspacing="0" border="0">
+        <td class="action-content">
+            <h1>Hallo {{htmlescape var=$customer.name}},</h1>
+            <p>Ihre E-Mail-Adresse {{var customer.email}} muss bestätigt werden, bevor Sie sich damit in unserem Shop anmelden können.</p>
+            <p>Um die E-Mail-Adresse zu bestätigen und sich gleichzeitig anzumelden, klicken Sie bitte auf den folgenden Bestätigungslink (dieser Link ist nur einmal gültig):</p>
+            <table cellspacing="0" cellpadding="0" class="action-button" >
                 <tr>
-                    <td class="action-content">
-                        <p>Ihre E-Mail-Adresse {{var customer.email}} muss bestätigt werden, bevor Sie sich damit in unserem Shop anmelden können.</p>
-                        <h1>Hallo {{htmlescape var=$customer.name}},</h1>
-                        <p class="highlighted-text">
-                            Mit folgenden Zugangsdaten können Sie sich anschließend anmelden:<br/>
-                            <strong>E-Mail-Adresse:</strong> {{var customer.email}}<br/>
-                            <strong>Passwort:</strong> {{htmlescape var=$customer.password}}
-                        </p>
-                        <p>Um die E-Mail-Adresse zu bestätigen, klicken Sie bitte auf diesen Link (Der Link ist nur einmal gültig):</p>
-                        <table cellspacing="0" cellpadding="0" class="action-button" >
-                            <tr>
-                                <td>
-                                    <a href="{{store url="customer/account/confirm/" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url}}"><span>{{store url="customer/account/confirm/" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url}}</span></a>
-                                </td>
-                            </tr>
-                        </table>
-                        <p>Falls der Link nicht funktioniert, kopieren Sie bitte den Link und fügen Sie Ihn direkt in die Adresszeile Ihres Browsers ein.</p>
-                        {{template config_path="design/email/support"}}
+                    <td>
+                        <a href="{{store url="customer/account/confirm/" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url}}"><span>{{store url="customer/account/confirm/" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url}}</span></a>
                     </td>
                 </tr>
             </table>
+            <p>Falls der Link nicht funktioniert, kopieren Sie bitte den Link und fügen Sie ihn direkt in die Adresszeile Ihres Browsers ein.</p>
+            {{template config_path="design/email/support"}}
         </td>
     </tr>
 </table>
