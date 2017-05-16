@@ -10,17 +10,17 @@
  * http://opensource.org/licenses/afl-3.0.php
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
- * to license@magentocommerce.com so we can send you a copy immediately.
+ * to license@magento.com so we can send you a copy immediately.
  *
  * DISCLAIMER
  *
  * Do not edit or add to this file if you wish to upgrade Magento to newer
  * versions in the future. If you wish to customize Magento for your
- * needs please refer to http://www.magentocommerce.com for more information.
+ * needs please refer to http://www.magento.com for more information.
  *
  * @category    design
  * @package     default
- * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @copyright   Copyright (c) 2006-2014 X.commerce, Inc. (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
@@ -32,7 +32,7 @@
 <ul class="bare-list">
     <li>
         <input type="checkbox" id="maintenance" value="1" checked="checked" /> &nbsp;
-        <label for="maintenance">Wartungsmodus w&auml;hrend der Installation bzw. dem Upgrade aktivieren? (Keine Bestellungen m&ouml;glich)</label>
+        <label for="maintenance">Wartungsmodus während der Installation bzw. dem Upgrade aktivieren? (Keine Bestellungen möglich)</label>
     </li>
     <li>
         <table cellpadding="0" cellspacing="0">
@@ -46,9 +46,9 @@
                 <td>
                     &nbsp;<select id="archive_type" style="width: 320px;">
                         <option value="1">Datenbank</option>
-                        <option value="4">Datenbank und Bilder (media Ordner)</option>
+                        <option value="4">Datenbank und Bilder (Media-Ordner)</option>
                         <option value="2">System (alles)</option>
-                        <option value="3">System (ohne media Ordner)</option>
+                        <option value="3">System (ohne Media-Ordner)</option>
                     </select>
                 </td>
             </tr>
@@ -85,7 +85,7 @@ Event.observe(window, 'load', changeAvailableArchiveStatus);
 function connectPrepare(form) {
     new Ajax.Request(form.action, {
       method:'post',
-      parameters: {install_package_id: form.install_package_id.value},
+      parameters: {install_package_id: form.install_package_id.value, form_key: form.form_key.value},
       onCreate: function() {
           $('prepare_package_result').update(
                 '<div class="loading-mask" id="loading_mask_loader">'+
@@ -122,13 +122,14 @@ function connectPrepare(form) {
 //-->
 </script>
 <form action="<?php echo $this->url('connectPreparePackagePost')?>" method="post" onsubmit="return connectPrepare(this)">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <ul class="bare-list">
         <li>
             <span class="step-count">1</span> &nbsp; Nach Modulen suchen auf <a href="http://connect.magentocommerce.com/" target="Magento_Connect">Magento Connect</a>.
         </li>
         <li>
             <span class="step-count">2</span> &nbsp;
-            <label for="install_package_id">Extension Key zur Installation einf&uuml;gen:</label> <input type="text" id="install_package_id" name="install_package_id" style="width:300px"/>
+            <label for="install_package_id">Extension Key zur Installation einfügen:</label> <input type="text" id="install_package_id" name="install_package_id" style="width:300px"/>
             <button type="submit">Installieren</button>
         </li>
     </ul>
@@ -140,14 +141,14 @@ function connectPrepare(form) {
 <br/>
 
 <div class="bar-head">
-    <h4>Modul Paket hochladen (.tgz Archiv)</h4>
+    <h4>Modul-Datei hochladen (.tgz Archiv)</h4>
 </div>
 <form action="<?php echo $this->url('connectInstallPackageUpload')?>" method="post" target="connect_iframe" onsubmit="onSubmit(this)" enctype="multipart/form-data">
     <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <ul class="bare-list">
-        <li><span class="step-count">1</span> &nbsp; Herunterladen oder Paket erstellen.</li>
+        <li><span class="step-count">1</span> &nbsp; Herunterladen oder Modul-Datei erstellen.</li>
         <li>
-            <span class="step-count">2</span> &nbsp; Modul Paket hochladen:
+            <span class="step-count">2</span> &nbsp; Modul-Datei hochladen:
             <label for="file"></label>
             <input type="file" id="file" name="file"/>
             <button type="submit">Hochladen &amp; Installieren</button>
@@ -159,7 +160,7 @@ function connectPrepare(form) {
 <div class="bar-head">
     <h4>Bestehende Erweiterungen verwalten</h4>
     <?php if (empty($_GET['updates'])): ?>
-        <span class="bar-head-btn f-right"><button type="button" class="f-right" onclick="checkForUpdateClick()">Auf Upgrades &uuml;berpr&uuml;fen</button></span>
+        <span class="bar-head-btn f-right"><button type="button" class="f-right" onclick="checkForUpdateClick()">Auf Upgrades überprüfen</button></span>
     <?php endif; ?>
 </div>
 <?php $packages = $this->get('connect')->getAllInstalledPackages(); $i = 0; $cnt = count($packages); ?>
@@ -176,11 +177,12 @@ function connectPrepare(form) {
 <?php foreach ($packages as $channel=>$pkgs): ?>
 
 <form id="connect_packages_<?php echo $i ?>" class="connect-packages" action="<?php echo $this->url('connectPackagesPost')?>" method="post" target="connect_iframe">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <div class="no-display">
         <input type="hidden" id="ignore_local_modification" name="ignore_local_modification" value=""/>
         <input type="hidden" name="form_id" value="connect_packages_<?php echo $i ?>"/>
     </div>
-    <p class="nm"><button type="button" onclick="formSubmit('connect_packages_<?php echo $i ?>')" class="f-right">&Auml;nderungen &uuml;bernehmen</button></p>
+    <p class="nm"><button type="button" onclick="formSubmit('connect_packages_<?php echo $i ?>')" class="f-right">Änderungen übernehmen</button></p>
     <h2 class="page-head">Channel: <?php echo $channelConfig->getChannelLabel($channel); ?></h2>
     <p class="f-right"><label for="clean_sessions">Alle Sessions nach erfolgreicher Installation oder Upgrade leeren: <input type="checkbox" id="clean_sessions"/></label></p>
     <div class="clear"></div>
@@ -189,8 +191,8 @@ function connectPrepare(form) {
         <?php if (!empty($_GET['updates'])): ?>
             <col width="190" />
             <col width="60" />
-            <col width="70" />
-            <col width="150"  />
+            <col width="60" />
+            <col width="160"  />
             <col width="170" />
         <?php else: ?>
             <col width="200" />
@@ -200,9 +202,9 @@ function connectPrepare(form) {
         <?php endif; ?>
         <thead>
             <tr>
-                <th class="first">Paket Name</th>
+                <th class="first">Paketname</th>
                 <th class="a-center">Installiert</th>
-                <?php if (!empty($_GET['updates'])): ?><th class="a-center">Verf&uuml;gbar</th><?php endif; ?>
+                <?php if (!empty($_GET['updates'])): ?><th class="a-center">Verfügbar</th><?php endif; ?>
                 <th>Aktionen</th>
                 <th class="last">Beschreibung</th>
             </tr>
@@ -230,11 +232,11 @@ function connectPrepare(form) {
     <div class="clear"></div>
 
     <div class="form-btn-set">
-        <button type="button" onclick="formSubmit('connect_packages_<?php echo $i ?>')" class="f-right">&Auml;nderungen &uuml;bernehmen</button>
+        <button type="button" onclick="formSubmit('connect_packages_<?php echo $i ?>')" class="f-right">Änderungen übernehmen</button>
         <?php if (!empty($_GET['updates'])): ?>
         <p class="f-left a-left">
             <span style="background:#f6f6f6;padding:0 5px;">&nbsp;</span> &nbsp;Installiert<br/>
-            <span style="background:#fcfbbb;padding:0 5px;">&nbsp;</span> &nbsp;Upgrade verf&uuml;gbar<br/>
+            <span style="background:#fcfbbb;padding:0 5px;">&nbsp;</span> &nbsp;Upgrade verfügbar<br/>
         </p>
         <?php endif; ?>
     </div>
@@ -251,12 +253,12 @@ $$('#connect_packages_' + <?php echo $i?> + ' select').each(function(el){el.valu
 
 <a name="connect_iframe_result"></a>
 <div id="connect_iframe_success" style="display:none">
-    <?php $this->set('messages', array('success'=>array('Vorgang abgeschlossen. Achten Sie auf die Ausgabe im schwarzen Fenster um wichtige Informationen zum Vorgang zu erhalten.'))) ?>
+    <?php $this->set('messages', array('success'=>array('Vorgang abgeschlossen. Achten Sie auf die Ausgabe im schwarzen Fenster, um wichtige Informationen zum Vorgang zu erhalten.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
     <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Aktualisieren</button>
 </div>
 <div id="connect_iframe_failure" style="display:none">
-    <?php $this->set('messages', array('error'=>array('Achten Sie auf Fehlermeldungen im schwarzen Fenster und aktualisieren Sie die Seite um Ver&auml;nderungen zu sehen/anzuwenden.'))) ?>
+    <?php $this->set('messages', array('error'=>array('Achten Sie auf Fehlermeldungen im schwarzen Fenster und aktualisieren Sie die Seite, um Veränderungen zu sehen/anzuwenden.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
     <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Aktualisieren</button>
 </div>
