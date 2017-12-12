@@ -30,7 +30,7 @@
 "Cannot delete directory %s.","Verzeichnis konnte nicht gelöscht werden"
 "Cannot delete root directory %s.","Root Verzeichnis %s konnte nicht gelöscht werden."
 "Cannot upload file.","Datei konnte nicht hochgeladen werden."
-"Collapse All","Alles aufklappen"
+"Collapse All","Alles einklappen"
 "Content","Inhalt"
 "Content Heading","Seiten-Überschrift"
 "Content Management","CMS-Editor Optionen"
