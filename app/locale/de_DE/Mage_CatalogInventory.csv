@@ -36,7 +36,7 @@
 "Products will still be shown by direct product URLs.","Artikel werden mit Artikel-Direkt-URL angezeigt."
 "Qty","Menge"
 "Qty Increments","Verpackungseinheiten"
-"Qty for Item's Status to Become Out of Stock","Stückzahl für ""Nicht auf Lager""-Status"
+"Qty for Item\'s Status to Become Out of Stock","Stückzahl für ""Nicht auf Lager""-Status"
 "Retrieve stock data","Lagerbestand abfragen"
 "Retrieve stock data by product ids","Lagerbestand nach Artikelnummer abfragen"
 "Rule price","Regelpreis"
