@@ -212,6 +212,7 @@
 "Path ""%value%"" may not include parent directory traversal (""../"", ""..\).""","Pfad ""%value%"" darf keine Verzeichnis-Sonderzeichen enthalten (""../"", ""..\)."""
 "Please define flag code.","Bitte Markierungscode festlegen"
 "Please enter 6 or more characters. Leading or trailing spaces will be ignored.","Bitte geben Sie 6 oder mehr Zeichen ein. Leerzeichen am Anfang oder Ende der Zeichenkette werden entfernt."
+"Please enter 6 or more characters without leading or trailing spaces.", "Bitte geben Sie 6 oder mehr Zeichen ein, ohne Leerzeichen am Anfang oder am Ende der Zeichenkette."
 "Please enter 7 or more characters. Password should contain both numeric and alphabetic characters.","Bitte geben Sie 7 oder mehr Zeichen ein. Ein Passwort sollte sowohl aus Ziffern wie aus Buchstaben bestehen."
 "Please enter a number 0 or greater in this field.","Bitte tragen Sie eine Zahl größer/gleich 0 in dieses Feld ein."
 "Please enter a number 1 or greater in this field.","Bitte tragen Sie eine Zahl größer/gleich 1 in dieses Feld ein."
