@@ -119,7 +119,6 @@ app/locale/de_DE/template/email/html/footer.html	app/locale/de_DE/template/email
 app/locale/de_DE/template/email/html/header.html	app/locale/de_DE/template/email/html/header.html
 app/locale/de_DE/template/email/html/support.html	app/locale/de_DE/template/email/html/support.html
 app/locale/de_DE/template/email/log_clean_warning.html	app/locale/de_DE/template/email/log_clean_warning.html
-app/locale/de_DE/template/email/moneybookers_activateemail.html	app/locale/de_DE/template/email/moneybookers_activateemail.html
 app/locale/de_DE/template/email/newsletter_subscr_confirm.html	app/locale/de_DE/template/email/newsletter_subscr_confirm.html
 app/locale/de_DE/template/email/newsletter_subscr_success.html	app/locale/de_DE/template/email/newsletter_subscr_success.html
 app/locale/de_DE/template/email/newsletter_unsub_success.html	app/locale/de_DE/template/email/newsletter_unsub_success.html
