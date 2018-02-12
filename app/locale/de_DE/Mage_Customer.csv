@@ -408,7 +408,7 @@
 "This customer email already exists","Diese Kunden-Mailadresse existiert bereits"
 "This customer has no saved addresses.","Dieser Kunde besitzt keine gespeicherten Adressen."
 "This email does not require confirmation.","Diese E-Mail erfordert keine Bestätigung."
-"This email will be sent instead of default welcome email, after account confirmation.","Diese E-mail wird anstelle der normalen Willkommensnachricht nach der Benutzerkonten-Bestätigung versandt."
+"This email will be sent instead of default welcome email, after account confirmation.","Diese E-Mail wird anstelle der normalen Willkommensnachricht nach der Benutzerkonten-Bestätigung versandt."
 "This is My Default %s Address","Das ist meine Standardadresse %s"
 "To Cart","Zum Warenkorb"
 "To show VAT number on frontend, set Show VAT Number on Frontend option to Yes.","Um die USt-IdNr. im Frontend anzuzeigen, stellen Sie bitte die Einstellung ""USt-IdNr. im Frontend anzeigen"" auf ""Ja""."
