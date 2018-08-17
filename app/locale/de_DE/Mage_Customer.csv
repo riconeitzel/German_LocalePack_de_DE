@@ -396,7 +396,7 @@
 "The last name cannot be empty.","Der Nachname darf nicht leer sein."
 "The minimum password length is %s","Die Mindestlänge des Passworts ist %s."
 "The password cannot be empty.","Das Passwort darf nicht leer sein."
-"The password must have at least 6 characters. Leading or trailing spaces will be ignored.","Das Passwort muss mindestens 6 Zeichen haben. Führende und folgende Lehrzeichen werden ignoriert."
+"The password must have at least 6 characters. Leading or trailing spaces will be ignored.","Das Passwort muss mindestens 6 Zeichen haben. Führende und folgende Leerzeichen werden ignoriert."
 "The suffix that goes after name (Jr., Sr., etc.)","Das Suffix nach dem namen (Jr., Sr., usw.)"
 "The title that goes before name (Mr., Mrs., etc.)","Die Anrede vor dem Namen (Herr, Frau, usw.)"
 "There are no items in customer's wishlist at the moment","Momentan gibt es keine Artikel auf dem Wunschzettel des Kunden."
