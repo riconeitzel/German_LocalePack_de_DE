@@ -39,3 +39,4 @@
 "Transaction Key","Transaktionsschlüssel"
 "What is this?","Was ist das?"
 "You will be required to enter your payment details before you place an order.","Bevor Sie eine Bestellung aufgeben können, müssen Sie Ihre Zahlungsdaten angeben."
+"Payment error. Paid amount doesn\'t match the order amount.","Zahlungsfehler. Der bezahlte Betrag entspricht nicht dem Bestellwert."

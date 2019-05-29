@@ -47,3 +47,4 @@
 "Your Currency","Ihre Währung"
 "Your Currency:","Ihre Währung:"
 "Your current currency is: %s","Ihre aktuelle Währung ist: %s"
+"Can\'t convert rate from ""%s-%s"".","Währungskurs kann von ""%s-%s"" nicht umgerechnet werden."

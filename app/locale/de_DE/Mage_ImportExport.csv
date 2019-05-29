@@ -91,3 +91,7 @@
 "Validation finished successfully","Überprüfung erfolgreich abgeschlossen"
 "in rows","in Zeilen"
 "in rows:","in Zeilen:"
+"Escape CSV fields","Escape CSV-Felder"
+"Import CSV","CSV importieren"
+"Incorrect entity type","Falscher Entitätstyp"
+"Invalid value in SKU column. HTML tags are not allowed","Ungültiger Wert in der Spalte SKU. HTML-Tags sind nicht erlaubt."

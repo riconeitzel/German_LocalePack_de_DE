@@ -93,3 +93,4 @@
 "download","Download"
 "inline","Inline"
 "sample","Beispiel"
+"Alphanumeric, dash and underscore characters are recommended for filenames. Improper characters are replaced with \'_\'.","Alphanumerische, Bindestrich- und Unterstrichzeichen werden für Dateinamen empfohlen. Ungeeignete Zeichen werden durch \'_\' ersetzt."

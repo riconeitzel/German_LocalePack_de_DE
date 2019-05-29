@@ -103,3 +103,8 @@
 "Your Rating:","Ihre Bewertung:"
 "Your Review (submitted on %s):","Ihre Kundenmeinung (vom %s):"
 "Your review has been accepted for moderation.","Ihre Kundenmeinung wurde zur Prüfung angenommen."
+"<a href=""%1$s"" onclick=""this.target=\'blank\'"">%2$s %3$s</a> <a href=""mailto:%4$s"">(%4$s)</a>","<a href=""%1$s"" onclick=""this.target=\'blank\'"">%2$s %3$s</a> <a href=""mailto:%4$s"">(%4$s)</a>"
+"<a href=""%1$s"" onclick=""this.target=\'blank\'"">%2$s</a> <a href=""mailto:%3$s"">(%3$s)</a>","<a href=""%1$s"" onclick=""this.target=\'blank\'"">%2$s</a> <a href=""mailto:%3$s"">(%3$s)</a>"
+"Nickname can\'t be empty","Der Spitzname darf nicht leer sein."
+"Review can\'t be empty","Review darf nicht leer sein."
+"Review summary can\'t be empty","Die Zusammenfassung der Rezension darf nicht leer sein."
