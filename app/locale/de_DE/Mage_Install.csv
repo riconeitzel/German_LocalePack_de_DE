@@ -123,3 +123,5 @@
 "You could enable this option to use web server rewrites functionality for improved search engines optimization.","Sie können für eine verbesserte Suchmaschinenunterstützung die folgende Option für serverseitige URL-Rewrites aktivieren."
 "You're All Set","Das war es schon, alles eingerichtet!"
 "You're All Set!","Das war es schon, alles eingerichtet!"
+"Response from server isn\'t valid.","Die Antwort des Servers ist nicht gültig."
+"The database server version doesn\'t match system requirements (required: %s, actual: %s).","Die Version des Datenbankservers entspricht nicht den Systemanforderungen (erforderlich: %s, aktuell: %s)."

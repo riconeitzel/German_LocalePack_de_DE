@@ -122,3 +122,6 @@
 "Wrong type definition for %s","Falsche Typdefinition für %s"
 "Yes","Ja"
 "Yes/No","Ja/Nein"
+". Do not use ""event"" for an attribute code, it is a reserved keyword.",". Verwenden Sie ""event"" nicht für einen Attributcode, es ist ein reserviertes Schlüsselwort."
+". Do not use event"" for an attribute code",". Verwenden Sie ""event"" nicht für einen Attributcode"
+"Can\'t create table: %s","Tabelle kann nicht erstellt werden: %s"
